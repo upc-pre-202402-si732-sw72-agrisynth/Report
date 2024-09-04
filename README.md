@@ -1696,6 +1696,16 @@ En esta sección se incluye el video about the producto que presenta las funcion
 
 A continuación, se incluye el link del video about the producto:
 
+- Microsoft Stream:[Video About the Product](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201923446_upc_edu_pe/EXu3NIVaUFxInNEPk8ZDWJYBfyGJFXYyfXgKeswUWGVqJQ?e=my6Ji3&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+- Youtube:[Video About the Product](https://www.youtube.com/watch?v=P0Ky9_pk6vY)<https://www.youtube.com/watch?v=P0Ky9_pk6vY>
+
+Duración del video: 00:32
+
+ScreenShot del video:
+
+![](Assets/Aspose.Words.b8569df6-648b-4de3-a36e-0fe88e187486.018.png)
+
 **Bibliografía**
 
 - *Pérez, J., & Gómez, M. (2018). Tecnología agrícola y su impacto en la sostenibilidad: Un análisis de casos en América Latina. Revista de Agricultura Sostenible, 10(2), 45-58.*
