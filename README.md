@@ -10,7 +10,7 @@
 
 **Nombre del profesor:** Alex Humberto Sánchez Ponce
 
-# Informe TB1
+### Informe TB1
 
 **Nombre del startup:** AgriSynth Group
 
@@ -21,71 +21,209 @@
 **Ciclo:** 2024-01
 
 
-| Nombre de los Integrantes            | Código      |
+| Nombre de los Integrantes            |   Código    |
 |--------------------------------------|-------------|
-| Eduardo Renato Ventura Chancafe      | u202212645  |
-| Chambi Mendoza, Mariana Alexandra       | U202217389  |
-| Soto Salis, Natanael David       | U20201C607  |
-| Neyra Santa Cruz, Marcelo Sebastian     | U202217241  |
-| Mendoza Pimentel, Piero       | U201923446  |
+| Johan Karl Bottger Salazar           | U202210735  |
+| Diego Rafael Cisneros Tafur          | U20221a715  |
+| Miguel Ángel Huamán Cataño           | U202120615  |
+| Mario Joaquin Lopez Acuña            | U202116250  |
+| Marcelo Sebastian Neyra Santa Cruz   | U202217241  |
+| Nestor Hernan Velarde Gonzales       | U20211c221  |
 
 </div>
 
 ## Registro de Versiones del Informe
 
-
-|**Versión**|**Fecha**|**Autor**|**Descripción de modificación**|
-| :-: | :-: | :-: | :-: |
-|**TB1**|**09/04/2024**|<p>**Ventura Chancafe, Eduardo Renato**</p><p></p><p>**Chambi Mendoza, Mariana Alexandra**</p><p></p><p>**Soto Salis, Natanael David**</p><p></p><p>**Neyra Santa Cruz, Marcelo Sebastian**</p><p></p><p>**Mendoza Pimentel, Piero**</p><p></p>|**Capítulo I<br>Capítulo II<br>Capítulo III<br>Capítulo IV<br>Capítulo V**|
-|**TP1**|**4/4/2024**|<p>**Ventura Chancafe, Eduardo Renato**</p><p></p><p>**Chambi Mendoza, Mariana Alexandra**</p><p></p><p>**Soto Salis, Natanael David**</p><p></p><p>**Neyra Santa Cruz, Marcelo Sebastian**</p><p></p><p>**Mendoza Pimentel, Piero**</p>|**Desarrollo del Sprint 2<br>Desarrollo del frontend.**|
-|**TB2**|<p></p><p>**6/6/2024**</p><p></p><p></p>|<p>**Ventura Chancafe, Eduardo Renato**</p><p></p><p>**Chambi Mendoza, Mariana Alexandra**</p><p></p><p>**Soto Salis, Natanael David**</p><p></p><p>**Neyra Santa Cruz, Marcelo Sebastian**</p><p></p><p>**Mendoza Pimentel, Piero**</p>|**Desarrollo del Sprint 3<br>Desarrollo del frontend y backend**|
-|**TF1**|**24/06/2024**|<p>**Ventura Chancafe, Eduardo Renato**</p><p></p><p>**Chambi Mendoza, Mariana Alexandra**</p><p></p><p>**Soto Salis, Natanael David**</p><p></p><p>**Neyra Santa Cruz, Marcelo Sebastian**</p><p></p><p>**Mendoza Pimentel, Piero**</p><p></p><p></p>|<p>**Desarrollo del Sprint 4**</p><p>**Desarrollo del frontend y backend<br>Deploys actualizados tanto de App y API<br>Conclusiones**</p><p></p>|
-
-
+<table>
+    <tr>
+        <th>Versión</th>
+        <th>Fecha</th>
+        <th>Autor</th>
+        <th>Descripción de modificación</th>
+    </tr>
+    <tr>
+        <td>TB1</td>
+        <td>03/09/2024</td>
+        <td>
+            <p> 
+                Johan Karl Bottger Salazar <br>
+                Diego Rafael Cisneros Tafur <br>
+                Miguel Ángel Huamán Cataño <br>
+                Mario Joaquin Lopez Acuña <br>
+                Marcelo Sebastian Neyra Santa Cruz <br>
+                Nestor Hernan Velarde Gonzales <br>
+            </p>
+        </td>
+        <td>
+            <p>
+                Capítulo 1 <br>
+                Capítulo 2 <br>
+                Capítulo 3 <br>
+                Capítulo 4 <br>
+                Capítulo 5 <br>
+            </p>
+        </td>
+    </tr>
+</table>
 
 ## Project Report Collaboration Insights
 
-**Enlace del Project Report: [Enlace de nuestro proyecto)**
+**Enlace del Project Report: [Repositorio de Github](https://github.com/orgs/upc-pre-202402-si732-sw72-agrisynth/repositories)**
+
 ## Contenido
 - [Tabla de contenidos](#tabla-de-contenidos)
-- [Capítulo I: Introducción](#capítulo-i-introducción) 
-	- [1.1. Startup Profile](#11-startup-profile)
-		- [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
-		- [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
-	- [1.2. Solution Profile](#12-solution-profile)
-		- [1.2.1 Antecedentes y problemática](#121-antecedentes-y-problemática)
-		- [1.2.2 Lean UX Process](#122-lean-ux-process)
-			- [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
-			- [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
-			- [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
-			- [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
-	- [1.3. Segmentos objetivo](#13-segmentos-objetivo)
-- [Capítulo II: Requirements Elicitation & Analysis](#capítulo-ii-requirements-elicitation--analysis)
-	- [2.1. Competidores](#21-competidores)
-		- [2.1.1. Análisis competitivo](#211-análisis-competitivo)
-		- [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
-	- [2.2. Entrevistas](#22-entrevistas)
-		- [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
-		- [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
-		- [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
+- [Capítulo I: Introducción](#cap1) 
+	- [1.1. Startup Profile](#startup)
+		- [1.1.1. Descripción de la Startup](#startup-descripcion)
+		- [1.1.2. Perfiles de integrantes del equipo](#perfiles)
+	- [1.2. Solution Profile](#solution-profile)
+		- [1.2.1 Antecedentes y problemática](#antecedentes)
+		- [1.2.2 Lean UX Process](#lean-ux-process)
+			- [1.2.2.1. Lean UX Problem Statements](#problem-statements)
+			- [1.2.2.2. Lean UX Assumptions](#assumptions)
+			- [1.2.2.3. Lean UX Hypothesis Statements](#hypothesis)
+			- [1.2.2.4. Lean UX Canvas](#lean-ux-canvas)
+	- [1.3. Segmentos objetivos](#segmentos-objetivos)
+- [Capítulo II: Requirements Elicitation & Analysis](#cap2)
+	- [2.1. Competidores](#competidores)
+		- [2.1.1. Análisis competitivo](#analisis-competitivo)
+		- [2.1.2. Estrategias y tácticas frente a competidores](#estrategias-competidores)
+	- [2.2. Entrevistas](#entrevistas)
+		- [2.2.1. Diseño de entrevistas](#diseño-de-entrevistas)
+		- [2.2.2. Registro de entrevistas](#registro-de-entrevistas)
+		- [2.2.3. Análisis de entrevistas](#análisis-de-entrevistas)
+- [Capítulo III: Requirements Specification](#cap3)
+    - [3.1 Tobe Scenario Mapping](#to-be)
+    - [3.2 User Stories](#user-stories)
+    - [3.3. Product Backlog](#product-backlog)
+    - [3.4. Impact Mapping](#impact-mapping)
+- [Capítulo IV: Product Design](#cap4)
+    - [4.1. Style Guidelines](#style-guidelines)
+        - [4.1.1. General Style Guidelines](#style-general)
+        - [4.1.2. Web Style Guidelines](#style-web)
+        - [4.1.3. Mobile Style Guidelines](#style-mobile)
+            - [4.1.3.1. iOS Mobile Style Guidelines](#style-ios)
+            - [4.1.3.2. Android Mobile Style Guidelines](#style-android)
+    - [4.2. Information Architecture](#information-architecture)
+        - [4.2.1. Organization Systems](#organization-systems)
+        - [4.2.2. Labeling Systems](#labeling-systems)
+        - [4.2.3. SEO Tags and Meta Tags](#tags)
+        - [4.2.4. Searching Systems](#searching-systems)
+        - [4.2.5. Navigation Systems](#navigation-systems)
+    - [4.3. Landing Page UI Design](#landing-page)
+        - [4.3.1. Landing Page Wireframe](#landing-page-wireframe)
+        - [4.3.2. Landing Page Mock-up](#landing-page-mockup)
+    - [4.4. Mobile Applications UX/UI Design](#mobile-ui)
+        - [4.4.1. Mobile Applications Wireframes](#mobile-wireframes)
+        - [4.4.2. Mobile Applications Wireflow Diagrams](#mobile-wireflow)
+        - [4.4.3. Mobile Applications Mock-ups](#mobile-mockup)
+        - [4.4.4. Mobile Applications User Flow Diagrams](#mobile-userflow)
+    - [4.5. Mobile Applications Prototyping](#mobile-prototype)
+        - [4.5.1. Android Mobile Applications Prototyping](#android-prototype)
+        - [4.5.2. iOS Mobile Applications Prototyping](#ios-prototype)
+    - [4.6. Web Applications UX/UI Design](#web-ui)
+        - [4.6.1. Web Applications Wireframes](#web-wireframes)
+        - [4.6.2. Web Applications Wireflow Diagrams](#web-wireflow)
+        - [4.6.3. Web Applications Mock-ups](#web-mockup)
+        - [4.6.4. Web Applications User Flow Diagrams](#web-userflow)
+    - [4.7. Web Applications Prototyping](#web-prototype)
+    - [4.8. Domain-Driven Software Architecture](#c4)
+        - [4.8.1. Software Architecture Context Diagram](#c4-context)
+        - [4.8.2. Software Architecture Container Diagrams](#c4-container)
+        - [4.8.3. Software Architecture Components Diagrams](#c4-components)
+    - [4.9. Software Object-Oriented Design](#class)
+        - [4.9.1. Class Diagrams](#class-diagram)
+        - [4.9.2. Class Dictionary](#class-dictionary)
+    - [4.10. Database Design](#database)
+        - [4.10.1. Relational/Non-Relational Database Diagram](#database-diagram)
+- [Capítulo V: Product Implementation](#cap5)
+    - [5.1. Software Configuration Management](#software-configuration-management)
+        - [5.1.1. Software Development Environment Configuration](#software-development)
+        - [5.1.2. Source Code Management](#software-code-management)
+        - [5.1.3. Source Code Style Guide & Conventions](#style-convetions)
+        - [5.1.4. Software Deployment Configuration](#software-deployment)
+    - [5.2. Product Implementation & Deployment](#product-deployment)
+        - [5.2.1. Sprint Backlogs](#sprint-backlogs)
+        - [5.2.2. Implemented Landing Page Evidence](#landing-page-deployment)
+        - [5.2.3. Implemented Frontend-Web Application Evidence](#frontend-deployment)
+        - [5.2.4. Implemented Native-Mobile Application Evidence](#mobile-deployment)
+        - [5.2.5. Implemented RESTful API and/or Serverless Backend Evidence](#backend-deployment)
+        - [5.2.6. RESTful API documentation](#api-documentation)
+        - [5.2.7. Team Collaboration Insights](#team-insights)
+    - [5.3. Video About-the-Product](#product-video)
+
 	
 
 
 # Student Outcome
 
-|**Criterio Específico**|**Acciones Realizadas**|**Conclusiones**|
-| :- | :- | :- |
-|**Participa en equipos multidisciplinarios con eficacia, y objetividad, en el marco de un proyecto en soluciones de ingeniería software.**|<p>**Chambi Mendoza, Mariana Alexandra**</p><p>**TB1**</p><p>En esta primera entrega, participé en un análisis exhaustivo que abarcó la creación de user personas, user task matrix, user journey mapping, empathy mapping, As-is y To-Be Scenarios Mapping y Ubiquitous Language. Además, colaboré en la elaboración del diagrama de clases, dictionary class y database.</p><p>**TP1**</p><p>Para esta entrega, se ha desarrollado el frontend de la sección de maquinarias, permitiendo a los usuarios explorar y adquirir equipos agrícolas mediante opciones de alquiler o compra. El proceso de navegación se ha optimizado para brindar una experiencia fluida, desde la búsqueda de productos hasta la finalización de la transacción. Se han implementado mejoras en la interfaz de usuario y en la presentación de información detallada sobre cada maquinaria, facilitando la toma de decisiones de los usuarios.</p><p>**TB2**</p><p>Mi contribución en esta entrega para el sprint 3 fue realizar el Services Documentation Evidence for Sprint Review, el diseño de entrevistas.También realize 2 bounded context para el backend aplicando DDD.</p><p>**Mendoza Pimentel, Piero**</p><p>**TB1**</p><p>Durante el desarrollo de la TB1, desarrolle la Landing page wireframe y mock-up, web application wireframes y mock-up y diagrams components</p><p>**TP1**</p><p>Durante el desarrollo del TP, desarrolle la vista de terrenos donde se muestran los terrenos que el usuario puede comprar</p><p>**TB2**</p><p>Durante este desarrollo de la TB2, implemente el endpoint de terrains para mostrar los terrenos disponibles para alquilar</p><p>**Ventura Chancafe, Eduardo Renato**</p><p>**TB1**</p><p>Para la primera entrega, colaboré activamente con mi equipo en el desarrollo y definición de nuestra startup redactada en el primer capitulo, además de desplegar la landing page que realizamos en conjunto y documentar su proces en el capitulo 5.</p><p></p><p>**TP**</p><p>Para la segunda entrega, me encargué del desarrollo del feature de colaboración en el frontend, asegurando que la interfaz de usuario permitiera una interacción fluida y eficiente entre los miembros del equipo. Este trabajo incluyó la implementación de componentes de Vue.js, la integración con PrimeVue para una mejor experiencia de usuario y la documentación del proceso en el capítulo 3.</p><p></p><p></p><p>**TB2**</p><p>Para la tercera entrega, desarrollé los endpoints necesarios para el backend que soportan la funcionalidad de colaboración. Utilicé .NET Core para implementar las API REST, asegurando que cumplieran con los requerimientos definidos y fueran seguras y eficientes. Este trabajo fue documentado en el capítulo 7, donde se detallan los aspectos técnicos y las pruebas realizadas.</p><p></p><p>**Neyra Santa Cruz, Marcelo Sebastian**</p><p>TB1 </p><p>Desarrollé las Historias de Usuarios, las Historias Técnicas, colaboré en el diagrama de clases y en la base de datos</p><p>TP:</p><p>Desarrollé los componentes de User Authentication, Configuration y Support</p><p>TB2:</p><p>Desarrollé el backend del bounded context de profiles</p><p>Refactoricé la solución de software del frontend</p><p></p><p>**Soto Salis, Natanael David**</p><p>**TB1:**</p><p>Para el TB1, desarrollo sección Style Guidelines e Information Architecture, además, realice entrevista para Needfinding.</p><p>**TP1:**</p><p>Para esta entrega, colabore con el desarrollo de la aplicacion web junto con mi equipo, ademas, tambien desarrolle mas los temas que aprendo en el curso con tal de desarrollar un buen proyecto y ofrecer una solucion que ayude a los usuarios.</p><p>TB2:</p><p>Para esta entrega, colabore con el desarrollo del bounded resources perteneciente al desarrollo del backend al igual que me encargue del deploy del backend.</p>|<p>En la primera entrega (TB1), cada miembro del equipo participó en diferentes aspectos del análisis, diseño y planificación del proyecto. Esto incluyó la creación de artefactos como user personas, user task matrix, user journey mapping, entre otros, así como también el desarrollo de wireframes y mock-ups.</p><p></p><p>En la segunda entrega (TP1), cada miembro se centró en el desarrollo de la aplicación web, con responsabilidades específicas como el frontend para la sección de maquinarias, la vista de terrenos, componentes de autenticación de usuarios, configuración, soporte, entre otros. Además, algunos miembros también aprovecharon la oportunidad para ampliar sus conocimientos a través de cursos adicionales y aplicarlos en el proyecto.</p>|
-|**Conoce al menos un sector empresarial o dominio de aplicación de soluciones de software.**|<p>**Chambi Mendoza, Mariana Alexandra**</p><p>**TB1**</p><p>Entrevisté a un ingeniero agrónomo que trabaja en una empresa y tiene experiencia en el manejo de diversas herramientas tecnológicas en el campo agrícola. También entrevisté a un Gerente de una Empresa a gran escala, que desempeña múltiples roles dentro de la organización. A través de estos análisis, pudimos comprender las necesidades y prioridades que debemos abordar.</p><p>**TP1**</p><p>He creado una rama dedicada específicamente para el desarrollo de mi parte del trabajo, con el objetivo de optimizar la eficiencia en el trabajo en equipo. Esta medida facilitará la organización y colaboración entre los miembros del equipo, permitiéndonos trabajar de manera independiente en nuestras respectivas tareas sin interferir en el trabajo de los demás.</p><p>**TB2**</p><p>Para esta entrega he creado dos ramas específicas para el desarrollo del backend, mejorando así la eficiencia y colaboración del equipo. Esto permitirá a los desarrolladores trabajar independientemente en diferentes aspectos del backend sin interferir entre sí, facilitando una integración más ágil y organizada.</p><p></p><p>**Mendoza Pimentel, Piero**</p><p>**TB1**</p><p>Desarrolle una entrevista de un segmento objetivo por lo que pude obtener una mejor visión de nuestros futuro usuarios y una mejor comprensión de sus necesidades con nuestra aplicación web</p><p>**TP1**</p><p>Cree una rama para el desarrollo de mi parte del trabajo para mejorar la eficiencia del trabajo en equipo.</p><p>**TB2**</p><p>Hice una de las entrevistas de validación para obtener retroalimentación de posibles usuarios y mejorar nuestro entendimiento de sus necesidades.</p><p>**Ventura Chancafe, Eduardo Renato**</p><p>**TB1**</p><p>Entrevisté a un ingeniero agrónomo que trabaja en una empresa a gran escala que se dedica a alquilar y cultivar terrenos. Gracias a la entrevista entendimos mejor los procesos que había que optimizar.</p><p></p><p>TP</p><p>Para la segunda entrega, me encargué de la elaboración del sprint backlog, donde prioricé y detallé las tareas necesarias para nuestro proyecto. Este proceso incluyó la planificación de sprints, la asignación de tareas y la coordinación con los miembros del equipo para asegurar que todos comprendieran sus responsabilidades. Además, documenté el sprint backlog y nuestras estrategias en el capítulo 4.</p><p></p><p>TB2</p><p>Para la tercera entrega, realicé entrevistas de validación y una validación heurística para asegurar que nuestro producto cumpliera con las expectativas de los usuarios y los estándares de usabilidad. Este trabajo incluyó la recolección de feedback de usuarios potenciales, la identificación de áreas de mejora y la implementación de cambios basados en los resultados de las entrevistas. Toda la documentación y los hallazgos fueron registrados en el capítulo 5.</p><p></p><p>**Neyra Santa Cruz, Marcelo Sebastian**</p><p>TB1</p><p>Desarrollé una entrevista a un ingeniero agrónomo. Esta entrevista nos ayudó a entender mejor a los usuarios y sus necesidades</p><p>TP</p><p>Cree la rama ‘feature/authentication’, en donde se agregaron los componentes de User Authentication, Configuration y Support</p><p>TB2</p><p>Realicé una entrevista de validación, al igual que participé en la grabación del video About the Team</p><p>**Soto Salis, Natanael David**</p><p>**TB1:**</p><p>Desarrolle una entrevista a un ingeniero agrónomo. Tenía un desafío que era el control de plagas en los cultivos. La entrevista nos ayuda a entender lo que el usuario requiere de nuestra aplicación.</p><p>**TP1:**</p><p>En este entrega, he participado en la realizacion del fronted de la aplicacion web. Esto con la informacion de los usuarios que se recolecto y analizo.</p><p>TB2:</p><p>En esta entrega, colabre con las entrevistas para el segmento de empresarios con tal de conocer sus opiniones acerca de nuestra app y como podemos mejorarla.</p>|En resumen, se está trabajando en el desarrollo de una aplicación web que responda a las necesidades identificadas durante las entrevistas con ingenieros agrónomos, con el objetivo de mejorar los procesos agrícolas y satisfacer las demandas de los usuarios en el campo.|
-
-
-
-
-
-
-
-
-
+<table>
+    <tr>
+        <th>Criterio Específico</th>
+        <th>Acciones Realizadas</th>
+        <th>Conclusiones</th>
+    </tr>
+    <tr>
+        <td>
+            <p>
+                4.c.1 Reconoce responsabilidad ética y profesional en situaciones de ingeniería de software
+            </p>
+        </td>
+        <td>
+            <p>
+                <strong>TB1</strong> <br>
+                Johan Karl Bottger Salazar <br>
+                Capitulo 1, 2 y 3<br>
+                Diego Rafael Cisneros Tafur <br>
+                Capitulo 2 y 3 <br>
+                Miguel Ángel Huamán Cataño <br>
+                Capitulo 2 y 4 <br>
+                Mario Joaquin Lopez Acuña <br>
+                Capitulo 4 y 5<br>
+                Marcelo Sebastian Neyra Santa Cruz <br>
+                Capitulo 4 y 5 <br>
+                Nestor Hernan Velarde Gonzales <br>
+                Capitulo 4 y 5 <br>
+            </p>
+        </td>
+        <td>
+            <p>
+                <strong>TB1</strong> <br>
+                En esta primera entrega, se ha reutilizado un trabajo realizado en el ciclo anterior por nuestro grupo de trabajo. Reconocemos que el uso de código de otras personas sin su permiso no es correcto éticamente, por lo que se le ha informado a aquellas personas que ya no participan en el grupo acerca del uso de las aplicaciones y reportes. Dichas personas aceptaron la prepuesta y nos otorgaron el permiso de utilizar el repositorio como base para las pruebas realizadas en este curso
+            </p>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <p>
+                4.c.2 Emite juicios informados considerando el impacto de las soluciones de ingeniería de software en contextos globales, económicos, ambientales y sociales
+            </p>
+        </td>
+        <td>
+            <p>
+                <strong>TB1</strong> <br>
+                Johan Karl Bottger Salazar <br>
+                Landing Page <br>
+                Diego Rafael Cisneros Tafur <br>
+                Aplicación Web (Frontend) <br>
+                Miguel Ángel Huamán Cataño <br>
+                Aplicación Web (Backend) <br>
+                Mario Joaquin Lopez Acuña <br>
+                Aplicación Web (Backend) <br>
+                Marcelo Sebastian Neyra Santa Cruz <br>
+                Aplicación Web (Frontend) <br>
+                Nestor Hernan Velarde Gonzales <br>
+                Aplicación Web (Frontend) <br>
+            </p>
+        </td>
+        <td>
+            <p>
+                <strong>TB1</strong> <br>
+                Se realizaron las aplicaciones web que se utilizarán durante todo el ciclo del curso. Estas aplicaciones fueron especialmente diseñadas para contrarrestar uno de los mayores problemas con las que los segmentos objetivos cuentan, falta de organización. Se espera que en las siguientes entregas se comprueben la validez de nuestras aplicaciones y qué tan efectivas realmente podrán ser en implementarlas
+            </p>
+        </td>
+    </tr>
+</table>
 
 ## Capítulo I: Introducción
 ### 1.1. Startup Profile
