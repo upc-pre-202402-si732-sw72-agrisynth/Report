@@ -270,8 +270,9 @@ Lo que hace única a nuestra startup es nuestro compromiso con el desarrollo sos
     <th colspan="2">Mario Joaquin Lopez Acuña</th>
   </tr>
   <tr>
-    <td> <img src="" alt="Mario Joaquin Lopez Acuña"> </td>
-    <td> Descripcion Básica </td>
+    <td> <img src="images/perfiles-mariolopez.jpg" alt="Mario Joaquin Lopez Acuña"> </td>
+    <td> Mi nombre es Mario Joaquin Lopez Acuña, estoy cursando la carrera de Ingeniería de Software en la UPC. Estoy trabajando para convertirme en una persona que propone soluciones eficientes y resolver las diferentes adversidades que se van a presentar mediante avance en la carrera y en el futuro profesional.
+ </td>
   </tr>
   <tr>
     <th colspan="2">Marcelo Sebastian Neyra Santa Cruz</th>
