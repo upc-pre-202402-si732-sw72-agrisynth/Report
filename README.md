@@ -71,7 +71,6 @@
 **Enlace del Project Report: [Repositorio de Github](https://github.com/orgs/upc-pre-202402-si732-sw72-agrisynth/repositories)**
 
 ## Contenido
-- [Tabla de contenidos](#tabla-de-contenidos)
 - [Capítulo I: Introducción](#cap1) 
 	- [1.1. Startup Profile](#startup)
 		- [1.1.1. Descripción de la Startup](#startup-descripcion)
@@ -89,11 +88,17 @@
 		- [2.1.1. Análisis competitivo](#analisis-competitivo)
 		- [2.1.2. Estrategias y tácticas frente a competidores](#estrategias-competidores)
 	- [2.2. Entrevistas](#entrevistas)
-		- [2.2.1. Diseño de entrevistas](#diseño-de-entrevistas)
-		- [2.2.2. Registro de entrevistas](#registro-de-entrevistas)
-		- [2.2.3. Análisis de entrevistas](#análisis-de-entrevistas)
+		- [2.2.1. Diseño de entrevistas](#diseño-entrevistas)
+		- [2.2.2. Registro de entrevistas](#registro-entrevistas)
+		- [2.2.3. Análisis de entrevistas](#analisis-dentrevistas)
+  - [2.3 Needfinding](#need-finding)
+    - [2.3.1. User Personas](#user-personas)
+    - [2.3.2. User Task Matrix](#user-task-matrix)
+    - [2.3.3 User Journey Mapping](#user-journey-mapping)
+    - [2.3.4. Empathy Mapping](#empathy-mapping)
+    - [2.3.5 As-Is Scenario Mapping](#as-is)
 - [Capítulo III: Requirements Specification](#cap3)
-    - [3.1 Tobe Scenario Mapping](#to-be)
+    - [3.1 To-be Scenario Mapping](#to-be)
     - [3.2 User Stories](#user-stories)
     - [3.3. Product Backlog](#product-backlog)
     - [3.4. Impact Mapping](#impact-mapping)
@@ -110,11 +115,11 @@
         - [4.2.3. SEO Tags and Meta Tags](#tags)
         - [4.2.4. Searching Systems](#searching-systems)
         - [4.2.5. Navigation Systems](#navigation-systems)
-    - [4.3. Landing Page UI Design](#landing-page)
+    - [4.3. Landing Page UI Design](#landing-page-ui)
         - [4.3.1. Landing Page Wireframe](#landing-page-wireframe)
         - [4.3.2. Landing Page Mock-up](#landing-page-mockup)
     - [4.4. Mobile Applications UX/UI Design](#mobile-ui)
-        - [4.4.1. Mobile Applications Wireframes](#mobile-wireframes)
+        - [4.4.1. Mobile Applications Wireframes](#mobile-wireframe)
         - [4.4.2. Mobile Applications Wireflow Diagrams](#mobile-wireflow)
         - [4.4.3. Mobile Applications Mock-ups](#mobile-mockup)
         - [4.4.4. Mobile Applications User Flow Diagrams](#mobile-userflow)
@@ -122,7 +127,7 @@
         - [4.5.1. Android Mobile Applications Prototyping](#android-prototype)
         - [4.5.2. iOS Mobile Applications Prototyping](#ios-prototype)
     - [4.6. Web Applications UX/UI Design](#web-ui)
-        - [4.6.1. Web Applications Wireframes](#web-wireframes)
+        - [4.6.1. Web Applications Wireframes](#web-wireframe)
         - [4.6.2. Web Applications Wireflow Diagrams](#web-wireflow)
         - [4.6.3. Web Applications Mock-ups](#web-mockup)
         - [4.6.4. Web Applications User Flow Diagrams](#web-userflow)
@@ -151,8 +156,6 @@
         - [5.2.6. RESTful API documentation](#api-documentation)
         - [5.2.7. Team Collaboration Insights](#team-insights)
     - [5.3. Video About-the-Product](#product-video)
-
-	
 
 
 # Student Outcome
@@ -225,9 +228,9 @@
     </tr>
 </table>
 
-## Capítulo I: Introducción
-### 1.1. Startup Profile
-#### 1.1.1. Descripción de la Startup
+## <a name="cap1"></a> Capítulo I: Introducción
+### <a name="startup"></a> 1.1. Startup Profile
+#### <a name="startup-descripcion"></a> 1.1.1. Descripción de la Startup
 AgriSynth Group emerge como una startup visionaria de Lima, Perú, fundada por estudiantes de la Universidad Peruana de Ciencias Aplicadas (UPC). Nuestro propósito es revolucionar la industria agrícola, aprovechando el poder de las soluciones de software para enfrentar los desafíos más persistentes que suceden en el campo. 
 
 **¿Qué es AgriSynth Group?** Somos una incubadora de innovación tecnológica dedicada a la digitalización de la agricultura, con el objetivo de hacerla más eficiente, sostenible y rentable para todos los actores involucrados.
@@ -239,20 +242,57 @@ Lo que hace única a nuestra startup es nuestro compromiso con el desarrollo sos
 - **Mision:** Proveer soluciones innovadoras que transformen y mejoren la gestión agrícola, facilitando la transición hacia prácticas más eficientes y sostenibles.
 - **Vision:** Consolidarnos como líderes en la innovación tecnológica agrícola, impulsando el progreso del sector hacia un futuro donde la tecnología y la sostenibilidad vayan de la mano para el beneficio de la comunidad global.
 
-#### 1.1.2. Perfiles de integrantes del equipo
+#### <a name="perfiles"></a> 1.1.2. Perfiles de integrantes del equipo
 
-| Foto | Nombre y Descripción |
-| ---- | --------------------- |
-| ![Mariana Chambi](https://cdn.discordapp.com/attachments/1095136950018646057/1227824454311215104/image.png?ex=6629cfa1&is=66175aa1&hm=6c524db118b4883a6468d081d94df7f44e6b4096353f77e133327cb9489af626&) | **Chambi Mendoza, Mariana Alexandra**: Me llamo Mariana, tengo 19 años y soy estudiante de la carrera de Ingeniería de Software. Suelo destacar por mi personalidad, ya que me considero una persona empática, alegre, responsable y puntual. Además, cuento con conocimientos básicos en programación en el lenguaje C + +, Python y Html. Busco demostrar el máximo de mis capacidades en todos los proyectos en los que participo.|
-| ![Natanael Soto](https://cdn.discordapp.com/attachments/1095136950018646057/1227824493792071772/image.png?ex=6629cfab&is=66175aab&hm=e0471f36ba1333cb1f480785e09db5bb81061608bf789eb767b2cba03784c9a8&) | **Soto Salis, Natanael David**: Soy estudiante de Ingeniería de Software. He colaborado con trabajos que usan frameworks como React y NextJS. He realizado trabajos con HTML y CSS y con estos conocimientos colaborare con el desarrollo de este trabajo además que ayudaré al equipo en lo que se requiera. |
-| ![Marcelo Neyra](https://cdn.discordapp.com/attachments/1095136950018646057/1227824533914910761/image.png?ex=6629cfb4&is=66175ab4&hm=f83a4fc60e4fdacd75c37c9ae2cafad97d0f9216a393e4b72b07f194d625149b&) | **Neyra Santa Cruz, Marcelo Sebastian**: Mi nombre es Marcelo Neyra, tengo 19 años y estoy cursando la carrera de Ingeniería de Software en la UPC. Soy bastante perseverante, trabajador y amable. Tengo algunos conocimientos sobre programación en el lenguaje C + + y estoy practicando en algunos otros lenguajes, como Python. Mi sueño/meta es convertirme en un desarrollador de videojuegos en la empresa Nintendo. |
-| ![Eduardo Ventura](https://cdn.discordapp.com/attachments/1095136950018646057/1227824805932171364/image.png?ex=6629cff5&is=66175af5&hm=69ab6d23809472c8b572947e8d0b5f1d111df94067edf38e2ca70c899855267a&) | **Ventura Chancafe, Eduardo Renato**: Dentro del startup me encargo con el desarrollo del diseño ,QA y gestión del equipo, pues tengo conocimientos adicionales a los de mi sector. Además, apoyaré en el desarrollo del código trabajando de forma cohesionada con mis compañeros. Asimismo, cuento con conocimientos en herramientas como HTML, CSS, JavaScript, Python, C++, Cypress, NodeJs, NestJs y Agile Project Managment. |
-| ![Piero Mendoza](https://cdn.discordapp.com/attachments/1095136950018646057/1227824756540313600/image.png?ex=6629cfe9&is=66175ae9&hm=72877d68cb63a81408e140a9fa50c43f8d9b19d7680c1cbc7de809c29cf29014&) | **Mendoza Pimentel, Piero**: Soy estudiante de Ingeniería de Software. En el transcurso de mis estudios universitarios he aprendido lenguajes como C++, Python y JavaScript. En este curso espero poder entender y aplicar lo aprendido para poder mejorar mis conocimientos. |
+<table>
+  <tr>
+    <th colspan="2">Johan Karl Bottger Salazar</th>
+  </tr>
+  <tr>
+    <td> <img src="" alt="Johan Karl Bottger Salazar"> </td>
+    <td> Descripcion Básica </td>
+  </tr>
+  <tr>
+    <th colspan="2">Diego Rafael Cisneros Tafur</th>
+  </tr>
+  <tr>
+    <td> <img src="images/perfiles-diegocisneros.jpg" alt="Diego Rafael Cisneros Tafur"> </td>
+    <td> Soy estudiante de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas (UPC), con dominio en lenguajes de programación como C++, Rust, Python, TypeScript y JavaScript. Poseo un sólido conocimiento en estructuras de datos, lo que me permite desarrollar soluciones eficientes y optimizadas. Además, tengo un interés particular en ciberseguridad y programación competitiva, áreas en las que continuamente busco mejorar mis habilidades y aplicar mis conocimientos para resolver desafíos complejos. </td>
+  </tr>
+  <tr>
+    <th colspan="2">Miguel Ángel Huamán Cataño</th>
+  </tr>
+  <tr>
+    <td> <img src="" alt="Miguel Ángel Huamán Cataño"> </td>
+    <td> Descripción Básica </td>
+  </tr>
+  <tr>
+    <th colspan="2">Mario Joaquin Lopez Acuña</th>
+  </tr>
+  <tr>
+    <td> <img src="" alt="Mario Joaquin Lopez Acuña"> </td>
+    <td> Descripcion Básica </td>
+  </tr>
+  <tr>
+    <th colspan="2">Marcelo Sebastian Neyra Santa Cruz</th>
+  </tr>
+  <tr>
+    <td> <img src="images/perfiles-marcelo.jpg" alt="Marcelo Sebastian Neyra Santa Cruz"> </td>
+    <td> Mi nombre es Marcelo Sebastian Neyra Santa Cruz, Actualmente estudio la carrera de ingeniería de software en la universidad de Ciencias Aplicadas – UPC. Entre mis habilidades, podemos destacar el buen uso de C++ y HTML. Me considero como una persona perseverante, trabajadora y amable. Mi sueño/meta es convertirme en un desarrollador de videojuegos en la empresa Nintendo </td>
+  </tr>
+  <tr>
+    <th colspan="2">Nestor Hernan Velarde Gonzales</th>
+  </tr>
+  <tr>
+    <td> <img src="" alt="Nestor Hernan Velarde Gonzales"> </td>
+    <td> Descripcion Básica </td>
+  </tr>
+</table>
 
-### 1.2. Solution Profile
+### <a name="solution-profile"></a> 1.2. Solution Profile
 CropSphere de AgriSynth es una solución integral de software que transforma la gestión agrícola mediante la optimización del uso de insumos y maquinaria, y la mejora en la comunicación y planificación de proyectos. Permite un control eficiente de inventarios y seguimiento de adquisiciones, asegurando la máxima eficacia en el uso de recursos y reduciendo desperdicios. Además, facilita la planificación y el mantenimiento de maquinaria agrícola, mejora la comunicación entre partes interesadas y ofrece análisis detallados para la toma de decisiones estratégicas en la siembra, cultivo y cosecha. Nuestro producto de software es clave para una agricultura más productiva y sostenible.
 
-#### 1.2.1 Antecedentes y problemática 
+#### <a name="antecedentes"></a> 1.2.1 Antecedentes y problemática 
 ##### Antecedentes y problemática
 
 ###### Problemática:
@@ -306,8 +346,8 @@ A pesar de este incremento en las importaciones de azúcar, Perú no figura entr
 CropSphere, nuestro innovador producto de software, está específicamente diseñado para enfrentar los desafíos del sector agrícola en Perú, como la gestión ineficiente de recursos en la producción de caña de azúcar. Este software ofrece una solución integral que mejora la utilización de semillas, fertilizantes y maquinaria, facilita la comunicación eficaz entre los distintos actores del sector y proporciona análisis de datos precisos para la toma de decisiones en tiempo real. Al optimizar la planificación de cultivos y responder proactivamente a incidentes críticos, CropSphere incrementa significativamente la productividad y sostenibilidad de las explotaciones agrícolas, reduciendo el desperdicio y aumentando la rentabilidad. Así, con CropSphere, Perú no solo puede disminuir su dependencia de las importaciones de azúcar, sino también posicionarse como un competidor destacado en el mercado global de este producto.
 
 
-#### 1.2.2 Lean UX Process.
-  ##### 1.2.2.1. Lean UX Problem Statements.
+#### <a name="lean-ux-process"></a> 1.2.2 Lean UX Process.
+  ##### <a name="problem-statements"></a> 1.2.2.1. Lean UX Problem Statements.
   - **Problem Statement 1:** 
 En nuestro contexto, se identifica una necesidad crucial por optimizar el uso de recursos en la agricultura. La correcta gestión de insumos como semillas, fertilizantes y pesticidas, junto con la eficiente planificación del uso de maquinaria agrícola, son aspectos fundamentales para incrementar la productividad y sostenibilidad de los cultivos.
 
@@ -320,7 +360,7 @@ En el mismo entorno, emerge otra problemática relacionada con la comunicación 
 Actualmente, la falta de plataformas que facilitan este intercambio de información y análisis de datos de manera efectiva limita la capacidad de respuesta de los agricultores, afectando la productividad y sostenibilidad de las explotaciones.
 ¿Cómo facilitamos un flujo de información más transparente y el análisis de datos agrícolas en tiempo real para mejorar la capacidad de respuesta ante incidentes en los cultivos?
 
-  ##### 1.2.2.2. Lean UX Assumptions.
+  ##### <a name="assumptions"></a> 1.2.2.2. Lean UX Assumptions.
   ###### Supuestos en la Gestión de Proyectos
 Los supuestos, o "assumptions" en inglés, desempeñan un papel crucial en la identificación de los riesgos del proyecto y en estimular la expresión de opiniones y la participación activa del equipo de trabajo.
 
@@ -377,7 +417,7 @@ Los supuestos, o "assumptions" en inglés, desempeñan un papel crucial en la id
   Demostraciones en el campo, casos de estudio de éxito, y capacitaciones que resalten los beneficios tangibles y el retorno de inversión al usar nuestra plataforma.
 
 
-  ##### 1.2.2.3. Lean UX Hypothesis Statements
+  ##### <a name="hypothesis"></a> 1.2.2.3. Lean UX Hypothesis Statements
 	
 - **Creemos** que al ofrecer una gestión integrada de insumos agrícolas en nuestra plataforma nos permitirá reducir el desperdicio de recursos y optimizar la producción. <br>**Sabremos** que hemos tenido éxito. <br> **Cuando** los agricultores reduzcan en un 20% el desperdicio de insumos y aumenten la productividad de sus cultivos.
 
@@ -387,7 +427,7 @@ Los supuestos, o "assumptions" en inglés, desempeñan un papel crucial en la id
 
 - **Creemos** que al facilitar la planificación del alquiler y uso de maquinaria agrícola a través de nuestro producto nos permitirá maximizar la eficiencia y reducir costos operativos para los agricultores.<br>**Sabremos** que hemos tenido éxito<br>**Cuando** observemos una reducción del 25% en el tiempo muerto de maquinaria y un ahorro de costos operativos en más del 30% entre nuestros usuarios.
 
-  ##### 1.2.2.4. Lean UX Canvas.
+  ##### <a name="lean-ux-canvas"></a> 1.2.2.4. Lean UX Canvas.
   
 <table><tr><th valign="top"><p><b>Business Problem</b> </p><p>El principal desafío que aborda nuestra startup es la ineficiencia en la gestión de recursos agrícolas, que resulta en desperdicio de insumos y una comunicación deficiente entre los actores del sector. Esto conduce a decisiones subóptimas, impactando negativamente la productividad y la sostenibilidad de las explotaciones agrícolas.</p></th><th rowspan="2" valign="top"><p><b>Solutions</b> </p><p>Desarrollaremos una plataforma que integre funcionalidades de gestión de insumos y maquinaria, un sistema de comunicación entre los involucrados en el proceso agrícola, y herramientas de análisis de datos que provean insights en tiempo real. Esta solución facilitará una planificación más precisa y una mejor respuesta a incidentes críticos.</p></th><th valign="top"><p><b>Business Outcomes</b>  </p><p>Nuestro objetivo es convertirnos en la herramienta preferida para la gestión agrícola, evidenciado por un aumento en la adopción de nuestra plataforma, mejora en la eficiencia operativa de nuestros usuarios, y una contribución positiva hacia la sostenibilidad ambiental. El éxito se medirá a través del crecimiento de usuarios activos, la reducción del desperdicio de recursos y el feedback positivo de la comunidad agrícola.</p></th></tr>
 <tr><td valign="top"><p><b>Users</b> </p><p>Nuestros usuarios son agricultores, gestores de fincas agrícolas, y equipos técnicos, quienes buscan optimizar el uso de recursos como semillas, fertilizantes, y maquinaria, y mejorar la coordinación de sus actividades agrícolas. Están motivados por la necesidad de aumentar la eficiencia y rentabilidad de sus operaciones.</p></td><td valign="top"><p><b>Users Outcomes & Benefits</b> </p><p>Los usuarios se beneficiarán de un manejo más eficiente de sus recursos, lo que se traducirá en operaciones agrícolas más rentables y sostenibles. Tendrán acceso a una comunicación fluida y datos precisos para tomar decisiones informadas, mejorando su capacidad para responder a desafíos y aprovechar oportunidades.</p></td></tr>
@@ -396,7 +436,7 @@ Los supuestos, o "assumptions" en inglés, desempeñan un papel crucial en la id
 
 
 
-### 1.3. Segmentos objetivo
+### <a name="segmentos-objetivos"></a> 1.3. Segmentos objetivo
 **Segmentos objetivo**
    Nuestro segmento objetivo está compuesto por dos tipos de usuarios:
 
@@ -409,13 +449,14 @@ Los supuestos, o "assumptions" en inglés, desempeñan un papel crucial en la id
   Las empresas agrícolas de gran escala gestionan extensas áreas de cultivo y enfrentan el reto de maximizar la productividad mientras mantienen prácticas sostenibles. Estas corporaciones, que representan una parte significativa de la producción agrícola, buscan constantemente tecnologías avanzadas que optimicen sus operaciones y mejoren la toma de decisiones. Nuestra plataforma les ofrece análisis de datos en tiempo real, gestión eficiente de recursos y comunicación mejorada entre equipos, lo cual puede incrementar su eficiencia operativa y rentabilidad sustancialmente. Con nuestra solución, pueden esperar una reducción notable en desperdicios y una mejora en la gestión de insumos y maquinaria, apoyando así una agricultura más productiva y eco-amigable.
 
 
-## Capítulo II: Requirements Elicitation & Analysis
-### 2.1. Competidores
+## <a name="cap2"></a> Capítulo II: Requirements Elicitation & Analysis
+### <a name="competidores"></a> 2.1. Competidores
 - FieldView: FieldView, de The Climate Corporation, es una plataforma líder en agricultura digital que ofrece una amplia gama de herramientas de análisis y visualización de datos para ayudar a los agricultores a optimizar sus operaciones. Permite a los usuarios recopilar datos detallados sobre sus cultivos en tiempo real, integrando información sobre el clima, la salud del suelo, y el rendimiento de los cultivos. Con su fuerte enfoque en la utilización de datos para mejorar la toma de decisiones agrícolas, FieldView ayuda a los agricultores a aumentar la eficiencia, reducir los costos de insumos y maximizar los rendimientos de sus cultivos.
 
 - Granular: Granular es una de las soluciones de gestión agrícola más completas del mercado, diseñada para ayudar a los agricultores y a las empresas agrícolas a aumentar su rentabilidad y productividad. Ofrece funcionalidades como gestión de operaciones agrícolas, análisis financiero y de rendimiento, y planificación de cultivos. Granular destaca por su capacidad para proporcionar una vista integrada de la granja, permitiendo a los usuarios gestionar sus recursos de manera más efectiva, tomar decisiones basadas en datos y mejorar la sostenibilidad de sus prácticas agrícolas.
 - AgriWebb: AgriWebb es una plataforma de gestión ganadera integral que transforma la manera en que los productores de ganado gestionan sus operaciones. A través de un enfoque sencillo pero poderoso, AgriWebb permite a los agricultores monitorear el rendimiento del ganado, gestionar inventarios, registrar actividades de manejo y analizar la salud financiera de sus explotaciones. Su tecnología de punta facilita la toma de decisiones estratégicas para mejorar la eficiencia operativa, optimizar el bienestar animal y aumentar la rentabilidad general de las explotaciones ganaderas.
-- 2.1.1. Análisis competitivo<br>
+#### <a name="analisis-competitivo"></a> 2.1.1. Análisis competitivo
+
   <table><tr><th colspan="6" valign="top"><b>Competitive Analysis Landscape</b></th></tr>
 <tr><td rowspan="2" valign="top"><b>¿Por qué llevar a cabo este análisis?</b></td><td colspan="5" valign="top">¿De qué manera podríamos ser una opción preferencial para nuestro público objetivo en comparación a los competidores?</td></tr>
 <tr><td colspan="5" valign="top">Para comparar las características tanto internas como externas de los productos que compiten con nosotros.</td></tr>
@@ -434,7 +475,8 @@ Los supuestos, o "assumptions" en inglés, desempeñan un papel crucial en la id
 </table>
 
 
-#### 2.1.2. Estrategias y tácticas frente a competidores<br><br>
+#### <a name="estrategias-competidores"></a> 2.1.2. Estrategias y tácticas frente a competidores
+
 - **Alianza Estratégicas con Institutos Agronómicos:** Formar alianzas con institutos y universidades agronómicas para co-desarrollar módulos educativos integrados en CropSphere, promoviendo su uso como herramienta educativa y práctica.
 - **Programa de Embajadores de Innovación:** Crear un programa de embajadores con ingenieros agrónomos y líderes de opinión en el sector agrícola que promuevan CropSphere en sus comunidades y redes profesionales.
 - **Integración de Funcionalidades de IA para Predicciones de Cultivos:** Desarrollar e integrar funcionalidades avanzadas de inteligencia artificial para proporcionar predicciones precisas sobre cultivos y condiciones del suelo, diferenciándonos por la capacidad predictiva.
@@ -442,9 +484,9 @@ Los supuestos, o "assumptions" en inglés, desempeñan un papel crucial en la id
 - **Experiencia de Usuario Personalizada:** Diseñar la interfaz y experiencia de usuario de CropSphere para ser altamente personalizable, asegurando que cada usuario pueda adaptar la plataforma a sus necesidades específicas de manera intuitiva.
 	
 
-### 2.2. Entrevistas
+### <a name="entrevistas"></a> 2.2. Entrevistas
 En este punto presentaremos los resultados de las entrevistas realizadas a los usuarios objetivos
- #### 2.2.1. Diseño de entrevistas<br><br>
+ #### <a name="diseño-entrevistas"></a> 2.2.1. Diseño de entrevistas<br><br>
  Para realizar los componentes elaboramos las preguntas para obtener información de nuestros segmentos objetivos mediante las entrevistas.
  ***Preguntas Generales:***
    1. ¿Cómo te llamas?
@@ -476,22 +518,44 @@ En este punto presentaremos los resultados de las entrevistas realizadas a los u
 1. ¿De qué manera íntegra prácticas de sostenibilidad en sus operaciones y qué impacto han tenido?
 1. ¿Cómo mide y comunica los resultados de sus esfuerzos de sostenibilidad a stakeholders internos y externos?
 
-# 2.3. Needfinding
+### <a name="registro-entrevistas"></a> 2.2.2 Registro de entrevistas
+Link del video de las entrevistas: [Video de Entrevistas](link)
+
+- **Segmento Objetivo: Ingenieros Agrónomos que asesoran a agricultores:**
+
+  - **Entrevista 1:**
+    Entrevistador: Marcelo Neyra
+    Entrevistado: Giancarlo Stefano Romero Paredes
+    Minutos del video: 
+    Duración: 5:20 minutos
+    Resumen de la entrevista: Giancarlo Romero, un ingeniero agrónomo practicante de la empresa “AgriCorp”, nos cuenta que uno de sus principales problemas es la variabilidad climática. Este problema, no solo le arruina sus cultivos, sino que también le complica la administración de estos. En cuanto a los dispositivos electrónicos que utiliza, menciona que hace uso de diversas aplicaciones de dispositivos móviles, al igual que un calendario. Giancarlo también menciona que los requerimientos más importantes de una aplicación para la gestión agrícola son que sea sencilla de utilizar, que cuente con todas las herramientas necesarias y que pueda ser utilizada sin una red Wi-Fi.
+
+### <a name="analisis-entrevistas"></a> 2.2.3 Análisis de entrevistas
+
+- **Segmento objetivo: Ingenieros Agrónomos que Asesoran a Agricultores**
+  Los ingenieros agrónomos que asesoran a agricultores se enfrentan a desafíos como la variabilidad climática, la escasez de recursos y los altos costos de insumos, apostando por la sostenibilidad y la innovación tecnológica para mejorar la productividad agrícola. Estos profesionales valoran soluciones tecnológicas accesibles y fáciles de usar, capaces de funcionar en áreas con conectividad limitada, como apps, SMS, Excel y Notion, y enfatizan la importancia de mantener una comunicación efectiva y personalizada con los agricultores, superando barreras de señal y resistencia al cambio. A través de la personalización de recomendaciones y la recopilación de feedback, demuestran un compromiso con la mejora continua y la adaptación a los desafíos del sector, representando una visión integral que combina cuidado ambiental, eficiencia y avance tecnológico en la agricultura.
+
+
+- **Segmento objetivo: Empresas Agrícolas de Gran Escala** 
+  Las entrevistas revelan un panorama desafiante pero alentador en el ámbito de la gestión agrícola, donde se destacan problemas comunes como el control de plagas, la gestión de recursos y la necesidad de prácticas agrícolas sostenibles. A pesar de la diversidad en el uso de tecnología, desde herramientas básicas como Excel hasta sistemas avanzados de análisis de datos, la brecha tecnológica entre los agricultores sigue siendo un obstáculo significativo. La comunicación efectiva, tanto dentro de los equipos agrícolas como con los agricultores, emerge como un factor crucial para mejorar la eficiencia y la productividad en el campo. En este contexto, es evidente la necesidad de soluciones tecnológicas que sean accesibles, integrales y capaces de abordar los desafíos específicos de la agricultura moderna.
+
+
+## <a name="need-finding"></a> 2.3. Needfinding
 Con el propósito de desarrollar una app que satisfaga las necesidades particulares de los usuarios, AgriSynth Group llevará a cabo la identificación del User persona, User Task Matrix, User Journey Maps y Empathy Mapping.
 
-**2.3.1. User Personas**
+### <a name="user-personas"></a> 2.3.1. User Personas
 
 Para esta sección se han creado personajes ficticios, cada uno diseñado para representar a un segmento específico de usuarios. La información utilizada para desarrollar estos "User personas" proviene de entrevistas previas realizadas a cada segmento objetivo. Estas entrevistas tenían como objetivo comprender mejor a las personas a las que se dirige la aplicación. Se consideraron datos demográficos, metas, motivaciones, frustraciones, marcas relacionadas con el tema de la aplicación, canales digitales más utilizados, entre otros. La creación de esta sección se llevó a cabo utilizando la plataforma UXPressia.
 
-*Segmento objetivo: Ingenieros Agrónomos que Asesoran a Agricultores*
+- **Segmento objetivo: Ingenieros Agrónomos que Asesoran a Agricultores**
 
 ![A](https://media.discordapp.net/attachments/1122567258317791342/1227826461667229696/UserPersona1v.png?ex=6629d180&is=66175c80&hm=8cd7906ad26f5a57163a3860aef2002e585bb1922eba85343429b827c8a4d72c&=&format=webp&quality=lossless&width=371&height=468)
 
-*Segmento objetivo: Empresas Agrícolas de Gran Escala*
+- **Segmento objetivo: Empresas Agrícolas de Gran Escala**
 
 ![A](https://media.discordapp.net/attachments/1122567258317791342/1227826462078537768/UserPersona2.png?ex=6629d180&is=66175c80&hm=aec6a01c53cfe4daed1ed4e9bade5f26484c69617c28895b1549de1ea9e27335&=&format=webp&quality=lossless&width=315&height=468)
 
-**2.3.2. User Task Matrix**
+### <a name="user-task-matrix"></a> 2.3.2. User Task Matrix
 
 En esta sección se presenta el user task matrix, herramienta centrada en los segmentos objetivos, que nos permitirá identificar las tareas y objetivos claves de los usuarios. Además, nos permitirá priorizar características y funcionalidades al momento de realizar el product backlog. Para la frecuencia se han considerado cinco opciones:nunca ,casi nunca, a veces, a menudo ,siempre; y para la importancia tres opciones: bajo, medio, alto".
 En relación con la matriz de tareas de los usuarios, podemos identificar tanto las tareas de mayor frecuencia como las de mayor importancia, así como las diferencias y similitudes entre los diferentes tipos de usuarios.
@@ -525,7 +589,7 @@ En relación con la matriz de tareas de los usuarios, podemos identificar tanto 
 
 Es importante destacar que ambas categorías de usuarios comparten la necesidad de acceder a detalles específicos de datos estadísticos. Sin embargo, la gestión de insumos y maquinaria es una tarea más relevante para los ingenieros agrónomos, mientras que la accesibilidad y los permisos de trabajo son más críticos para los gerentes generales de las empresas agrícolas de gran escala. Estas diferencias reflejan las distintas responsabilidades y prioridades de cada grupo de usuarios dentro del contexto de la solución ofrecida.
 
-**2.3.3. User Journey Mapping**
+### <a name="user-journey-mapping"></a> 2.3.3. User Journey Mapping
 
 
 En esta sección, explicaremos en detalle los user journey mapping para dos tipos de usuarios distintos: los Ingenieros Agrónomos que Asesoran a Agricultores y las Empresas Agrícolas de Gran Escala. Estos mapas proporcionarán una visión exhaustiva de cómo cada segmento de usuario interactúa con la plataforma, desde su primer contacto hasta su uso continuo y el análisis de resultados. Mejoraremos la presentación de estos mapas, destacando las etapas clave y las necesidades específicas de cada usuario para garantizar una comprensión clara y concisa de su experiencia a lo largo de su viaje:
@@ -536,13 +600,13 @@ En esta sección, explicaremos en detalle los user journey mapping para dos tipo
 
 A lo largo de este recorrido, tanto los Ingenieros Agrónomos como las Empresas Agrícolas se enfrentan a desafíos y oportunidades únicas, pero comparten un objetivo común: utilizar la tecnología para mejorar la eficiencia, la productividad y la sostenibilidad en el sector agrícola.
 
-*Segmento: Ingenieros Agrónomos que Asesoran a Agricultores*
+- **Segmento: Ingenieros Agrónomos que Asesoran a Agricultores**
 
 ![A](https://media.discordapp.net/attachments/1122567258317791342/1227826413592383518/Journeymappingsegmento1.png?ex=6629d174&is=66175c74&hm=58a3e2d6d5451cc88ac1c9ad1efa683210dc9f84223c7b9abe3235f3c4eec286&=&format=webp&quality=lossless&width=603&height=468)
 
 [**https://uxpressia.com/w/DeRZM/m/5td8l](https://uxpressia.com/w/DeRZM/m/5td8l)** 
 
-*Segmento: Empresas Agrícolas de Gran Escala*
+- **Segmento: Empresas Agrícolas de Gran Escala**
 
 ![A](https://media.discordapp.net/attachments/1122567258317791342/1227826414003159101/Journeymappingsegmento2.png?ex=6629d175&is=66175c75&hm=9726bca77c4b3e16c165d053d282c6a797dd3eea77991371fbc1961a421eb348&=&format=webp&quality=lossless&width=550&height=468)
 
@@ -550,7 +614,7 @@ A lo largo de este recorrido, tanto los Ingenieros Agrónomos como las Empresas 
 [**https://uxpressia.com/w/DeRZM/m/vNTpp](https://uxpressia.com/w/DeRZM/m/vNTpp)** 
 
 
-**2.3.4. Empathy Mapping**
+### <a name="empathy-mapping"></a> 2.3.4. Empathy Mapping
 
 En esta sección se aborda el Empathy Mapping, una herramienta esencial para elaborar perfiles detallados de los user personas y profundizar en la comprensión de su perspectiva y experiencia. Cada user persona se analiza a través de cinco elementos cruciales: lo que el usuario ve, escucha,dice, hace y siente. Además, se identifican los problemas (pains) y beneficios (gains) de acuerdo con una serie de preguntas estratégicas:¿Qué preocupaciones o desafíos enfrenta el usuario en su trabajo diario?¿Qué mejoras o soluciones podrían resolver los problemas identificados?¿Qué argumentos podrían persuadir al usuario de que nuestra solución es la mejor opción para satisfacer sus necesidades profesionales?
 
@@ -567,7 +631,7 @@ En esta sección se aborda el Empathy Mapping, una herramienta esencial para ela
 
 [**https://uxpressia.com/w/DeRZM/p/C8egI](https://uxpressia.com/w/DeRZM/p/C8egI)** 
 
-**2.3.5. As-is Scenario Mapping**
+### <a name="as-is"></a> 2.3.5. As-is Scenario Mapping
 En esta sección, se expondrá el As-is Scenario Mapping para cada uno de los segmentos objetivo, con el propósito de identificar y comprender los puntos de interacción entre los usuarios y el software de gestión agrícola. Este proceso implica la preparación, la generación de ideas de manera individual, la revisión y la identificación de las fases relevantes como columnas en la herramienta designada. Además, se nombrarán estas fases y se etiquetarán las áreas tanto positivas como negativas para los usuarios, identificando también las áreas de conocimiento aún por explorar.
 
 *As-is Scenario mapping: Ingenieros Agrónomos que Asesoran a Agricultores*
@@ -580,20 +644,9 @@ En esta sección, se expondrá el As-is Scenario Mapping para cada uno de los se
 
 <https://miro.com/welcomeonboard/dDdyWmRYWjB0MHM0dk1GbFQxU3RVdHY2aUpyV2xFSzlzWUtHcGtuOE02bWFSNVRJRXU5aTFsZnVmekdQRWd1dHwzNDU4NzY0NTUxNzYxNjYxMjg2fDI=?share_link_id=176300122658> 
 
-# 2.4. Ubiquos Language
+# <a name="cap3"></a> CAPÍTULO III: REQUIREMENTS SPECIFICATION
 
-En esta sección, nos enfocaremos en definir los términos que serán utilizados a lo largo del proyecto. El propósito es asegurar que todos los miembros del equipo y las partes interesadas comprendan de manera uniforme estos términos.
-
-- Resources (Recursos): Los productos o elementos fundamentales para los cultivos, que pueden incluir frutos, semillas y otros insumos necesarios para la producción agrícola.
-- Machinery (Maquinaria): Hace referencia a los equipos y herramientas utilizados en las diversas tareas agrícolas, tales como tractores, cosechadoras, sistemas de riego, pulverizadores y otros dispositivos mecánicos
-- Land (Terrenos): Se refiere a las áreas de terreno utilizadas para actividades agrícolas, como campos de cultivo, pastizales, huertos y viñedos.
-- Agricultural Work Crews (Grupos de trabajos Agricola):  Designa a los equipos de trabajadores agrícolas encargados de realizar diversas labores en el campo, como la siembra, el cultivo, la cosecha y el mantenimiento de los cultivos.
-- Resource Management (Gestión de Recursos): La sección donde se almacena información sobre los cultivos y semillas cultivados en la empresa agrícola. Permite a los usuarios editar, agregar o eliminar cultivos y semillas para una gestión eficiente.
-- Documents (Documentos): Se refiere a los registros y archivos utilizados en la gestión agrícola, como registros de campo, planos de siembra, informes de rendimiento y documentos legales  como los contratos de compra y alquiler.
-
-# **CAPÍTULO III: REQUIREMENTS SPECIFICATION**
-
-## **3.1. To-Be Scenario Maping**
+## <a name="to-be"></a>  3.1. To-Be Scenario Maping
 
 En esta sección, se presentan los To-be Scenario Mapping para ambos segmentos objetivos, donde se establece la visión de la experiencia de usuario ideal al resolver los puntos de dolor y necesidades identificados en los As-is Scenario Mapping previos. Este proceso implica la elaboración de una visión optimizada de las interacciones entre los usuarios y el software de gestión agrícola, enfocándose en la mejora continua y la satisfacción del usuario.
 
@@ -608,6 +661,7 @@ En esta sección, se presentan los To-be Scenario Mapping para ambos segmentos o
 
 <https://miro.com/welcomeonboard/dDdyWmRYWjB0MHM0dk1GbFQxU3RVdHY2aUpyV2xFSzlzWUtHcGtuOE02bWFSNVRJRXU5aTFsZnVmekdQRWd1dHwzNDU4NzY0NTUxNzYxNjYxMjg2fDI=?share_link_id=176300122658> 
 
+## <a name="user-stories"></a> 3.2. User Stories
 
 Para definir la dificultad de cada User Story, hemos decidido utilizar la escala Fibonacci (1;2;3;5;8)
 
@@ -684,22 +738,7 @@ Del mismo modo, hemos desarrollado Technical Stories con la misma escala Fibonac
 |<p>**Epic 9**</p><p>Como usuario, quiero poder programar copias de seguridad para asegurarme que la información de mi cuenta no se pierda en caso de tener un inconveniente</p>|||||
 |EP09 / TS01|Programar copias de seguridad|<p>Como desarrollador</p><p></p><p>Quiero permitir al usuario programar copias de seguridad</p><p></p><p>Para que puedan guardar fácilmente su información</p>|<p>**Escenario 1: Configurar programación de copias de seguridad**</p><p>Dado que el ENDPOINT/usuario está disponible</p><p>Cuando una solicitud POST sea enviada la información del campo “Intervalo”, que tiene como opciones “cada mes”, “cada 3 meses” y “cada 6 meses”, al presionar el botón “Programar copias de seguridad”</p><p>Entonces se recibe una respuesta con el status 200</p><p>Y el mensaje “Copia de seguridad establecida” es mostrado</p><p>Y el sistema establece una fecha para ejecutar la copia de seguridad</p><p></p><p>**Escenario 2: Ejecutar copia de seguridad programada**</p><p>Dado que el ENDPOINT/usuario está disponible</p><p>Cuando una solicitud POST sea enviada presionar el botón “Ejecutar copia de seguridad”</p><p>Entonces se recibe una respuesta con el status 200</p><p>Y el mensaje “Ejecutando copia de seguridad” es mostrado</p><p>Y el sistema guarda todos los datos en el servidor</p>|9|
 
-
-
-
-**Impact Mapping.** 
-
-Segmento Objetivo: Ingenieros Agrónomos que Asesoran a Agricultores
-
-![](https://cdn.discordapp.com/attachments/1077004264792137771/1227859721210433667/IM1.png?ex=6629f07a&is=66177b7a&hm=c96de930553bb0b601309017b0d162b31896b35d830e5e34b917b95c15190764&)
-
-Segmento Objetivo: Empresas Agrícolas de Gran Escala
-
-![](https://cdn.discordapp.com/attachments/1077004264792137771/1227859721478996002/IM2.png?ex=6629f07a&is=66177b7a&hm=f3f2668703ebf76d0c4fce24fb624e4070682c669acf8ef5e40b4649cb7d6469&)
-
-
-
-**Product Backlog.**
+## <a name="product-backlog"></a> 3.3. Product Backlog.
 
 Captura del Product Backlog realizado en Trello:
 
@@ -769,9 +808,20 @@ Ahora mostraremos el product backlog realizado:
 |46|EPIC 9 US01|Programación de copias de seguridad|<p>Como usuario</p><p>Quiero programar mis copias de seguridad</p><p>Para asegurarme de no perder información valiosa</p>|3|
 |37|EPIC 9 TS01|Programar copias de seguridad|<p>Como desarrollador</p><p>Quiero permitir al usuario programar copias de seguridad</p><p>Para que puedan guardar fácilmente su información</p>|3|
 
-# Capítulo IV: Product Design
+## <a name="impact-mapping"></a> 3.4. Impact Mapping.
 
-## 4.1.1. General Style Guidelines
+Segmento Objetivo: Ingenieros Agrónomos que Asesoran a Agricultores
+
+![](https://cdn.discordapp.com/attachments/1077004264792137771/1227859721210433667/IM1.png?ex=6629f07a&is=66177b7a&hm=c96de930553bb0b601309017b0d162b31896b35d830e5e34b917b95c15190764&)
+
+Segmento Objetivo: Empresas Agrícolas de Gran Escala
+
+![](https://cdn.discordapp.com/attachments/1077004264792137771/1227859721478996002/IM2.png?ex=6629f07a&is=66177b7a&hm=f3f2668703ebf76d0c4fce24fb624e4070682c669acf8ef5e40b4649cb7d6469&)
+
+# <a name="cap4"></a> Capítulo IV: Product Design
+
+## <a name="style-guidelines"></a> 4.1. Style Guidelines
+### <a name="style-general"></a> 4.1.1. General Style Guidelines
 
 Branding
 El logo principal esta conformado por una imagen de una planta alusiva al campo que trata la aplicación junto con el nombre de la aplicación “CropSphere”.
@@ -799,7 +849,7 @@ El spacing mantiene
 Dimensión
 La dimensión que usará en cuanto al diseño es un tono formal y entusiasta, aplicando colores de acuerdo a la temática que se está tratando. como el verde y el blanco. Para el diseño de iconos se usarán los bordes curvados en su mayoría.
 
-## 4.1.2. Web Style Guidelines
+### <a name="style-web"></a> 4.1.2. Web Style Guidelines
 
 Se utilizo la tendencia web de functional minimalism con el color blanco como predominante en el fondo de la mayoria de las secciones para brindar una visualizacion limpia y contraste con los elementos.
 Ademas se implemento imagenes para caracterizar a las secciones.
@@ -810,14 +860,20 @@ Se usarán iconos con colores para nuestras redes sociales que contrasten con el
 
 ![StyleGuidelines](https://media.discordapp.net/attachments/1227859315872890930/1227860321771847750/web-style-guidelines-image2.png?ex=6629f109&is=66177c09&hm=d3c39c1f6b6a059b343e241c60115b26c5c3b0f5a34943d443fab34e47f69f55&=&format=webp&quality=lossless) ![StyleGuidelines](https://media.discordapp.net/attachments/1227859315872890930/1227860321998209055/logo.png?ex=6629f109&is=66177c09&hm=fdbed68b3a316dfe56a02059b7f855b3e6a5da34193fb063e3ee9ec8ef770a9d&=&format=webp&quality=lossless)
 
-# 4.2. Information Architecture
+### <a name="style-mobile"></a> 4.1.3. Mobile Style Guidelines
 
-**4.2.1. Organization Systems.**
+#### <a name="style-ios"></a> 4.1.3.1. iOS Mobile Style Guidelines
+
+#### <a name="style-android"></a> 4.1.3.2. Android Mobile Style Guidelines
+
+## <a name="information-architecture"></a> 4.2. Information Architecture
+
+### <a name="organization-systems"></a> 4.2.1. Organization Systems
 
 En cuanto a la organización visual de contenido, en primer lugar, se utilizará el patrón de visual hierarchy para organizar la información en las secciones. La importancia de las oraciones varía según el tamaño de la fuente, siendo los títulos de 48px (3 rem) la más importante, donde le siguen 32px (2rem), 24px (1.5 rem) y al final 16px (1 rem). Asimismo, se utilizará organización matricial ordenada para el caso de la presentación de las características del producto, así como los planes de pago e ítems de las secciones de la app web.
 En la aplicación, la organización es por secciones de acuerdo a lo que el usuario desee. En la app web se diseñó un menú en el cual están delimitadas las secciones.
 
-**4.2.2. Labeling Systems.**
+### <a name="labeling-systems"></a> 4.2.2. Labeling Systems
 
 En el landing page, se uso iconos que guardara contraste con el background, de esta manera se conserva el estilo minimalista.
 
@@ -833,7 +889,7 @@ Landing:
 | Services        | Sección donde se muestran las servicios que ofrece la aplicación              |
 | Contact us      | Sección que muestra las formas de contacto entre nuestros usuarios y nosotros |
 
-**4.2.3. SEO Tags and Meta Tags**
+### <a name="tags"></a> 4.2.3. SEO Tags and Meta Tags
 
 ```
 <meta charset= UTF-8 >
@@ -857,32 +913,48 @@ Landing:
 <meta name="description" content="CropSphere is a comprehensive software solution that transforms farm management by optimizing the use of inputs and machinery, and improving communication and project planning.">
 ```
 
-**4.2.4. Searching Systems.**
+### <a name="searching-systems"></a> 4.2.4. Searching Systems
 
 Se utiliza una barra de búsqueda en la aplicación para que los usuarios puedan encontrar las secciones que buscan fácilmente. Como por ejemplo en la sección de “Terrenos” el usuario puede hacer uso del buscador para encontrar los terrenos que el desee.
 También habrá un buscador en la tabla para facilitar la búsqueda que el usuario elija.
 
 ![Searching1](https://media.discordapp.net/attachments/1227859315872890930/1227860322681880586/searching-systems.png?ex=6629f109&is=66177c09&hm=d542bf35e8d703258411bd3a767a9f30c483f130a77060a46ea8eec55f7ff5b3&=&format=webp&quality=lossless)
 
-**4.2.5. Navigation Systems.**
+### <a name="navigation-systems"></a> 4.2.5. Navigation Systems
 
 En el landing page, en la parte superior se ubicará la barra de navegación y un botón para ingresar directamente al inicio de sesión de la aplicación. Una vez que el usuario inicie sesión, podra el dashboard de aplicación y el menu en el cual estan las secciones de la aplicacion, las cuales son los diferentes servicios y funcionalidades que brinda la aplicacion a los usuarios.
 
 ![Navigation1](https://media.discordapp.net/attachments/1227859315872890930/1227860322212122644/navigation-systems.png?ex=6629f109&is=66177c09&hm=d8420448575a0a3637ffb70ff2c1614ba578e8b18ab63cdbaf2f7f9572f5027f&=&format=webp&quality=lossless)
 
-## 4.3. Landing Page UI Design
+## <a name="landing-page-ui"></a> 4.3. Landing Page UI Design
 
-### 4.3.1. Landing Page Wireframe
+### <a name="landing-page-wireframe"></a> 4.3.1. Landing Page Wireframe
 
 ![](https://cdn.discordapp.com/attachments/323597812694777858/1227108450861973525/Landing_Page_Aplicaciones_Web.png?ex=662734cd&is=6614bfcd&hm=c20c0d396d5e5d4b5ae33d4ab4d78726ee56b613b52ac3011827425a6076c346&)
 
-### 4.3.2. Landing Page Mock-up
+### <a name="landing-page-mockup"></a> 4.3.2. Landing Page Mock-up
 
 ![](https://cdn.discordapp.com/attachments/323597812694777858/1227108503714533376/Landing_Page_1.png?ex=662734d9&is=6614bfd9&hm=4fdf2b9c3c2b1eb30642efe68f2b65fc14b1cfdebde469e1ed0b55cdc527bc2f&)
 
-## 4.4. Web Applications UX/UI Design
+## <a name="mobile-ui"></a> 4.4 Mobile Applications UX/UI Design
 
-### 4.4.1. Web Applications Wireframes
+### <a name="mobile-wireframe"></a> 4.4.1. Mobile Applications Wireframes
+
+### <a name="mobile-wireflow"></a> 4.4.2. Mobile Applications Wireflow Diagrams
+
+### <a name="mobile-mockup"></a> 4.4.3. Mobile Applications Mock-ups
+
+### <a name="mobile-userflow"></a> 4.4.4. Mobile Applications User Flow Diagrams
+
+## <a name="mobile-prototype"></a> 4.5. Mobile Applications Prototyping
+
+### <a name="android-prototype"></a> 4.5.1. Android Mobile Applications Prototyping
+
+### <a name="ios-prototype"></a> 4.5.1. Android Mobile Applications Prototyping
+
+## <a name="web-ui"></a> 4.6. Web Applications UX/UI Design
+
+### <a name="web-wireframe"></a> 4.6.1. Web Applications Wireframes
 
 User goal: Registro de un nuevo usuario, recuperación de contraseña o inicia sesión a la aplicación.
 
@@ -936,7 +1008,7 @@ User goal: Ajuste de datos personales, configuración de accesibilidad, cambio d
 
 ![](https://cdn.discordapp.com/attachments/323597812694777858/1227111684326293534/CONFIGURACION.png?ex=662737d0&is=6614c2d0&hm=703e17a45da572a5e751230205e5451298e2c074260d3c55b34ff2d67a93b62e&)
 
-### 4.4.2. Web Applications Wireflow Diagrams
+### <a name="web-wireflow"></a> 4.6.2. Web Applications Wireflow Diagrams
 
 User goal: Registro de un nuevo usuario, recuperación de contraseña o inicia sesión a la aplicación.
 
@@ -966,7 +1038,7 @@ User goal: Ajuste de datos personales, configuración de accesibilidad, cambio d
 
 ![](https://cdn.discordapp.com/attachments/323597812694777858/1227115551977902140/Captura_de_pantalla_2024-04-07_180345.png?ex=66273b6a&is=6614c66a&hm=6ad3ea951563a12e38c8776d8724cb3dddc845128d7712fd05fd4823f2960be1&)
 
-### 4.4.3. Web Applications Mock-ups
+### <a name="web-mockup"></a> 4.6.3. Web Applications Mock-ups
 
 User goal: Registro de un nuevo usuario, recuperación de contraseña o inicia sesión a la aplicación.
 
@@ -1026,7 +1098,7 @@ User goal: Ajuste de datos personales, configuración de accesibilidad, cambio d
 
 ![](https://cdn.discordapp.com/attachments/323597812694777858/1227124257633603674/CONFIGURACION.png?ex=66274385&is=6614ce85&hm=0ead8255ffd472cb6e81a2308bf8293916d1426722d1b751d339812ba6ccef59&)
 
-### 4.4.1. Web Applications User Flow Diagrams
+### <a name="web-userflow"></a> 4.6.1. Web Applications User Flow Diagrams
 
 User goal: Registro de un nuevo usuario, recuperación de contraseña o inicia sesión a la aplicación.
 
@@ -1078,22 +1150,22 @@ User goal: Ajuste de datos personales, configuración de accesibilidad, cambio d
 Descripción:
 En la sección de configuración, el usuario podrá ver y modificar sus datos personales. Si lo desea también podrá cambiar la configuración de accesibilidad y configuración de audio.
 
-## 4.5 Web Applications Prototyping
+## <a name="web-prototype"></a> 4.7 Web Applications Prototyping
 
 En la sección se mostrará la funcionalidad del prototipo en web
 Link: [Prototipo video aplicaciones web.mp4](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201923446_upc_edu_pe/ETiSuNru3_VCp4jdSts16XIB__Zeo8wTurh-FBzmHK-ykQ?e=kSLfXo&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
-## 4.6. Domain-Driven Software Architecture.
+## <a name="c4"></a> 4.8. Domain-Driven Software Architecture.
 
-### 4.6.1. Software Architecture Context Diagram.
+### <a name="c4-context"></a> 4.8.1. Software Architecture Context Diagram.
 
 ![](https://media.discordapp.net/attachments/1227859315872890930/1227859401520578590/structurizr-90688-SystemContext-001.png?ex=6629f02d&is=66177b2d&hm=a6da41f515ccb269b8052a767ca39218a036ca3a4a05c0e65f45e4e37f16410d&=&format=webp&quality=lossless&width=879&height=671)
 
-### 4.6.2. Software Architecture Container Diagrams.
+### <a name="c4-container"></a> 4.8.2. Software Architecture Container Diagrams.
 
 ![](https://cdn.discordapp.com/attachments/1227859315872890930/1227859401059074121/structurizr-90688-Container-001.png?ex=6629f02d&is=66177b2d&hm=d4f43e49ec2341dc2ca97749cfa1be772617f3bb2305037a1d8a4d070896de88&)
 
-### 4.6.3. Software Architecture Components Diagrams.
+### <a name="c4-components"></a> 4.8.3. Software Architecture Components Diagrams.
 
 Payment Component
 ![](https://media.discordapp.net/attachments/1227859315872890930/1227859911740887040/Payment_Component.png?ex=6629f0a7&is=66177ba7&hm=cf58a99445fcd5457581469980efe9c21908da60544878a8d6603378c68f91be&=&format=webp&quality=lossless&width=350&height=671)
@@ -1107,13 +1179,13 @@ Land Component
 Machinery Component
 ![](https://media.discordapp.net/attachments/1227859315872890930/1227859911325777940/Machinery_Component.png?ex=6629f0a7&is=66177ba7&hm=3130725d01bf76bd83ba61b4deb46fbb87ccd70a53c799aafd76369ba52907e0&=&format=webp&quality=lossless&width=813&height=671)
 
-## 4.7. Software Object-Oriented Design.
+## <a name="class"></a> 4.9. Software Object-Oriented Design
 
-### **4.7.1. Class Diagrams.**
+### <a name="class-diagram"></a> 4.9.1. Class Diagrams
 
 ![A](https://media.discordapp.net/attachments/1122567258317791342/1227826412770300014/class.jpeg?ex=6629d174&is=66175c74&hm=dd7a20633fc9a7a131c8fe7b05096310d89f00fb23e1f0016fcb5fa633347212&=&format=webp&width=637&height=468)
 
-### **4.7.2. Class Dictionary.**
+### <a name="class-dictionary"></a> 4.9.2. Class Dictionary
 
 A continuación, se detallan exhaustivamente las clases más relevantes junto con sus atributos y métodos correspondientes en el contexto del sistema de gestión agrícola. Estas clases forman la estructura fundamental del sistema, permitiendo un seguimiento integral de los procesos agrícolas y la gestión de los recursos agrícolas.
 
@@ -1181,22 +1253,22 @@ A continuación, se detallan exhaustivamente las clases más relevantes junto co
 | **Método**                                                                         | **Descripción**                                                                                  |
 | methods(): void                                                                    | Método para realizar operaciones específicas relacionadas con la operación de alquiler o compra. |
 
-## 4.8. Database Design.
+## <a name="database"></a> 4.10. Database Design.
 
-### **4.8.1. Database Diagram**
+### <a name="database-diagram"></a> 4.10.1. . Relational/Non-Relational Database Diagram
 
 ![A](https://media.discordapp.net/attachments/1122567258317791342/1227826413202047006/database.png?ex=6629d174&is=66175c74&hm=d7c961a9a175a099beec3ea2532b403fa258c59aba58cadcc10ac47dd5674988&=&format=webp&quality=lossless&width=705&height=338)
 
 
-1. **Capítulo V: Product Implementation**
-   1. **Software Configuration Management.**
-      1. **Software Development Environment Configuration**
+# <a name="cap5"></a> Capítulo V: Product Implementation
+## <a name="software-configuration-management"></a> 5.1. Software Configuration Management
+### <a name="software-development"></a>  5.1.1. Software Development Environment Configuration**
 
          A continuación, se ofrecerá una descripción detallada de cada uno de los productos de software utilizados en el proyecto. Esta sección será de gran ayuda para asegurar la colaboración efectiva de los desarrolladores actuales y futuros a lo largo de todo el proceso de desarrollo del proyecto.
 
          **Project Management**
 
-- ` `Google Meet: <https://meet.google.com/> 
+- Google Meet: <https://meet.google.com/> 
 
   Se utilizó Google Meet para llevar a cabo reuniones virtuales con los miembros del equipo y proporcionar una plataforma más eficaz para el intercambio de diferentes tipos de contenido, como la visualización conjunta de pantallas, así como la compartición de imágenes, texto y video. Google Meet es accesible desde aplicaciones web, dispositivos móviles y ordenadores de escritorio, ofreciendo una amplia compatibilidad en todas sus variantes. Para hacer uso de la aplicación es imprescindible contar con una cuenta activa.
 
@@ -1267,7 +1339,7 @@ A continuación, se detallan exhaustivamente las clases más relevantes junto co
 
   En cuanto al diseño y la implementación de bases de datos, nos decantamos por Vertabelo. Esta plataforma de modelado de base de datos en la nube ofrece una interfaz gráfica para diseñar esquemas de bases de datos de manera eficiente, gestionar su estructura y generar el SQL necesario para su implementación, lo que simplificó significativamente este aspecto del proyecto.
 
-1. **Source Code Management**
+### <a name="software-code-management"></a> 5.1.2. Source Code Management
 
    Optamos por Github para el manejo de nuestra startup mediante una organización dentro de esta herramienta.
 
@@ -1318,7 +1390,7 @@ Se denota como ***hotfix*** y su comando de creación es el siguiente:
 Comando de creación***: gitcheckout -b hotfix master***
 
 
-1. **Source Code Style Guide & Conventions**
+### <a name="style-convetions"></a> 5.1.3. Source Code Style Guide & Conventions
 
    Para nuestro proyecto, hemos decidido seguir el Google HTML/CSS Style Guide([Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html)), garantizando así un código claro y coherente que se alinea con las mejores prácticas de la industria. Dentro de las convenciones de esta guía de estilo que adoptaremos se encuentran:
 
@@ -1335,7 +1407,7 @@ Para la escritura de código JavaScript en nuestro proyecto, seguiremos el Googl
 - Limitar el uso de funciones anónimas; en su lugar, usar funciones con nombre para mejorar el stack trace y hacer el código más debuggable.
 - Aplicar plantillas de cadena (template strings) para la concatenación, permitiendo una sintaxis más clara y la inclusión de expresiones.
 
-1. **Software Deployment Configuration.**
+### <a name="software-deployment"></a> 5.1.4 Software Deployment Configuration
 
 En esta sección, nos ocuparemos de implementar nuestra página de inicio utilizando el servicio automatizado de Netlify. Con el fin de alcanzar este objetivo, detallaremos los pasos necesarios para realizar el despliegue de manera efectiva.
 
@@ -1343,57 +1415,26 @@ En esta sección, nos ocuparemos de implementar nuestra página de inicio utiliz
 
    ![](Assets/C5-images/Aspose.Words.1e69c443-57fa-44d8-8666-d4b246cde8aa.001.png)
 
-1. Creamos un proyecto importando el repositorio que contiene nuestra landing page
+2. Creamos un proyecto importando el repositorio que contiene nuestra landing page
 
    ![](Assets/C5-images/Aspose.Words.1e69c443-57fa-44d8-8666-d4b246cde8aa.002.png)
 
-1. **Asignamos un nombre al proyecto, especificamos a vercel cual es la raíz de nuestra landing page y desplegamos.**
+3. Asignamos un nombre al proyecto, especificamos a vercel cual es la raíz de nuestra landing page y desplegamos.
 
 ![](Assets/C5-images/Aspose.Words.1e69c443-57fa-44d8-8666-d4b246cde8aa.003.png)
 
-1. **Esperamos a que Vercel despliegue la página** 
+4. Esperamos a que Vercel despliegue la página
 
    ![](Assets/C5-images/Aspose.Words.1e69c443-57fa-44d8-8666-d4b246cde8aa.004.png)
 
-1. **Obtenemos nuestra Landing Page desplegada un link para su visualización: [CropSphere (crop-sphere-landing-page.vercel.app)**](https://crop-sphere-landing-page.vercel.app/)**
+6. Obtenemos nuestra Landing Page desplegada un link para su visualización: [CropSphere (crop-sphere-landing-page.vercel.app)**](https://crop-sphere-landing-page.vercel.app/)
 
    ![](Assets/C5-images/Aspose.Words.1e69c443-57fa-44d8-8666-d4b246cde8aa.005.png)**
 
 
-1. **Product Implementation & Deployment**
-   1. **Sprint 1**
-      1. **Sprint planning 1**
-
-         A continuación, se detalla el sprint planning número uno, en el que se expondrán las pruebas de planificación y ejecución de la landing page. Además, se mostrarán los progresos del proyecto y los conocimientos adquiridos sobre la colaboración en equipo, obtenidos a través de la utilización de GitHub.
-
-|Sprint#|Sprint 1|
-| :- | :- |
-|Sprint Planning Background||
-|Date|Domingo 7 de abril del 2024|
-|Time|19:00|
-|Location|Videoconferencia Google Meet|
-|Prepared By|AgriSynth Group|
-|Attendees|Todo el equipo|
-|<p>Sprint n - 0</p><p>Review Summary</p>|Al ser el primer sprint, no hay review summary previo.|
-|<p>Sprint n - 1 </p><p>Retrospective Summary</p>|Durante este sprint, nuestro objetivo es desarrollar la landing page utilizando Bootstrap, un framework de estilos que es conocido por todos los miembros del equipo. También se discutirá y definirá el contenido textual de la página y se integrarán los diseños previamente realizados en Figma. Al concluir este sprint, la landing page se publicará mediante Vercel, permitiendo que cualquier usuario pueda acceder y ver la página utilizando el enlace correspondiente.|
-|Sprint 1 Velocity|8|
-|Sum of Story Points|8|
-
-
-
-
-
-
-
-
-
-1. **Sprint Backlog 1**
-
-En esta sección se presentan los tasks realizados durante el actual sprint, acompañadas de una captura del tablero correspondiente y el enlace al tablero en Trello.
-
-**Link del Trello: <https://trello.com/invite/b/TivvG1aQ/ATTI1c57883ea5edd76b34566ceb3166bb584148822A/sprint-1-app-web>** 
-
-![](Assets/C5-images/Aspose.Words.1e69c443-57fa-44d8-8666-d4b246cde8aa.006.png)
+## <a name="product-deployment"></a> 5.2. Product Implementation & Deployment
+### <a name="sprint-backlogs"></a> 5.2.1 Backlogs
+#### 1. Sprint Backlog 1
 
 <table><tr><th colspan="2" valign="top"><b>Sprint #</b></th><th colspan="5" valign="top"><b>Sprint 1</b></th></tr>
 <tr><td colspan="2" valign="top"><b>User Story</b></td><td colspan="5" valign="top"><b>Work-item / Task</b></td></tr>
@@ -1416,87 +1457,7 @@ En esta sección se presentan los tasks realizados durante el actual sprint, aco
 <tr><td>T16</td><td valign="top">Añadir diseño responsive</td><td>0\.5h</td><td>Mariana</td><td>hecho</td></tr>
 </table>
 
-1. **Development Evidence for Sprint Review.**
-
-<table><tr><th valign="top"><b>Repository</b></th><th valign="top"><b>Branch</b></th><th valign="top"><b>Commit Id</b></th><th valign="top"><b>Commit Message</b></th><th valign="top"><b>Commit Message Body</b></th><th valign="top"><b>Committed on (Date)</b></th></tr>
-<tr><td rowspan="9" valign="top">landing</td><td rowspan="9" valign="top">develop</td><td valign="top">eb02296eb30e22f79e816e1181c82622c51e564f</td><td valign="top">Initial commit</td><td valign="top"></td><td valign="top">11/04/2024</td></tr>
-<tr><td valign="top">92c38ef84e51cc54f1716cc622579bede8b4f6ab</td><td valign="top">initial commit</td><td valign="top"></td><td valign="top">11/04/2024</td></tr>
-<tr><td valign="top">c804ccb2e6f4f08cd40f9642f0756aad72b1c17b</td><td valign="top">add basic index template</td><td valign="top"></td><td valign="top">11/04/2024</td></tr>
-<tr><td valign="top">3b9f05453e5c1f15ece59b07ef1ec5a6e8b4b910</td><td valign="top">add t1 and t2</td><td valign="top"></td><td valign="top">11/04/2024</td></tr>
-<tr><td valign="top">842b2a4f3080fd3149bfbd6dde5e242c4ea77205</td><td valign="top">feat: add section home to landing</td><td valign="top"></td><td valign="top">11/04/2024</td></tr>
-<tr><td valign="top">cc50b26257ab0213f38ee474f0888d713291a887</td><td valign="top">IMPLEMENTED US05, US06, US08 ON THE LANDING PAGE</td><td valign="top"></td><td valign="top">11/04/2024</td></tr>
-<tr><td valign="top">37bacb7b604ef1f2b94c9a76945a448e0a195201</td><td valign="top"><p>Add: User Story 4 Landing page</p><p></p></td><td valign="top"></td><td valign="top">11/04/2024</td></tr>
-<tr><td valign="top">8107fca1336b3e72ffbc497f63a759311998a79e</td><td valign="top">test: add subscription section from US06</td><td valign="top"></td><td valign="top">11/04/2024</td></tr>
-<tr><td valign="top">014b64f5e077f05e8debd452b345a7ec9ca21b5b</td><td valign="top">fix: indentation and add footer</td><td valign="top"></td><td valign="top">11/04/2024</td></tr>
-</table>
-
-1. **Testing Suite Evidence for Sprint Review**
-
-<table><tr><th valign="top"><b>Repository</b></th><th valign="top"><b>Branch</b></th><th valign="top"><b>Commit Id</b></th><th valign="top"><b>Commit Message</b></th><th valign="top"><b>Commit Message Body</b></th><th valign="top"><b>Commited on (Date)</b></th></tr>
-<tr><td rowspan="11" valign="top"><p>upc-pre-202401-si730-sw53-agrisynth-repor[t](https://github.com/upc-pre-202401-si730-sw53-agrisynth/upc-pre-202401-si730-sw53-agrisynth-report)</p><p></p><p></p></td><td rowspan="11" valign="top">main</td><td valign="top">ecc98d18a139f3a1470a76ce3ca2a1eb78a1892d</td><td valign="top">Doc: Added chapters</td><td valign="top"></td><td valign="top">10/04/2024</td></tr>
-<tr><td valign="top">7345794f623f6e0ff2bd8d1ae9a720c432f2f7ae</td><td valign="top">Doc: Update CAPITULO IV</td><td valign="top">Added Landing Page UI Design and 4.5 Web Applications Prototyping</td><td valign="top">10/04/2024</td></tr>
-<tr><td valign="top">c55884c54ccd25cfa80fb7e36f6ab44f6558ff46</td><td valign="top">doc: add chapter 1</td><td valign="top"></td><td valign="top">10/04/2024</td></tr>
-<tr><td valign="top">a9c64dd233d4cf4edca0a6cdb45759f91da5c6f6</td><td valign="top">fix: corrección doc chapter 1</td><td valign="top"></td><td valign="top">11/04/2024</td></tr>
-<tr><td valign="top">57a088620ec5ee8856f1757bb8b38564d2bcd984</td><td valign="top">doc: add chapter 2 from 2.1 to 2.2.1</td><td valign="top"></td><td valign="top">11/04/2024</td></tr>
-<tr><td valign="top">dd989523cd612e9f40696921917357cc59bfc21c</td><td valign="top">docs: add team names</td><td valign="top"></td><td valign="top">11/04/2024</td></tr>
-<tr><td valign="top">93594a7fc34d90d128ba3c0cce12be97e8bf275c</td><td valign="top">doc: add more items from chapter 2</td><td valign="top"></td><td valign="top">11/04/2024</td></tr>
-<tr><td valign="top">5cedc9a2998dc0934720f42e050edc8f38f608f0</td><td valign="top">doc: start writing chapter 3</td><td valign="top"></td><td valign="top">11/04/2024</td></tr>
-<tr><td valign="top">879dba95315c360326abc434862dccc624d97726</td><td valign="top">doc: add more items in chapter 4</td><td valign="top"></td><td valign="top">11/04/2024</td></tr>
-<tr><td valign="top">628935d7808558c657d97c3c1a2957563b7c18fc</td><td valign="top">feat: add and complete the chapter 4</td><td valign="top"></td><td valign="top">11/04/2024</td></tr>
-<tr><td valign="top">f5acd29ce449a784ac4fd5836d4c7a7d8f73fcb0</td><td valign="top">Added the Users Stories and Product Backlog</td><td valign="top"></td><td valign="top">11/04/2024</td></tr>
-</table>
-
-1. **Execution Evidence for Sprint Review**
-
-   Para esta entrega nuestra startup AgriSynth trabajó en conjunto para el diseño e implementación de la landing page de nuestro producto de software, la cual se centra en la conversación de usuario a cliente, a través de información acerca de nuestro proyecto, los servicios que ofrece y un formulario de contacto directo.
-
-![](Assets/C5-images/Aspose.Words.1e69c443-57fa-44d8-8666-d4b246cde8aa.007.png)
-
-![](Assets/C5-images/Aspose.Words.1e69c443-57fa-44d8-8666-d4b246cde8aa.008.png)
-
-![](Assets/C5-images/Aspose.Words.1e69c443-57fa-44d8-8666-d4b246cde8aa.009.png)
-
-![](Assets/C5-images/Aspose.Words.1e69c443-57fa-44d8-8666-d4b246cde8aa.010.png)
-
-![](Assets/C5-images/Aspose.Words.1e69c443-57fa-44d8-8666-d4b246cde8aa.011.png)
-
-![](Assets/C5-images/Aspose.Words.1e69c443-57fa-44d8-8666-d4b246cde8aa.012.png)
-
-1. **Services Documentation Evidence for Sprint Review.**
-
-El objetivo del primer sprint fue realizar la landing page, por lo tanto aún no se encuentra evidencia del uso de web services.
-
-
-1. **Software Deployment Evidence for Sprint Review.**
-
-En nuestro primer sprint, concluimos con la creación de nuestra landing page. Las herramienta que se usaron para llevar a cabo esta tarea fueron:
-
-- Git: Un sistema de control de versiones que facilitó la colaboración en la construcción de la página de inicio.
-- GitFlow: Un modelo de procesos para gestionar el progreso individual en el desarrollo de la página de inicio.
-- GitHub: Una plataforma que sirvió para el desarrollo en equipo, permitiendo almacenar las distintas versiones del proyecto.
-- Vercel: Una plataforma destinada a la automatización del alojamiento y lanzamiento de la página de inicio en entornos estáticos.
-
-1. **Team Collaboration Insights during Sprint**
-
-![ref1]
-
-1. **Sprint 2**
-   1. **Sprint Planning 2.**
-
-|Sprint#|Sprint 2|
-| :- | :- |
-|Sprint Planning Background||
-|Date|Domingo 23 de abril del 2024|
-|Time|19:00|
-|Location|Remoto vía Discord|
-|Prepared By|AgriSynth Group|
-|Attendees|Todo el equipo|
-|<p>Sprint n - 0</p><p>Review Summary</p>|La página de inicio fue exitosamente lanzada con Vercel, sin embargo, no se implementan las funcionalidades de cambio de idioma ni la sección de términos y condiciones. Estos elementos se abordarán en el sprint actual.|
-|<p>Sprint n - 1 </p><p>Retrospective Summary</p>|Para este sprint, se avanza en el desarrollo del front-end de la aplicación web, añadiendo vistas para la autenticación de usuarios y vistas principales para usuarios reclutadores. También se incluirá la configuración multilingüe utilizando la librería i18n en Vue. Además, se tiene previsto elaborar las secciones de términos de servicio y vídeos sobre el producto y el equipo. Hemos organizado las tareas a través de Trello. Al concluir este sprint, esperamos que la página de inicio esté actualizada y que se disponga de una demostración funcional de la aplicación web desplegada en Netlify, aunque los datos solo se mostrarán cuando el servidor json esté en ejecución.|
-|Sprint 1 Velocity|8|
-|Sum of Story Points|8|
-
-1. **Sprint Backlog 2.**
+#### 2. Sprint 2
 
 |**Sprint #**|**Sprint 2**||||||
 | :- | :- | :- | :- | :- | :- | :- |
@@ -1520,42 +1481,68 @@ En nuestro primer sprint, concluimos con la creación de nuestra landing page. L
 |EP08 / US02|Ajuste de Datos Personales|T22|Implementar un sistema que permita cambiar sus datos personales|4H|Marcelo|hecho|
 |EP08 / US03|Cambio de contraseña|T23|Implementar un sistema que permita al usuario cambiar su contraseña registrada|4H|Marcelo|hecho|
 
-1. **Development Evidence for Sprint Review.**
+#### 3. Sprint Backlog 3.
 
-Repositorio en Github: 
+|**Sprint #**|**Sprint 3**||||||
+| :- | :- | :- | :- | :- | :- | :- |
+|**User Story**|**Work-item / Task**||||||
+|ID|Title|Id|Descripción|Estimación (horas)|Asignado a:|Status (pendiente/en proceso/en revisión/hecho)|
+|EP1 / US01|Registro de un nuevo usuario|T1|Implementar un sistema de registro de usuario|4H|Marcelo |hecho|
+|EP1 / US02|Acceso de usuarios|T2|Implementar un sistema que permita a los usuarios ingresar al sistema|4H|Marcelo|hecho|
+|EP2 / US01|Creación de un recurso|T4|Permitir al usuario crear un recurso en la aplicación, para que pueda hacer un seguimiento del mismo|8H|David|hecho|
+|EP4 / US01|Visualizar detalles de Maquinaria|T9|Implementar un dialog de primevue que muestre información detallada de la maquinaria seleccionada|4H|Mariana|hecho|
+|EP4 / US02|Visualizar detalles de Terrenos|T10|Implementar dialog de primevue que muestre información más detallada de los terrenos|6H|Piero|hecho|
+|EP05 / US01|Visualización de Estadísticas de Recursos|T12|Implementar vista de estadística que toma como datos el historial de precios de un producto|8H|David|hecho|
+|EP06 / US01|Creación de grupo de Trabajo|T14|Implementar un dialog que permita el post dentro del db.json|8H|Eduardo|hecho|
+|EP06 / US02|Agregar personas al grupo|T15|Implementar botón add member que asigne al grupo.|5H|Eduardo|hecho|
+|EP06 / US03|Visualizar los integrantes del grupo|T16|Implementar tabla que cree grupos y muestre integrantes.|4H|Eduardo|hecho|
 
-<table><tr><th valign="top"><b>Repository</b></th><th valign="top"><b>Branch</b></th><th valign="top"><b>Commit Id</b></th><th valign="top"><b>Commit Message</b></th><th valign="top"><b>Commit Message Body</b></th><th valign="top"><b>Committed on (Date)</b></th></tr>
-<tr><td rowspan="20" valign="top">agrisynth-frontend</td><td rowspan="20" valign="top">DEVELOP</td><td valign="top">efc759fd8fd6b85f5ed5e292caac01995edc48eb</td><td valign="top">chore: add the first structure</td><td valign="top">None</td><td valign="top">Apr 26, 2024</td></tr>
-<tr><td valign="top">324e3926c7f11341d1f0b438dc4ee5dc36fd420f</td><td valign="top">docs: update the README.md</td><td valign="top">None</td><td valign="top">Apr 26, 2024</td></tr>
-<tr><td valign="top">318b8e5632d2eb7fd636436f2f83cc04929c571e</td><td valign="top">feat: add dependencies</td><td valign="top">None</td><td valign="top">Apr 27, 2024</td></tr>
-<tr><td valign="top">5b829a23ff93a32409e56ab1ac24bcb4290750fa</td><td valign="top"><p>add: terrain-card component , terrain.entity and terrain.api created</p><p></p></td><td valign="top">None</td><td valign="top">Apr 27, 2024</td></tr>
-<tr><td valign="top">b22532731f262640eae3539e08fdeb8de06662a4</td><td valign="top">update: terrain list component added</td><td valign="top">None</td><td valign="top">Apr 27, 2024</td></tr>
-<tr><td valign="top">2a65ff400e389d974de6e4a9e972faa40553a52a</td><td valign="top"><p>update: components</p><p></p></td><td valign="top"><p>The terrain-card and terrain-list components were updated, and also terrain.entity</p><p></p></td><td valign="top">Apr 28, 2024</td></tr>
-<tr><td valign="top">21886ba7edf1df2baab739950d7e1251888fb119</td><td valign="top"><p>add: dialog boxes added</p><p></p></td><td valign="top">The description, processing and payment dialog box was added for each terrain-card</td><td valign="top">Apr 28, 2024</td></tr>
-<tr><td valign="top">170ef82c47dd336eb43c480def307f395d54860e</td><td valign="top">update: css update</td><td valign="top">None</td><td valign="top">Apr 29, 2024</td></tr>
-<tr><td valign="top">f471b66a985dbd0eb0e25fe80022e6125214ba53</td><td valign="top">update: language component changed</td><td valign="top">None</td><td valign="top">Apr 29, 2024</td></tr>
-<tr><td valign="top">f21b3d3354bcf66ebfe835766d5e21f05305f4e4</td><td valign="top">update: input text dialog updated</td><td valign="top">None</td><td valign="top">Apr 30, 2024</td></tr>
-<tr><td valign="top">f3021cc5f3c226953fcd6e71efebec6750dc66df</td><td valign="top">update: api updated</td><td valign="top">None</td><td valign="top">Apr 30, 2024</td></tr>
-<tr><td valign="top">fd2e33829cd07e92678ec73b5b2acf911dd60b81</td><td valign="top"><p>update: terrain-list component</p><p></p></td><td valign="top">None</td><td valign="top">May 3, 2024</td></tr>
-<tr><td valign="top">fd2dffd132a9af032004076b2416248dbefbf3d9</td><td valign="top">update: update index.js</td><td valign="top">None</td><td valign="top">May 3, 2024</td></tr>
-<tr><td valign="top">52d87190a9249a8b4536147c44c7dae47a76e4d1</td><td valign="top">Update terrain-list.component.vue</td><td valign="top">None</td><td valign="top">May 3, 2024</td></tr>
-<tr><td valign="top">b633ed9b0f5afb10c485988f732c355f1b0a02a7</td><td valign="top"><p>Merge pull request #3 from upc-pre-202401-si730-sw53-agrisynth/feature/terrains</p><p></p></td><td valign="top"><p>Feature/terrains</p><p></p></td><td valign="top">May 3, 2024</td></tr>
-<tr><td valign="top">8db9a2e590c8e733cb1024bab7fdc6fb04d294cb</td><td valign="top">feat: add the view resources with components</td><td valign="top">None</td><td valign="top">May 3, 2024</td></tr>
-<tr><td valign="top">16d05deee4c300ed24f8d4a023c7b8736e1b5b2e</td><td valign="top"><p>Merge pull request #4 from upc-pre-202401-si730-sw53-agrisynth/feature/resources</p><p></p></td><td valign="top">feat: add the view resources with components</td><td valign="top">May 3, 2024</td></tr>
-<tr><td valign="top">fb8e7b907c86952b684e1e755abde7cbcee48624</td><td valign="top"><p>feat: add the page machinerys with components</p><p></p></td><td valign="top">None</td><td valign="top">May 3, 2024</td></tr>
-<tr><td valign="top">7bdbaf0789c6d4454f2897dbd4018e34d1f52a51</td><td valign="top"><p>Merge pull request #6 from upc-pre-202401-si730-sw53-agrisynth/feature/machinerys</p><p></p></td><td valign="top"><p>feat: add the page machinerys with components</p><p></p></td><td valign="top">May 3, 2024</td></tr>
-<tr><td valign="top">9b466dea93637ddb1bb641e54aa5727524df2a7b</td><td valign="top"><p>feat(add): implement feature collaboration in the sidenav bar</p><p></p></td><td valign="top">None</td><td valign="top">May 3, 2024</td></tr>
-<tr><td valign="top"></td><td valign="top"></td><td valign="top">a4c82a538edba990dc889ab448bef6299bb48224</td><td valign="top"><p>feat(add): implement css in collaboration page</p><p></p></td><td valign="top">None</td><td valign="top">May 3, 2024</td></tr>
-<tr><td valign="top"></td><td valign="top"></td><td valign="top">2d540eeb5a00140ee6429ee0a2577648f1668154</td><td valign="top"><p>Merge pull request #7 from upc-pre-202401-si730-sw53-agrisynth/feature/collaboration</p><p></p></td><td valign="top"><p>Feature/collaboration</p><p></p></td><td valign="top">May 3, 2024</td></tr>
-<tr><td valign="top"></td><td valign="top"></td><td valign="top">262c01186cf7763c6ac0f93a66202e19a46610d4</td><td valign="top"><p>feat: added authentications, configuration and support pages</p><p></p></td><td valign="top">None</td><td valign="top">May 3, 2024</td></tr>
-<tr><td valign="top"></td><td valign="top"></td><td valign="top">af673e2aa5d217e23ca4e01b577b5508ae65567f</td><td valign="top"><p>Merge pull request #8 from upc-pre-202401-si730-sw53-agrisynth/feature/authentication</p><p></p></td><td valign="top"><p>feat: added authentications, configuration and support pages</p><p></p></td><td valign="top">May 3, 2024</td></tr>
-</table>
+1. **Sprint Backlog 4.**
 
-1. **Testing Suite Evidence for Sprint Review.**
+|**Sprint #**|**Sprint 4**||||||
+| :- | :- | :- | :- | :- | :- | :- |
+|**User Story**|**Work-item / Task**||||||
+|ID|Title|Id|Descripción|Estimación (horas)|Asignado a:|Status (pendiente/en proceso/en revisión/hecho)|
+|<p>EP04   /</p><p>US04</p>|Edicion de un Documento|T8|Conectar el endpoint correspondiente para editar documentos e implementar los métodos GET,POST,PUT y DELETE.|3H|Mariana|Hecho|
+|EP06 / US02|Agregar personas al grupo|T5|Conectar el endpoint para agregar personas a un grupo e implementar el método POST, validando la existencia de la persona y el grupo, y gestionando permisos y roles.|4H|Eduardo|Hecho|
+|EP08 / US03|Cambio de contraseña|T7|Implementar funcionalidad en la sección de settings|2H|Marcelo|Hecho|
+|EP4 / US02|Visualizar detalles de Terrenos|T2|Conectar el endpoint correspondiente e implementar el método GET para obtener detalles de terrenos, gestionando permisos para acceso autorizado.|4H|Piero|Hecho|
+|EP3 / US03|Edición de un recurso|T3|Conectar el endpoint correspondiente para editar recursos e implementar los métodos GET y PUT.|4H|Natanael|Hecho|
+|EP3 / US02|Borrado de recurso|T4|Conectar el endpoint correspondiente e implementar el método DELETE.|4H|Natanael|Hecho|
+|EP1 / US02|Acceso de usuarios|T1|Conectar el endpoint correspondiente e implementar el método POST para login de usuarios, validando credenciales y gestionando tokens de sesión.|8H|Marcelo|Hecho|
+|EP06 / US01|Creación de grupo de Trabajo|T9|Conectar el endpoint correspondiente e implementar el método POST para crear grupos de trabajo.|4H|Eduardo|Hecho|
+|<p>EP04 /   </p><p>US05</p>|Eliminar O Descargar un Documento|T10|Conectar el endpoint correspondiente e implementar los métodos DELETE y GET (para descargar documentos), con validaciones y manejo de permisos|5H|Mariana|Hecho|
 
-En el alcance del sprint 2 se ha desarrollado el frontend de la aplicación web por lo que no se evidencia testing.
+### <a name="landing-page-deployment"></a> 5.2.2. Implemented Landing Page Evidence
 
-1. **Execution Evidence for Sprint Review.**
+![](Assets/C5-images/Aspose.Words.1e69c443-57fa-44d8-8666-d4b246cde8aa.007.png)
+
+![](Assets/C5-images/Aspose.Words.1e69c443-57fa-44d8-8666-d4b246cde8aa.008.png)
+
+![](Assets/C5-images/Aspose.Words.1e69c443-57fa-44d8-8666-d4b246cde8aa.009.png)
+
+![](Assets/C5-images/Aspose.Words.1e69c443-57fa-44d8-8666-d4b246cde8aa.010.png)
+
+![](Assets/C5-images/Aspose.Words.1e69c443-57fa-44d8-8666-d4b246cde8aa.011.png)
+
+![](Assets/C5-images/Aspose.Words.1e69c443-57fa-44d8-8666-d4b246cde8aa.012.png)
+
+![](Assets/C5-images/Aspose.Words.1e69c443-57fa-44d8-8666-d4b246cde8aa.026.png)
+
+
+![](Assets/C5-images/Aspose.Words.1e69c443-57fa-44d8-8666-d4b246cde8aa.027.png)
+
+![](Assets/C5-images/Aspose.Words.1e69c443-57fa-44d8-8666-d4b246cde8aa.028.png)
+
+
+![](Assets/C5-images/Aspose.Words.1e69c443-57fa-44d8-8666-d4b246cde8aa.029.png)
+
+![](Assets/C5-images/Aspose.Words.1e69c443-57fa-44d8-8666-d4b246cde8aa.030.png)
+
+
+![](Assets/C5-images/Aspose.Words.1e69c443-57fa-44d8-8666-d4b246cde8aa.031.png)
+
+### <a name="frontend-deployment"></a> 5.2.3. Implemented Frontend-Web Application Evidence
 
 En este sprint logramos como primera fase de nuestro producto final, desarrollar nuestra aplicación web usando Vue y PrimeVue, en conjunto con una API hecha con JSON server. 
 
@@ -1597,13 +1584,6 @@ Muestra de todas  vistas programadas en Vue para este sprint:
 
 ![](Assets/C5-images/Aspose.Words.1e69c443-57fa-44d8-8666-d4b246cde8aa.022.png)
 
-Enlace del video: 
-
-
-1. **Services Documentation Evidence for Sprint Review.**
-
-Para este sprint utilizamos los servicios básicos Http en conjunto con Json server que facilitó la construcción de nuestra fake api.
-
 Nuestras variable de entorno serverBasePath que apuntará al puerto 3000:
 
 ![](Assets/C5-images/Aspose.Words.1e69c443-57fa-44d8-8666-d4b246cde8aa.023.png)
@@ -1616,346 +1596,56 @@ Un ejemplo usando un endpoint:
 
 ![](Assets/C5-images/spose.Words.1e69c443-57fa-44d8-8666-d4b246cde8aa.025.png)
 
-1. **Software Deployment Evidence for Sprint Review.**
-
 Creamos un nuevo site desde un proyecto existente en Github
 
 ![](Assets/C5-images/Aspose.Words.1e69c443-57fa-44d8-8666-d4b246cde8aa.026.png)
 
-Instalamos Netlify en nuestra organización de Github
-
 ![](Assets/C5-images/Aspose.Words.1e69c443-57fa-44d8-8666-d4b246cde8aa.027.png)
 
-Damos acceso a todos nuestros repositorios de nuestra organización.
 
 ![](Assets/C5-images/Aspose.Words.1e69c443-57fa-44d8-8666-d4b246cde8aa.028.png)
 
-Seleccionamos el repositorio del que queremos hacer el new site
 
 ![](Assets/C5-images/Aspose.Words.1e69c443-57fa-44d8-8666-d4b246cde8aa.029.png)
 
-seleccionamos nuestra rama de la que queremos que haga el build
 
 ![](Assets/C5-images/Aspose.Words.1e69c443-57fa-44d8-8666-d4b246cde8aa.030.png)
 
-esperamos y tenemos el link de nuestro aplicación web desplegueda.
-
 ![](Assets/C5-images/Aspose.Words.1e69c443-57fa-44d8-8666-d4b246cde8aa.031.png)
 
-1. **Team Collaboration Insights for Sprint Review**
+### <a name="mobile-deployment"></a> 5.2.4. Implemented Native-Mobile Application Evidence
+Se ha elegido no desarrollar una aplicación mobile para el presente trabajo, por lo que esta sección queda en blanco. La decisión fue tomada después de la aprobación del profesor
 
-Durante este sprint, al igual que para el desarrollo de la landing page, para proteger la rama “main” creamos una rama “develop” de la que cada integrante de nuestro grupo creó su propia sub-rama “feature“ para subir un capítulo del reporte siguiendo las convenciones antes señaladas(conventional commit y git flow).
-(img de las ramas)
-
-![ref1]
-1. **Sprint 3**
-   1. **Sprint Planning 3.**
-
-|Sprint#|Sprint 3|
-| :- | :- |
-|Sprint Planning Background||
-|Date||
-|Time||
-|Location|Remoto vía Discord|
-|Prepared By|AgriSynth Group|
-|Attendees|Todo el equipo|
-|<p>Sprint n - 2</p><p>Review Summary</p>|Se desarrolló las vistas de nuestra aplicación web que faltaban, sin olvidar que tuvimos que reestructurar algunas partes del informe.|
-|<p>Sprint n - 3 </p><p>Retrospective Summary</p>|Se planea terminar de desarrollar todo el frontend de la aplicación, mejorar algunos features mediante el uso de params y queries, empezar con el proceso de construcción  de la aplicación de la API hecha con C# .NetCore y finalmente implementar un CRUD.|
-|Sprint 1 Velocity||
-|Sum of Story Points||
-
-1. **Sprint Backlog 3.**
-
-|**Sprint #**|**Sprint 3**||||||
-| :- | :- | :- | :- | :- | :- | :- |
-|**User Story**|**Work-item / Task**||||||
-|ID|Title|Id|Descripción|Estimación (horas)|Asignado a:|Status (pendiente/en proceso/en revisión/hecho)|
-|EP1 / US01|Registro de un nuevo usuario|T1|Implementar un sistema de registro de usuario|4H|Marcelo |hecho|
-|EP1 / US02|Acceso de usuarios|T2|Implementar un sistema que permita a los usuarios ingresar al sistema|4H|Marcelo|hecho|
-|EP2 / US01|Creación de un recurso|T4|Permitir al usuario crear un recurso en la aplicación, para que pueda hacer un seguimiento del mismo|8H|David|hecho|
-|EP4 / US01|Visualizar detalles de Maquinaria|T9|Implementar un dialog de primevue que muestre información detallada de la maquinaria seleccionada|4H|Mariana|hecho|
-|EP4 / US02|Visualizar detalles de Terrenos|T10|Implementar dialog de primevue que muestre información más detallada de los terrenos|6H|Piero|hecho|
-|EP05 / US01|Visualización de Estadísticas de Recursos|T12|Implementar vista de estadística que toma como datos el historial de precios de un producto|8H|David|hecho|
-|EP06 / US01|Creación de grupo de Trabajo|T14|Implementar un dialog que permita el post dentro del db.json|8H|Eduardo|hecho|
-|EP06 / US02|Agregar personas al grupo|T15|Implementar botón add member que asigne al grupo.|5H|Eduardo|hecho|
-|EP06 / US03|Visualizar los integrantes del grupo|T16|Implementar tabla que cree grupos y muestre integrantes.|4H|Eduardo|hecho|
-
-1. **Development Evidence for Sprint Review.**
-
-Repositorio en Github: 
-
-|**Repository**|**Branch**|**Commit Id**|**Commit Message**|**Commit Message Body**|**Committed on (Date)**|
-| :- | :- | :- | :- | :- | :- |
-|agrisynth-frontend|develop|91cd86bc9195cdb6934461983e3ad736e82902ab|feat(style): update components styles|none|2/6/2024|
-|agrisynth-frontend|develop|6ad37da864a2ffc2a39a6f4f7c9a10fa9556b05d|feat: add padding an margin to terrain-card.component.vue|none|3/6/2024|
-|agrisynth-frontend|develop|22c4a55580d05e2a26205e86a1a1e0589f4bdd36|refactor: changed code structure|Changed the structure in most of the project files|8/6/2024|
-|agrisynth-frontend|main|91cd86bc9195cdb6934461983e3ad736e82902ab|feat(style): update components styles|none|2/6/2024|
-|agrisynth-frontend|main|99bddbaf9003150a0675d30beb23c7e233bd45f3|Merge pull request #17 from upc-pre-202401-si730-sw53-agrisynth/develop|develop|2/6/2024|
-|agrisynth-frontend|main|6ad37da864a2ffc2a39a6f4f7c9a10fa9556b05d|feat: add padding an margin to terrain-card.component.vue|none|3/6/2024|
-|agrisynth-frontend|main|22c4a55580d05e2a26205e86a1a1e0589f4bdd36|refactor: changed code structure|Changed the structure in most of the project files|8/6/2024|
-|agrisynth-frontend|main|73451f8922fa34dbe3ae63df82f3808b18f3db51|Merge pull request #18 from upc-pre-202401-si730-sw53-agrisynth/develop|develop|8/6/2024|
-|agrisynth-backend|develop|6466afa5a67ec40380614d9c06f68d1c781980a9|chore: initial structure.|none|5/6/2024|
-|agrisynth-backend|develop|55b9857316799e556df7b943131d3b5c54888888|chore: update gitignore|none|5/6/2024|
-|agrisynth-backend|develop|55b9857316799e556df7b943131d3b5c54888888|Delete .idea/.idea.agrisynth-backend/.idea directory|none|5/6/2024|
-|agrisynth-backend|develop|3a59efd313567f4020d9825a610088cad43708f7|chore: update gitignore.|none|5/6/2024|
-|agrisynth-backend|develop|b2e2d6e6d2dcebf997ceb76a8b0d01bde7873a68|Merge remote-tracking branch 'origin/main'|none|5/6/2024|
-|agrisynth-backend|develop|41200f97ce55f7a382d481096bc0f7c78a8e4d0c|feat: add feature terrain rent|none|5/6/2024|
-|agrisynth-backend|develop|7cdd182266a662da179ce09d761c6fb435833515|feat: Collaboration bounded context|none|5/6/2024|
-|agrisynth-backend|develop|7e54843547db9809948ac5da155215c1b37d6ccd|Merge pull request #1 from upc-pre-202401-si730-sw53-agrisynth/feature/collaboration|Feature/collaboration|5/6/2024|
-|agrisynth-backend|develop|10e59e3f7ca38cae2f3c0666213d52ba4cd260c7|feat: add program.cs configuration|none|5/6/2024|
-|agrisynth-backend|develop|8d70e903ce120c512187f55c0ec56b74eb0e76fe|Feat: set collaboration bounded context|none|5/6/2024|
-|agrisynth-backend|develop|295e22206a33cccdd76422ef297bb4fde282ae92|Merge pull request #6 from upc-pre-202401-si730-sw53-agrisynth/feature/collaboration|Feature/collaboration|5/6/2024|
-|agrisynth-backend|develop|cf1b02fa9af447a52b7fbe7215b24360517a09ed|feat: add updates to commandservices and queryservices|none|6/6/2024|
-|agrisynth-backend|develop|a355de71c3352b374c162b253f5c18f1698f8999|feat: add domain layer including model, repositories and services|none|6/6/2024|
-|agrisynth-backend|develop|df90ec6ff1c01df37c3c265ced42cb00aca53cd4|feat: add interfaces with resources and MachinerysController|none|6/6/2024|
-|agrisynth-backend|develop|cf982ee9e57b4bbebaa3a4a9f86a3b4f1b560355|feat: add the machinerys context|none|6/6/2024|
-|agrisynth-backend|develop|689fb89548de46dc029b3f377289131b2cd22923|feat: add the machinerys files|none|6/6/2024|
-|agrisynth-backend|develop|910da483b3fe3920e7dc804051d344fa398566c9|Merge pull request #7 from upc-pre-202401-si730-sw53-agrisynth/feature/machineryRent|feature/machinery rent|6/6/2024|
-|agrisynth-backend|develop|d24270906f43a4f3aecb671dc9bc4d68ad632ecf|feat: add domain layer and application command and query services|none|6/6/2024|
-|agrisynth-backend|develop|8f084d3462e04a547aff37324d114e5ad85192f4|feat: add infrastructure and interfaces CRUD|none|7/6/2024|
-|agrisynth-backend|develop|762fb8ebbd60d2de5ad817c60df50e707e3717d8|feat: add the updateDocumentCommand|none|7/6/2024|
-|agrisynth-backend|develop|69a97aefe6bff59c61281880eedc36b281c492ba|feat: add the resource items bounded context and modified the AppDbContext|none|8/6/2024|
-|agrisynth-backend|develop|41d1b2b0d6cac8f8923582973bf3964263d5ec41|feat(profiles): added profiles bc|none|8/6/2024|
-|agrisynth-backend|develop|d9d05dc7d23d5ea993821bbf8959461676eeb3fa|feat: update protocols|feat: update protocols|9/6/2024|
-
-1. **Testing Suite Evidence for Sprint Review.**
-
-En el alcance del sprint 3 se ha desarrollado el frontend de la aplicación web por lo que no se evidencia testing.
-
-|**Repository**|**Branch**|**Commit Id**|**Commit Message**|**Commit Message Body**|**Committed on (Date)**|
-| :- | :- | :- | :- | :- | :- |
-|||||||
-** 
-
-1. **Execution Evidence for Sprint Review.**
-
-En este sprint logramos como tercera fase de nuestro producto final, desarrollar la API hecha con C# y Microsoft .NET Framework . 
-
-`		`Muestra de nuestra API hecha con .NET Framework:
-
-![](Assets/Aspose.Words.b8569df6-648b-4de3-a36e-0fe88e187486.001.png)
-
-video que ilustra y explica la visualización y navegación logrados en este Sprint:
-
-
-1. **Services Documentation Evidence for Sprint Review.**
+### <a name="backend-deployment"></a> 5.2.5. Implemented RESTful API and/or Serverless Backend Evidence
 
 Para este sprint utilizamos los servicios de la API que nosotros mismos hicimos utilizando el lenguaje C# y Microsoft .NET Framework. A continuación, mostramos todos los endpoints realizados por nuestro equipo por cada Bounded Context correctamente documentado en Swagger.
 
-Repositorio del backend en github: 
+Tiempo después, se desarrolló el Sprint 4, enfocado en la implementación completa de la aplicación web, la API RESTful, los Web Services y la landing page. Además, se finalizó el desarrollo de todo el backend de los Web Services. Se detalla el progreso tangible y funcional de cada componente, incluyendo su diseño, desarrollo y funcionalidades implementadas. También se documenta la colaboración del equipo, los métodos de comunicación utilizados y las herramientas empleadas para garantizar una cooperación efectiva. Incluye secciones sobre la planificación del sprint, el backlog de tareas, evidencia del desarrollo y ejecución, documentación de servicios utilizados y reflexiones sobre la colaboración del equipo, proporcionando una visión completa del progreso alcanzado.
 
-<https://github.com/upc-pre-202401-si730-sw53-agrisynth/agrisynth-backend> 
-
-
-|**Bounded Context**|Documents||
-| :- | :- | :- |
-|**Entity**|**Endpoint URL**|**Swagger**|
-||api/v1/documents/|![](Assets/Aspose.Words.b8569df6-648b-4de3-a36e-0fe88e187486.002.png)|
-
-|**Bounded Context**|Machinerys||
-| :- | :- | :- |
-|**Entity**|**Endpoint URL**|**Swagger**|
-||api/v1/machinerys/|![](Assets/Aspose.Words.b8569df6-648b-4de3-a36e-0fe88e187486.003.png)|
-
-
-|**Bounded Context**|Teams||
-| :- | :- | :- |
-|**Entity**|**Endpoint URL**|**Swagger**|
-||api/v1/Teams/|![](Assets/Aspose.Words.b8569df6-648b-4de3-a36e-0fe88e187486.004.png)|
-
-
-|**Bounded Context**|TeamWorkers||
-| :- | :- | :- |
-|**Entity**|**Endpoint URL**|**Swagger**|
-||api/v1/team-workers/|![](Assets/Aspose.Words.b8569df6-648b-4de3-a36e-0fe88e187486.005.png)|
-
-|**Bounded Context**|Terrains||
-| :- | :- | :- |
-|**Entity**|**Endpoint URL**|**Swagger**|
-||api/v1/terrains/|![](Assets/Aspose.Words.b8569df6-648b-4de3-a36e-0fe88e187486.006.png)|
-
-|**Bounded Context**|Workers||
-| :- | :- | :- |
-|**Entity**|**Endpoint URL**|**Swagger**|
-||api/v1/workers/|![](Assets/Aspose.Words.b8569df6-648b-4de3-a36e-0fe88e187486.007.png)|
-
-|**Bounded Context**|Profiles||
-| :- | :- | :- |
-|**Entity**|**Endpoint URL**|**Swagger**|
-||api/v1/profiles/|![](Assets/Aspose.Words.b8569df6-648b-4de3-a36e-0fe88e187486.008.png)|
-
-|**Bounded Context**|ResourceItems||
-| :- | :- | :- |
-|**Entity**|**Endpoint URL**|**Swagger**|
-||api/v1/resource-items/|![](Assets/Aspose.Words.b8569df6-648b-4de3-a36e-0fe88e187486.009.png)|
-
-
-1. **Software Deployment Evidence for Sprint Review.**
-
-Entrar a Netlify y presionar la opción de “Import an existing project”
-
-![](Assets/Aspose.Words.b8569df6-648b-4de3-a36e-0fe88e187486.010.png)
-
-Después seleccionar la opción de “Deploy con github”
-
-![](Assets/Aspose.Words.b8569df6-648b-4de3-a36e-0fe88e187486.011.png)
-
-Tras haber hecho eso tenemos que seleccionar nuestra organización y dentro de ella buscar el repositorio del proyecto “**AgriSynthGroup-backend**” que deseamos subir a producción
-
-Para finalmente agregar la data necesaria para el despliegue
-
-![](Assets/Aspose.Words.b8569df6-648b-4de3-a36e-0fe88e187486.012.png)
-
-Y final solo presionar el botón con el nombre de proyecto a desplegar
-
-\-       Link de la Landing page:[ ](https://echero11.github.io/OpenSource_GasYa_LandingPage/)<https://upc-pre-202401-si730-sw53-agrisynth.github.io/agrisynth-landing-page/> 
-
-1. **Team Collaboration Insights for Sprint Review**
-
-Durante este sprint, al igual que para el desarrollo de la landing page, frontend y backend, para proteger la rama “main” creamos una rama “develop” de la que cada integrante de nuestro grupo creó su propia sub-rama “feature“ para subir un capítulo del reporte siguiendo las convenciones antes señaladas(conventional commit y git flow).
-
-**Github analytics de nuestro tercer sprint:** 
-
-![](Assets/Aspose.Words.b8569df6-648b-4de3-a36e-0fe88e187486.013.png)
-
-![](Assets/Aspose.Words.b8569df6-648b-4de3-a36e-0fe88e187486.014.png)
-1. **Sprint 4**
-
-En esta sección se registra y explica el avance en términos de producto y trabajo colaborativo para el Sprint 4, enfocado en la implementación completa de la aplicación web, la API RESTful, los Web Services y la landing page. Además, se finalizó el desarrollo de todo el backend de los Web Services. Se detalla el progreso tangible y funcional de cada componente, incluyendo su diseño, desarrollo y funcionalidades implementadas. También se documenta la colaboración del equipo, los métodos de comunicación utilizados y las herramientas empleadas para garantizar una cooperación efectiva. Incluye secciones sobre la planificación del sprint, el backlog de tareas, evidencia del desarrollo y ejecución, documentación de servicios utilizados y reflexiones sobre la colaboración del equipo, proporcionando una visión completa del progreso alcanzado.
-
-
-1. **Sprint Planning 4.**
-
-En este sprint planning 4 se presenta la evidencia de la planificación para la implementación de la Application Web, RESTful API  y landing page. Además, se evidenciaron los avances del proyecto e insights de colaboración en el equipo a través de GitHub.
-
-|Sprint#|Sprint 4|
-| :- | :- |
-|Sprint Planning Background||
-|Date|Martes 25 de junio del 2024|
-|Time|17:00|
-|Location|Remoto vía Discord|
-|Prepared By|AgriSynth Group|
-|Attendees|Todo el equipo|
-|<p>Sprint n - 3</p><p>Review Summary</p>|Se planea terminar de desarrollar todo el frontend de la aplicación, mejorar algunos features mediante el uso de params y queries, empezar con el proceso de construcción  de la aplicación de la API hecha con C# .NetCore y finalmente implementar un CRUD.|
-|<p>Sprint n - 4 </p><p>Retrospective Summary</p>|Se planea acabar con todas las operaciones definidas en los technical stories además de implementar el bounded context de autenticación(IAM). Finalmente conectar el API con el frontend.|
-|Sprint 4 Velocity|8|
-|Sum of Story Points|8|
-
-1. **Sprint Backlog 4.**
-
-En esta parte mostramos las tareas que se realizaron en este sprint.
-
-Link del Trello:
-
-<https://trello.com/invite/b/2qhQ3v57/ATTI2ec4b2ab56c2a23dbc12fa13ca2e554dDE9C5C1F/sprint-backlog-4> 
-
-Vista del Sprint Backlog 4 en Trello
-
-![](Assets/Aspose.Words.7809d561-d22f-463d-87d3-858937c9d5c9.001.png)
-
-|**Sprint #**|**Sprint 4**||||||
-| :- | :- | :- | :- | :- | :- | :- |
-|**User Story**|**Work-item / Task**||||||
-|ID|Title|Id|Descripción|Estimación (horas)|Asignado a:|Status (pendiente/en proceso/en revisión/hecho)|
-|<p>EP04   /</p><p>US04</p>|Edicion de un Documento|T8|Conectar el endpoint correspondiente para editar documentos e implementar los métodos GET,POST,PUT y DELETE.|3H|Mariana|Hecho|
-|EP06 / US02|Agregar personas al grupo|T5|Conectar el endpoint para agregar personas a un grupo e implementar el método POST, validando la existencia de la persona y el grupo, y gestionando permisos y roles.|4H|Eduardo|Hecho|
-|EP08 / US03|Cambio de contraseña|T7|Implementar funcionalidad en la sección de settings|2H|Marcelo|Hecho|
-|EP4 / US02|Visualizar detalles de Terrenos|T2|Conectar el endpoint correspondiente e implementar el método GET para obtener detalles de terrenos, gestionando permisos para acceso autorizado.|4H|Piero|Hecho|
-|EP3 / US03|Edición de un recurso|T3|Conectar el endpoint correspondiente para editar recursos e implementar los métodos GET y PUT.|4H|Natanael|Hecho|
-|EP3 / US02|Borrado de recurso|T4|Conectar el endpoint correspondiente e implementar el método DELETE.|4H|Natanael|Hecho|
-|EP1 / US02|Acceso de usuarios|T1|Conectar el endpoint correspondiente e implementar el método POST para login de usuarios, validando credenciales y gestionando tokens de sesión.|8H|Marcelo|Hecho|
-|EP06 / US01|Creación de grupo de Trabajo|T9|Conectar el endpoint correspondiente e implementar el método POST para crear grupos de trabajo.|4H|Eduardo|Hecho|
-|<p>EP04 /   </p><p>US05</p>|Eliminar O Descargar un Documento|T10|Conectar el endpoint correspondiente e implementar los métodos DELETE y GET (para descargar documentos), con validaciones y manejo de permisos|5H|Mariana|Hecho|
-
-1. **Development Evidence for Sprint Review.**
-
-En esta sección incluiremos el registro de los últimos commits realizados en las ramas main y develop respectivamente de los repositorios de nuestra landing page, web application y API en Github.
-
-**Nuestros repositorios:**
-
-- **Landing page: <https://github.com/upc-pre-202401-si730-sw53-agrisynth/agrisynth-landing-page>** 
-- **Web application: <https://github.com/upc-pre-202401-si730-sw53-agrisynth/agrisynth-frontend>** 
-- **RESTful API: <https://github.com/upc-pre-202401-si730-sw53-agrisynth/agrisynth-backend>** 
-
-|**Repository**|**Branch**|**Commit Id**|**Commit Message**|**Commit Message Body**|**Committed on (Date)**|
-| :- | :- | :- | :- | :- | :- |
-|agrisynth-frontend|develop|959a92b58d64f409fd2f3e64ceece52781145b9e|feat(iam): added iam component|none|22/06/24|
-|agrisynth-frontend|develop|257ff8db8cd1f360e79f4b0e9e3fd27c47271e88|fix: changed connection with backend|none|23/06/24|
-|agrisynth-frontend|develop|c990a758f8cfa48073c434fd80e0138436d8c13d|fix(iam): fixed issues that prevented connection|none|25/06/24|
-|agrisynth-frontend|develop|dcddf88fed1183a6f44c7002df2466cd6c0ecc3a|fix(): fix update service from Team Worker and TeamWorker|none|25/06/24|
-|agrisynth-frontend|develop|e2e793abaeb6bf80ad3b519f4e4dcdea14e7b29a|style(IAM): changed sign in and sign up styles|none|25/06/24|
-|agrisynth-frontend|develop|108a75747c914f3199ccf27036324ab691480038|Merge branch 'feature/iam' of https://github.com/upc-pre-202401-si730-sw53-agrisynth/agrisynth-frontend into feature/iam|none|25/06/24|
-|agrisynth-frontend|develop|c809b5e2fd70220b7c9d909fd8c051f74a2f0e61|<p>Merge pull request #19 from upc-pre-202401-si730-sw53-agrisynth/feature/iam</p><p></p>|none|25/06/24|
-|agrisynth-backend|develop|6ec1402ef3a616d0a5a48cf88da6ee3cf0887da3|<p>feat(IAM): Added IAM files</p><p></p>|none|22/06/24|
-|agrisynth-backend|develop|05c9307a7ba133cd35556baeb3e509260f76c4cb|feat(IAM): Implemented IAM feature|none|22/06/24|
-|agrisynth-backend|develop|b3a29d5964e68ed2031234163430ee09a3cc0b05|fix(IAM): fixed dependency issue|none|22/06/24|
-|agrisynth-backend|develop|bb67f67bec428651587179b0e2008c1ee15507a8|Merge pull request #11 from upc-pre-202401-si730-sw53-agrisynth/feature/IAM|Feature/iam|22/06/24|
-|agrisynth-backend|develop|d318041ff4ea739d4eab2b305a755898ad4cc88b|fix: fixed connection problem|none|23/06/224|
-|agrisynth-backend|develop|7ae40d57577fcc62a7bb795f9f0b4377e7f13977|fix(IAM): fixed connection issue|none|23/06/224|
-|agrisynth-backend|develop|61d63079c3250245340863cb3476ca5d8a356d28|Merge pull request #12 from upc-pre-202401-si730-sw53-agrisynth/feature/IAM|Feature/iam|25/06/24|
-|agrisynth-backend|develop|30ba840c43cdc47e9c9c880f812dffec6bc73966|Merge pull request #13 from upc-pre-202401-si730-sw53-agrisynth/develop|Develop|25/06/24|
-|agrisynth-backend|develop|4c933ff026b9bd99fb7ad779c47f50913aa1b3e6|feat: add the method update-document|Develop|25/06/24|
-
-1. **Testing Suite Evidence for Sprint Review.**
-
-En el alcance del sprint 4, se han incorporado pruebas de aceptación escritas en Gherkin, asegurando que los requisitos del usuario se validen de manera efectiva. A continuación, se proporciona el enlace al repositorio de las pruebas de aceptación, donde se puede encontrar una descripción detallada de los escenarios de prueba y su implementación:
-Link del repositorio en GitHub de los Acceptance-tests: <https://github.com/upc-pre-202401-si730-sw53-agrisynth/upc-pre-202401-si730-sw53-agrisynth-acceptance-tests> 
-
-![](Assets/Aspose.Words.7809d561-d22f-463d-87d3-858937c9d5c9.002.png)
-
-![](Assets/Aspose.Words.7809d561-d22f-463d-87d3-858937c9d5c9.003.png)
-
-![](Assets/Aspose.Words.7809d561-d22f-463d-87d3-858937c9d5c9.004.png)
-**Pruebas Unitarias:**
-![](Assets/Aspose.Words.7809d561-d22f-463d-87d3-858937c9d5c9.005.png)
-
-|**Repository**|**Branch**|**Commit Id**|**Commit Message**|**Commit Message Body**|**Committed on (Date)**|
-| :- | :- | :- | :- | :- | :- |
-|**upc-pre-202401-si730-sw53-agrisynth/upc-pre-202401-si730-sw53-agrisynth-acceptance-tests**|**main**|**486c2aa058a162c6c58d04aa1c09a4a53ebdbc28**|**feat: add Gherkin criteria for EP06/US05 on member permission settings**|**-**|22/06/24|
-|**upc-pre-202401-si730-sw53-agrisynth/upc-pre-202401-si730-sw53-agrisynth-acceptance-tests**|**main**|**75e3376c00a4fa9f52f688599932a10f44effdef**|<p>**feat: add Gherkin criteria for EP06/US04 on managing group member removal**</p><p></p><p></p>|**-**|22/06/24|
-|**upc-pre-202401-si730-sw53-agrisynth/upc-pre-202401-si730-sw53-agrisynth-acceptance-tests**|**main**|**716dcb1b6d210c5bff7c523bd5fc40ad08c3d12a**|**feat: add us04 and us05**|**-**|25/06/24|
-|**upc-pre-202401-si730-sw53-agrisynth/upc-pre-202401-si730-sw53-agrisynth-acceptance-tests**|**main**|**4a2b6c52d4f4ecaf405cec28b6f2914a6bc13ce2**|**fix: sintaxis del scenario 2 del US07**|**-**|25/06/24|
-|**upc-pre-202401-si730-sw53-agrisynth/upc-pre-202401-si730-sw53-agrisynth-acceptance-tests**|**main**|**3ebe50e92ff4dda2c184d3c539af5a582af6d2cd**|**Added TS02 and TS03**|**-**|25/06/24|
-**
-
-
-1. **Execution Evidence for Sprint Review.**
-
-En este sprint logramos como cuarta fase de nuestro producto final, terminar de desarrollar todos los endpoints que nuestro frontend utilizará además de implementar la autorización IAM. 
+![](Assets/Aspose.Words.b8569df6-648b-4de3-a36e-0fe88e187486.001.png)
 
 ![](Assets/Aspose.Words.7809d561-d22f-463d-87d3-858937c9d5c9.006.png)
 
-Por predeterminado, si es que intentamos acceder a alguna de las operaciones, el sistema nos lo impedirá por no tener un token registrado:
-
 ![](Assets/Aspose.Words.7809d561-d22f-463d-87d3-858937c9d5c9.007.png)
 
-Podemos ingresar obtener el token ingresando con un usuario registrado:
 
 ![](Assets/Aspose.Words.7809d561-d22f-463d-87d3-858937c9d5c9.008.png)
 
-Al ingresar el token:
 
 ![](Assets/Aspose.Words.7809d561-d22f-463d-87d3-858937c9d5c9.009.png)
 
-Ya nos deja hacer las operaciones:
 
 ![](Assets/Aspose.Words.7809d561-d22f-463d-87d3-858937c9d5c9.010.png)
 
 
-1. **Services Documentation Evidence for Sprint Review.**
+![](Assets/Aspose.Words.b8569df6-648b-4de3-a36e-0fe88e187486.010.png)
 
-Para este sprint utilizamos los servicios de la API que nosotros mismos hicimos utilizando el lenguaje C# y Microsoft .NET Framework. A continuación, mostramos todos los endpoints realizados por nuestro equipo por cada Bounded Context correctamente documentado en Swagger.
+![](Assets/Aspose.Words.b8569df6-648b-4de3-a36e-0fe88e187486.011.png)
 
-Repositorio del backend en github: 
-
-<https://github.com/upc-pre-202401-si730-sw53-agrisynth/agrisynth-backend> 
-
-|**Bounded Context**|IAM||
-| :- | :- | :- |
-|**Entity**|**Endpoint URL**|**Swagger**|
-||/api/v1/authentication|![](Assets/Aspose.Words.7809d561-d22f-463d-87d3-858937c9d5c9.011.png)|
+![](Assets/Aspose.Words.b8569df6-648b-4de3-a36e-0fe88e187486.012.png)
 
 
+### <a name="api-documentation"></a> 5.2.6. RESTful API documentation
 
 |**Bounded Context**|Documents||
 | :- | :- | :- |
@@ -1998,460 +1688,13 @@ Repositorio del backend en github:
 |**Entity**|**Endpoint URL**|**Swagger**|
 ||/api/v1/users|![](Assets/Aspose.Words.7809d561-d22f-463d-87d3-858937c9d5c9.019.png)|
 
+### <a name="team-insights"></a> 5.2.7. Team Collaboration Insights
 
-1. **Software Deployment Evidence for Sprint Review.**
-
-Primero ingresamos a railway.com y nos logueamos para después poder llegar a esta sección en la que haremos click en start a new project.
-
-![](Assets/Aspose.Words.7809d561-d22f-463d-87d3-858937c9d5c9.020.png)
-
-Después en la siguiente pantalla presionaremos en la opción “Deploy MySQL”.
-
-![](Assets/Aspose.Words.7809d561-d22f-463d-87d3-858937c9d5c9.021.png)
-
-En la siguiente sección nos saldrán una serie de opciones de configuración para nuestro archivo appsettings.json que tendremos que actualizar.
-
-![](Assets/Aspose.Words.7809d561-d22f-463d-87d3-858937c9d5c9.022.png)
-
-Tras haber hecho eso solo presionaremos en “Run Code” en Intellij Idea  y se desplegará la base de datos y la lógica de backend en 2 servicios que estarán interconectados.
-
-Por tanto nuestros productos finales desplegados son:
-`	`**Landing page: <https://upc-pre-202401-si730-sw53-agrisynth.github.io/agrisynth-landing-page/>** 
-
-**Web application:** 
-
-[**https://cropsphere.netlify.app/](https://cropsphere.netlify.app/)** 
-
-**RESTful API:** 
-
-[**https://agrisynthservice-production.up.railway.app/swagger/index.html](https://agrisynthservice-production.up.railway.app/swagger/index.html)** 
-
-1. **Team Collaboration Insights for Sprint Review**
-
-Durante este sprint, implementamos un enfoque estructurado para proteger la rama "main" y facilitar la colaboración eficiente del equipo. Creamos una rama "develop" de la que cada integrante del grupo derivó su propia sub-rama "feature" para subir capítulos del reporte, siguiendo las convenciones establecidas (conventional commit y git flow).
-
-En cuanto a las últimas modificaciones en la landing page, se añadieron las secciones "About the Product" y "About the Team". En el frontend, se realizaron varias mejoras y correcciones en las vistas. Para el backend, se añadieron endpoints cruciales, incluyendo los de autenticación, recursos, etc. Estos esfuerzos conjuntos reflejan el trabajo colaborativo del equipo y el compromiso con la calidad del proyecto, como se demuestra en los insights obtenidos.
-
-
-**Github analytics de nuestro cuarta sprint:** 
-
-![](Assets/Aspose.Words.7809d561-d22f-463d-87d3-858937c9d5c9.023.png)
-
-
-1. **Validation Interviews.** 
-   1. **Diseño de Entrevistas.**
-
-***Preguntas generales:***
-
-¿Cómo te llamas?
-
-¿Qué edad tienes?
-
-¿Cuál es tu profesión?
-
-¿Cuáles son los principales desafíos que enfrenta en su gestión agrícola actualmente?
-
-**Segmento objetivo:** Ingenieros Agrónomos que Asesoran a Agricultores
-
-***Preguntas sobre preferencias y personalidad [en caso de ser un nuevo entrevistado que no participó en la anterior entrevista:***
-
-¿Cómo gestiona la comunicación y colaboración con  los agricultores que asesora?
-
-¿Existen barreras que dificultan el intercambio efectivo de información y recomendaciones?
-
-¿Cuáles son los principales obstáculos que encuentra para la adopción de nuevas tecnologías entre los agricultores a los que asesora?
-
-¿Cómo personalizar sus recomendaciones basadas en la tecnología para adaptarse a las diferentes necesidades de los agricultores?
-
-¿Cómo recopila y utiliza el feedback de los agricultores para mejorar sus servicios de asesoramiento?
-
-***Preguntas principales:***
-
-1. ¿Qué te parece el diseño de la landing page? ¿Te motiva a ingresar a la aplicación y registrarte?
-1. ¿Consideras que la aplicación dispone de una interfaz fácil e intuitiva de utilizar?
-
-   a. Si la respuesta es **SÍ,** ¿Por qué lo considera así?
-
-`               `b. Si la respuesta es **NO ,** ¿Qué funcionalidad crees que falta o sobra en la                 aplicación para que tengas más interés en usarla?
-
-1. ¿Consideras que la sección de inventario de recursos puede ayudarte a gestionar mejor tus insumos y equipos como ingeniero agrónomo? ¿De qué manera crees que esta función podría optimizar tu planificación y compras futuras?
-1. ¿Encuentras útil la sección de terrenos para identificar y buscar rápidamente terrenos fértiles? ¿Cómo crees que esta función podría facilitar y mejorar tu trabajo en la gestión agrícola?
-
-***Preguntas complementarias:***
-
-1. ¿Qué tipo de dispositivo (celular, tablet, laptop, etc.) has utilizado al momento de probar la landing page y la aplicación web?
-1. ¿Cuál fue el navegador que utilizaste en esta ocasión para visualizar el contenido?
-1. ¿Hubo algún aspecto visual como el posicionamiento de los elementos que no te terminó de agradar?
-
-**Segmento objetivo:**  Empresas Agrícolas de Gran Escala
-
-***Preguntas sobre preferencias y personalidad [en caso de ser un nuevo entrevistado que no participó en la anterior entrevista:***
-
-¿Cómo gestiona y analiza los datos agrícolas para tomar decisiones estratégicas?
-
-¿Qué tipo de datos le resultan más valiosos y por qué?
-
-¿Cómo asegura la eficiencia operativa a medida que escala sus operaciones agrícolas?
-
-¿Qué desafíos enfrenta al integrar nuevas tecnologías en sus operaciones a gran escala?
-
-¿De qué manera íntegra prácticas de sostenibilidad en sus operaciones y qué impacto han tenido?
-
-¿Cómo mide y comunica los resultados de sus esfuerzos de sostenibilidad a stakeholders internos y externos?
-
-***Preguntas principales:***
-
-1. ¿Qué te parece el diseño de la landing page? ¿Te motiva a ingresar a la aplicación y registrarte?
-1. ¿Consideras que la aplicación dispone de una interfaz fácil e intuitiva de utilizar?
-
-   a. Si la respuesta es **SÍ,** ¿Por qué lo considera así?
-
-`               `b. Si la respuesta es **NO ,** ¿Qué funcionalidad crees que falta o sobra en la                 aplicación para que tengas más interés en usarla?
-
-1. ¿Consideras que la sección de grupos puede ayudarte a organizar mejor a tus trabajadores y optimizar su rendimiento en la empresa agrícola? ¿Cómo crees que esta función podría mejorar la gestión y la eficiencia de tu equipo?
-1. ¿Encuentras útil la sección de documentos para almacenar y supervisar distintos tipos de documentos relacionados con el trabajo agrícola? ¿De qué manera crees que esta función podría facilitar la supervisión y mejorar la gestión de tu empresa?
-
-***Preguntas complementarias:***
-
-1. ¿Qué tipo de dispositivo (celular, tablet, laptop, etc.) has utilizado al momento de probar la landing page y la aplicación web?
-1. ¿Cuál fue el navegador que utilizaste en esta ocasión para visualizar el contenido?
-1. ¿Hubo algún aspecto visual como el posicionamiento de los elementos que no te terminó de agradar?
-
-   1. **Registro de Entrevistas.** 
-
-      **Segmento 1:** 
-
-**Entrevista 1:**
-
-**Nombre  Completo del entrevistado:** Giancarlo Stephano Romero Paredes
-
-**Edad:** 18
-
-**Distrito:** Surco
-
-**URL:** 
-
-**Inicio de entrevista:** 0:00
-
-**Duración:** 7:09
-
-**Resumen:** Giancarlo Stephano Romero Paredes nos comentó que le agrada bastante nuestra aplicación y la landing page. No realizó ningún comentario negativo acerca de ninguna de las dos soluciones de software expuestas
-
-**Entrevista 2:**
-
-![](Assets/Aspose.Words.b8569df6-648b-4de3-a36e-0fe88e187486.015.png)
-
-**Nombre  Completo del entrevistado: Sebastian Escobar**
-
-**Edad: 21**
-
-**Distrito: San Juan de Lurigancho**
-
-**URL: <https://upcedupe-my.sharepoint.com/:v:/g/personal/u202217389_upc_edu_pe/EU7AaNADP7dLp44XyW_GYBABPT0hjUrqh9bHv1h7G51Qmw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=7dMOr6>** 
-
-**Inicio de entrevista:00:30**
-
-**Duración: 4:30** 
-
-**Resumen:** Durante la entrevista, Sebastián Escobar, un estudiante de 21 años de ingeniería agrónoma, compartió su experiencia y opiniones sobre la gestión agrícola y el diseño de una landing page para una aplicación web.
-
-Sebastián gestiona la comunicación con los agricultores a través de visitas regulares, reuniones y aplicaciones de mensajería como WhatsApp, enfrentando barreras como la resistencia al cambio, falta de acceso a tecnología y analfabetismo tecnológico. Los principales obstáculos en la adopción de nuevas tecnologías incluyen costos elevados, falta de conocimiento y desconfianza en la efectividad.
-
-Para personalizar sus recomendaciones, se basa en factores como el tamaño de la finca, tipo de cultivos, condiciones del suelo y clima, y recursos disponibles. Utiliza encuestas, entrevistas y observaciones directas para recopilar feedback y mejorar sus servicios.
-
-Sebastián considera la landing page de la aplicación web atractiva y bien estructurada, lo que lo motiva a registrarse. Encuentra la interfaz fácil e intuitiva, con una navegación clara y menús bien etiquetados. La sección de inventarios de recursos le resulta útil para gestionar insumos y equipos, y la sección de terrenos facilita la identificación de terrenos fértiles. Probó la landing page y la aplicación en una laptop con Google Chrome. Aunque está satisfecho con el diseño, sugiere mejorar algunos elementos para una navegación más intuitiva, especialmente los botones de adquisición.
-
-**Entrevista 3:**
-
-**Nombre  Completo del entrevistado: Jean Pierre Grandez Mansilla**
-
-**Edad: 25**
-
-**Distrito: Callao**
-
-**URL: <https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212645_upc_edu_pe/EbO9qjRHWDFKjLPIx85zHPEByxsp9abOL8M7E7DJi71g2w?e=z4eRNq&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D>** 
-
-**Inicio de entrevista:0:00**
-
-**Duración:7:10**
-
-**Resumen:**
-
-Jean Pierre Grandez Mansilla, un ingeniero de agronomía de 25 años del distrito de Callao, evaluó la landing page y las aplicaciones web dirigidas a agricultores. Consideró que el diseño de la landing page es correcto e intuitivo, destacando su capacidad informativa para captar el interés de sus colegas. Según Jean Pierre, la organización y la presentación son claves para motivar el registro en la aplicación, lo que valida la efectividad del diseño y su enfoque en la experiencia del usuario.
-
-Jean Pierre también evaluó la interfaz de la aplicación, calificándola como fácil e intuitiva de usar. Afirmó que la sección de grupos podría ser beneficiosa para organizar mejor a los trabajadores y optimizar su rendimiento en la empresa agrícola. Además, consideró útil la sección de documentos para supervisar y almacenar documentos relacionados con el trabajo agrícola. Jean Pierre utilizó una laptop y el navegador Chrome para la evaluación, sin encontrar problemas significativos en el posicionamiento visual de los elementos.
-
-**Segmento 2:**
-
-**Entrevista 1:**
-
-![](Assets/Aspose.Words.b8569df6-648b-4de3-a36e-0fe88e187486.016.png)
-
-**Nombre  Completo del entrevistado: Diego Rafael Cisneros Tafur** 
-
-**Edad: 24 años**
-
-**Distrito: San Botja**
-
-**URL: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201c607_upc_edu_pe/EfqJkYQ9WAxMvOdUwmM0v4wBwy5MN0LOwnExBadT2C7Mew?e=a2aOl0**](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201c607_upc_edu_pe/EfqJkYQ9WAxMvOdUwmM0v4wBwy5MN0LOwnExBadT2C7Mew?e=a2aOl0)**
-
-**Inicio de entrevista:**
-
-**Duración: 5 minutos con 15 segundos**
-
-**Resumen:**
-
-El entrevistado consideró que el diseño de la landing page es limpio, bien cuidado, y la información no resulta abrumadora. Lo describió como moderno y funcional. Indicó que la aplicación es fácil de usar y registra interés en utilizarla. Tío Sinels expresó que esta función podría ayudarle a organizar mejor a los trabajadores y aumentar el rendimiento de la empresa. Destacó la utilidad de tener toda la información centralizada, incluyendo la producción y otras funciones, en un mismo lugar. Consideró útil esta sección para almacenar documentos relacionados con el trabajo agrícola, como documentos de compra y venta, arrendamiento, boletas, facturas y otros documentos importantes. Mencionó que esta función facilitaría la supervisión y mejoraría la gestión de su empresa. Utilizó una laptop y el navegador Microsoft Edge para acceder a la aplicación. Señaló que la barra lateral (sidebar) es un poco grande y sugirió reducir su tamaño para mejorar la experiencia visual. Aparte de este detalle, comentó que todo lo demás se veía bastante bien.
-
-**Entrevista 2:**
-
-![](Assets/Aspose.Words.b8569df6-648b-4de3-a36e-0fe88e187486.017.png)
-
-**Nombre  Completo del entrevistado: Joel Aquino Pizarro**
-
-**Edad: 24 años**
-
-**Distrito: Surco**
-
-**URL:<https://upcedupe-my.sharepoint.com/:v:/g/personal/u202217389_upc_edu_pe/EZu2WRYM-I5Gv0lOa206p_oBqq1SPqWCo4WjprEXb_fYxw?e=2n2YBi&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D>** 
-
-**Inicio de entrevista:00:30**
-
-**Duración: 4:32**
-
-**Resumen:**
-
-Joel Aquino, un ingeniero en gestión empresarial de 24 años, compartió sus impresiones sobre la landing page y la aplicación web durante una entrevista.
-
-Además, comentó que la landing page le pareció muy atractiva y profesional, lo cual lo motivó a registrarse. Destacó que la interfaz de la aplicación es fácil e intuitiva de usar, con una navegación clara y menús bien etiquetados. Considera que la sección de grupos es especialmente útil para organizar a sus trabajadores, permitiendo asignar tareas específicas a diferentes grupos, lo que facilita la supervisión y mejora la eficiencia del equipo.
-
-Joel encontró muy útil la sección de documentos, que permite almacenar y supervisar distintos tipos de documentos relacionados con el trabajo agrícola. Esta centralización ayuda a mantener todo organizado y accesible, facilitando el cumplimiento de normativas.
-
-Para probar la landing page y la aplicación, utilizó una laptop con el navegador Google Chrome. En general, quedó satisfecho con el diseño y el posicionamiento de los elementos, encontrándolos adecuados y agradables a la vista.
-
-**Entrevista 3:**
-
-**Nombre  Completo del entrevistado: Piero Marquez**
-
-**Edad: 26**
-
-**Distrito:San Miguel**
-
-**URL: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u201923446_upc_edu_pe/EYXuCjUoXiVOqPiFX33DhvQB-0qR0OvHxIMUIhNHeQUgAQ?e=6EzJ3R&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D**](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201923446_upc_edu_pe/EYXuCjUoXiVOqPiFX33DhvQB-0qR0OvHxIMUIhNHeQUgAQ?e=6EzJ3R&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)**
-
-**Inicio de entrevista: 00:00**
-
-**Duración: 10:20**
-
-**Resumen:**
-
-Piero Marquez, de 26 años, comenta que le gustó el diseño de la aplicación en la página de destino. Los íconos e imágenes logran ubicar bien la información en cada sección, haciendo el diseño atractivo y funcional.
-
-Piero considera que la aplicación es fácil e intuitiva de utilizar. La interfaz está bien detallada y comunica claramente cada vista. Encontró particularmente útil la sección de terrenos, que facilita la búsqueda de terrenos específicos para diferentes tipos de cultivo. Además, sugiere añadir más detalles sobre los trabajadores y sus roles en la sección de grupos, lo que mejoraría la gestión de recursos humanos.
-
-Para probar la página de destino y la aplicación, Piero utilizó una laptop con el navegador Brave, lo que demuestra la compatibilidad de la aplicación con diferentes navegadores.
-
-En resumen, Piero ofrece una valoración positiva del diseño y funcionalidad de la aplicación, y sus sugerencias proporcionan una valiosa retroalimentación para futuras mejoras.
-
-
-
-1. **Evaluaciones según heurísticas.** 
-
-**UX Heuristics & Principles Evaluation**
-
-Usability – Inclusive Design – Information Architecture
-
-**CARRERA :** Ingeniería de Software
-
-**CURSO :** Aplicaciones Web
-
-**SECCIÓN :** SW53
-
-**PROFESORES :** Todos
-
-**AUDITOR :** AgriSynth
-
-**CLIENTE(S) :** Todos
-
-**SITE o APP A EVALUAR:** AgriSynth
-
-**TAREAS A EVALUAR:**
-
-El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas:
-
-**Desktop landing page**
-
-Información y descripción de la aplicación y sus funcionalidad
-
-Información y breve descripción sobre el equipo de trabajo
-
-Visualización de testimonios
-
-Header y footer funcionales
-
-**Desktop Web Applications**
-
-Registro de nuevo usuario
-
-Inicio de sesión de usuario existente
-
-Header y footer funcionales
-
-Pestañas de navegación dentro de la aplicación
-
-Botones interactivos y de uso intuitivo
-
-Visualización de ítems relacionados
-
-**No incluidas en esta versión de la evaluación:**
-
-**Desktop landing page**
-
-Formulario para crear cuenta o cambiar contraseña
-
-Política de privacidad y condiciones de uso
-
-**Desktop Web Applications**
-
-Visualización de Perfil de usuario
-
-Descripción detallada de productos al seleccionar
-
-Política de privacidad y condiciones de uso
-
-ESCALA DE SEVERIDAD:
-
-Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:
-
-|Nivel|Descripción|
-| :- | :- |
-|1|Problema superficial: puede ser fácilmente superado por el usuario u ocurre con muy poca frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo.|
-|2|Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja resolverlo de cara al siguiente release.|
-|3|Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es importante que sean corregidos y se les debe asignar una prioridad alta.|
-|4|Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento.|
-
-
-**TABLA RESUMEN AMBOS SEGMENTOS:**
-
-**Web Application**
-
-|#|Problema|Escala de severidad|Heurística/Principio violado|
-| :- | :- | :- | :- |
-|1||1|IA - Is it clear?|
-|2||2|IA - Is it findable?|
-|3||1|Usability - Consistency and standards|
-
-**Landing Page**
-
-|#|Problema|Escala de severidad|Heurística/Principio violado|
-| :- | :- | :- | :- |
-|1||1|IA - Is it clear?|
-|2||1|IA - Is it usable?|
-|3||1|IA - Is it usable?|
-
-
-
-**DESCRIPCIÓN DE PROBLEMAS:**
-
-**1. Web Application**
-
-**PROBLEMA #1:** 
-
-Severidad: 1
-
-Heurística violada: IA - Is it clear?
-
-**Problema:** La navegación dentro de la aplicación no es clara, y los usuarios pueden tener dificultades para encontrar las secciones deseadas.
-
-**Recomendación:** Mejorar la estructura de la navegación y añadir etiquetas descriptivas a las pestañas.
-
-**PROBLEMA #2:** 
-
-Severidad: 2
-
-Heurística violada: IA - Is it findable?
-
-**Problema:**  La información relevante está oculta o no es fácilmente accesible.
-
-**Recomendación:** Reorganizar la información para que sea más accesible y visible desde la pantalla principal.
-
-**2. Landing Page**
-
-**PROBLEMA #1:**
-
-Severidad: 1
-
-Heurística violada: Usability - Consistency and standards
-
-Problema: Hay inconsistencias en el diseño y los estándares utilizados en diferentes secciones de la aplicación.
-
-Recomendación: Establecer y seguir un conjunto claro de directrices de diseño para mantener la consistencia en toda la aplicación.
-
-**PROBLEMA #2:**
-
-Severidad: 1
-
-Heurística violada: IA - Is it clear?
-
-Problema: La información sobre la aplicación y sus funcionalidades no es clara y puede confundir a los usuarios.
-
-Recomendación: Simplificar y clarificar la descripción de la aplicación y sus funcionalidades.
-
-**PROBLEMA #3:**
-
-Severidad: 1
-
-Heurística violada:IA - Is it usable?
-
-Problema:  Los testimonios no son fáciles de visualizar y pueden pasar desapercibidos.
-
-Recomendación: Reorganizar la sección de testimonios para que sean más prominentes y fáciles de leer.
-
-1. **Video About-the-Product.**
+## <a name="product-video"></a> 5.3. Video About-the-Product
 
 En esta sección se incluye el video about the producto que presenta las funcionalidades principales de la aplicación Cropsphere a los usuarios potenciales.
 
 A continuación, se incluye el link del video about the producto:
-
-·         Microsoft Stream:[ ](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201923446_upc_edu_pe/EXu3NIVaUFxInNEPk8ZDWJYBfyGJFXYyfXgKeswUWGVqJQ?e=my6Ji3&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)[Cropsphere-About the product.mp4](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201923446_upc_edu_pe/EXu3NIVaUFxInNEPk8ZDWJYBfyGJFXYyfXgKeswUWGVqJQ?e=my6Ji3&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
-
-·         Youtube:[ ](https://www.youtube.com/watch?v=P0Ky9_pk6vY)<https://www.youtube.com/watch?v=P0Ky9_pk6vY>
-
-
-
-Duración del video: 00:32
-
-ScreenShot del video:
-
-![](Assets/Aspose.Words.b8569df6-648b-4de3-a36e-0fe88e187486.018.png)
-
-1. **Video About-the-Team.**
-
-En esta sección se incluye el video about the team que presenta a los miembros del desarrollo de la aplicación Cropsphere.
-
-A continuación, se incluye el link del video about the team:
-
-·         Microsoft Stream:[ ](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201923446_upc_edu_pe/EXu3NIVaUFxInNEPk8ZDWJYBfyGJFXYyfXgKeswUWGVqJQ?e=my6Ji3&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)[About the team ‐ Cropsphere.mp4](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201923446_upc_edu_pe/EZy4vpIj7otGjglMcI8XPh0BAfZVot80vtCg9FY6i3CCrA?e=zzUGTh&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
-
-·         Youtube:[ ](https://www.youtube.com/watch?v=P0Ky9_pk6vY)https://www.youtube.com/watch?v=8fw-AK7jjQA
-
-
-
-Duración del video: 5:48
-
-ScreenShot del video:
-
-![](Assets/Aspose.Words.b8569df6-648b-4de3-a36e-0fe88e187486.019.png)
-
-**Conclusiones**
-
-- Nuestro análisis comparativo con los competidores resaltó la necesidad de diferenciarnos claramente en el mercado. Identificamos y destacamos nuestras ventajas competitivas, como la integración de asesoramiento agronómico con tecnología avanzada.
-- A través de las entrevistas realizadas, hemos obtenido una comprensión más profunda de las necesidades, desafíos y prioridades de las empresas agrícolas de gran escala.
-- Dada la diversidad de empresas agrícolas de gran escala, es crucial que nuestra solución sea adaptable y escalable para satisfacer una variedad de necesidades y contextos operativos. Esto requerirá un enfoque flexible en el diseño y desarrollo de nuestro producto, así como la capacidad de ajustarnos a medida que el mercado evoluciona.
-- Las opiniones y comentarios recopilados durante las entrevistas también nos han permitido identificar áreas de mejora potenciales en nuestro enfoque, producto o estrategias de comercialización. Estas áreas pueden incluir aspectos como la personalización de la experiencia del usuario o la integración de funcionalidades adicionales.
-- La comunicación y la colaboración entre los diferentes actores del sector agrícola son clave para el éxito de las operaciones a gran escala. Las empresas buscan soluciones que faciliten la comunicación directa entre agricultores, asesores y otros stakeholders, fomentando así la coordinación y el intercambio de información.
-
-
 
 **Bibliografía**
 
