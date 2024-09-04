@@ -937,20 +937,23 @@ En el landing page, en la parte superior se ubicará la barra de navegación y u
 ![](https://cdn.discordapp.com/attachments/323597812694777858/1227108503714533376/Landing_Page_1.png?ex=662734d9&is=6614bfd9&hm=4fdf2b9c3c2b1eb30642efe68f2b65fc14b1cfdebde469e1ed0b55cdc527bc2f&)
 
 ## <a name="mobile-ui"></a> 4.4 Mobile Applications UX/UI Design
-
+En esta sección, se agregarán los wireframes y Mockups de las aplicaciones móviles
+Enlace del figma donde se desarrollaron los prototipos: **[Mobile Design](https://www.figma.com/design/RDhRuyaiuzKiWGcMOi5C05/Agrisynth-Mockups---Wireframes?node-id=0-1&t=EC3ejYSG5UY8SBUR-1)**
 ### <a name="mobile-wireframe"></a> 4.4.1. Mobile Applications Wireframes
-
+![Mobile Wireframes](images/mobile-wireframe.png)
 ### <a name="mobile-wireflow"></a> 4.4.2. Mobile Applications Wireflow Diagrams
 
 ### <a name="mobile-mockup"></a> 4.4.3. Mobile Applications Mock-ups
-
+![Mobile Wireframes](images/mobile-mockup.png)
 ### <a name="mobile-userflow"></a> 4.4.4. Mobile Applications User Flow Diagrams
 
 ## <a name="mobile-prototype"></a> 4.5. Mobile Applications Prototyping
+En esta sección, se agregarán los protipos de las aplicaciones móviles
+Enlace del figma donde se desarrollaron los prototipos: **[Mobile Prototypes](https://www.figma.com/design/RDhRuyaiuzKiWGcMOi5C05/Agrisynth-Mockups---Wireframes?node-id=0-1&t=EC3ejYSG5UY8SBUR-1)**
 
 ### <a name="android-prototype"></a> 4.5.1. Android Mobile Applications Prototyping
 
-### <a name="ios-prototype"></a> 4.5.1. Android Mobile Applications Prototyping
+### <a name="ios-prototype"></a> 4.5.2. iOS Mobile Applications Prototyping
 
 ## <a name="web-ui"></a> 4.6. Web Applications UX/UI Design
 
