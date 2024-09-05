@@ -263,8 +263,8 @@ Lo que hace única a nuestra startup es nuestro compromiso con el desarrollo sos
     <th colspan="2">Miguel Ángel Huamán Cataño</th>
   </tr>
   <tr>
-    <td> <img src="" alt="Miguel Ángel Huamán Cataño"> </td>
-    <td> Descripción Básica </td>
+    <td> <img src="images/perfiles-miguelhuaman.png" alt="Miguel Ángel Huamán Cataño"> </td>
+    <td> Mi nombre es Miguel Ángel Huamán Cataño, tengo 20 años y soy estudiante de Ingeniería de Software. Soy una persona que disfruta trabajar con empeño para alcanzar mis objetivos, nunca me rindo a pesar de los momentos difíciles, y haré todo lo posible para seguir mejorando en este largo camino de ser un buen profesional. </td>
   </tr>
   <tr>
     <th colspan="2">Mario Joaquin Lopez Acuña</th>
