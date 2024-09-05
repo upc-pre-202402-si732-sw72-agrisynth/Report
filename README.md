@@ -250,7 +250,7 @@ Lo que hace única a nuestra startup es nuestro compromiso con el desarrollo sos
   </tr>
   <tr>
     <td> <img src="" alt="Johan Karl Bottger Salazar"> </td>
-    <td> Descripcion Básica </td>
+    <td> Soy Johan Bottger, estoy en mi sexto ciclo de la carrera Ingeniería de Software en la UPC. Tengo conocimientos en los lenguajes C++, Python, JavaScript y HTML. Tengo gran interés en las metodologías ágiles por lo que en un futuro quisiera dedicarme a su implementación. </td>
   </tr>
   <tr>
     <th colspan="2">Diego Rafael Cisneros Tafur</th>
