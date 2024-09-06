@@ -285,7 +285,7 @@ Lo que hace única a nuestra startup es nuestro compromiso con el desarrollo sos
     <th colspan="2">Nestor Hernan Velarde Gonzales</th>
   </tr>
   <tr>
-    <td> <img src="imagenes/perfiles-nestor-velarde" alt="Nestor Hernan Velarde Gonzales"> </td>
+    <td> <img src="images/perfiles-nestor-velarde.jpg" alt="Nestor Hernan Velarde Gonzales"> </td>
     <td> Mi nombre es Néstor Velarde, actualmente estudiante de la carrera de Ingeniería de Software de 6to ciclo en la UPC. Mi compromiso con mi grupo es mantener un ambiente colaborativo y trabajo en equipo. Me gusta aprender nuevas herramientas y tecnologías de desarrollo. Tengo experiencia desarrollando pequeños proyectos basados en sistemas de electrónica y sé programación en Python, C++, Arduino, Logo soft. </td>
   </tr>
 </table>
