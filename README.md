@@ -603,6 +603,13 @@ Link del video de las entrevistas: [Video de Entrevistas](link)
     Resumen de la entrevista: Salvador Chamorro, ingeniero agrónomo de 26 años,
     el es gestor de una empresa agronoma de gran escala, nos cuenta que uno de sus principales problemas es la comunicación con los agricultores, asi mismo la toma de decisiones basadas en datos precisos y actualizados para mejorar los rendimientos y sostenibilidad de las explotaciones agrícolas que asesora. Salvador utiliza herramientas como Excel, Jira, Trello, WhatsApp, Meet, Zoom, entre otros. Salvador menciona que las características imprescindibles en una solución de software agrícola son que sea sencilla de utilizar, que cuente con todas las herramientas necesarias y que pueda ser utilizada sin una red Wi-Fi, Salvador también menciona que la tecnología podría mejorar la sostenibilidad y la productividad en la agricultura.
 
+    - **Entrevista 5:**
+    Entrevistador: Mario Joaquin Lopez Acuña
+    Entrevistado: Fabrizio Amir Leon Rivas
+    Minutos del video: 
+    Duración: 04:57 minutos
+    Resumen de la entrevista: Fabrizio Leon, ingeniero agrónomo de 35 años con mas de 5 años de experiencia en su area como profesional, nos cuenta su opinión basado en su experiencia propia, actualmente trabaja en una empresa exportadora de arándanos, su principal función es asesorar a agricultores enfrentando desafíos como el cambio climático, la gestión del agua y la adopción de nuevas tecnologías. Utiliza plataformas de monitoreo de cultivos, sensores y software de gestión agrícola, pero reconoce que la capacitación es clave para que los agricultores aprovechen estas herramientas, además destaca que el software agrícola debe ser fácil de usar, móvil y personalizable. Cree que la tecnología puede mejorar la sostenibilidad y productividad agrícola. En su trabajo, enfrenta barreras tecnológicas y generacionales, y adapta sus recomendaciones según el contexto de cada agricultor, recopilando feedback para mejorar su asesoramiento.
+
 ### <a name="analisis-entrevistas"></a> 2.2.3 Análisis de entrevistas
 
 - **Segmento objetivo: Ingenieros Agrónomos que Asesoran a Agricultores**
