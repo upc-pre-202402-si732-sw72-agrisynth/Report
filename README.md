@@ -289,7 +289,7 @@ Lo que hace única a nuestra startup es nuestro compromiso con el desarrollo sos
     <th colspan="2">Johan Karl Bottger Salazar</th>
   </tr>
   <tr>
-    <td> <img src="" alt="Johan Karl Bottger Salazar"> </td>
+    <td> <img src="images/perfiles-johanbottger.png" alt="Johan Karl Bottger Salazar"> </td>
     <td> Soy Johan Bottger, estoy en mi sexto ciclo de la carrera Ingeniería de Software en la UPC. Tengo conocimientos en los lenguajes C++, Python, JavaScript y HTML. Tengo gran interés en las metodologías ágiles por lo que en un futuro quisiera dedicarme a su implementación. </td>
   </tr>
   <tr>
@@ -629,11 +629,11 @@ Para esta sección se han creado personajes ficticios, cada uno diseñado para r
 
 - **Segmento objetivo: Ingenieros Agrónomos que Asesoran a Agricultores**
 
-![A](https://media.discordapp.net/attachments/1122567258317791342/1227826461667229696/UserPersona1v.png?ex=6629d180&is=66175c80&hm=8cd7906ad26f5a57163a3860aef2002e585bb1922eba85343429b827c8a4d72c&=&format=webp&quality=lossless&width=371&height=468)
+![User Persona: Carlos](images/user-persona-carlos.png)
 
 - **Segmento objetivo: Empresas Agrícolas de Gran Escala**
 
-![A](https://media.discordapp.net/attachments/1122567258317791342/1227826462078537768/UserPersona2.png?ex=6629d180&is=66175c80&hm=aec6a01c53cfe4daed1ed4e9bade5f26484c69617c28895b1549de1ea9e27335&=&format=webp&quality=lossless&width=315&height=468)
+![User Persona: Juan](images/user-persona-juan.png)
 
 ### <a name="user-task-matrix"></a> 2.3.2. User Task Matrix
 
@@ -682,17 +682,11 @@ A lo largo de este recorrido, tanto los Ingenieros Agrónomos como las Empresas 
 
 - **Segmento: Ingenieros Agrónomos que Asesoran a Agricultores**
 
-![A](https://media.discordapp.net/attachments/1122567258317791342/1227826413592383518/Journeymappingsegmento1.png?ex=6629d174&is=66175c74&hm=58a3e2d6d5451cc88ac1c9ad1efa683210dc9f84223c7b9abe3235f3c4eec286&=&format=webp&quality=lossless&width=603&height=468)
-
-[**https://uxpressia.com/w/DeRZM/m/5td8l](https://uxpressia.com/w/DeRZM/m/5td8l)** 
+![Journey Mapping: Carlos](images/journey-mapping-carlos.png)
 
 - **Segmento: Empresas Agrícolas de Gran Escala**
 
-![A](https://media.discordapp.net/attachments/1122567258317791342/1227826414003159101/Journeymappingsegmento2.png?ex=6629d175&is=66175c75&hm=9726bca77c4b3e16c165d053d282c6a797dd3eea77991371fbc1961a421eb348&=&format=webp&quality=lossless&width=550&height=468)
-
-
-[**https://uxpressia.com/w/DeRZM/m/vNTpp](https://uxpressia.com/w/DeRZM/m/vNTpp)** 
-
+![Journey Mapping: Juan](images/journey-mapping-juan.png)
 
 ### <a name="empathy-mapping"></a> 2.3.4. Empathy Mapping
 
@@ -700,29 +694,25 @@ En esta sección se aborda el Empathy Mapping, una herramienta esencial para ela
 
 *Segmento objetivo: Ingenieros Agrónomos que Asesoran a Agricultores*
 
-![A](https://media.discordapp.net/attachments/1122567258317791342/1227826510224691250/UserPersonaEmpathy.png?ex=6629d18b&is=66175c8b&hm=9b290e12f15d97caaaf1bf5c917946c4f41faf2f237224923e6bd055b09796d7&=&format=webp&quality=lossless&width=398&height=467)
-
-[**https://uxpressia.com/w/DeRZM/p/oj8l0](https://uxpressia.com/w/DeRZM/p/oj8l0)** 
+![Empathy Mapping: Carlos](images/empathy-mapping-carlos.png)
 
 
 *Segmento objetivo: Empresas Agrícolas de Gran Escala*
 
-![A](https://media.discordapp.net/attachments/1122567258317791342/1227826462887772230/UserPersona2Empathy.png?ex=6629d180&is=66175c80&hm=00c09b80a219a919751b29373e0bfda9788cc076a926f5b32267aefe7f8dfd12&=&format=webp&quality=lossless&width=419&height=468)
-
-[**https://uxpressia.com/w/DeRZM/p/C8egI](https://uxpressia.com/w/DeRZM/p/C8egI)** 
+![Empathy Mapping: Juan](images/empathy-mapping-juan.png)
 
 ### <a name="as-is"></a> 2.3.5. As-is Scenario Mapping
 En esta sección, se expondrá el As-is Scenario Mapping para cada uno de los segmentos objetivo, con el propósito de identificar y comprender los puntos de interacción entre los usuarios y el software de gestión agrícola. Este proceso implica la preparación, la generación de ideas de manera individual, la revisión y la identificación de las fases relevantes como columnas en la herramienta designada. Además, se nombrarán estas fases y se etiquetarán las áreas tanto positivas como negativas para los usuarios, identificando también las áreas de conocimiento aún por explorar.
 
 *As-is Scenario mapping: Ingenieros Agrónomos que Asesoran a Agricultores*
 
-![A](https://media.discordapp.net/attachments/1122567258317791342/1227826412027908147/asis1.jpg?ex=6629d174&is=66175c74&hm=8cf0253ee05e9f94cf9eabfeefc456c8c31a97001e0cf47ec7fabe0c60c7711b&=&format=webp&width=705&height=280)
+![As-Is: Carlos](images/as-is-carlos.jpg)
 
 *As-is Scenario mapping: Empresas Agrícolas de Gran Escala* 
 
-![A](https://media.discordapp.net/attachments/1122567258317791342/1227826412484956170/asis2.jpg?ex=6629d174&is=66175c74&hm=19ffaa73dea4e5f825f160244e8865f0e0c3c3d495260e0d7d606d1b7e7bc20f&=&format=webp&width=705&height=276)
+![As-Is: Juan](images/as-is-juan.jpg)
 
-<https://miro.com/welcomeonboard/dDdyWmRYWjB0MHM0dk1GbFQxU3RVdHY2aUpyV2xFSzlzWUtHcGtuOE02bWFSNVRJRXU5aTFsZnVmekdQRWd1dHwzNDU4NzY0NTUxNzYxNjYxMjg2fDI=?share_link_id=176300122658> 
+Cuadro realizado en Miro: **[As-Is](https://miro.com/welcomeonboard/dDdyWmRYWjB0MHM0dk1GbFQxU3RVdHY2aUpyV2xFSzlzWUtHcGtuOE02bWFSNVRJRXU5aTFsZnVmekdQRWd1dHwzNDU4NzY0NTUxNzYxNjYxMjg2fDI=?share_link_id=176300122658)**
 
 # <a name="cap3"></a> CAPÍTULO III: REQUIREMENTS SPECIFICATION
 
@@ -732,14 +722,14 @@ En esta sección, se presentan los To-be Scenario Mapping para ambos segmentos o
 
 **To-be Scenario mapping: Ingenieros Agrónomos que Asesoran a Agricultores**
 
-![A](https://media.discordapp.net/attachments/1122567258317791342/1227826461067710565/tobe1.jpg?ex=6629d180&is=66175c80&hm=13349f416d96f79964cad35de0f4cbb5fa88cc6c66380f28ab05ac492aa431aa&=&format=webp&width=705&height=294)
+![To-Be: Carlos](images/to-be-carlos.jpg)
 
 **To-be Scenario mapping: Empresas Agrícolas de Gran Escala** 
 
 
-![A](https://media.discordapp.net/attachments/1122567258317791342/1227826461336010833/tobe2.jpg?ex=6629d180&is=66175c80&hm=780054832c796a0f5f1be2e663c298f62fd67faa3e5e5630d9b6a75287290aed&=&format=webp&width=705&height=302)
+![To-be: Juan](images/to-be-juan.jpg)
 
-<https://miro.com/welcomeonboard/dDdyWmRYWjB0MHM0dk1GbFQxU3RVdHY2aUpyV2xFSzlzWUtHcGtuOE02bWFSNVRJRXU5aTFsZnVmekdQRWd1dHwzNDU4NzY0NTUxNzYxNjYxMjg2fDI=?share_link_id=176300122658> 
+Cuadro realizado en Miro: **[To-Be](https://miro.com/welcomeonboard/dDdyWmRYWjB0MHM0dk1GbFQxU3RVdHY2aUpyV2xFSzlzWUtHcGtuOE02bWFSNVRJRXU5aTFsZnVmekdQRWd1dHwzNDU4NzY0NTUxNzYxNjYxMjg2fDI=?share_link_id=176300122658)**
 
 ## <a name="user-stories"></a> 3.2. User Stories
 
@@ -822,9 +812,9 @@ Del mismo modo, hemos desarrollado Technical Stories con la misma escala Fibonac
 
 Captura del Product Backlog realizado en Trello:
 
-![](https://cdn.discordapp.com/attachments/1077004264792137771/1227859721675870259/PBL.png?ex=6629f07a&is=66177b7a&hm=d6d336288ef415e07681248725dbc331bc293b534c1ef400a43cb0a01b07a3d9&)
+![Product Backlog](images/product-backlog.png)
 
-Link del trello: <https://trello.com/invite/b/8RJvHxZr/ATTIfd792e4a433c343855fbd42b86ea3c10EF0ACDF1/aplicaciones-web>
+Link del trello: **[Trello](https://trello.com/invite/b/8RJvHxZr/ATTIfd792e4a433c343855fbd42b86ea3c10EF0ACDF1/aplicaciones-web)**
 
 Ahora mostraremos el product backlog realizado:
 
@@ -892,11 +882,11 @@ Ahora mostraremos el product backlog realizado:
 
 Segmento Objetivo: Ingenieros Agrónomos que Asesoran a Agricultores
 
-![](https://cdn.discordapp.com/attachments/1077004264792137771/1227859721210433667/IM1.png?ex=6629f07a&is=66177b7a&hm=c96de930553bb0b601309017b0d162b31896b35d830e5e34b917b95c15190764&)
+![Impact Mapping: Carlos](images/impact-mapping-carlos.png)
 
 Segmento Objetivo: Empresas Agrícolas de Gran Escala
 
-![](https://cdn.discordapp.com/attachments/1077004264792137771/1227859721478996002/IM2.png?ex=6629f07a&is=66177b7a&hm=f3f2668703ebf76d0c4fce24fb624e4070682c669acf8ef5e40b4649cb7d6469&)
+![Impact Mapping: Juan](images/impact-mapping-juan.png)
 
 # <a name="cap4"></a> Capítulo IV: Product Design
 
@@ -906,17 +896,17 @@ Segmento Objetivo: Empresas Agrícolas de Gran Escala
 Branding
 El logo principal esta conformado por una imagen de una planta alusiva al campo que trata la aplicación junto con el nombre de la aplicación “CropSphere”.
 
-![Fuente Roboto](https://media.discordapp.net/attachments/1227859315872890930/1227860321998209055/logo.png?ex=6629f109&is=66177c09&hm=fdbed68b3a316dfe56a02059b7f855b3e6a5da34193fb063e3ee9ec8ef770a9d&=&format=webp&quality=lossless)
+![Branding](images/branding.png)
 
 Typography
 La tipografía elegida es “Roboto” y las variantes que usara son Regular y Bold. Los tamaños varían entre 1 , 1.5, 2, 3 y 4 rem (1rem = 16px).
 
-![Fuente Roboto](https://media.discordapp.net/attachments/1227859315872890930/1227860322438742098/Roboto-Regular.png?ex=6629f109&is=66177c09&hm=95d30dd454a0fbe1b935e0ad63c3555605998fe2916e8703c2a64ece5e80a405&=&format=webp&quality=lossless&width=698&height=191)
+![Fuente Roboto](images/roboto.png)
 
 Colors
 El color principal que sea usará es el blanco (#ffffff), el color secundario es tono de verde oscuro (#012B28) y otro tono de amarillo mas oscuro para contraste mas oscuros (#EBB42C).
 
-![Colores](https://media.discordapp.net/attachments/1227859315872890930/1227860321511673917/colors.png?ex=6629f109&is=66177c09&hm=21decaae592e5a73377a9b15449bc8623922b1a646ea7c1b457a66b52f8d8cd6&=&format=webp&quality=lossless)
+![Colores](images/colores.png)
 
 Spacing
 El spacing mantiene
@@ -934,18 +924,17 @@ La dimensión que usará en cuanto al diseño es un tono formal y entusiasta, ap
 Se utilizo la tendencia web de functional minimalism con el color blanco como predominante en el fondo de la mayoria de las secciones para brindar una visualizacion limpia y contraste con los elementos.
 Ademas se implemento imagenes para caracterizar a las secciones.
 
-![StyleGuidelines](https://media.discordapp.net/attachments/1227859315872890930/1227860321289371648/web-style-guidelines-image1.png?ex=6629f109&is=66177c09&hm=5d8520eb8794e5a3933505f34d3e43ec237be92138364a37b7fd681c7bae8cef&=&format=webp&quality=lossless&width=412&height=618)
-
+![StyleGuidelines](images/web-style-guidelines.png)
+![StyleGuidelines](images/web-style-guidelines-2.png)
 Se usarán iconos con colores para nuestras redes sociales que contrasten con el background de la aplicación.
 
-![StyleGuidelines](https://media.discordapp.net/attachments/1227859315872890930/1227860321771847750/web-style-guidelines-image2.png?ex=6629f109&is=66177c09&hm=d3c39c1f6b6a059b343e241c60115b26c5c3b0f5a34943d443fab34e47f69f55&=&format=webp&quality=lossless) ![StyleGuidelines](https://media.discordapp.net/attachments/1227859315872890930/1227860321998209055/logo.png?ex=6629f109&is=66177c09&hm=fdbed68b3a316dfe56a02059b7f855b3e6a5da34193fb063e3ee9ec8ef770a9d&=&format=webp&quality=lossless)
-
 ### <a name="style-mobile"></a> 4.1.3. Mobile Style Guidelines
-
+Se utilizo la tendencia mobile de functional minimalism con el color blanco como predominante en el fondo de la mayoria de las secciones para brindar una visualizacion limpia y contraste con los elementos.
+Ademas se implemento imagenes para caracterizar a las secciones.
 #### <a name="style-ios"></a> 4.1.3.1. iOS Mobile Style Guidelines
-
+![Mobile Style Guidelines](images/mobile-mockup.png)
 #### <a name="style-android"></a> 4.1.3.2. Android Mobile Style Guidelines
-
+![Mobile Style Guidelines](images/mobile-mockup.png)
 ## <a name="information-architecture"></a> 4.2. Information Architecture
 
 ### <a name="organization-systems"></a> 4.2.1. Organization Systems
@@ -956,8 +945,6 @@ En la aplicación, la organización es por secciones de acuerdo a lo que el usua
 ### <a name="labeling-systems"></a> 4.2.2. Labeling Systems
 
 En el landing page, se uso iconos que guardara contraste con el background, de esta manera se conserva el estilo minimalista.
-
-![StyleGuidelines](https://media.discordapp.net/attachments/1227859315872890930/1227860321998209055/logo.png?ex=6629f109&is=66177c09&hm=fdbed68b3a316dfe56a02059b7f855b3e6a5da34193fb063e3ee9ec8ef770a9d&=&format=webp&quality=lossless)
 
 Landing:
 
@@ -998,23 +985,27 @@ Landing:
 Se utiliza una barra de búsqueda en la aplicación para que los usuarios puedan encontrar las secciones que buscan fácilmente. Como por ejemplo en la sección de “Terrenos” el usuario puede hacer uso del buscador para encontrar los terrenos que el desee.
 También habrá un buscador en la tabla para facilitar la búsqueda que el usuario elija.
 
-![Searching1](https://media.discordapp.net/attachments/1227859315872890930/1227860322681880586/searching-systems.png?ex=6629f109&is=66177c09&hm=d542bf35e8d703258411bd3a767a9f30c483f130a77060a46ea8eec55f7ff5b3&=&format=webp&quality=lossless)
+![Searching1](images/navigation-systems.png)
 
 ### <a name="navigation-systems"></a> 4.2.5. Navigation Systems
 
 En el landing page, en la parte superior se ubicará la barra de navegación y un botón para ingresar directamente al inicio de sesión de la aplicación. Una vez que el usuario inicie sesión, podra el dashboard de aplicación y el menu en el cual estan las secciones de la aplicacion, las cuales son los diferentes servicios y funcionalidades que brinda la aplicacion a los usuarios.
 
-![Navigation1](https://media.discordapp.net/attachments/1227859315872890930/1227860322212122644/navigation-systems.png?ex=6629f109&is=66177c09&hm=d8420448575a0a3637ffb70ff2c1614ba578e8b18ab63cdbaf2f7f9572f5027f&=&format=webp&quality=lossless)
+![Searching1](images/navigation-systems.png)
 
 ## <a name="landing-page-ui"></a> 4.3. Landing Page UI Design
 
 ### <a name="landing-page-wireframe"></a> 4.3.1. Landing Page Wireframe
 
-![](https://cdn.discordapp.com/attachments/323597812694777858/1227108450861973525/Landing_Page_Aplicaciones_Web.png?ex=662734cd&is=6614bfcd&hm=c20c0d396d5e5d4b5ae33d4ab4d78726ee56b613b52ac3011827425a6076c346&)
+![Landing Page Wireframe](images/landing-wireframe-1.png)
+![Landing Page Wireframe](images/landing-wireframe-2.png)
+![Landing Page Wireframe](images/landing-wireframe-3.png)
 
 ### <a name="landing-page-mockup"></a> 4.3.2. Landing Page Mock-up
 
-![](https://cdn.discordapp.com/attachments/323597812694777858/1227108503714533376/Landing_Page_1.png?ex=662734d9&is=6614bfd9&hm=4fdf2b9c3c2b1eb30642efe68f2b65fc14b1cfdebde469e1ed0b55cdc527bc2f&)
+![Landing Page Mockup](images/landing-mockup-1.png)
+![Landing Page Mockup](images/landing-mockup-2.png)
+![Landing Page Mockup](images/landing-mockup-3.png)
 
 ## <a name="mobile-ui"></a> 4.4 Mobile Applications UX/UI Design
 En esta sección, se agregarán los wireframes y Mockups de las aplicaciones móviles
@@ -1195,31 +1186,34 @@ Link: [Prototipo video aplicaciones web.mp4](https://upcedupe-my.sharepoint.com/
 
 ### <a name="c4-context"></a> 4.8.1. Software Architecture Context Diagram.
 
-![](https://media.discordapp.net/attachments/1227859315872890930/1227859401520578590/structurizr-90688-SystemContext-001.png?ex=6629f02d&is=66177b2d&hm=a6da41f515ccb269b8052a767ca39218a036ca3a4a05c0e65f45e4e37f16410d&=&format=webp&quality=lossless&width=879&height=671)
+![Context Diagram](images/c4-context.png)
 
 ### <a name="c4-container"></a> 4.8.2. Software Architecture Container Diagrams.
 
-![](https://cdn.discordapp.com/attachments/1227859315872890930/1227859401059074121/structurizr-90688-Container-001.png?ex=6629f02d&is=66177b2d&hm=d4f43e49ec2341dc2ca97749cfa1be772617f3bb2305037a1d8a4d070896de88&)
+![Container Diagram](images/c4-container-1.png)
+![Container Diagram](images/c4-container-2.png)
+![Container Diagram](images/c4-container-3.png)
+![Container Diagram](images/c4-container-4.png)
 
 ### <a name="c4-components"></a> 4.8.3. Software Architecture Components Diagrams.
 
 Payment Component
-![](https://media.discordapp.net/attachments/1227859315872890930/1227859911740887040/Payment_Component.png?ex=6629f0a7&is=66177ba7&hm=cf58a99445fcd5457581469980efe9c21908da60544878a8d6603378c68f91be&=&format=webp&quality=lossless&width=350&height=671)
+![Component Diagram](images/c4-components.png)
 
 Group Component
-![](https://media.discordapp.net/attachments/1227859315872890930/1227859910302240769/Group_Component.png?ex=6629f0a7&is=66177ba7&hm=895fcccb8123061ec5745fe71325de3824649d890343d13f47cb872dce960456&=&format=webp&quality=lossless&width=440&height=671)
+![Component Diagram](images/c4-components-2.png)
 
 Land Component
-![](https://media.discordapp.net/attachments/1227859315872890930/1227859910889308180/Land_Component.png?ex=6629f0a7&is=66177ba7&hm=bdb2692532ab7c3fc0a91c4a70a9f8493314f661b5ef27e5e619d8c8839f98b9&=&format=webp&quality=lossless&width=1014&height=671)
+![Component Diagram](images/c4-components-3.png)
 
 Machinery Component
-![](https://media.discordapp.net/attachments/1227859315872890930/1227859911325777940/Machinery_Component.png?ex=6629f0a7&is=66177ba7&hm=3130725d01bf76bd83ba61b4deb46fbb87ccd70a53c799aafd76369ba52907e0&=&format=webp&quality=lossless&width=813&height=671)
+![Component Diagram](images/c4-components-4.png)
 
 ## <a name="class"></a> 4.9. Software Object-Oriented Design
 
 ### <a name="class-diagram"></a> 4.9.1. Class Diagrams
 
-![A](https://media.discordapp.net/attachments/1122567258317791342/1227826412770300014/class.jpeg?ex=6629d174&is=66175c74&hm=dd7a20633fc9a7a131c8fe7b05096310d89f00fb23e1f0016fcb5fa633347212&=&format=webp&width=637&height=468)
+![Class Diagram](images/class-diagram.png)
 
 ### <a name="class-dictionary"></a> 4.9.2. Class Dictionary
 
@@ -1293,7 +1287,7 @@ A continuación, se detallan exhaustivamente las clases más relevantes junto co
 
 ### <a name="database-diagram"></a> 4.10.1. . Relational/Non-Relational Database Diagram
 
-![A](https://media.discordapp.net/attachments/1122567258317791342/1227826413202047006/database.png?ex=6629d174&is=66175c74&hm=d7c961a9a175a099beec3ea2532b403fa258c59aba58cadcc10ac47dd5674988&=&format=webp&quality=lossless&width=705&height=338)
+![Class Diagram](images/database-diagram.png)
 
 
 # <a name="cap5"></a> Capítulo V: Product Implementation
