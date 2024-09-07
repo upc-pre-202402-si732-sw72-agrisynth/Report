@@ -945,8 +945,61 @@ Enlace del figma donde se desarrollaron los prototipos: **[Mobile Design](https:
 ### <a name="mobile-wireflow"></a> 4.4.2. Mobile Applications Wireflow Diagrams
 
 ### <a name="mobile-mockup"></a> 4.4.3. Mobile Applications Mock-ups
-![Mobile Wireframes](images/mobile-mockup.png)
+![Mobile Mockups](images/mobile-mockup.png)
 ### <a name="mobile-userflow"></a> 4.4.4. Mobile Applications User Flow Diagrams
+
+#### User goal: Autenticación de Usuario y Recuperación de Contraseña.
+![Autenticación de Usuario y Recuperación de Contraseña](images/mobile-userflow-1.png)
+
+**Descripción:**
+> El usuario ingresa a la aplicación y se encuentra en la sección de bienvenido. Si no tiene cuenta, se puede registrar y elegir un plan de pago, así puede iniciar sesión. Si se olvido su contraseña y desea restablecerla, puede dirigirse al apartado de recuperación de contraseñas. Una vez el usuario tenga su cuenta, puede iniciar sesión.
+
+
+#### User goal: Navegación a través de la aplicación
+![Navegación a través de la aplicación](images/mobile-userflow-2.png)
+![Navegación a través de la aplicación](images/mobile-userflow-3.png)
+![Navegación a través de la aplicación](images/mobile-userflow-4.png)
+
+**Descripción:**
+
+> Al ingresar a cualquier sección de la aplicación, el usuario puede presionar el botón "`­­­≡­­`"­  para ingresar a menú de navegación. Cada sección contará con un nombre e ícono asignado. Presionar cada botón redireccionará al usuario a la sección seleccionada.
+
+#### User goal: Creación de un recurso, edición de un recurso y borrado de recurso.
+![Navegación a través de la aplicación](images/mobile-userflow-5.png)
+
+**Descripción:**
+> El usuario ingresa a la sección de gestión de recursos. Si desea añadir un recurso, puede crearlo registrando todos los datos del nuevo recurso que se piden. Si desea añadir un nuevo campo, editar el recurso o eliminarlo, puede hacerlo en la sección opciones.
+
+#### User goal: Alquiler de maquinaria
+![Navegación a través de la aplicación](images/mobile-userflow-6.png)
+
+**Descripción:**
+> El usuario ingresa a la sección de maquinaria. Si desea alquilar alguna maquinaria podrá hacerlo eligiendo cual maquinaria desea. Si completa el tramite y completa los datos de pago correctamente la compra finalizara
+
+#### User goal: Alquiler de terreno
+![Navegación a través de la aplicación](images/mobile-userflow-7.png)
+
+**Descripción:**
+> El usuario ingresa a la sección de terrenos. Al seleccionar un terreno, el usuario podrá visualizar información sobre el terreno. Si desea alquilar el terreno seleccionado, puede presionar sus respectivos botones que lo al tramite correspondiente y tramite de pago.
+
+
+#### User goal: Creación de grupo de trabajo y agregar personas al grupo
+![Navegación a través de la aplicación](images/mobile-userflow-8.png)
+­
+**Descripción:**
+> En esta sección, se le permitirá al usuario crear grupos, así como agregar, editar y eliminar integrantes de este. Al principio, no existirá ningún grupo. Cuando el usuario cree uno, proporcionando un nombre, se mostrará una tabla vacía, en donde se pondrán agregar nuevos integrantes.
+
+#### User goal: Manejo de documentos
+![Navegación a través de la aplicación](images/mobile-userflow-9.png)
+
+**Descripción:**
+> En esta sección, se le permitirá al usuario crear, editar y eliminar documentos de una carpeta de documentos.
+
+#### User goal: Ajuste de datos personales, configuración de accesibilidad, cambio de contraseña
+![Navegación a través de la aplicación](images/mobile-userflow-10.png)
+
+**Descripción:**
+> En esta sección, se le permitirá al usuario editar su información personal.
 
 ## <a name="mobile-prototype"></a> 4.5. Mobile Applications Prototyping
 En esta sección, se agregarán los protipos de las aplicaciones móviles
