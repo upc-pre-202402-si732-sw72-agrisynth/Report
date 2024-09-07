@@ -1052,9 +1052,9 @@ En esta sección, se agregarán los protipos de las aplicaciones móviles
 Enlace del figma donde se desarrollaron los prototipos: **[Mobile Prototypes](https://www.figma.com/design/RDhRuyaiuzKiWGcMOi5C05/Agrisynth-Mockups---Wireframes?node-id=0-1&t=EC3ejYSG5UY8SBUR-1)**
 
 ### <a name="android-prototype"></a> 4.5.1. Android Mobile Applications Prototyping
-Enlace del video: **[Android Prototype Video]()**
+Enlace del video: **[Android Prototype Video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202217241_upc_edu_pe/EZ_0MadWy3pDihHb5c3lh8kBB2j-ax-VBGXRt6Hgm6emMg?e=CNhQQ4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)**
 ### <a name="ios-prototype"></a> 4.5.2. iOS Mobile Applications Prototyping
-Enlace del video: **[iOS Prototype Video]()**
+Enlace del video: **[iOS Prototype Video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202217241_upc_edu_pe/EZ_0MadWy3pDihHb5c3lh8kBB2j-ax-VBGXRt6Hgm6emMg?e=CNhQQ4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)**
 ## <a name="web-ui"></a> 4.6. Web Applications UX/UI Design
 En esta sección se presentarán todas las capturas de los mockups y wireframes de la aplicación web.
 ### <a name="web-wireframe"></a> 4.6.1. Web Applications Wireframes
@@ -1118,7 +1118,7 @@ En esta sección se presentarán todas las capturas de los mockups y wireframes 
 ## <a name="web-prototype"></a> 4.7 Web Applications Prototyping
 
 En la sección se mostrará la funcionalidad del prototipo en web
-Link: [Prototipo video aplicaciones web.mp4](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201923446_upc_edu_pe/ETiSuNru3_VCp4jdSts16XIB__Zeo8wTurh-FBzmHK-ykQ?e=kSLfXo&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+Link: [Prototipo video aplicaciones web.mp4](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202217241_upc_edu_pe/EZ_0MadWy3pDihHb5c3lh8kBB2j-ax-VBGXRt6Hgm6emMg?e=CNhQQ4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
 ## <a name="c4"></a> 4.8. Domain-Driven Software Architecture.
 
