@@ -510,7 +510,7 @@ En este punto presentaremos los resultados de las entrevistas realizadas a los u
 1. ¿Cómo personalizar sus recomendaciones basadas en la tecnología para adaptarse a las diferentes necesidades de los agricultores?
 1. ¿Cómo recopila y utiliza el feedback de los agricultores para mejorar sus servicios de asesoramiento?
 
-**Segmento objetivo:**  Empresas Agrícolas de Gran Escala
+**Segmento objetivo:** Empresas Agrícolas de Gran Escala
 
 1. ¿Cómo gestiona y analiza los datos agrícolas para tomar decisiones estratégicas?
 1. ¿Qué tipo de datos le resultan más valiosos y por qué?
@@ -530,6 +530,20 @@ Link del video de las entrevistas: [Video de Entrevistas](link)
     Minutos del video: 
     Duración: 5:20 minutos
     Resumen de la entrevista: Giancarlo Romero, un ingeniero agrónomo practicante de la empresa “AgriCorp”, nos cuenta que uno de sus principales problemas es la variabilidad climática. Este problema, no solo le arruina sus cultivos, sino que también le complica la administración de estos. En cuanto a los dispositivos electrónicos que utiliza, menciona que hace uso de diversas aplicaciones de dispositivos móviles, al igual que un calendario. Giancarlo también menciona que los requerimientos más importantes de una aplicación para la gestión agrícola son que sea sencilla de utilizar, que cuente con todas las herramientas necesarias y que pueda ser utilizada sin una red Wi-Fi.
+
+    - **Entrevista 2:**
+    Entrevistador: Néstor Velarde Gonzales
+    Entrevistado: Dangghela Olivera Espinoza
+    Minutos del video:
+    Duración: 6:30 minutos
+    Resumen de la entrevista: Dangghela Olivera, ingeniera agronoma con mas de 10 años de experiencia en su area como profesional,
+    nos cuenta su opinión basado en su experiencia propia, actualmente trabaja en un fundio de frutas de uvas en la ciudad de Ica,
+    nos comenta que tiene obstaculos en la comunicación derectamente con los agricultores y como los dueños, la tecnología de comunicación
+    que utiliza son las herramientas como WhatsApp, meet o zoom, plataformas que le permite tener una comunicación y de esa forma
+    brinda sus asesoria a los agricultores, pero tambien enfrenta problemas al recopilar datos, no cuenta con sistemas avanzados 
+    que le permita tener un control de datos y de esa forma poder brindar una asesoria mas precisa a los agricultores.
+    Ella está muy interesada en nuestra sistema ser la próxima usuaria debido que le ayudaría bastante en sus organizaciones y 
+    asi tener mayor datos de la producción de los cultivos o frutales. 
 
 ### <a name="analisis-entrevistas"></a> 2.2.3 Análisis de entrevistas
 
