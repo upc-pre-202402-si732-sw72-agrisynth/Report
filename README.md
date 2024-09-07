@@ -560,22 +560,22 @@ En este punto presentaremos los resultados de las entrevistas realizadas a los u
 1. ¿Cómo mide y comunica los resultados de sus esfuerzos de sostenibilidad a stakeholders internos y externos?
 
 ### <a name="registro-entrevistas"></a> 2.2.2 Registro de entrevistas
-Link del video de las entrevistas: [Video de Entrevistas](link)
+Link del video de las entrevistas: [Video de Entrevistas](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221a715_upc_edu_pe/Ec-ZY6X6N3pNkEJssDMG45oBNKdI05IxuZuyLnNRjRICWA?e=B5tkK6)
 
 - **Segmento Objetivo: Ingenieros Agrónomos que asesoran a agricultores:**
 
   - **Entrevista 1:**
     Entrevistador: Marcelo Neyra
     Entrevistado: Giancarlo Stefano Romero Paredes
-    Minutos del video: 
+    Minutos del video: 23:45
     Duración: 5:20 minutos
     Resumen de la entrevista: Giancarlo Romero, un ingeniero agrónomo practicante de la empresa “AgriCorp”, nos cuenta que uno de sus principales problemas es la variabilidad climática. Este problema, no solo le arruina sus cultivos, sino que también le complica la administración de estos. En cuanto a los dispositivos electrónicos que utiliza, menciona que hace uso de diversas aplicaciones de dispositivos móviles, al igual que un calendario. Giancarlo también menciona que los requerimientos más importantes de una aplicación para la gestión agrícola son que sea sencilla de utilizar, que cuente con todas las herramientas necesarias y que pueda ser utilizada sin una red Wi-Fi.
 
     - **Entrevista 2:**
     Entrevistador: Néstor Velarde Gonzales
     Entrevistado: Dangghela Olivera Espinoza
-    Minutos del video:
-    Duración: 6:30 minutos
+    Minutos del video: 6:45
+    Duración: 5:40 minutos
     Resumen de la entrevista: Dangghela Olivera, ingeniera agronoma con mas de 10 años de experiencia en su area como profesional,
     nos cuenta su opinión basado en su experiencia propia, actualmente trabaja en un fundio de frutas de uvas en la ciudad de Ica,
     nos comenta que tiene obstaculos en la comunicación derectamente con los agricultores y como los dueños, la tecnología de comunicación
@@ -588,7 +588,7 @@ Link del video de las entrevistas: [Video de Entrevistas](link)
     - **Entrevista 3:**
     Entrevistador: Miguel Angel Huaman Cataño
     Entrevistado: Néstor Nochoa
-    Minutos del video:
+    Minutos del video: 12:25
     Duración: 6:23 minutos
     Resumen de la entrevista: Néstor Nochoa, ingeniero agrónomo de 35 años, enfrenta desafíos en su gestión agrícola debido a la variabilidad climática y resistencia de algunos agricultores a adoptar nuevas 
     tecnologías. Utiliza herramientas como sensores de humedad, riego automatizado y aplicaciones móviles para monitorear cultivos, lo que ha mejorado la productividad pero aún requiere adaptación a 
@@ -606,7 +606,7 @@ Link del video de las entrevistas: [Video de Entrevistas](link)
     - **Entrevista 5:**
     Entrevistador: Mario Joaquin Lopez Acuña
     Entrevistado: Fabrizio Amir Leon Rivas
-    Minutos del video: 
+    Minutos del video: 18:48
     Duración: 04:57 minutos
     Resumen de la entrevista: Fabrizio Leon, ingeniero agrónomo de 35 años con mas de 5 años de experiencia en su area como profesional, nos cuenta su opinión basado en su experiencia propia, actualmente trabaja en una empresa exportadora de arándanos, su principal función es asesorar a agricultores enfrentando desafíos como el cambio climático, la gestión del agua y la adopción de nuevas tecnologías. Utiliza plataformas de monitoreo de cultivos, sensores y software de gestión agrícola, pero reconoce que la capacitación es clave para que los agricultores aprovechen estas herramientas, además destaca que el software agrícola debe ser fácil de usar, móvil y personalizable. Cree que la tecnología puede mejorar la sostenibilidad y productividad agrícola. En su trabajo, enfrenta barreras tecnológicas y generacionales, y adapta sus recomendaciones según el contexto de cada agricultor, recopilando feedback para mejorar su asesoramiento.
 
