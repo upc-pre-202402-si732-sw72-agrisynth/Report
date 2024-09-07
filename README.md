@@ -1061,6 +1061,23 @@ En esta sección se presentarán todas las capturas de los mockups y wireframes 
 ![Web Wireframes](images/web-wireframe.png)
 ### <a name="web-wireflow"></a> 4.6.2. Web Applications Wireflow Diagrams
 
+#### User goal: Autenticación de Usuario y Recuperación de Contraseña.
+![Autenticación de Usuario y Recuperación de Contraseña](images/web-wireflow-1.png)
+#### User goal: Navegación a través de la aplicación
+![Navegación a través de la aplicación](images/web-wireflow-2.png)
+#### User goal: Manejo de Recursos
+![Manejo de Recursos](images/web-wireflow-3.png)
+#### User goal: Alquiler de maquinaria
+![Alquiler de maquinaria](images/web-wireflow-4.png)
+#### User goal: Alquiler de terreno
+![Alquiler de terreno](images/web-wireflow-5.png)
+#### User goal: Manejo de grupos
+![Manejo de grupos](images/web-wireflow-6.png)
+#### User goal: Manejo de documentos
+![Manejo de documentos](images/web-wireflow-7.png)
+#### User goal: Ajuste de datos personales
+![Ajustes Personales](images/web-wireflow-8.png)
+
 ### <a name="web-mockup"></a> 4.6.3. Web Applications Mock-ups
 ![Web Mockups](images/web-mockup.png)
 ### <a name="web-userflow"></a> 4.6.1. Web Applications User Flow Diagrams
