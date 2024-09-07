@@ -543,7 +543,18 @@ Link del video de las entrevistas: [Video de Entrevistas](link)
     brinda sus asesoria a los agricultores, pero tambien enfrenta problemas al recopilar datos, no cuenta con sistemas avanzados 
     que le permita tener un control de datos y de esa forma poder brindar una asesoria mas precisa a los agricultores.
     Ella está muy interesada en nuestra sistema ser la próxima usuaria debido que le ayudaría bastante en sus organizaciones y 
-    asi tener mayor datos de la producción de los cultivos o frutales. 
+    asi tener mayor datos de la producción de los cultivos o frutales.
+
+    - **Entrevista 3:**
+    Entrevistador: Miguel Angel Huaman Cataño
+    Entrevistado: Néstor Nochoa
+    Minutos del video:
+    Duración: 6:23 minutos
+    Resumen de la entrevista: Néstor Nochoa, ingeniero agrónomo de 35 años, enfrenta desafíos en su gestión agrícola debido a la variabilidad climática y resistencia de algunos agricultores a adoptar nuevas 
+    tecnologías. Utiliza herramientas como sensores de humedad, riego automatizado y aplicaciones móviles para monitorear cultivos, lo que ha mejorado la productividad pero aún requiere adaptación a 
+    necesidades específicas. Menciona que un software agrícola debe ser intuitivo, personalizable y ofrecer información en tiempo real con soporte continuo. La comunicación con agricultores se realiza mediante 
+    reuniones, WhatsApp y capacitaciones. Personaliza sus recomendaciones según las condiciones de cada agricultor y recopila feedback para mejorar sus servicios de asesoramiento.
+
 
 ### <a name="analisis-entrevistas"></a> 2.2.3 Análisis de entrevistas
 
