@@ -1058,7 +1058,7 @@ Enlace del video: **[iOS Prototype Video](https://upcedupe-my.sharepoint.com/:v:
 ## <a name="web-ui"></a> 4.6. Web Applications UX/UI Design
 En esta sección se presentarán todas las capturas de los mockups y wireframes de la aplicación web.
 ### <a name="web-wireframe"></a> 4.6.1. Web Applications Wireframes
-
+![Web Wireframes](images/web-wireframe.png)
 ### <a name="web-wireflow"></a> 4.6.2. Web Applications Wireflow Diagrams
 
 ### <a name="web-mockup"></a> 4.6.3. Web Applications Mock-ups
