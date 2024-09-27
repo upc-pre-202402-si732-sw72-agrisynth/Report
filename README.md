@@ -227,12 +227,27 @@
                 Capitulo 4 y 5 <br>
                 Nestor Hernan Velarde Gonzales <br>
                 Capitulo 4 y 5 <br>
+                <strong>TP</strong> <br>
+                Johan Karl Bottger Salazar <br>
+                Capitulo 6, 7 y 8<br>
+                Diego Rafael Cisneros Tafur <br>
+                Capitulo 6, 7 y 8 <br>
+                Miguel Ángel Huamán Cataño <br>
+                Capitulo 6, 7 y 8 <br>
+                Mario Joaquin Lopez Acuña <br>
+                Capitulo 6, 7 y 8<br>
+                Marcelo Sebastian Neyra Santa Cruz <br>
+                Capitulo 6, 7 y 8 <br>
+                Nestor Hernan Velarde Gonzales <br>
+                Capitulo 6, 7 y 8 <br>
             </p>
         </td>
         <td>
             <p>
                 <strong>TB1</strong> <br>
                 En esta primera entrega, se ha reutilizado un trabajo realizado en el ciclo anterior por nuestro grupo de trabajo. Reconocemos que el uso de código de otras personas sin su permiso no es correcto éticamente, por lo que se le ha informado a aquellas personas que ya no participan en el grupo acerca del uso de las aplicaciones y reportes. Dichas personas aceptaron la prepuesta y nos otorgaron el permiso de utilizar el repositorio como base para las pruebas realizadas en este curso
+                <strong>TP</strong> <br>
+                En esta segunda entrega, se ha hecho una ardua investigación acerca de las metodologías y tecnologías que se utilizan al momento de realizar pruebas en una aplicación de software
             </p>
         </td>
     </tr>
@@ -257,12 +272,27 @@
                 Aplicación Web (Frontend) <br>
                 Nestor Hernan Velarde Gonzales <br>
                 Aplicación Web (Frontend) <br>
+                <strong>TB1</strong> <br>
+                Johan Karl Bottger Salazar <br>
+                Testing (LandRental) <br>
+                Diego Rafael Cisneros Tafur <br>
+                Testing (IAM) <br>
+                Miguel Ángel Huamán Cataño <br>
+                Testing (Profiles) <br>
+                Mario Joaquin Lopez Acuña <br>
+                Testing (Documents) <br>
+                Marcelo Sebastian Neyra Santa Cruz <br>
+                Testing (Resources) <br>
+                Nestor Hernan Velarde Gonzales <br>
+                Testing (MachineRental) <br>
             </p>
         </td>
         <td>
             <p>
                 <strong>TB1</strong> <br>
                 Se realizaron las aplicaciones web que se utilizarán durante todo el ciclo del curso. Estas aplicaciones fueron especialmente diseñadas para contrarrestar uno de los mayores problemas con las que los segmentos objetivos cuentan, falta de organización. Se espera que en las siguientes entregas se comprueben la validez de nuestras aplicaciones y qué tan efectivas realmente podrán ser en implementarlas
+                <strong>TP</strong> <br>
+                Se realizaron pruebas unitarias e integrales para validación de nuestra aplicación web. Es necesario que nuestra aplicación funcione sin fallas aparentes y repetivas, por lo que el proceso de pruebas se llevará a cabo durante el resto del ciclo académico
             </p>
         </td>
     </tr>
@@ -1735,6 +1765,38 @@ Duración del video: 00:32
 ScreenShot del video:
 
 ![](Assets/Aspose.Words.b8569df6-648b-4de3-a36e-0fe88e187486.018.png)
+
+## Capítulo VI: Product Verification & Validation
+### 6.1. Testing Suites & Validation
+#### 6.1.1. Core Entities Unit Tests.
+En esta entrega se han realizado pruebas unitarias a todas las entidades principales del backend, validando especialmente los servicios relacionados con la comandos y queries de cada clase
+Aquí un ejemplo de un test:
+![Test 1](images/test1.png)
+#### 6.1.2. Core Integration Tests.
+![Test 2](images/test2.png)
+#### 6.1.3. Core Behavior-Driven Development
+
+#### 6.1.4. Core System Tests
+
+## Capítulo VII: DevOps Practices
+#### 7.1. Continuous Integration
+#### 7.1.1. Tools and Practices
+Se han utilizado diversas herramientas para la integración continua, entre ellas, podemos destacar:
+- **Github:** Una aplicación web que se utiliza para conectar a la nube repositorios que utilizan la tecnología de Git. Hemos utilizado Github para guarda todos los proyectos realizados en el presente ciclo, desde el reporte hasta las aplicaciones front y backend
+#### 7.1.2. Build & Test Suite Pipeline Components
+Se utilizó la herramienta **LightHouse** para realizar las pruebas de manera automatizada
+#### 7.2. Continuous Delivery
+#### 7.2.1. Tools and Practices
+Se ha utilizado Jenkins para la gestión de los pipelines. 
+#### 7.2.2. Stages Deployment Pipeline Components
+
+#### 7.3. Continuous deployment
+Se ha desplegado la aplicación en la nube a través de servicios como github y firebase
+#### 7.3.1. Tools and Practices
+
+
+#### 7.3.2. Production Deployment Pipeline Components.
+
 
 **Bibliografía**
 
