@@ -4,19 +4,19 @@
 
 **Carrera:** Ingeniería de Software
 
-**Nombre del curso:** Aplicaciones Web
+**Nombre del curso:** Diseño de Experimentos de Ingeniería de Software
 
-**Sección:** SW53
+**Sección:** SW72
 
-**Nombre del profesor:** Alex Humberto Sánchez Ponce
+**Nombre del profesor:** Juan Carlos Tinoco Licas
 
-### Informe TB1
+### Informe TP
 
 **Nombre del startup:** AgriSynth Group
 
 **Nombre del producto:** CropSphere
 
-**Mes y año:** Abril 2024
+**Mes y año:** Setiembre 2024
 
 **Ciclo:** 2024-01
 
@@ -1769,33 +1769,137 @@ ScreenShot del video:
 ## Capítulo VI: Product Verification & Validation
 ### 6.1. Testing Suites & Validation
 #### 6.1.1. Core Entities Unit Tests.
-En esta entrega se han realizado pruebas unitarias a todas las entidades principales del backend, validando especialmente los servicios relacionados con la comandos y queries de cada clase
-Aquí un ejemplo de un test:
+En esta entrega se han realizado pruebas unitarias a todas las entidades principales del backend, validando especialmente los servicios relacionados con la comandos y queries de cada clase Aquí un ejemplo de un test: 
 ![Test 1](images/test1.png)
 #### 6.1.2. Core Integration Tests.
 ![Test 2](images/test2.png)
 #### 6.1.3. Core Behavior-Driven Development
-
+En esta sección se presentan todas las pruebas de aceptación hechas en con el formato Gherkin.
+![Test 3](images/test2.png)
+![Test 4](images/test2.png)
+Enlace del repositorio de GitHub donde se encuentran todas las pruebas de aceptación: ![Repositorio](https://github.com/upc-pre-202402-si732-sw72-agrisynth/Behavior-Driven-Development) 
 #### 6.1.4. Core System Tests
+En esta sección se incluyen todas las pruebas realizadas a nuestro sistema en esta entrega:
+- **Identity and Access Manager (IAM)**
+Hashing Service Test:
+![Core 1](images/core1.png)
+Request Authorization Middleware Test:
+![Core 2](images/core2.png)
+Token Service Test:
+![Core 3](images/core3.png)
+![Core 4](images/core4.png)
+User Command Test:
+![Core 5](images/core5.png)
+![Core 6](images/core6.png)
+![Core 7](images/core7.png)
+User Test:
+![Core 8](images/core8.png)
+![Core 9](images/core9.png)
+
+- **Documents**
+Documents Command Service Tests:
+![Core 10](images/core10.png)
+![Core 11](images/core11.png)
+![Core 12](images/core12.png)
+Documents Query Service Test:
+![Core 13](images/core13.png)
+![Core 14](images/core14.png)
+
+- **Profile**
+Profile Command Service Tests:
+![Core 15](images/core15.png)
+![Core 16](images/core16.png)
+Profile Query Service Tests:
+![Core 17](images/core17.png)
+![Core 18](images/core18.png)
+![Core 19](images/core19.png)
+Profile Controller Tests:
+![Core 20](images/core20.png)
+![Core 21](images/core21.png)
+
+- **Resources**
+Resource Item Command Service:
+![Core 22](images/core22.png)
+![Core 23](images/core23.png)
+![Core 24](images/core24.png)
+Resource Item Query Service:
+![Core 25](images/core25.png)
+![Core 26](images/core26.png)
+![Core 27](images/core27.png)
+![Core 28](images/core28.png)
+
+- **Land Rental**
+Land Rental Command Service Tests:
+![Core 29](images/core29.png)
+![Core 30](images/core30.png)
+Land Rental Query Service Tests:
+![Core 31](images/core31.png)
+![Core 32](images/core32.png)
 
 ## Capítulo VII: DevOps Practices
 #### 7.1. Continuous Integration
 #### 7.1.1. Tools and Practices
 Se han utilizado diversas herramientas para la integración continua, entre ellas, podemos destacar:
 - **Github:** Una aplicación web que se utiliza para conectar a la nube repositorios que utilizan la tecnología de Git. Hemos utilizado Github para guarda todos los proyectos realizados en el presente ciclo, desde el reporte hasta las aplicaciones front y backend
+![Github](images/github.jpg)
+-	**Moq:** Moq es un popular framework para la creación de objetos simulados (mocks) en C#, utilizado principalmente en pruebas unitarias. Un objeto simulado es un objeto falso que imita el comportamiento de dependencias reales (como servicios, bases de datos, o repositorios) para probar el código en aislamiento.
+![Moq](images/moq.png)
 #### 7.1.2. Build & Test Suite Pipeline Components
-Se utilizó la herramienta **LightHouse** para realizar las pruebas de manera automatizada
+Se utilizó la herramienta Jenkins para la realización del pipeline de la aplicación
+![Jenkins](images/jenkins.png)
 #### 7.2. Continuous Delivery
 #### 7.2.1. Tools and Practices
-Se ha utilizado Jenkins para la gestión de los pipelines. 
+En este proyecto, se ha implementado Jenkins como herramienta principal para la gestión y automatización de los pipelines de CI/CD (Integración Continua y Entrega Continua). Jenkins facilita la creación, ejecución y monitoreo de los procesos de compilación, pruebas y despliegue de manera eficiente y automatizada.
+A través de Jenkins, se han definido pipelines personalizados que permiten realizar las siguientes actividades de manera automática y recurrente:
+
+- Compilación y restauración de dependencias del proyecto a través de herramientas como NuGet y MSBuild o dotnet CLI.
+- Ejecución de pruebas unitarias, de integración y de aceptación mediante herramientas como xUnit y Moq, asegurando la calidad y funcionalidad del código antes de avanzar a las siguientes etapas.
+- Generación de reportes detallados de las pruebas y análisis de código, permitiendo una retroalimentación inmediata para el equipo de desarrollo.
+- Despliegue automatizado a entornos de staging o producción, lo que agiliza los ciclos de entrega y reduce los errores manuales.
+
+Jenkins ha sido configurado para integrarse con sistemas de control de versiones, como Git, activando los pipelines automáticamente tras cada commit o pull request, lo que asegura una integración continua fluida. Esta configuración garantiza que cualquier cambio en el código se verifique de inmediato, manteniendo la estabilidad y calidad del producto final.
+![Jenkins Logo](images/jenkins-logo.png)
+
 #### 7.2.2. Stages Deployment Pipeline Components
 
 #### 7.3. Continuous deployment
-Se ha desplegado la aplicación en la nube a través de servicios como github y firebase
-#### 7.3.1. Tools and Practices
+El pipeline de despliegue ha sido estructurado en varias etapas clave para garantizar un flujo ordenado y automatizado desde la integración continua hasta el despliegue final en la nube. Estas etapas están diseñadas para ejecutar los pasos necesarios en cada fase del ciclo de desarrollo y entrega, asegurando una transición fluida y sin interrupciones.
 
+Las etapas principales del pipeline de despliegue son:
+
+1.	Compilación (Build Stage):
+o	En esta etapa, se compila el código del proyecto utilizando herramientas como MSBuild o dotnet CLI. Se realiza una restauración de dependencias y se verifican los paquetes necesarios mediante NuGet.
+2.	Pruebas (Test Stage):
+o	Incluye la ejecución de pruebas unitarias, de integración y de aceptación. Se utilizan frameworks como xUnit y Moq para garantizar que los módulos funcionen correctamente. Se generan reportes de pruebas que se pueden visualizar en Jenkins para analizar los resultados.
+3.	Análisis de Calidad del Código (Code Quality Stage):
+o	Se lleva a cabo un análisis estático del código para verificar su calidad, adherencia a los estándares y detectar posibles vulnerabilidades. Herramientas como SonarQube pueden ser integradas en esta fase.
+4.	Despliegue a entornos (Deployment Stage):
+o	Después de pasar las pruebas y verificaciones, el código se despliega automáticamente en un entorno de staging o producción. Este despliegue está gestionado a través de servicios como Firebase y GitHub Actions, lo que permite una entrega rápida y eficiente.
+
+#### 7.3.1. Tools and Practices
+La aplicación ha sido desplegada en la nube utilizando una estrategia de Continuous Deployment (CD), lo que significa que cada cambio aprobado en el código es automáticamente llevado a producción después de pasar por todas las etapas del pipeline de CI/CD.
+Para lograr esto, se han integrado los siguientes servicios en el pipeline:
+- GitHub Actions: Se utiliza para gestionar el control de versiones y automatizar el flujo de trabajo del CI/CD. Cada vez que se realiza un push o pull request en el repositorio de GitHub, se activan los pipelines de Jenkins, y si todas las pruebas y análisis son exitosos, se inicia el despliegue.
+- Firebase: La aplicación es finalmente desplegada en Firebase Hosting, un servicio en la nube que ofrece alta disponibilidad y escalabilidad. Firebase facilita la gestión del entorno de producción y permite actualizar el contenido de la aplicación de manera eficiente.
+Este proceso de despliegue continuo asegura que los cambios en el código se entreguen de manera rápida y confiable, reduciendo el tiempo entre el desarrollo y la entrega al usuario final. La integración con GitHub y Firebase ha permitido automatizar por completo la cadena de despliegue, minimizando la intervención manual y los posibles errores.
 
 #### 7.3.2. Production Deployment Pipeline Components.
+El pipeline de despliegue en producción ha sido diseñado para garantizar una entrega continua y segura de la aplicación a los usuarios finales. Este pipeline sigue una secuencia bien estructurada de etapas que permiten automatizar el proceso de despliegue desde la validación inicial del código hasta la actualización de la aplicación en el entorno de producción.
+Componentes clave del pipeline de despliegue en producción:
+1.	**Integración con Control de Versiones (GitHub Actions):**
+  El proceso de despliegue comienza con la integración a través de GitHub Actions, que monitoriza el repositorio. Cada vez que se realiza un merge a la rama principal (generalmente main o master), se activa automáticamente el pipeline de producción. Esto asegura que solo el código verificado y aprobado sea desplegado en el entorno de producción.
+2.	**Compilación y Empaquetado:**
+  Durante esta etapa, el código es compilado y empaquetado utilizando herramientas como MSBuild o dotnet CLI. Se realiza la restauración de dependencias mediante NuGet para asegurar que todas las bibliotecas y paquetes necesarios estén disponibles. La compilación en el entorno de producción garantiza que el código esté optimizado para su uso final.
+3.	**Ejecución de Pruebas Críticas (Smoke Tests):**
+  Antes de desplegar la aplicación en producción, se ejecutan pruebas críticas o Smoke Tests que verifican rápidamente la estabilidad del sistema. Estas pruebas aseguran que las funciones más esenciales de la aplicación no estén comprometidas por el nuevo código.
+4.	**Análisis de Calidad y Seguridad:**
+  Un análisis final de calidad de código y seguridad se realiza utilizando herramientas como SonarQube u otras soluciones de análisis estático. Esto garantiza que el código cumpla con los estándares de calidad y que no existan vulnerabilidades o problemas de seguridad antes de proceder al despliegue.
+5.	**Despliegue Automatizado en Firebase:**
+  Una vez que las pruebas y análisis son exitosos, el código es desplegado automáticamente en Firebase Hosting, el entorno de producción elegido para este proyecto. Firebase ofrece una infraestructura escalable y confiable, asegurando que la aplicación pueda manejar tráfico de producción sin interrupciones.
+6.	**Notificaciones y Monitoreo Post-Despliegue:**
+  Tras el despliegue, se envían notificaciones automáticas al equipo de desarrollo y operaciones, indicando el éxito del despliegue. Además, el sistema está integrado con herramientas de monitoreo continuo que vigilan el rendimiento de la aplicación en producción, permitiendo la detección temprana de posibles problemas o cuellos de botella.
+7.	**Rollback Automatizado (en caso de fallos):**
+  En caso de detectar fallos críticos tras el despliegue, el pipeline está configurado para ejecutar un rollback automatizado a la versión anterior estable. Esto garantiza que cualquier impacto negativo en producción se minimice rápidamente.
 
 
 **Bibliografía**
@@ -1809,11 +1913,12 @@ Se ha desplegado la aplicación en la nube a través de servicios como github y 
 
 # Anexos
 
-- Video con las entrevistas: <https://upcedupe-my.sharepoint.com/:v:/g/personal/u201923446_upc_edu_pe/Ef7dxCD2PvxJtzA_nHQw3jABskCdcqxvkc09BDq0fDxMyA?e=fnxdY5&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D>
+- Video con las entrevistas: [upc-pre-si732-sw72-agrisynth-validation-tb1.mp4](https://upcedupe-my.sharepoint.com/personal/u20221a715_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu20221a715%5Fupc%5Fedu%5Fpe%2FDocuments%2FUniversidad%2FCiclo%206%2FDise%C3%B1o%20de%20Experimentos%20de%20Ingenier%C3%ADa%20de%20Software%2FVIDEOS%2FENTREVISTA%2Fupc%2Dpre%2Dsi732%2Dsw72%2Dagrisynth%2Dvalidation%2Dtb1%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E742d350c%2Dfacf%2D4999%2Dabcb%2Dd4cf5c2d7fae)
+
 - Product Backlog: <https://trello.com/invite/b/8RJvHxZr/ATTIfd792e4a433c343855fbd42b86ea3c10EF0ACDF1/aplicaciones-web> 
 - Landing Page Wireframe y Mock-up: <https://www.figma.com/file/5KPinQgEbux6OZv47qJezq/Landing-Page-Aplicaciones-web?type=design&node-id=0%3A1&mode=design&t=oe2AJnrQrg9Tj3rA-1> 
-- Web Applications Wireframes y Mock-up: <https://www.figma.com/file/jaoLACRcU6mUfxjIsSj4Z1/Aplicaciones-Web-Wireframes-y-Mock-up?type=design&node-id=0%3A1&mode=design&t=qRdEdZZ8vVcoJSyc-1> 
-- Web Applications Prototyping: <https://upcedupe-my.sharepoint.com/:v:/g/personal/u201923446_upc_edu_pe/ETiSuNru3_VCp4jdSts16XIB__Zeo8wTurh-FBzmHK-ykQ?e=kSLfXo&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D> 
+- Web y Mobile Applications Wireframes y Mock-up: https://www.figma.com/design/RDhRuyaiuzKiWGcMOi5C05/Agrisynth-Mockups---Wireframes?m=auto&t=4puwVRRw6ekUqy9o-6 
+- Web Applications Prototyping: https://upcedupe-my.sharepoint.com/personal/u202217241_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202217241%5Fupc%5Fedu%5Fpe%2FDocuments%2Fupc%2Dpre%2Dsi732%2Dsw72%2Dagrisynth%2Dprototype%2Dnavigation%2Dsprint%2D1%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E87f5dd4b%2D3114%2D405d%2Db0a2%2Dac314ce016e4
 - Class Diagrams: <https://lucid.app/lucidchart/3cd5eaae-f232-4461-8c6d-0d2f66abb3f5/edit?viewport_loc=-8499%2C-3299%2C10921%2C4870%2C0_0&invitationId=inv_9e61d11c-9bbb-4983-bc8b-d3f6c703f606> 
 - Database Diagram: <https://drive.google.com/file/d/1UkI6uDxWvgKDRsg5c59VnLGloKkd2G4G/view?usp=sharing> 
 - Sprint Backlog 1: <https://trello.com/invite/b/TivvG1aQ/ATTI1c57883ea5edd76b34566ceb3166bb584148822A/sprint-1-app-web> 
