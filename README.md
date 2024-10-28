@@ -158,8 +158,6 @@
   - [ 4.6. Web Applications UX/UI Design](#-46-web-applications-uxui-design)
     - [ 4.6.1. Web Applications Wireframes](#-461-web-applications-wireframes)
     - [ 4.6.2. Web Applications Wireflow Diagrams](#-462-web-applications-wireflow-diagrams)
-    - [ 4.6.3. Web Applications Mock-ups](#-463-web-applications-mock-ups)
-    - [ 4.6.1. Web Applications User Flow Diagrams](#-461-web-applications-user-flow-diagrams)
       - [User goal: Autenticación de Usuario y Recuperación de Contraseña.](#user-goal-autenticación-de-usuario-y-recuperación-de-contraseña-2)
       - [User goal: Navegación a través de la aplicación](#user-goal-navegación-a-través-de-la-aplicación-1)
       - [User goal: Manejo de Recursos](#user-goal-manejo-de-recursos-2)
@@ -168,6 +166,16 @@
       - [User goal: Manejo de grupos](#user-goal-manejo-de-grupos-2)
       - [User goal: Manejo de documentos](#user-goal-manejo-de-documentos-2)
       - [User goal: Ajuste de datos personales](#user-goal-ajuste-de-datos-personales-1)
+    - [ 4.6.3. Web Applications Mock-ups](#-463-web-applications-mock-ups)
+    - [ 4.6.1. Web Applications User Flow Diagrams](#-461-web-applications-user-flow-diagrams)
+      - [User goal: Autenticación de Usuario y Recuperación de Contraseña.](#user-goal-autenticación-de-usuario-y-recuperación-de-contraseña-3)
+      - [User goal: Navegación a través de la aplicación](#user-goal-navegación-a-través-de-la-aplicación-2)
+      - [User goal: Manejo de Recursos](#user-goal-manejo-de-recursos-3)
+      - [User goal: Alquiler de maquinaria](#user-goal-alquiler-de-maquinaria-3)
+      - [User goal: Alquiler de terreno](#user-goal-alquiler-de-terreno-3)
+      - [User goal: Manejo de grupos](#user-goal-manejo-de-grupos-3)
+      - [User goal: Manejo de documentos](#user-goal-manejo-de-documentos-3)
+      - [User goal: Ajuste de datos personales](#user-goal-ajuste-de-datos-personales-2)
   - [ 4.7 Web Applications Prototyping](#-47-web-applications-prototyping)
   - [ 4.8. Domain-Driven Software Architecture.](#-48-domain-driven-software-architecture)
     - [ 4.8.1. Software Architecture Context Diagram.](#-481-software-architecture-context-diagram)
@@ -196,6 +204,23 @@
     - [ 5.2.6. RESTful API documentation](#-526-restful-api-documentation)
     - [ 5.2.7. Team Collaboration Insights](#-527-team-collaboration-insights)
   - [ 5.3. Video About-the-Product](#-53-video-about-the-product)
+  - [Capítulo VI: Product Verification \& Validation](#capítulo-vi-product-verification--validation)
+    - [6.1. Testing Suites \& Validation](#61-testing-suites--validation)
+      - [6.1.1. Core Entities Unit Tests.](#611-core-entities-unit-tests)
+      - [6.1.2. Core Integration Tests.](#612-core-integration-tests)
+      - [6.1.3. Core Behavior-Driven Development](#613-core-behavior-driven-development)
+      - [6.1.4. Core System Tests](#614-core-system-tests)
+  - [Capítulo VII: DevOps Practices](#capítulo-vii-devops-practices)
+      - [7.1. Continuous Integration](#71-continuous-integration)
+      - [7.1.1. Tools and Practices](#711-tools-and-practices)
+      - [7.1.2. Build \& Test Suite Pipeline Components](#712-build--test-suite-pipeline-components)
+      - [7.2. Continuous Delivery](#72-continuous-delivery)
+      - [7.2.1. Tools and Practices](#721-tools-and-practices)
+      - [7.2.2. Stages Deployment Pipeline Components](#722-stages-deployment-pipeline-components)
+      - [7.3. Continuous deployment](#73-continuous-deployment)
+      - [7.3.1. Tools and Practices](#731-tools-and-practices)
+      - [7.3.2. Production Deployment Pipeline Components.](#732-production-deployment-pipeline-components)
+- [Anexos](#anexos)
 
 
 # Student Outcome
@@ -1653,43 +1678,43 @@ Tiempo después, se desarrolló el Sprint 4, enfocado en la implementación comp
 ### <a name="api-documentation"></a> 5.2.6. RESTful API documentation
 
 | **Bounded Context** | Documents         |                       |
-| :------------------ | :---------------- | :---------------------|
+| :------------------ | :---------------- | :-------------------- |
 | **Entity**          | **Endpoint URL**  | **Swagger**           |
 |                     | /api/v1/documents | ![](images/api-1.png) |
 
 | **Bounded Context** | Machinerys         |                       |
-| :------------------ | :----------------- | :---------------------|
+| :------------------ | :----------------- | :-------------------- |
 | **Entity**          | **Endpoint URL**   | **Swagger**           |
 |                     | /api/v1/machinerys | ![](images/api-2.png) |
 
 | **Bounded Context** | Profiles         |                       |
-| :------------------ | :--------------- | :---------------------|
+| :------------------ | :--------------- | :-------------------- |
 | **Entity**          | **Endpoint URL** | **Swagger**           |
 |                     | /api/v1/profiles | ![](images/api-3.png) |
 
-| **Bounded Context** | ResourceItems          |                     |
-| :------------------ | :--------------------- | :------------------ |
-| **Entity**          | **Endpoint URL**       | **Swagger**         |
+| **Bounded Context** | ResourceItems          |                       |
+| :------------------ | :--------------------- | :-------------------- |
+| **Entity**          | **Endpoint URL**       | **Swagger**           |
 |                     | /api/v1/resource-items | ![](images/api-4.png) |
 
 | **Bounded Context** | Collaboration    |                       |
-| :------------------ | :--------------- | :---------------------|
+| :------------------ | :--------------- | :-------------------- |
 | **Entity**          | **Endpoint URL** | **Swagger**           |
 |                     | /api/v1/teams    | ![](images/api-5.png) |
 
 | **Bounded Context** | Collaboration        |                       |
-| :------------------ | :------------------- | :---------------------|
+| :------------------ | :------------------- | :-------------------- |
 | **Entity**          | **Endpoint URL**     | **Swagger**           |
 |                     | /api/v1/team-workers | ![](images/api-6.png) |
 
 | **Bounded Context** | Terrains         |                       |
-| :------------------ | :--------------- | :---------------------|
+| :------------------ | :--------------- | :-------------------- |
 | **Entity**          | **Endpoint URL** | **Swagger**           |
 |                     | /api/v1/terrains | ![](images/api-7.png) |
 
 
 | **Bounded Context** | Users            |                       |
-| :------------------ | :--------------- | :---------------------|
+| :------------------ | :--------------- | :-------------------- |
 | **Entity**          | **Endpoint URL** | **Swagger**           |
 |                     | /api/v1/users    | ![](images/api-8.png) |
 
@@ -1780,6 +1805,22 @@ Land Rental Command Service Tests:
 Land Rental Query Service Tests:
 ![Core 31](images/core31.png)
 ![Core 32](images/core32.png)
+
+- **Collaboration**
+
+TeamWorker 
+![Core 33](images/core33.png)
+![Core 34](images/core34.png)
+
+- **Machineryrental**
+
+Machinery
+![Core 35](images/core35.png)
+
+En total contamos con un total de  39 tests, entre los cuales se encuentran los de integracion, aceptacion entre otros. 
+
+![Core 36](images/core36.png)
+
 
 ## Capítulo VII: DevOps Practices
 #### 7.1. Continuous Integration
