@@ -1714,43 +1714,43 @@ Tiempo después, se desarrolló el Sprint 4, enfocado en la implementación comp
 ### <a name="api-documentation"></a> 5.2.6. RESTful API documentation
 
 | **Bounded Context** | Documents         |                       |
-| :------------------ | :---------------- | :---------------------|
+| :------------------ | :---------------- | :-------------------- |
 | **Entity**          | **Endpoint URL**  | **Swagger**           |
 |                     | /api/v1/documents | ![](images/api-1.png) |
 
 | **Bounded Context** | Machinerys         |                       |
-| :------------------ | :----------------- | :---------------------|
+| :------------------ | :----------------- | :-------------------- |
 | **Entity**          | **Endpoint URL**   | **Swagger**           |
 |                     | /api/v1/machinerys | ![](images/api-2.png) |
 
 | **Bounded Context** | Profiles         |                       |
-| :------------------ | :--------------- | :---------------------|
+| :------------------ | :--------------- | :-------------------- |
 | **Entity**          | **Endpoint URL** | **Swagger**           |
 |                     | /api/v1/profiles | ![](images/api-3.png) |
 
-| **Bounded Context** | ResourceItems          |                     |
-| :------------------ | :--------------------- | :------------------ |
-| **Entity**          | **Endpoint URL**       | **Swagger**         |
+| **Bounded Context** | ResourceItems          |                       |
+| :------------------ | :--------------------- | :-------------------- |
+| **Entity**          | **Endpoint URL**       | **Swagger**           |
 |                     | /api/v1/resource-items | ![](images/api-4.png) |
 
 | **Bounded Context** | Collaboration    |                       |
-| :------------------ | :--------------- | :---------------------|
+| :------------------ | :--------------- | :-------------------- |
 | **Entity**          | **Endpoint URL** | **Swagger**           |
 |                     | /api/v1/teams    | ![](images/api-5.png) |
 
 | **Bounded Context** | Collaboration        |                       |
-| :------------------ | :------------------- | :---------------------|
+| :------------------ | :------------------- | :-------------------- |
 | **Entity**          | **Endpoint URL**     | **Swagger**           |
 |                     | /api/v1/team-workers | ![](images/api-6.png) |
 
 | **Bounded Context** | Terrains         |                       |
-| :------------------ | :--------------- | :---------------------|
+| :------------------ | :--------------- | :-------------------- |
 | **Entity**          | **Endpoint URL** | **Swagger**           |
 |                     | /api/v1/terrains | ![](images/api-7.png) |
 
 
 | **Bounded Context** | Users            |                       |
-| :------------------ | :--------------- | :---------------------|
+| :------------------ | :--------------- | :-------------------- |
 | **Entity**          | **Endpoint URL** | **Swagger**           |
 |                     | /api/v1/users    | ![](images/api-8.png) |
 
