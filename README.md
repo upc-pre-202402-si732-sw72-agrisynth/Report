@@ -18,7 +18,7 @@
 
 **Mes y año:** Setiembre 2024
 
-**Ciclo:** 2024-01
+**Ciclo:** 2024-02
 
 
 | Nombre de los Integrantes          | Código     |
@@ -44,7 +44,7 @@
     <tr>
         <td>TB1</td>
         <td>03/09/2024</td>
-        <td>
+        <td rowspan = "3">
             <p> 
                 Johan Karl Bottger Salazar <br>
                 Diego Rafael Cisneros Tafur <br>
@@ -64,6 +64,27 @@
             </p>
         </td>
     </tr>
+    <tr>
+        <td>TP</td>
+        <td>27/09/2024</td>
+        <td>
+            <p>
+                Capítulo 6 <br>
+                Capítulo 7 <br>
+            </p>
+        </td>
+    </tr>
+    <tr>
+        <td>TB2</td>
+        <td>28/10/2024</td>
+        <td>
+            <p>
+                Capítulo 6 <br>
+                Capítulo 7 <br>
+                Capítulo 8 <br>
+            </p>
+        </td>
+    </tr>
 </table>
 
 ## Project Report Collaboration Insights
@@ -71,131 +92,171 @@
 **Enlace del Project Report: [Repositorio de Github](https://github.com/orgs/upc-pre-202402-si732-sw72-agrisynth/repositories)**
 
 ## Contenido
-- [Student Outcome](#student-outcome)
-  - [ Capítulo I: Introducción](#-capítulo-i-introducción)
-    - [ 1.1. Startup Profile](#-11-startup-profile)
-      - [ 1.1.1. Descripción de la Startup](#-111-descripción-de-la-startup)
-      - [ 1.1.2. Perfiles de integrantes del equipo](#-112-perfiles-de-integrantes-del-equipo)
-    - [ 1.2. Solution Profile](#-12-solution-profile)
-      - [ 1.2.1 Antecedentes y problemática](#-121-antecedentes-y-problemática)
-        - [Antecedentes y problemática](#antecedentes-y-problemática)
-          - [Problemática:](#problemática)
-          - [Las “5W y 2H”](#las-5w-y-2h)
-          - [WHAT](#what)
-          - [WHEN](#when)
-          - [WHERE](#where)
-          - [WHO](#who)
-          - [WHY](#why)
-          - [HOW](#how)
-      - [HOW MUCH](#how-much)
-      - [ 1.2.2 Lean UX Process.](#-122-lean-ux-process)
-        - [ 1.2.2.1. Lean UX Problem Statements.](#-1221-lean-ux-problem-statements)
-        - [ 1.2.2.2. Lean UX Assumptions.](#-1222-lean-ux-assumptions)
-          - [Supuestos en la Gestión de Proyectos](#supuestos-en-la-gestión-de-proyectos)
-          - [User Outcomes](#user-outcomes)
-          - [Business Outcomes](#business-outcomes)
-        - [ 1.2.2.3. Lean UX Hypothesis Statements](#-1223-lean-ux-hypothesis-statements)
-        - [ 1.2.2.4. Lean UX Canvas.](#-1224-lean-ux-canvas)
-    - [ 1.3. Segmentos objetivo](#-13-segmentos-objetivo)
-  - [ Capítulo II: Requirements Elicitation \& Analysis](#-capítulo-ii-requirements-elicitation--analysis)
-    - [ 2.1. Competidores](#-21-competidores)
-      - [ 2.1.1. Análisis competitivo](#-211-análisis-competitivo)
-      - [ 2.1.2. Estrategias y tácticas frente a competidores](#-212-estrategias-y-tácticas-frente-a-competidores)
-    - [ 2.2. Entrevistas](#-22-entrevistas)
-      - [ 2.2.1. Diseño de entrevistas](#-221-diseño-de-entrevistas)
-    - [ 2.2.2 Registro de entrevistas](#-222-registro-de-entrevistas)
-    - [ 2.2.3 Análisis de entrevistas](#-223-análisis-de-entrevistas)
-  - [ 2.3. Needfinding](#-23-needfinding)
-    - [ 2.3.1. User Personas](#-231-user-personas)
-    - [ 2.3.2. User Task Matrix](#-232-user-task-matrix)
-    - [ 2.3.3. User Journey Mapping](#-233-user-journey-mapping)
-    - [ 2.3.4. Empathy Mapping](#-234-empathy-mapping)
-    - [ 2.3.5. As-is Scenario Mapping](#-235-as-is-scenario-mapping)
-- [ CAPÍTULO III: REQUIREMENTS SPECIFICATION](#-capítulo-iii-requirements-specification)
-  - [  3.1. To-Be Scenario Maping](#--31-to-be-scenario-maping)
-  - [ 3.2. User Stories](#-32-user-stories)
-  - [ 3.3. Product Backlog.](#-33-product-backlog)
-  - [ 3.4. Impact Mapping.](#-34-impact-mapping)
-- [ Capítulo IV: Product Design](#-capítulo-iv-product-design)
-  - [ 4.1. Style Guidelines](#-41-style-guidelines)
-    - [ 4.1.1. General Style Guidelines](#-411-general-style-guidelines)
-    - [ 4.1.2. Web Style Guidelines](#-412-web-style-guidelines)
-    - [ 4.1.3. Mobile Style Guidelines](#-413-mobile-style-guidelines)
-      - [ 4.1.3.1. iOS Mobile Style Guidelines](#-4131-ios-mobile-style-guidelines)
-      - [ 4.1.3.2. Android Mobile Style Guidelines](#-4132-android-mobile-style-guidelines)
-  - [ 4.2. Information Architecture](#-42-information-architecture)
-    - [ 4.2.1. Organization Systems](#-421-organization-systems)
-    - [ 4.2.2. Labeling Systems](#-422-labeling-systems)
-    - [ 4.2.3. SEO Tags and Meta Tags](#-423-seo-tags-and-meta-tags)
-    - [ 4.2.4. Searching Systems](#-424-searching-systems)
-    - [ 4.2.5. Navigation Systems](#-425-navigation-systems)
-  - [ 4.3. Landing Page UI Design](#-43-landing-page-ui-design)
-    - [ 4.3.1. Landing Page Wireframe](#-431-landing-page-wireframe)
-    - [ 4.3.2. Landing Page Mock-up](#-432-landing-page-mock-up)
-  - [ 4.4 Mobile Applications UX/UI Design](#-44-mobile-applications-uxui-design)
-    - [ 4.4.1. Mobile Applications Wireframes](#-441-mobile-applications-wireframes)
-    - [ 4.4.2. Mobile Applications Wireflow Diagrams](#-442-mobile-applications-wireflow-diagrams)
-      - [User goal: Autenticación de Usuario y Recuperación de Contraseña.](#user-goal-autenticación-de-usuario-y-recuperación-de-contraseña)
-      - [User goal: Manejo de Recursos](#user-goal-manejo-de-recursos)
-      - [User goal: Alquiler de maquinaria](#user-goal-alquiler-de-maquinaria)
-      - [User goal: Alquiler de terreno](#user-goal-alquiler-de-terreno)
-      - [User goal: Manejo de grupos](#user-goal-manejo-de-grupos)
-      - [User goal: Manejo de documentos](#user-goal-manejo-de-documentos)
-      - [User goal: Ajuste de datos personales, configuración de accesibilidad, cambio de contraseña](#user-goal-ajuste-de-datos-personales-configuración-de-accesibilidad-cambio-de-contraseña)
-    - [ 4.4.3. Mobile Applications Mock-ups](#-443-mobile-applications-mock-ups)
-    - [ 4.4.4. Mobile Applications User Flow Diagrams](#-444-mobile-applications-user-flow-diagrams)
-      - [User goal: Autenticación de Usuario y Recuperación de Contraseña.](#user-goal-autenticación-de-usuario-y-recuperación-de-contraseña-1)
-      - [User goal: Navegación a través de la aplicación](#user-goal-navegación-a-través-de-la-aplicación)
-      - [User goal: Manejo de Recursos](#user-goal-manejo-de-recursos-1)
-      - [User goal: Alquiler de maquinaria](#user-goal-alquiler-de-maquinaria-1)
-      - [User goal: Alquiler de terreno](#user-goal-alquiler-de-terreno-1)
-      - [User goal: Manejo de grupos](#user-goal-manejo-de-grupos-1)
-      - [User goal: Manejo de documentos](#user-goal-manejo-de-documentos-1)
-      - [User goal: Ajuste de datos personales](#user-goal-ajuste-de-datos-personales)
-  - [ 4.5. Mobile Applications Prototyping](#-45-mobile-applications-prototyping)
-    - [ 4.5.1. Android Mobile Applications Prototyping](#-451-android-mobile-applications-prototyping)
-    - [ 4.5.2. iOS Mobile Applications Prototyping](#-452-ios-mobile-applications-prototyping)
-  - [ 4.6. Web Applications UX/UI Design](#-46-web-applications-uxui-design)
-    - [ 4.6.1. Web Applications Wireframes](#-461-web-applications-wireframes)
-    - [ 4.6.2. Web Applications Wireflow Diagrams](#-462-web-applications-wireflow-diagrams)
-    - [ 4.6.3. Web Applications Mock-ups](#-463-web-applications-mock-ups)
-    - [ 4.6.1. Web Applications User Flow Diagrams](#-461-web-applications-user-flow-diagrams)
-      - [User goal: Autenticación de Usuario y Recuperación de Contraseña.](#user-goal-autenticación-de-usuario-y-recuperación-de-contraseña-2)
-      - [User goal: Navegación a través de la aplicación](#user-goal-navegación-a-través-de-la-aplicación-1)
-      - [User goal: Manejo de Recursos](#user-goal-manejo-de-recursos-2)
-      - [User goal: Alquiler de maquinaria](#user-goal-alquiler-de-maquinaria-2)
-      - [User goal: Alquiler de terreno](#user-goal-alquiler-de-terreno-2)
-      - [User goal: Manejo de grupos](#user-goal-manejo-de-grupos-2)
-      - [User goal: Manejo de documentos](#user-goal-manejo-de-documentos-2)
-      - [User goal: Ajuste de datos personales](#user-goal-ajuste-de-datos-personales-1)
-  - [ 4.7 Web Applications Prototyping](#-47-web-applications-prototyping)
-  - [ 4.8. Domain-Driven Software Architecture.](#-48-domain-driven-software-architecture)
-    - [ 4.8.1. Software Architecture Context Diagram.](#-481-software-architecture-context-diagram)
-    - [ 4.8.2. Software Architecture Container Diagrams.](#-482-software-architecture-container-diagrams)
-    - [ 4.8.3. Software Architecture Components Diagrams.](#-483-software-architecture-components-diagrams)
-  - [ 4.9. Software Object-Oriented Design](#-49-software-object-oriented-design)
-    - [ 4.9.1. Class Diagrams](#-491-class-diagrams)
-    - [ 4.9.2. Class Dictionary](#-492-class-dictionary)
-  - [ 4.10. Database Design.](#-410-database-design)
-    - [ 4.10.1. . Relational/Non-Relational Database Diagram](#-4101--relationalnon-relational-database-diagram)
-- [ Capítulo V: Product Implementation](#-capítulo-v-product-implementation)
-  - [ 5.1. Software Configuration Management](#-51-software-configuration-management)
-    - [  5.1.1. Software Development Environment Configuration\*\*](#--511-software-development-environment-configuration)
-    - [ 5.1.2. Source Code Management](#-512-source-code-management)
-    - [ 5.1.3. Source Code Style Guide \& Conventions](#-513-source-code-style-guide--conventions)
-    - [ 5.1.4 Software Deployment Configuration](#-514-software-deployment-configuration)
-  - [ 5.2. Product Implementation \& Deployment](#-52-product-implementation--deployment)
-    - [ 5.2.1 Backlogs](#-521-backlogs)
-      - [1. Sprint Backlog 1](#1-sprint-backlog-1)
-      - [2. Sprint 2](#2-sprint-2)
-      - [3. Sprint Backlog 3.](#3-sprint-backlog-3)
-    - [ 5.2.2. Implemented Landing Page Evidence](#-522-implemented-landing-page-evidence)
-    - [ 5.2.3. Implemented Frontend-Web Application Evidence](#-523-implemented-frontend-web-application-evidence)
-    - [ 5.2.4. Implemented Native-Mobile Application Evidence](#-524-implemented-native-mobile-application-evidence)
-    - [ 5.2.5. Implemented RESTful API and/or Serverless Backend Evidence](#-525-implemented-restful-api-andor-serverless-backend-evidence)
-    - [ 5.2.6. RESTful API documentation](#-526-restful-api-documentation)
-    - [ 5.2.7. Team Collaboration Insights](#-527-team-collaboration-insights)
-  - [ 5.3. Video About-the-Product](#-53-video-about-the-product)
+### Capítulo I: Introducción
+#### 1.1. Startup Profile
+  - 1.1.1. Descripción de la Startup
+  - 1.1.2. Perfiles de integrantes del equipo
+#### 1.2. Solution Profile
+  - 1.2.1. Antecedentes y problemática
+  - 1.2.2. Lean UX Process.
+  - 1.2.2.1. Lean UX Problem Statements.
+  - 1.2.2.2. Lean UX Assumptions.
+  - 1.2.2.3. Lean UX Hypothesis Statements.
+  - 1.2.2.4. Lean UX Canvas.
+#### 1.3. Segmentos objetivo.
+### Capítulo II: Requirements Elicitation & Analysis
+#### 2.1. Competidores.
+  - 2.1.1. Análisis competitivo.
+  - 2.1.2. Estrategias y tácticas frente a competidores.
+#### 2.2. Entrevistas.
+  - 2.2.1. Diseño de entrevistas.
+  - 2.2.2. Registro de entrevistas.
+  - 2.2.3. Análisis de entrevistas.
+#### 2.3. Needfinding.
+  - 2.3.1. User Personas.
+  - 2.3.2. User Task Matrix.
+  - 2.3.3. User Journey Mapping.
+  - 2.3.4. Empathy Mapping.
+  - 2.3.5. As-is Scenario Mapping.
+### Capítulo III: Requirements Specification
+#### 3.1. To-Be Scenario Mapping.
+#### 3.2. User Stories.
+#### 3.3. Product Backlog.
+#### 3.4. Impact Mapping.
+### Capítulo IV: Product Design
+#### 4.1. Style Guidelines.
+  - 4.1.1. General Style Guidelines.
+  - 4.1.2. Web Style Guidelines.
+  - 4.1.3. Mobile Style Guidelines.
+  - 4.1.3.1. iOS Mobile Style Guidelines.
+  - 4.1.3.2. Android Mobile Style Guidelines.
+#### 4.2. Information Architecture.
+  - 4.2.1. Organization Systems.
+  - 4.2.2. Labeling Systems.
+  - 4.2.3. SEO Tags and Meta Tags
+  - 4.2.4. Searching Systems.
+  - 4.2.5. Navigation Systems.
+#### 4.3. Landing Page UI Design.
+  - 4.3.1. Landing Page Wireframe.
+  - 4.3.2. Landing Page Mock-up.
+#### 4.4. Mobile Applications UX/UI Design.
+  - 4.4.1. Mobile Applications Wireframes.
+  - 4.4.2. Mobile Applications Wireflow Diagrams.
+  - 4.4.3. Mobile Applications Mock-ups.
+  - 4.4.4. Mobile Applications User Flow Diagrams.
+#### 4.5. Mobile Applications Prototyping.
+  - 4.5.1. Android Mobile Applications Prototyping.
+  - 4.5.2. iOS Mobile Applications Prototyping.
+#### 4.6. Web Applications UX/UI Design.
+  - 4.6.1. Web Applications Wireframes.
+  - 4.6.2. Web Applications Wireflow Diagrams.
+  - 4.6.3. Web Applications Mock-ups.
+  - 4.6.4. Web Applications User Flow Diagrams.
+#### 4.7. Web Applications Prototyping.
+#### 4.8. Domain-Driven Software Architecture.
+  - 4.8.1. Software Architecture Context Diagram.
+  - 4.8.2. Software Architecture Container Diagrams.
+  - 4.8.3. Software Architecture Components Diagrams.
+#### 4.9. Software Object-Oriented Design.
+  - 4.9.1. Class Diagrams.
+  - 4.9.2. Class Dictionary.
+#### 4.10. Database Design.
+  - 4.10.1. Relational/Non-Relational Database Diagram.
+### Capítulo V: Product Implementation
+#### 5.1. Software Configuration Management.
+  - 5.1.1. Software Development Environment Configuration.
+  - 5.1.2. Source Code Management.
+  - 5.1.3. Source Code Style Guide & Conventions.
+  - 5.1.4. Software Deployment Configuration.
+#### 5.2. Product Implementation & Deployment.
+  - 5.2.1. Sprint Backlogs.
+  - 5.2.2. Implemented Landing Page Evidence
+  - 5.2.3. Implemented Frontend-Web Application Evidence
+  - 5.2.4. Implemented Native-Mobile Application Evidence
+  - 5.2.5. Implemented RESTful API and/or Serverless Backend Evidence
+  - 5.2.6. RESTful API documentation
+  - 5.2.7. Team Collaboration Insights
+#### 5.3. Video About-the-Product.
+### Capítulo VI: Product Verification & Validation
+#### 6.1. Testing Suites & Validation
+  -6.1.1. Core Entities Unit Tests.
+  - 6.1.2. Core Integration Tests.
+  - 6.1.3. Core Behavior-Driven Development
+  - 6.1.4. Core System Tests.
+#### 6.2. Static testing & Verification
+  - 6.2.1. Static Code Analysis
+    - 6.2.1.1. Coding standard & Code conventions.
+    - 6.2.1.2. Code Quality & Code Security.
+  - 6.2.2. Reviews
+#### 6.3. Validation Interviews.
+  - 6.3.1. Diseño de Entrevistas.
+  - 6.3.2. Registro de Entrevistas.
+  - 6.3.3. Evaluaciones según heurísticas.
+#### 6.4. Auditoría de Experiencias de Usuario
+  - 6.4.1. Auditoría realizada.
+    - 6.4.1.1. Información del grupo auditado.
+    - 6.4.1.2. Cronograma de auditoría realizada.
+    - 6.4.1.3. Contenido de auditoría realizada.
+  - 6.4.2. Auditoría recibida.
+    - 6.4.2.1. Información del grupo auditor.
+    - 6.4.2.2. Cronograma de auditoría recibida.
+    - 6.4.2.3. Contenido de auditoría recibida.
+    - 6.4.2.4. Resumen de modificaciones para subsanar hallazgos.
+### Capítulo VII: DevOps Practices
+#### 7.1. Continuous Integration
+  - 7.1.1. Tools and Practices.
+  - 7.1.2. Build & Test Suite Pipeline Components.
+#### 7.2. Continuous Delivery
+  - 7.2.1. Tools and Practices.
+  - 7.2.2. Stages Deployment Pipeline Components.
+#### 7.3. Continuous deployment
+  - 7.3.1. Tools and Practices.
+  - 7.3.2. Production Deployment Pipeline Components.
+#### 7.4. Continuous Monitoring
+  - 7.4.1. Tools and Practices
+  - 7.4.2. Monitoring Pipeline Components
+  - 7.4.3. Alerting Pipeline Components
+  - 7.4.4. Notification Pipeline Components.
+### Capítulo VIII: Experiment-Driven Development
+#### 8.1. Experiment Planning
+  - 8.1.1. As-Is Summary.
+  - 8.1.2. Raw Material: Assumptions, Knowledge Gaps, Ideas, Claims.
+  - 8.1.3. Experiment-Ready Questions.
+  - 8.1.4. Question Backlog.
+  - 8.1.5. Experiment Cards.
+#### 8.2. Experiment Design
+  - 8.2.1. Hypotheses.
+  - 8.2.2. Measures.
+  - 8.2.3. Conditions.
+  - 8.2.4. Scale Calculations and Decisions.
+  - 8.2.5. Methods Selection.
+  - 8.2.6. Data Analytics: Goals, KPIs and Metrics Selection.
+  - 8.2.7. Web and Mobile Tracking Plan.
+#### 8.3. Experimentation
+  - 8.3.1. To-Be User Stories.
+  - 8.3.2. To-Be Product Backlog
+  - 8.3.3. Pipeline-supported, Experiment-Driven To-Be Software Platform Lifecycle
+    - 8.3.3.1. To-Be Sprint Backlogs
+    - 8.3.3.2. Implemented To-Be Landing Page Evidence
+    - 8.3.3.3. Implemented To-Be Frontend-Web Application Evidence
+    - 8.3.3.4. Implemented To-Be Native-Mobile Application Evidence
+    - 8.3.3.5. Implemented To-Be RESTful API and/or Serverless Backend Evidence
+    - 8.3.3.6. Team Collaboration Insights
+  - 8.3.4. To-Be Validation Interviews
+    - 8.3.4.1. Diseño de Entrevistas.
+    - 8.3.4.2. Registro de Entrevistas.
+#### 8.4. Experiment Aftermath & Analysis
+  - 8.4.1. Analysis and Interpretation of Results
+  - 8.4.2. Re-scored and Re-prioritized Question Backlog
+#### 8.5. Continuous Learning
+  - 8.5.1. Shareback Session Artifacts: Learning Workflow
+#### 8.6. To-Be Software Platform Pre-launch
+  - 8.6.1. About-the-Product Intro Video
+### Conclusiones
+### Conclusiones y recomendaciones
+### Video About-The-Team
+### Bibliografía
+### Anexos
 
 
 # Student Outcome
@@ -243,12 +304,12 @@
             </p>
         </td>
         <td>
-            <p>
-                <strong>TB1</strong> <br>
-                En esta primera entrega, se ha reutilizado un trabajo realizado en el ciclo anterior por nuestro grupo de trabajo. Reconocemos que el uso de código de otras personas sin su permiso no es correcto éticamente, por lo que se le ha informado a aquellas personas que ya no participan en el grupo acerca del uso de las aplicaciones y reportes. Dichas personas aceptaron la prepuesta y nos otorgaron el permiso de utilizar el repositorio como base para las pruebas realizadas en este curso
-                <strong>TP</strong> <br>
-                En esta segunda entrega, se ha hecho una ardua investigación acerca de las metodologías y tecnologías que se utilizan al momento de realizar pruebas en una aplicación de software
-            </p>
+          <br> <strong>TB1</strong> <br>
+            <p>En esta primera entrega, se ha reutilizado un trabajo realizado en el ciclo anterior por nuestro grupo de trabajo. Reconocemos que el uso de código de otras personas sin su permiso no es correcto éticamente, por lo que se le ha informado a aquellas personas que ya no participan en el grupo acerca del uso de las aplicaciones y reportes. Dichas personas aceptaron la prepuesta y nos otorgaron el permiso de utilizar el repositorio como base para las pruebas realizadas en este curso </p>
+          <br> <strong>TP</strong> <br>
+            <p>En esta segunda entrega, se ha hecho una ardua investigación acerca de las metodologías y tecnologías que se utilizan al momento de realizar pruebas en una aplicación de software</p>
+          <br> <strong>TB3</strong> <br>
+            <p> En esta tercera entrega, se ha hecho una investigación acerca de las metodologías de Continuos Delivery y Continuos Deployment, al igual que otras buenas prácticas que se utilizaron en el proyecto, como reformular las historias de usuario para que se adecúen más con las expectativas de los usuarios (to-be user stories) </p>
         </td>
     </tr>
     <tr>
@@ -288,12 +349,12 @@
             </p>
         </td>
         <td>
-            <p>
-                <strong>TB1</strong> <br>
-                Se realizaron las aplicaciones web que se utilizarán durante todo el ciclo del curso. Estas aplicaciones fueron especialmente diseñadas para contrarrestar uno de los mayores problemas con las que los segmentos objetivos cuentan, falta de organización. Se espera que en las siguientes entregas se comprueben la validez de nuestras aplicaciones y qué tan efectivas realmente podrán ser en implementarlas
-                <strong>TP</strong> <br>
-                Se realizaron pruebas unitarias e integrales para validación de nuestra aplicación web. Es necesario que nuestra aplicación funcione sin fallas aparentes y repetivas, por lo que el proceso de pruebas se llevará a cabo durante el resto del ciclo académico
-            </p>
+          <br> <strong>TB1</strong> <br>
+            <p>Se realizaron las aplicaciones web que se utilizarán durante todo el ciclo del curso. Estas aplicaciones fueron especialmente diseñadas para contrarrestar uno de los mayores problemas con las que los segmentos objetivos cuentan, falta de organización. Se espera que en las siguientes entregas se comprueben la validez de nuestras aplicaciones y qué tan efectivas realmente podrán ser en implementarlas </p>
+          <br> <strong>TP</strong> <br>
+            <p>Se realizaron pruebas unitarias e integrales para validación de nuestra aplicación web. Es necesario que nuestra aplicación funcione sin fallas aparentes y repetivas, por lo que el proceso de pruebas se llevará a cabo durante el resto del ciclo académico</p>
+          <br> <strong>TB3</strong> <br>
+            <p> Se realizaron más pruebas unitarias e integrales para validación de nuestra aplicación web, al igual que diversos procesos de desarrollo y despliegue continuo que nos ayudaron a validar nuestra aplicación </p>
         </td>
     </tr>
 </table>
@@ -1781,6 +1842,157 @@ Land Rental Query Service Tests:
 ![Core 31](images/core31.png)
 ![Core 32](images/core32.png)
 
+### 6.3. Validation Interviews.
+#### 6.3.1. Diseño de Entrevistas
+**Preguntas generales:**
+- ¿Cómo te llamas?
+- ¿Qué edad tienes?
+- ¿Cuál es tu profesión?
+- ¿Cuáles son los principales desafíos que enfrenta en su gestión agrícola actualmente?
+
+Segmento objetivo: Ingenieros Agrónomos que Asesoran a Agricultores
+Preguntas sobre preferencias y personalidad [en caso de ser un nuevo entrevistado que no participó en la anterior entrevista]:
+- ¿Cómo gestiona la comunicación y colaboración con los agricultores que asesora?
+- ¿Existen barreras que dificultan el intercambio efectivo de información y recomendaciones?
+- ¿Cuáles son los principales obstáculos que encuentra para la adopción de nuevas tecnologías entre los agricultores a los que asesora?
+- ¿Cómo personalizar sus recomendaciones basadas en la tecnología para adaptarse a las diferentes necesidades de los agricultores?
+- ¿Cómo recopila y utiliza el feedback de los agricultores para mejorar sus servicios de asesoramiento?
+
+**Preguntas principales:**
+- ¿Qué te parece el diseño de la landing page? ¿Te motiva a ingresar a la aplicación y registrarte?
+- ¿Consideras que la aplicación dispone de una interfaz fácil e intuitiva de utilizar?
+  - Si la respuesta es SÍ, ¿Por qué lo considera así?
+  - Si la respuesta es NO, ¿Qué funcionalidad crees que falta o sobra en la aplicación para que tengas más interés en usarla?
+- ¿Consideras que la sección de inventario de recursos puede ayudarte a gestionar mejor tus insumos y equipos como ingeniero agrónomo? ¿De qué manera crees que esta función podría optimizar tu planificación y compras futuras?
+- ¿Encuentras útil la sección de terrenos para identificar y buscar rápidamente terrenos fértiles? ¿Cómo crees que esta función podría facilitar y mejorar tu trabajo en la gestión agrícola?
+
+**Preguntas complementarias:**
+- ¿Qué tipo de dispositivo (celular, tablet, laptop, etc.) has utilizado al momento de probar la landing page y la aplicación web?
+- ¿Cuál fue el navegador que utilizaste en esta ocasión para visualizar el contenido?
+- ¿Hubo algún aspecto visual como el posicionamiento de los elementos que no te terminó de agradar?
+
+Segmento objetivo: Empresas Agrícolas de Gran Escala
+Preguntas sobre preferencias y personalidad [en caso de ser un nuevo entrevistado que no participó en la anterior entrevista]:
+- ¿Cómo gestiona y analiza los datos agrícolas para tomar decisiones estratégicas?
+- ¿Qué tipo de datos le resultan más valiosos y por qué?
+- ¿Cómo asegura la eficiencia operativa a medida que escala sus operaciones agrícolas?
+- ¿Qué desafíos enfrenta al integrar nuevas tecnologías en sus operaciones a gran escala?
+- ¿De qué manera íntegra prácticas de sostenibilidad en sus operaciones y qué impacto han tenido?
+
+Preguntas principales:
+- ¿Qué te parece el diseño de la landing page? ¿Te motiva a ingresar a la aplicación y registrarte?
+- ¿Consideras que la aplicación dispone de una interfaz fácil e intuitiva de utilizar?
+  - Si la respuesta es SÍ, ¿Por qué lo considera así?
+  - Si la respuesta es NO , ¿Qué funcionalidad crees que falta o sobra en la aplicación para que tengas más interés en usarla?
+- ¿Consideras que la sección de grupos puede ayudarte a organizar mejor a tus trabajadores y optimizar su rendimiento en la empresa agrícola? ¿Cómo crees que esta función podría mejorar la gestión y la eficiencia de tu equipo?
+- ¿Encuentras útil la sección de documentos para almacenar y supervisar distintos tipos de documentos relacionados con el trabajo agrícola? ¿De qué manera crees que esta función podría facilitar la supervisión y mejorar la gestión de tu empresa?
+
+Preguntas complementarias:
+- ¿Qué tipo de dispositivo (celular, tablet, laptop, etc.) has utilizado al momento de probar la landing page y la aplicación web?
+- ¿Cuál fue el navegador que utilizaste en esta ocasión para visualizar el contenido?
+- ¿Hubo algún aspecto visual como el posicionamiento de los elementos que no te terminó de agradar?
+
+### 6.3.2. Registro de Entrevistas.
+#### Segmento objetivo: Ingenieros Agrónomos que Asesoran a Agricultores
+##### Entrevista 1:
+![Entrevista de Validación](images/entrevista-validation-marcelo.png)
+**Nombre:** Giancarlo Stephano Romero Paredes
+**Edad:** 18
+**Distrito:** Surco
+**Resumen:** Giancarlo Stephano Romero Paredes nos comentó que le agrada bastante nuestra aplicación y la landing page. No realizó ningún comentario negativo acerca de ninguna de las dos soluciones de software expuestas
+
+
+### 6.3.3. Evaluaciones según heurísticas
+#### UX Heuristics & Principles Evaluation
+##### Usability – Inclusive Design – Information Architecture
+**CARRERA:** Ingeniería de Software
+**CURSO:** Diseño de Experimentos de Ingeniería de Software
+**SECCIÓN:** SW72
+**PROFESORES:** Todos
+**AUDITOR:** AgriSynth
+**CLIENTE(S):** Todos
+**SITE o APP A EVALUAR:** AgriSynth
+**TAREAS POR EVALUAR:**
+El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas:
+- Desktop landing page
+- Información y descripción de la aplicación y sus funcionalidad
+- Información y breve descripción sobre el equipo de trabajo
+- Visualización de testimonios
+- Header y footer funcionales
+- Desktop Web Applications
+- Registro de nuevo usuario
+- Inicio de sesión de usuario existente
+- Header y footer funcionales
+- Pestañas de navegación dentro de la aplicación
+- Botones interactivos y de uso intuitivo
+- Visualización de ítems relacionados
+
+No incluidas en esta versión de la evaluación:
+
+- Desktop landing page
+- Formulario para crear cuenta o cambiar contraseña
+- Política de privacidad y condiciones de uso
+- Visualización de Perfil de usuario
+- Descripción detallada de productos al seleccionar
+
+#### ESCALA DE SEVERIDAD:
+Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:
+| Nivel |	Descripción |
+|--|--|
+| 1 |	Problema superficial: puede ser fácilmente superado por el usuario u ocurre con muy poca frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo. |
+| 2	|Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja resolverlo de cara al siguiente release. |
+| 3	| Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es importante que sean corregidos y se les debe asignar una prioridad alta. |
+| 4	| Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento. |
+
+#### TABLA RESUMEN AMBOS SEGMENTOS:
+
+#### *Web Application*
+
+#####	Problema	Escala de severidad	Heurística/Principio violado
+|# |Problema|Escala de severidad|Heurística/Principio violado|
+|--|--|--|--|
+| 1	| Navegación complicada |	1 |	IA - Is it clear? |
+| 2	| Información oculta |	2 |	IA - Is it findable? |
+
+#### *Landing Page*
+
+#####	Problema	Escala de severidad	Heurística/Principio violado
+|# |Problema|Escala de severidad|Heurística/Principio violado|
+|--|--|--|--|
+| 1 |	Inconsistencias de diseño |	1 |	IA - Is it clear? |
+| 2 |	Funcionalidades de la aplicación | 1	|IA - Is it usable? |
+|3 |	Testimonios no visibles |	1 |	IA - Is it clear? |
+
+#### DESCRIPCIÓN DE PROBLEMAS:
+#### *Web Application*
+##### PROBLEMA #1:
+**Severidad:** 1
+**Heurística violada:** IA - Is it clear?
+**Problema:** La navegación dentro de la aplicación no es clara, y los usuarios pueden tener dificultades para encontrar las secciones deseadas.
+Recomendación: Mejorar la estructura de la navegación y añadir etiquetas descriptivas a las pestañas.
+##### PROBLEMA #2: 
+**Severidad:** 2
+**Heurística violada:** IA - Is it findable?
+**Problema: **La información relevante está oculta o no es fácilmente accesible.
+**Recomendación:** Reorganizar la información para que sea más accesible y visible desde la pantalla principal.
+#### *Landing Page*
+##### PROBLEMA #1:
+**Severidad:** 1
+**Heurística violada:** Usability - Consistency and standards
+**Problema:** Hay inconsistencias en el diseño y los estándares utilizados en diferentes secciones de la aplicación.
+**Recomendación:** Establecer y seguir un conjunto claro de directrices de diseño para mantener la consistencia en toda la aplicación.
+##### PROBLEMA #2:
+**Severidad:** 1
+**Heurística violada:** IA - Is it clear?
+**Problema:** La información sobre la aplicación y sus funcionalidades no es clara y puede confundir a los usuarios.
+**Recomendación:** Simplificar y clarificar la descripción de la aplicación y sus funcionalidades.
+##### PROBLEMA #3:
+**Severidad:** 1
+**Heurística violada:** IA - Is it usable?
+**Problema:**  Los testimonios no son fáciles de visualizar y pueden pasar desapercibidos.
+**Recomendación:** Reorganizar la sección de testimonios para que sean más prominentes y fáciles de leer.
+
+
 ## Capítulo VII: DevOps Practices
 #### 7.1. Continuous Integration
 #### 7.1.1. Tools and Practices
@@ -1845,6 +2057,316 @@ Componentes clave del pipeline de despliegue en producción:
   Tras el despliegue, se envían notificaciones automáticas al equipo de desarrollo y operaciones, indicando el éxito del despliegue. Además, el sistema está integrado con herramientas de monitoreo continuo que vigilan el rendimiento de la aplicación en producción, permitiendo la detección temprana de posibles problemas o cuellos de botella.
 7.	**Rollback Automatizado (en caso de fallos):**
   En caso de detectar fallos críticos tras el despliegue, el pipeline está configurado para ejecutar un rollback automatizado a la versión anterior estable. Esto garantiza que cualquier impacto negativo en producción se minimice rápidamente.
+
+## Capítulo VIII: Experiment-Driven Development
+### 8.1. Experiment Planning
+#### 8.1.1. As-Is Summary.
+#### 8.1.2. Raw Material: Assumptions, Knowledge Gaps, Ideas, Claims.
+#### 8.1.3. Experiment-Ready Questions.
+#### 8.1.4. Question Backlog.
+#### 8.1.5. Experiment Cards.
+### 8.2. Experiment Design
+#### 8.2.1. Hypotheses.
+#### 8.2.2. Measures.
+#### 8.2.3. Conditions.
+#### 8.2.4. Scale Calculations and Decisions.
+#### 8.2.5. Methods Selection.
+#### 8.2.6. Data Analytics: Goals, KPIs and Metrics Selection.
+#### 8.2.7. Web and Mobile Tracking Plan.
+### 8.3. Experimentation
+La experimentación es una etapa clave en el desarrollo de nuestra aplicación, donde se busca validar y ajustar las características y funcionalidades planteadas para satisfacer las necesidades de los usuarios. Esta sección se centra en las pruebas y mejoras continuas, asegurando que la aplicación no solo cumpla con los requisitos técnicos, sino que también ofrezca una experiencia de usuario óptima.
+#### 8.3.1. To-Be User Stories.
+<table>
+  <tr>
+    <th>Epic / Story ID</th>
+    <th>Título</th>
+    <th>Descripción</th>
+    <th>Criterios de Aceptación</th>
+    <th>EPIC ID</th>
+  </tr>
+  <tr>
+    <td colspan="5">
+      <p>
+        <strong>Epic 2</strong> <br>
+        Como usuario, quiero poder crear recursos de trabajo para conocer siempre los recursos que se están utilizando
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td>EP2 / US04</td>
+    <td>Creación de un recurso agrícola</td>
+    <td>
+      <p>Como usuario</p>
+      <p>Quiero poder crear entornos de los recursos que tengo</p>
+      <p>Para conocer a los detalles de cada uno de ellos</p>
+    </td>
+    <td>
+      <strong>Escenario 1: Ingreso al entorno “Crear Recurso”</strong><br>
+        <p>Dado que el usuario se encuentra en el entorno “Recursos”</p>
+        <p>Cuando el usuario presione el botón “Crear Nuevo Recurso”</p>
+        <p>Entonces se redirige al usuario al entorno “Crear Recurso”</p>
+      <strong>Escenario 2: Creación de recurso exitosa</strong><br>
+        <p> Dado que el usuario se encuentra en el entorno “Crear recurso”</p>
+        <p>Cuando el usuario ingrese todos los detalles obligatorios del recurso</p>
+        <p>Y el usuario llene opcionalmente la descripción del recurso</p>
+        <p>Y el usuario agregue opcionalmente una imagen al recurso</p>
+        <p>Y da clic en “Crear Recurso”</p>
+        <p>Entonces el recurso creado aparecerá en el entorno “Recursos”</p>
+        <p>Y se muestra un mensaje de confirmación, indicando que el recurso se creó satisfactoriamente</p>
+        <p>Y el recurso se visualizará automáticamente en la tabla de recursos, junto con su imagen</p>
+      <strong>Escenario 3: Creación de recurso con nombre inválido</strong><br>
+        <p>Dado que el usuario se encuentra en el entorno “Crear recurso”</p>
+        <p>Cuando el usuario ingrese un nombre inválido para el recurso</p>
+        <p>Y ingrese todos los detalles obligatorios</p>
+        <p>Y da clic en “Crear Recurso”</p>
+        <p>Entonces aparecerá un mensaje de error, indicando que el recurso no puede tener un nombre inválido</p>
+      <strong>Escenario 4: Creación de recurso con nombre duplicado</strong><br>
+        <p>Dado que el usuario se encuentra en el entorno “Crear recurso”</p>
+        <p>Cuando el usuario ingrese un nombre que es igual a otro recurso ya registrado</p>
+        <p>Y ingrese todos los detalles obligatorios</p>
+        <p>Y da clic en “Crear Recurso”</p>
+        <p>Entonces aparecerá un mensaje de error, indicando que ya hay otro recurso con el mismo nombre</p>
+      <strong>Escenario 5: Creación de recurso sin llenar todos los campos obligatorios</strong><br>
+        <p>Dado que el usuario se encuentra en el entorno “Crear recurso”</p>
+        <p>Cuando el usuario intente crear un recurso sin especificar todos los campos obligatorios</p>
+        <p>Y da clic en “Crear Recurso”</p>
+        <p>Entonces se muestra un mensaje de error, indicando que no se han llenado todos los campos obligatorios</p>
+      <strong>Escenario 6: Creación de recurso con una cantidad, precio de venta o precio de compra inválido</strong><br>
+        <p>Dado que el usuario se encuentra en el entorno “Crear recurso”</p>
+        <p>Cuando el usuario intente crear un recurso con una cantidad, precio de venta o precio de compra inválido</p>
+        <p>Entonces se muestra un mensaje de error, indicando el valor es inválido</p>
+      <strong>Escenario 7: Creación de recurso con una imagen en formato no válido</strong><br>
+        <p>Dado que el usuario se encuentra en el entorno “Crear Recurso”</p>
+        <p>Cuando el usuario intente crear un recurso con una imagen en un formato no válido (png o jpeg)</p>
+        <p>Entonces aparecerá un mensaje de error, indicando que el formato de la imagen no es válido</p>
+    </td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td>EP2 / US05</td>
+    <td>Uso de un ícono para un recurso</td>
+    <td>
+      <p>Como usuario</p>
+      <p>Quiero poder crear un ícono para un recurso</p>
+      <p>Para no tener la necesidad de contar con una imagen para crear un recurso</p>
+    </td>
+    <td>
+      <strong>Escenario 1: Creación de recurso con un ícono</strong><br>
+        <p>Dado que el usuario se encuentra en el entorno “Crear recurso”</p>
+        <p>Cuando el usuario seleccione “Utilizar Ícono”</p>
+        <p>Entonces se aparece la ventana “Íconos”</p>
+      <strong>Escenario 2: Elección de un ícono para el recurso</strong><br>
+        <p> Dado que el usuario se encuentra en la ventana “Íconos”</p>
+        <p>Y el recurso seleccionado no tenía ninguna imagen referencial</p>
+        <p>Cuando el usuario seleccione uno de los íconos predeterminados</p>
+        <p>Entonces el ícono elegido se agregará al recurso solicitado</p>
+        <p>Y se mostrará un mensaje de confirmación, indicando que se agregó correctamente el ícono</p>
+      <strong>Escenario 3: Sustituir una imagen con un ícono</strong><br>
+        <p>Dado que el usuario se encuentra en la ventana de “Íconos”</p>
+        <p>Y el usuario ya había elegido una imagen referencial anteriormente</p>
+        <p>Cuando el usuario seleccione uno de los íconos predeterminados</p>
+        <p>Entonces aparecerá un mensaje, indicando que el ícono sustituirá a la imagen anterior</p>
+      <strong>Escenario 4: Confirmar sustitución de imagen</strong><br>
+        <p>Dado que el usuario se encuentra en la ventana de confirmación de agregado de ícono</p>
+        <p>Cuando el usuario de clic en “Confirmar”</p>
+        <p>Entonces aparecerá un mensaje de confirmación, indicando que se agregó el ícono seleccionado</p>
+        <p>Y la imagen anterior será sustituida por el ícono seleccionado</p>
+    </td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td colspan="5">
+      <p>
+        <strong>Epic 3</strong> <br>
+        Como usuario, quiero editar el estado de un recurso para que su información esté al día
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td>EP3 / US03</td>
+    <td>Edición de un recurso detallado</td>
+    <td>
+      <p>Como usuario</p>
+      <p>Quiero poder editar un recurso ya hecho</p>
+      <p>Para actualizar los datos a los actuales</p>
+    </td>
+    <td>
+      <strong>Escenario 1: Cambio de detalles</strong><br>
+        <p>Dado que el usuario se encuentra en el entorno “Recursos”</p>
+        <p>Cuando el usuario seleccione y cambie uno de los detalles del recurso</p>
+        <p>Entonces los cambios realizados se guardarán</p>
+      <strong>Escenario 2: Cambio a un valor inválido</strong><br>
+        <p> Dado que el usuario se encuentra en el entorno “Recursos”</p>
+        <p>Cuando el usuario seleccione a alguno de los campos de cualquier recurso</p>
+        <p>Y cambie el valor a uno inválido</p>
+        <p>Entonces se muestra un mensaje de error, indicando que no se puede cambiar el valor a un número inválido</p>
+      <strong>Escenario 3: Cambio de imagen a ícono referencial</strong><br>
+        <p>Dado que el usuario se encuentra en el entorno “Recursos”</p>
+        <p>Cuando el usuario cambie la imagen de un recurso a un ícono</p>
+        <p>Entonces aparecerá un mensaje, indicando que el ícono reemplazará a la imagen original y esta será borrada</p>
+    </td>
+    <td>3</td>
+  </tr>
+  <tr>
+    <td colspan="5">
+      <p>
+        <strong>Epic 4</strong> <br>
+        Como usuario, quiero poder alquilar y comprar terrenos y maquinarias desde la aplicación para facilitar y acelerar el proceso
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td>EP4 / US04</td>
+    <td>Visualización detalles de Maquinaria extendido</td>
+    <td>
+      <p>Como usuario</p>
+      <p>Quiero visualizar los detalles de las maquinarias</p>
+      <p>Para conocer si es que vale la pena adquirirlas mediante un alquiler o compra</p>
+    </td>
+    <td>
+      <strong>Escenario 1: Ingreso al entorno “Maquinaria”</strong><br>
+        <p>Dado que el usuario se encuentra en la página principal</p>
+        <p>Cuando el usuario de clic en “Maquinaria”</p>
+        <p>Entonces se redirige al usuario al entorno “Maquinarias”</p>
+      <strong>Escenario 2: Elección de maquinaria con el buscador</strong><br>
+        <p> Dado que el usuario se encuentra en el entorno “Maquinaria”</p>
+        <p>Cuando el usuario escriba en el buscador</p>
+        <p>Y dé clic en “Buscar”</p>
+        <p>Entonces aparecerán todas las maquinarias que coincidan con lo escrito</p>
+      <strong>Escenario 3: Detalles de Maquinaria</strong><br>
+        <p>Dado que el usuario se encuentra en el entorno “Maquinaria”</p>
+        <p>Cuando el usuario seleccione una maquinaria</p>
+        <p>Entonces aparecerán la ventana “Detalles de Maquinaria”, indicando todos los detalles importantes de la maquinaria en cuestión</p>
+    </td>
+    <td>4</td>
+  </tr>
+  <tr>
+    <td>EP4 / US04</td>
+    <td>Visualización detalles de Terrenos extendido</td>
+    <td>
+      <p>Como usuario</p>
+      <p>Quiero visualizar los detalles de los terrenos</p>
+      <p>Para conocer si es que vale la pena adquirirlos mediante un alquiler o compra</p>
+    </td>
+    <td>
+      <strong>Escenario 1: Ingreso al entorno “Terreno”</strong><br>
+        <p>Dado que el usuario se encuentra en la página principal</p>
+        <p>Cuando el usuario de clic en “Terreno”</p>
+        <p>Entonces se redirige al usuario al entorno “Terrenos”</p>
+      <strong>Escenario 2: Elección de terreno con el buscador</strong><br>
+        <p> Dado que el usuario se encuentra en el entorno “Terreno”</p>
+        <p>Cuando el usuario escriba en el buscador</p>
+        <p>Y dé clic en “Buscar”</p>
+        <p>Entonces aparecerán todas las terrenos que coincidan con lo escrito</p>
+      <strong>Escenario 3: Detalles de Terreno</strong><br>
+        <p>Dado que el usuario se encuentra en el entorno “Terreno”</p>
+        <p>Cuando el usuario seleccione una terreno</p>
+        <p>Entonces aparecerán la ventana “Detalles de Terreno”, indicando todos los detalles importantes de la Terreno en cuestión</p>
+    </td>
+    <td>4</td>
+  </tr>
+  <tr>
+    <td colspan="5">
+      <p>
+        <strong>Epic 6</strong> <br>
+        Como usuario, poder crear y gestionar grupos de trabajo para trabajar colaborativamente con mis compañeros
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td>EP06 / US06</td>
+    <td>Creación de grupo de Trabajo mejorado</td>
+    <td>
+      <p>Como usuario</p>
+      <p>Quiero poder crear un grupo de trabajo</p>
+      <p>Para compartir con mis compañeros de trabajo los recursos utilizados y sus estadísticas</p>
+    </td>
+    <td>
+      <strong>Escenario 1: Ingreso al entorno “Grupos”</strong><br>
+        <p>Dado que el usuario se encuentra en la página principal</p>
+        <p>Cuando el usuario de clic en “Grupos”</p>
+        <p>Entonces se redirige al usuario al entorno “Grupos”</p>
+      <strong>Escenario 2: Ingreso al entorno “Crear Grupo”</strong><br>
+        <p> Dado que el usuario se encuentra en el entorno “Grupos”</p>
+        <p>Cuando el usuario presione el botón “Crear Grupo”</p>
+        <p>Entonces se redirige al usuario al entorno “Crear Grupo”</p>
+      <strong>Escenario 3: Creación de grupo</strong><br>
+        <p>Dado que el usuario se encuentra en el entorno “Crear Grupo”</p>
+        <p>Cuando el usuario ingrese el nombre del grupo e imagen del grupo</p>
+        <p>Y dé clic en “Crear Grupo”</p>
+        <p>Entonces se muestra un mensaje de confirmación, indicando que el grupo fue creado satisfactoriamente</p>
+        <p>Y se muestra un enlace de invitación para agregar a otras personas al grupo</p>
+      <strong>Escenario 4: Creación de grupo con un nombre inválido</strong><br>
+        <p>Dado que el usuario se encuentra en el entorno “Crear Grupo”</p>
+        <p>Cuando el usuario ingrese un nombre inválido y la imagen del grupo</p>
+        <p>Y dé clic en “Crear Grupo”</p>
+        <p>Entonces se muestra un mensaje de error, indicando que el nombre no es válido</p>
+      <strong>Escenario 5: Creación de grupo sin nombre</strong><br>
+        <p>Dado que el usuario se encuentra en el entorno “Crear Grupo”</p>
+        <p>Cuando el usuario ingrese solo la imagen del grupo</p>
+        <p>Y dé clic en “Crear Grupo”</p>
+        <p>Entonces se muestra un mensaje de error, indicando que no se puede crear un grupo sin un nombre</p>
+      <strong>Escenario 6: Creación de grupo sin imagen</strong><br>
+        <p>Dado que el usuario se encuentra en el entorno “Crear Grupo”</p>
+        <p>Cuando el usuario ingrese solo el nombre del grupo</p>
+        <p>Y dé clic en “Crear Grupo”</p>
+        <p>Entonces el grupo se creará satisfactoriamente</p>
+        <p>Y la imagen de grupo se mostrará como la predeterminada</p>
+      <strong>Escenario 7: Creación de grupo con tipo de imagen inválido</strong><br>
+        <p>Dado que el usuario se encuentra en el entorno “Crear Grupo”</p>
+        <p>Cuando el usuario ingrese el nombre del grupo</p>
+        <p>Y el usuario ingrese una imagen con tipo inválido (png o jpeg)</p>
+        <p>Entonces el grupo se creará satisfactoriamente</p>
+        <p>Entonces aparecerá un mensaje de error, indicando que la imagen ingresada es inválida</p>
+    </td>
+    <td>6</td>
+  </tr>
+  <tr>
+    <td>EP06 / US07</td>
+    <td>Agregado personas al grupo extendido</td>
+    <td>
+      <p>Como usuario</p>
+      <p>Quiero agregar a otras personas a un grupo</p>
+      <p>Para colaborar bajo un mismo paradigma del trabajo</p>
+    </td>
+    <td>
+      <strong>Escenario 1: Ingreso al entorno “Grupos de Trabajo”</strong><br>
+        <p>Dado que el usuario se encuentra en la página principal</p>
+        <p>Cuando el usuario de clic en “Grupos de Trabajo”</p>
+        <p>Entonces se redirige al usuario al entorno “Grupos de Trabajo”</p>
+      <strong>Escenario 2: Invitar a un integrante al grupo</strong><br>
+        <p> Dado que el usuario se encuentra en el entorno “Grupo de Trabajo”</p>
+        <p>Cuando el usuario seleccione el botón “Copiar enlace de grupo”</p>
+        <p>Entonces se copiará el enlace del grupo al portapapeles</p>
+      <strong>Escenario 3: Incorporación de un integrante al grupo</strong><br>
+        <p>Dado que el usuario ha enviado el enlace al integrante que se quiere incorporar al grupo</p>
+        <p>Cuando el integrante entre al enlace</p>
+        <p>Y dé clic en “Crear Grupo”</p>
+        <p>Entonces el integrante será agregado al grupo instantáneamente</p>
+        <p>Y se mostrará una notificación, indicando que un nuevo integrante ha sido agregado al grupo</p>
+      <strong>Escenario 4: Incorporación de un integrante que ya conformaba el grupo</strong><br>
+        <p>Dado que el usuario ha enviado el enlace al integrante que se quiere incorporar al grupo</p>
+        <p>Cuando el integrante entre al enlace</p>
+        <p>Entonces al integrante solo se le mostrará el grupo</p>
+        <p>Y el sistema no agregará nuevamente al integrante</p>
+        <p>Y aparecerá un mensaje, indicando que ya pertenece al grupo</p>
+    </td>
+    <td>6</td>
+  </tr>
+</table>
+
+#### 8.3.2. To-Be Product Backlog
+| #Orden |	User Story ID |	Título |	Descripción |	Story Points |
+|--|--|--|--|--|
+| 59 |	EP2 / US04 |	Creación de un recurso agrícola |	Como usuario quiero poder crear entornos de los recursos que tengo para conocer a los detalles de cada uno de ellos |	5 |
+| 60 |	EP2 / US05 |	Uso de un ícono para un recurso	| Como usuario quiero poder crear un ícono para un recurso para no tener la necesidad de contar con una imagen para crear un recurso |	3 |
+| 61 |	EP3 / US03	| Edición de un recurso detallado |	Como usuario quiero poder editar un recurso ya hecho para actualizar los datos a los actuales |	5 |
+| 62 |	EP4 / US04 |	Visualización detalles de Maquinaria extendido |	Como usuario quiero visualizar los detalles de las maquinarias para conocer si es que vale la pena adquirirlas mediante un alquiler o compra |	5 |
+| 63 |	EP4 / US05 |	Visualización detalles de Terrenos extendido |	Como usuario quiero visualizar los detalles de los terrenos para conocer si es que vale la pena adquirirlos mediante un alquiler o compra |	5 |
+| 64 |	EP06 / US06 |	Creación de grupo de Trabajo mejorado |	Como usuario quiero poder crear un grupo de trabajo para compartir con mis compañeros de trabajo los recursos utilizados y sus estadísticas |	5 |
+| 65 |	EP06 / US07 |	Agregado personas al grupo extendido |	Como usuario quiero agregar a otras personas a un grupo para colaborar bajo un mismo paradigma del trabajo | 5 |
+
+
 
 
 **Bibliografía**
