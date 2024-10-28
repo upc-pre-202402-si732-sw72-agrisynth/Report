@@ -1472,24 +1472,19 @@ Para la escritura de código JavaScript en nuestro proyecto, seguiremos el Googl
 En esta sección, nos ocuparemos de implementar nuestra página de inicio utilizando el servicio automatizado de Netlify. Con el fin de alcanzar este objetivo, detallaremos los pasos necesarios para realizar el despliegue de manera efectiva.
 
 1. Vinculamos nuestra cuenta de Github a Vercel para darle acceso a todos nuestros repositorios y organizaciones
-
-   ![](Assets/C5-images/Aspose.Words.1e69c443-57fa-44d8-8666-d4b246cde8aa.001.png)
+   ![Deployment](images/deploy-1.png)
 
 2. Creamos un proyecto importando el repositorio que contiene nuestra landing page
-
-   ![](Assets/C5-images/Aspose.Words.1e69c443-57fa-44d8-8666-d4b246cde8aa.002.png)
+   ![Deployment](images/deploy-2.png)
 
 3. Asignamos un nombre al proyecto, especificamos a vercel cual es la raíz de nuestra landing page y desplegamos.
-
-![](Assets/C5-images/Aspose.Words.1e69c443-57fa-44d8-8666-d4b246cde8aa.003.png)
+  ![Deployment](images/deploy-3.png)
 
 4. Esperamos a que Vercel despliegue la página
+   ![Deployment](images/deploy-4.png)
 
-   ![](Assets/C5-images/Aspose.Words.1e69c443-57fa-44d8-8666-d4b246cde8aa.004.png)
-
-6. Obtenemos nuestra Landing Page desplegada un link para su visualización: [CropSphere (crop-sphere-landing-page.vercel.app)**](https://crop-sphere-landing-page.vercel.app/)
-
-   ![](Assets/C5-images/Aspose.Words.1e69c443-57fa-44d8-8666-d4b246cde8aa.005.png)**
+5. Obtenemos nuestra Landing Page desplegada un link para su visualización: [CropSphere (crop-sphere-landing-page.vercel.app)**](https://crop-sphere-landing-page.vercel.app/)
+   ![Deployment](images/deploy-5.png)**
 
 
 ## <a name="product-deployment"></a> 5.2. Product Implementation & Deployment
@@ -1574,33 +1569,18 @@ En esta sección, nos ocuparemos de implementar nuestra página de inicio utiliz
 | <p>EP04 /   </p><p>US05</p> | Eliminar O Descargar un Documento | T10  | Conectar el endpoint correspondiente e implementar los métodos DELETE y GET (para descargar documentos), con validaciones y manejo de permisos                        | 5H                 | Mariana     | Hecho                                           |
 
 ### <a name="landing-page-deployment"></a> 5.2.2. Implemented Landing Page Evidence
-
-![](Assets/C5-images/Aspose.Words.1e69c443-57fa-44d8-8666-d4b246cde8aa.007.png)
-
-![](Assets/C5-images/Aspose.Words.1e69c443-57fa-44d8-8666-d4b246cde8aa.008.png)
-
-![](Assets/C5-images/Aspose.Words.1e69c443-57fa-44d8-8666-d4b246cde8aa.009.png)
-
-![](Assets/C5-images/Aspose.Words.1e69c443-57fa-44d8-8666-d4b246cde8aa.010.png)
-
-![](Assets/C5-images/Aspose.Words.1e69c443-57fa-44d8-8666-d4b246cde8aa.011.png)
-
-![](Assets/C5-images/Aspose.Words.1e69c443-57fa-44d8-8666-d4b246cde8aa.012.png)
-
-![](Assets/C5-images/Aspose.Words.1e69c443-57fa-44d8-8666-d4b246cde8aa.026.png)
-
-
-![](Assets/C5-images/Aspose.Words.1e69c443-57fa-44d8-8666-d4b246cde8aa.027.png)
-
-![](Assets/C5-images/Aspose.Words.1e69c443-57fa-44d8-8666-d4b246cde8aa.028.png)
-
-
-![](Assets/C5-images/Aspose.Words.1e69c443-57fa-44d8-8666-d4b246cde8aa.029.png)
-
-![](Assets/C5-images/Aspose.Words.1e69c443-57fa-44d8-8666-d4b246cde8aa.030.png)
-
-
-![](Assets/C5-images/Aspose.Words.1e69c443-57fa-44d8-8666-d4b246cde8aa.031.png)
+![Landing Page](images/implemented-landing-1.png)
+![Landing Page](images/implemented-landing-2.png)
+![Landing Page](images/implemented-landing-3.png)
+![Landing Page](images/implemented-landing-4.png)
+![Landing Page](images/implemented-landing-5.png)
+![Landing Page](images/implemented-landing-6.png)
+![Landing Page](images/implemented-landing-7.png)
+![Landing Page](images/implemented-landing-8.png)
+![Landing Page](images/implemented-landing-9.png)
+![Landing Page](images/implemented-landing-10.png)
+![Landing Page](images/implemented-landing-11.png)
+![Landing Page](images/implemented-landing-12.png)
 
 ### <a name="frontend-deployment"></a> 5.2.3. Implemented Frontend-Web Application Evidence
 
@@ -1609,69 +1589,46 @@ En este sprint logramos como primera fase de nuestro producto final, desarrollar
 Muestra de todas  vistas programadas en Vue para este sprint: 
 
 - Pantalla de Login
-
-  ![](Assets/C5-images/Aspose.Words.1e69c443-57fa-44d8-8666-d4b246cde8aa.014.png)
+  ![](images/implemented-front-1.png)
 
 - Pantalla de Register
-
-  ![](Assets/C5-images/Aspose.Words.1e69c443-57fa-44d8-8666-d4b246cde8aa.015.png)
+  ![](images/implemented-front-2.png)
 
 - Dashboard o pantalla de Terrains
-
-  ![](Assets/C5-images/Aspose.Words.1e69c443-57fa-44d8-8666-d4b246cde8aa.016.png)
+  ![](images/implemented-front-3.png)
 
 - Pantalla de Resource Management
-
-  ![](Assets/C5-images/Aspose.Words.1e69c443-57fa-44d8-8666-d4b246cde8aa.017.png)
+![](images/implemented-front-4.png)
 
 - Pantalla de Machineries
-
-  ![](Assets/C5-images/Aspose.Words.1e69c443-57fa-44d8-8666-d4b246cde8aa.018.png)
+![](images/implemented-front-5.png)
 
 - Pantalla de Group
-
-  ![](Assets/C5-images/Aspose.Words.1e69c443-57fa-44d8-8666-d4b246cde8aa.019.png)
+  ![](images/implemented-front-6.png)
 
 - Pantalla de Suport and help
-
-  ![](Assets/C5-images/Aspose.Words.1e69c443-57fa-44d8-8666-d4b246cde8aa.020.png)
+  ![](images/implemented-front-7.png)
 
 - Pantalla de settings
-
-  ![](Assets/C5-images/Aspose.Words.1e69c443-57fa-44d8-8666-d4b246cde8aa.021.png)
-
-  - Muestra de la respuesta de nuestra API hecha con JSON server: 
-
-![](Assets/C5-images/Aspose.Words.1e69c443-57fa-44d8-8666-d4b246cde8aa.022.png)
-
-Nuestras variable de entorno serverBasePath que apuntará al puerto 3000:
-
-![](Assets/C5-images/Aspose.Words.1e69c443-57fa-44d8-8666-d4b246cde8aa.023.png)
-
-Nuestra clase BaseService
-
-![](Assets/C5-images/Aspose.Words.1e69c443-57fa-44d8-8666-d4b246cde8aa.024.png)
+  ![](images/implemented-front-8.png)
+- Muestra de la respuesta de nuestra API hecha con JSON server: 
+  ![](images/implemented-front-9.png)
+- Nuestras variable de entorno serverBasePath que apuntará al puerto 3000:
+  ![](images/implemented-front-10.png)
+- Nuestra clase BaseService
+  ![](images/implemented-front-11.png)
 
 Un ejemplo usando un endpoint:
 
-![](Assets/C5-images/spose.Words.1e69c443-57fa-44d8-8666-d4b246cde8aa.025.png)
+![](images/implemented-front-12.png)
 
 Creamos un nuevo site desde un proyecto existente en Github
-
-![](Assets/C5-images/Aspose.Words.1e69c443-57fa-44d8-8666-d4b246cde8aa.026.png)
-
-![](Assets/C5-images/Aspose.Words.1e69c443-57fa-44d8-8666-d4b246cde8aa.027.png)
-
-
-![](Assets/C5-images/Aspose.Words.1e69c443-57fa-44d8-8666-d4b246cde8aa.028.png)
-
-
-![](Assets/C5-images/Aspose.Words.1e69c443-57fa-44d8-8666-d4b246cde8aa.029.png)
-
-
-![](Assets/C5-images/Aspose.Words.1e69c443-57fa-44d8-8666-d4b246cde8aa.030.png)
-
-![](Assets/C5-images/Aspose.Words.1e69c443-57fa-44d8-8666-d4b246cde8aa.031.png)
+![Deployment](images/implemented-landing-7.png)
+![Deployment](images/implemented-landing-8.png)
+![Deployment](images/implemented-landing-9.png)
+![Deployment](images/implemented-landing-10.png)
+![Deployment](images/implemented-landing-11.png)
+![Deployment](images/implemented-landing-12.png)
 
 ### <a name="mobile-deployment"></a> 5.2.4. Implemented Native-Mobile Application Evidence
 Se ha elegido no desarrollar una aplicación mobile para el presente trabajo, por lo que esta sección queda en blanco. La decisión fue tomada después de la aprobación del profesor
@@ -1682,71 +1639,59 @@ Para este sprint utilizamos los servicios de la API que nosotros mismos hicimos 
 
 Tiempo después, se desarrolló el Sprint 4, enfocado en la implementación completa de la aplicación web, la API RESTful, los Web Services y la landing page. Además, se finalizó el desarrollo de todo el backend de los Web Services. Se detalla el progreso tangible y funcional de cada componente, incluyendo su diseño, desarrollo y funcionalidades implementadas. También se documenta la colaboración del equipo, los métodos de comunicación utilizados y las herramientas empleadas para garantizar una cooperación efectiva. Incluye secciones sobre la planificación del sprint, el backlog de tareas, evidencia del desarrollo y ejecución, documentación de servicios utilizados y reflexiones sobre la colaboración del equipo, proporcionando una visión completa del progreso alcanzado.
 
-![](Assets/Aspose.Words.b8569df6-648b-4de3-a36e-0fe88e187486.001.png)
-
-![](Assets/Aspose.Words.7809d561-d22f-463d-87d3-858937c9d5c9.006.png)
-
-![](Assets/Aspose.Words.7809d561-d22f-463d-87d3-858937c9d5c9.007.png)
-
-
-![](Assets/Aspose.Words.7809d561-d22f-463d-87d3-858937c9d5c9.008.png)
-
-
-![](Assets/Aspose.Words.7809d561-d22f-463d-87d3-858937c9d5c9.009.png)
-
-
-![](Assets/Aspose.Words.7809d561-d22f-463d-87d3-858937c9d5c9.010.png)
-
-
-![](Assets/Aspose.Words.b8569df6-648b-4de3-a36e-0fe88e187486.010.png)
-
-![](Assets/Aspose.Words.b8569df6-648b-4de3-a36e-0fe88e187486.011.png)
-
-![](Assets/Aspose.Words.b8569df6-648b-4de3-a36e-0fe88e187486.012.png)
+![](images/implemented-restful-1.png)
+![](images/implemented-restful-2.png)
+![](images/implemented-restful-3.png)
+![](images/implemented-restful-4.png)
+![](images/implemented-restful-5.png)
+![](images/implemented-restful-6.png)
+![](images/implemented-restful-7.png)
+![](images/implemented-restful-8.png)
+![](images/implemented-restful-9.png)
 
 
 ### <a name="api-documentation"></a> 5.2.6. RESTful API documentation
 
-| **Bounded Context** | Documents         |                                                                       |
-| :------------------ | :---------------- | :-------------------------------------------------------------------- |
-| **Entity**          | **Endpoint URL**  | **Swagger**                                                           |
-|                     | /api/v1/documents | ![](Assets/Aspose.Words.7809d561-d22f-463d-87d3-858937c9d5c9.012.png) |
+| **Bounded Context** | Documents         |                       |
+| :------------------ | :---------------- | :---------------------|
+| **Entity**          | **Endpoint URL**  | **Swagger**           |
+|                     | /api/v1/documents | ![](images/api-1.png) |
 
-| **Bounded Context** | Machinerys         |                                                                       |
-| :------------------ | :----------------- | :-------------------------------------------------------------------- |
-| **Entity**          | **Endpoint URL**   | **Swagger**                                                           |
-|                     | /api/v1/machinerys | ![](Assets/Aspose.Words.7809d561-d22f-463d-87d3-858937c9d5c9.013.png) |
+| **Bounded Context** | Machinerys         |                       |
+| :------------------ | :----------------- | :---------------------|
+| **Entity**          | **Endpoint URL**   | **Swagger**           |
+|                     | /api/v1/machinerys | ![](images/api-2.png) |
 
-| **Bounded Context** | Profiles         |                                                                       |
-| :------------------ | :--------------- | :-------------------------------------------------------------------- |
-| **Entity**          | **Endpoint URL** | **Swagger**                                                           |
-|                     | /api/v1/profiles | ![](Assets/Aspose.Words.7809d561-d22f-463d-87d3-858937c9d5c9.014.png) |
+| **Bounded Context** | Profiles         |                       |
+| :------------------ | :--------------- | :---------------------|
+| **Entity**          | **Endpoint URL** | **Swagger**           |
+|                     | /api/v1/profiles | ![](images/api-3.png) |
 
-| **Bounded Context** | ResourceItems          |                                                                       |
-| :------------------ | :--------------------- | :-------------------------------------------------------------------- |
-| **Entity**          | **Endpoint URL**       | **Swagger**                                                           |
-|                     | /api/v1/resource-items | ![](Assets/Aspose.Words.7809d561-d22f-463d-87d3-858937c9d5c9.015.png) |
+| **Bounded Context** | ResourceItems          |                     |
+| :------------------ | :--------------------- | :------------------ |
+| **Entity**          | **Endpoint URL**       | **Swagger**         |
+|                     | /api/v1/resource-items | ![](images/api-4.png) |
 
-| **Bounded Context** | Collaboration    |                                                                       |
-| :------------------ | :--------------- | :-------------------------------------------------------------------- |
-| **Entity**          | **Endpoint URL** | **Swagger**                                                           |
-|                     | /api/v1/teams    | ![](Assets/Aspose.Words.7809d561-d22f-463d-87d3-858937c9d5c9.016.png) |
+| **Bounded Context** | Collaboration    |                       |
+| :------------------ | :--------------- | :---------------------|
+| **Entity**          | **Endpoint URL** | **Swagger**           |
+|                     | /api/v1/teams    | ![](images/api-5.png) |
 
-| **Bounded Context** | Collaboration        |                                                                       |
-| :------------------ | :------------------- | :-------------------------------------------------------------------- |
-| **Entity**          | **Endpoint URL**     | **Swagger**                                                           |
-|                     | /api/v1/team-workers | ![](Assets/Aspose.Words.7809d561-d22f-463d-87d3-858937c9d5c9.017.png) |
+| **Bounded Context** | Collaboration        |                       |
+| :------------------ | :------------------- | :---------------------|
+| **Entity**          | **Endpoint URL**     | **Swagger**           |
+|                     | /api/v1/team-workers | ![](images/api-6.png) |
 
-| **Bounded Context** | Terrains         |                                                                       |
-| :------------------ | :--------------- | :-------------------------------------------------------------------- |
-| **Entity**          | **Endpoint URL** | **Swagger**                                                           |
-|                     | /api/v1/terrains | ![](Assets/Aspose.Words.7809d561-d22f-463d-87d3-858937c9d5c9.018.png) |
+| **Bounded Context** | Terrains         |                       |
+| :------------------ | :--------------- | :---------------------|
+| **Entity**          | **Endpoint URL** | **Swagger**           |
+|                     | /api/v1/terrains | ![](images/api-7.png) |
 
 
-| **Bounded Context** | Users            |                                                                       |
-| :------------------ | :--------------- | :-------------------------------------------------------------------- |
-| **Entity**          | **Endpoint URL** | **Swagger**                                                           |
-|                     | /api/v1/users    | ![](Assets/Aspose.Words.7809d561-d22f-463d-87d3-858937c9d5c9.019.png) |
+| **Bounded Context** | Users            |                       |
+| :------------------ | :--------------- | :---------------------|
+| **Entity**          | **Endpoint URL** | **Swagger**           |
+|                     | /api/v1/users    | ![](images/api-8.png) |
 
 ### <a name="team-insights"></a> 5.2.7. Team Collaboration Insights
 
@@ -1764,7 +1709,7 @@ Duración del video: 00:32
 
 ScreenShot del video:
 
-![](Assets/Aspose.Words.b8569df6-648b-4de3-a36e-0fe88e187486.018.png)
+![](images/video-about-the-product.png)
 
 ## Capítulo VI: Product Verification & Validation
 ### 6.1. Testing Suites & Validation
