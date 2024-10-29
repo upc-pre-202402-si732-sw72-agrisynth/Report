@@ -1901,6 +1901,13 @@ Preguntas complementarias:
 **Distrito:** Surco
 **Resumen:** Giancarlo Stephano Romero Paredes nos comentó que le agrada bastante nuestra aplicación y la landing page. No realizó ningún comentario negativo acerca de ninguna de las dos soluciones de software expuestas
 
+#### Segmento objetivo: Empresas Agrícolas de Gran Escala
+##### Entrevista 2:
+![Entrevista de Validación](images/entrevista-validation-salvador.png)
+**Nombre:** Salvador Chamorro
+**Edad:** 25
+**Distrito:** San Isidro
+**Resumen:** Salvador Chamorro nos comentó que le agrada bastante nuestra aplicación y la landing page. No realizó ningún comentario negativo acerca de ninguna de las dos soluciones de software expuestas
 
 ### 6.3.3. Evaluaciones según heurísticas
 #### UX Heuristics & Principles Evaluation
@@ -1937,31 +1944,31 @@ No incluidas en esta versión de la evaluación:
 
 #### ESCALA DE SEVERIDAD:
 Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:
-| Nivel |	Descripción |
-|--|--|
-| 1 |	Problema superficial: puede ser fácilmente superado por el usuario u ocurre con muy poca frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo. |
-| 2	|Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja resolverlo de cara al siguiente release. |
-| 3	| Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es importante que sean corregidos y se les debe asignar una prioridad alta. |
-| 4	| Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento. |
+| Nivel | Descripción                                                                                                                                                                                     |
+| ----- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1     | Problema superficial: puede ser fácilmente superado por el usuario u ocurre con muy poca frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo.                    |
+| 2     | Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja resolverlo de cara al siguiente release. |
+| 3     | Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es importante que sean corregidos y se les debe asignar una prioridad alta.                                 |
+| 4     | Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento.                               |
 
 #### TABLA RESUMEN AMBOS SEGMENTOS:
 
 #### *Web Application*
 
 #####	Problema	Escala de severidad	Heurística/Principio violado
-|# |Problema|Escala de severidad|Heurística/Principio violado|
-|--|--|--|--|
-| 1	| Navegación complicada |	1 |	IA - Is it clear? |
-| 2	| Información oculta |	2 |	IA - Is it findable? |
+| #   | Problema              | Escala de severidad | Heurística/Principio violado |
+| --- | --------------------- | ------------------- | ---------------------------- |
+| 1   | Navegación complicada | 1                   | IA - Is it clear?            |
+| 2   | Información oculta    | 2                   | IA - Is it findable?         |
 
 #### *Landing Page*
 
 #####	Problema	Escala de severidad	Heurística/Principio violado
-|# |Problema|Escala de severidad|Heurística/Principio violado|
-|--|--|--|--|
-| 1 |	Inconsistencias de diseño |	1 |	IA - Is it clear? |
-| 2 |	Funcionalidades de la aplicación | 1	|IA - Is it usable? |
-|3 |	Testimonios no visibles |	1 |	IA - Is it clear? |
+| #   | Problema                         | Escala de severidad | Heurística/Principio violado |
+| --- | -------------------------------- | ------------------- | ---------------------------- |
+| 1   | Inconsistencias de diseño        | 1                   | IA - Is it clear?            |
+| 2   | Funcionalidades de la aplicación | 1                   | IA - Is it usable?           |
+| 3   | Testimonios no visibles          | 1                   | IA - Is it clear?            |
 
 #### DESCRIPCIÓN DE PROBLEMAS:
 #### *Web Application*
@@ -2354,15 +2361,15 @@ La experimentación es una etapa clave en el desarrollo de nuestra aplicación, 
 </table>
 
 #### 8.3.2. To-Be Product Backlog
-| #Orden |	User Story ID |	Título |	Descripción |	Story Points |
-|--|--|--|--|--|
-| 59 |	EP2 / US04 |	Creación de un recurso agrícola |	Como usuario quiero poder crear entornos de los recursos que tengo para conocer a los detalles de cada uno de ellos |	5 |
-| 60 |	EP2 / US05 |	Uso de un ícono para un recurso	| Como usuario quiero poder crear un ícono para un recurso para no tener la necesidad de contar con una imagen para crear un recurso |	3 |
-| 61 |	EP3 / US03	| Edición de un recurso detallado |	Como usuario quiero poder editar un recurso ya hecho para actualizar los datos a los actuales |	5 |
-| 62 |	EP4 / US04 |	Visualización detalles de Maquinaria extendido |	Como usuario quiero visualizar los detalles de las maquinarias para conocer si es que vale la pena adquirirlas mediante un alquiler o compra |	5 |
-| 63 |	EP4 / US05 |	Visualización detalles de Terrenos extendido |	Como usuario quiero visualizar los detalles de los terrenos para conocer si es que vale la pena adquirirlos mediante un alquiler o compra |	5 |
-| 64 |	EP06 / US06 |	Creación de grupo de Trabajo mejorado |	Como usuario quiero poder crear un grupo de trabajo para compartir con mis compañeros de trabajo los recursos utilizados y sus estadísticas |	5 |
-| 65 |	EP06 / US07 |	Agregado personas al grupo extendido |	Como usuario quiero agregar a otras personas a un grupo para colaborar bajo un mismo paradigma del trabajo | 5 |
+| #Orden | User Story ID | Título                                         | Descripción                                                                                                                                  | Story Points |
+| ------ | ------------- | ---------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- | ------------ |
+| 59     | EP2 / US04    | Creación de un recurso agrícola                | Como usuario quiero poder crear entornos de los recursos que tengo para conocer a los detalles de cada uno de ellos                          | 5            |
+| 60     | EP2 / US05    | Uso de un ícono para un recurso                | Como usuario quiero poder crear un ícono para un recurso para no tener la necesidad de contar con una imagen para crear un recurso           | 3            |
+| 61     | EP3 / US03    | Edición de un recurso detallado                | Como usuario quiero poder editar un recurso ya hecho para actualizar los datos a los actuales                                                | 5            |
+| 62     | EP4 / US04    | Visualización detalles de Maquinaria extendido | Como usuario quiero visualizar los detalles de las maquinarias para conocer si es que vale la pena adquirirlas mediante un alquiler o compra | 5            |
+| 63     | EP4 / US05    | Visualización detalles de Terrenos extendido   | Como usuario quiero visualizar los detalles de los terrenos para conocer si es que vale la pena adquirirlos mediante un alquiler o compra    | 5            |
+| 64     | EP06 / US06   | Creación de grupo de Trabajo mejorado          | Como usuario quiero poder crear un grupo de trabajo para compartir con mis compañeros de trabajo los recursos utilizados y sus estadísticas  | 5            |
+| 65     | EP06 / US07   | Agregado personas al grupo extendido           | Como usuario quiero agregar a otras personas a un grupo para colaborar bajo un mismo paradigma del trabajo                                   | 5            |
 
 
 
