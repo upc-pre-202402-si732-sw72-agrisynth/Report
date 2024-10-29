@@ -2012,8 +2012,10 @@ Para la creación del Backend de la aplicación, se usó el lenguaje de programa
 - **Repositorio del Frontend:** [https://github.com/upc-pre-202402-si732-sw72-agrisynth/Frontend.git](https://github.com/upc-pre-202402-si732-sw72-agrisynth/Frontend.git)
 - **Repositorio del Backend:** [https://github.com/upc-pre-202402-si732-sw72-agrisynth/agrisynth-backend.git](https://github.com/upc-pre-202402-si732-sw72-agrisynth/agrisynth-backend.git)
 ### 7.2.2. Stages Deployment Pipeline Components
-![Frontend](./deploy/Frontend.png)
-![Frontend](./deploy/Backend.png)
+
+![Frontend](deploy/Frontend.png)
+
+![Frontend](deploy/Backend.png)
 
 #### 7.3. Continuous deployment
 El pipeline de despliegue ha sido estructurado en varias etapas clave para garantizar un flujo ordenado y automatizado desde la integración continua hasta el despliegue final en la nube. Estas etapas están diseñadas para ejecutar los pasos necesarios en cada fase del ciclo de desarrollo y entrega, asegurando una transición fluida y sin interrupciones.
