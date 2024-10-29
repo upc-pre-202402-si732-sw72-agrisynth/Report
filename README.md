@@ -2010,7 +2010,7 @@ Se han utilizado diversas herramientas para la integración continua, entre ella
 ![Moq](images/moq.png)
 - **Jenkins:** Jenkins es una herramienta de automatización de código abierto que permite la integración continua y la entrega continua (CI/CD) de aplicaciones. Jenkins se utiliza para automatizar tareas repetitivas, como la compilación, pruebas y despliegue de código, lo que ayuda a acelerar el desarrollo de software y mejorar la calidad del producto final.
 #### 7.1.2. Build & Test Suite Pipeline Components
-Se utilizó la herramienta Jenkins para la realización del pipeline de la aplicación
+Se utilizó la herramienta Jenkins para la realización del pipeline de la aplicación.
 ![Jenkins](images/jenkins.png)
 
 #### 7.2. Continuous Delivery
