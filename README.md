@@ -1997,27 +1997,23 @@ Recomendación: Mejorar la estructura de la navegación y añadir etiquetas desc
 #### 7.1. Continuous Integration
 #### 7.1.1. Tools and Practices
 Se han utilizado diversas herramientas para la integración continua, entre ellas, podemos destacar:
-- **Github:** Una aplicación web que se utiliza para conectar a la nube repositorios que utilizan la tecnología de Git. Hemos utilizado Github para guarda todos los proyectos realizados en el presente ciclo, desde el reporte hasta las aplicaciones front y backend
+- **Github:** La herramienta que se utiliza para conectar a la nube los repositorios que utilizan la tecnología de Git. Hemos utilizado Github para guarda todos los proyectos realizados en el presente ciclo, desde el reporte hasta las aplicaciones front y backend.
 ![Github](images/github.jpg)
 -	**Moq:** Moq es un popular framework para la creación de objetos simulados (mocks) en C#, utilizado principalmente en pruebas unitarias. Un objeto simulado es un objeto falso que imita el comportamiento de dependencias reales (como servicios, bases de datos, o repositorios) para probar el código en aislamiento.
 ![Moq](images/moq.png)
+- **Jenkins:** Jenkins es una herramienta de automatización de código abierto que permite la integración continua y la entrega continua (CI/CD) de aplicaciones. Jenkins se utiliza para automatizar tareas repetitivas, como la compilación, pruebas y despliegue de código, lo que ayuda a acelerar el desarrollo de software y mejorar la calidad del producto final.
 #### 7.1.2. Build & Test Suite Pipeline Components
 Se utilizó la herramienta Jenkins para la realización del pipeline de la aplicación
 ![Jenkins](images/jenkins.png)
+
 #### 7.2. Continuous Delivery
 #### 7.2.1. Tools and Practices
-En este proyecto, se ha implementado Jenkins como herramienta principal para la gestión y automatización de los pipelines de CI/CD (Integración Continua y Entrega Continua). Jenkins facilita la creación, ejecución y monitoreo de los procesos de compilación, pruebas y despliegue de manera eficiente y automatizada.
-A través de Jenkins, se han definido pipelines personalizados que permiten realizar las siguientes actividades de manera automática y recurrente:
-
-- Compilación y restauración de dependencias del proyecto a través de herramientas como NuGet y MSBuild o dotnet CLI.
-- Ejecución de pruebas unitarias, de integración y de aceptación mediante herramientas como xUnit y Moq, asegurando la calidad y funcionalidad del código antes de avanzar a las siguientes etapas.
-- Generación de reportes detallados de las pruebas y análisis de código, permitiendo una retroalimentación inmediata para el equipo de desarrollo.
-- Despliegue automatizado a entornos de staging o producción, lo que agiliza los ciclos de entrega y reduce los errores manuales.
-
-Jenkins ha sido configurado para integrarse con sistemas de control de versiones, como Git, activando los pipelines automáticamente tras cada commit o pull request, lo que asegura una integración continua fluida. Esta configuración garantiza que cualquier cambio en el código se verifique de inmediato, manteniendo la estabilidad y calidad del producto final.
-![Jenkins Logo](images/jenkins-logo.png)
-
-#### 7.2.2. Stages Deployment Pipeline Components
+Para la creación del Backend de la aplicación, se usó el lenguaje de programación de C# y el framework de .NET core 8.0.0, además de la herramienta de Swagger para la documentación de la API, asimismo se usó la herramienta Rider como IDE de desarrollo tango para pruebas unitarias y integranción. 
+- **Repositorio del Frontend:** [https://github.com/upc-pre-202402-si732-sw72-agrisynth/Frontend.git](https://github.com/upc-pre-202402-si732-sw72-agrisynth/Frontend.git)
+- **Repositorio del Backend:** [https://github.com/upc-pre-202402-si732-sw72-agrisynth/agrisynth-backend.git](https://github.com/upc-pre-202402-si732-sw72-agrisynth/agrisynth-backend.git)
+### 7.2.2. Stages Deployment Pipeline Components
+![Frontend](./deploy/Frontend.png)
+![Frontend](./deploy/Backend.png)
 
 #### 7.3. Continuous deployment
 El pipeline de despliegue ha sido estructurado en varias etapas clave para garantizar un flujo ordenado y automatizado desde la integración continua hasta el despliegue final en la nube. Estas etapas están diseñadas para ejecutar los pasos necesarios en cada fase del ciclo de desarrollo y entrega, asegurando una transición fluida y sin interrupciones.
