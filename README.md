@@ -2025,43 +2025,88 @@ Para la creación del Backend de la aplicación, se usó el lenguaje de programa
 ![Frontend](deploy/Backend.png)
 
 #### 7.3. Continuous deployment
-El pipeline de despliegue ha sido estructurado en varias etapas clave para garantizar un flujo ordenado y automatizado desde la integración continua hasta el despliegue final en la nube. Estas etapas están diseñadas para ejecutar los pasos necesarios en cada fase del ciclo de desarrollo y entrega, asegurando una transición fluida y sin interrupciones.
+El proceso de despliegue continuo en AgriSynth ha sido diseñado para automatizar cada paso del pipeline desde la integración continua hasta el despliegue en producción. El objetivo es minimizar el tiempo de entrega y mantener un flujo de actualización ágil, seguro y escalable.
 
 Las etapas principales del pipeline de despliegue son:
 
-1.	Compilación (Build Stage):
-o	En esta etapa, se compila el código del proyecto utilizando herramientas como MSBuild o dotnet CLI. Se realiza una restauración de dependencias y se verifican los paquetes necesarios mediante NuGet.
-2.	Pruebas (Test Stage):
-o	Incluye la ejecución de pruebas unitarias, de integración y de aceptación. Se utilizan frameworks como xUnit y Moq para garantizar que los módulos funcionen correctamente. Se generan reportes de pruebas que se pueden visualizar en Jenkins para analizar los resultados.
-3.	Análisis de Calidad del Código (Code Quality Stage):
-o	Se lleva a cabo un análisis estático del código para verificar su calidad, adherencia a los estándares y detectar posibles vulnerabilidades. Herramientas como SonarQube pueden ser integradas en esta fase.
-4.	Despliegue a entornos (Deployment Stage):
-o	Después de pasar las pruebas y verificaciones, el código se despliega automáticamente en un entorno de staging o producción. Este despliegue está gestionado a través de servicios como Firebase y GitHub Actions, lo que permite una entrega rápida y eficiente.
+- **Compilación (Build Stage):** En esta etapa, el código se compila y empaqueta, asegurando la correcta restauración de dependencias y bibliotecas necesarias. Se utilizan herramientas para compilar y optimizar el código.
+
+- **Pruebas (Test Stage):** Las pruebas unitarias y de integración se ejecutan utilizando frameworks como xUnit para pruebas unitarias y Mockito para simular interacciones en pruebas de integración. Esta etapa verifica el comportamiento de los componentes individuales y la integración entre ellos. Los resultados de las pruebas se integran con GitHub Actions, donde se documentan para revisión del equipo.
+
+- **Análisis de calidad del código (Code Quality Stage):** Se realiza un análisis estático para asegurar que el código cumpla con los estándares de calidad y seguridad, identificando vulnerabilidades o problemas de estilo que podrían afectar el rendimiento o la mantenibilidad de AgriSynth.
+
+- **Despliegue (Deployment Stage):** Una vez superadas las pruebas y el análisis de calidad, el código se despliega automáticamente en entornos de staging y luego producción. Esto permite asegurar la calidad del código en un entorno simulado antes del despliegue en producción.
 
 #### 7.3.1. Tools and Practices
-La aplicación ha sido desplegada en la nube utilizando una estrategia de Continuous Deployment (CD), lo que significa que cada cambio aprobado en el código es automáticamente llevado a producción después de pasar por todas las etapas del pipeline de CI/CD.
-Para lograr esto, se han integrado los siguientes servicios en el pipeline:
-- GitHub Actions: Se utiliza para gestionar el control de versiones y automatizar el flujo de trabajo del CI/CD. Cada vez que se realiza un push o pull request en el repositorio de GitHub, se activan los pipelines de Jenkins, y si todas las pruebas y análisis son exitosos, se inicia el despliegue.
-- Firebase: La aplicación es finalmente desplegada en Firebase Hosting, un servicio en la nube que ofrece alta disponibilidad y escalabilidad. Firebase facilita la gestión del entorno de producción y permite actualizar el contenido de la aplicación de manera eficiente.
-Este proceso de despliegue continuo asegura que los cambios en el código se entreguen de manera rápida y confiable, reduciendo el tiempo entre el desarrollo y la entrega al usuario final. La integración con GitHub y Firebase ha permitido automatizar por completo la cadena de despliegue, minimizando la intervención manual y los posibles errores.
+Para lograr un despliegue continuo de AgriSynth, se emplean varias herramientas que automatizan el flujo de trabajo, desde el código fuente hasta el ambiente de producción:
 
-#### 7.3.2. Production Deployment Pipeline Components.
-El pipeline de despliegue en producción ha sido diseñado para garantizar una entrega continua y segura de la aplicación a los usuarios finales. Este pipeline sigue una secuencia bien estructurada de etapas que permiten automatizar el proceso de despliegue desde la validación inicial del código hasta la actualización de la aplicación en el entorno de producción.
-Componentes clave del pipeline de despliegue en producción:
-1.	**Integración con Control de Versiones (GitHub Actions):**
-  El proceso de despliegue comienza con la integración a través de GitHub Actions, que monitoriza el repositorio. Cada vez que se realiza un merge a la rama principal (generalmente main o master), se activa automáticamente el pipeline de producción. Esto asegura que solo el código verificado y aprobado sea desplegado en el entorno de producción.
-2.	**Compilación y Empaquetado:**
-  Durante esta etapa, el código es compilado y empaquetado utilizando herramientas como MSBuild o dotnet CLI. Se realiza la restauración de dependencias mediante NuGet para asegurar que todas las bibliotecas y paquetes necesarios estén disponibles. La compilación en el entorno de producción garantiza que el código esté optimizado para su uso final.
-3.	**Ejecución de Pruebas Críticas (Smoke Tests):**
-  Antes de desplegar la aplicación en producción, se ejecutan pruebas críticas o Smoke Tests que verifican rápidamente la estabilidad del sistema. Estas pruebas aseguran que las funciones más esenciales de la aplicación no estén comprometidas por el nuevo código.
-4.	**Análisis de Calidad y Seguridad:**
-  Un análisis final de calidad de código y seguridad se realiza utilizando herramientas como SonarQube u otras soluciones de análisis estático. Esto garantiza que el código cumpla con los estándares de calidad y que no existan vulnerabilidades o problemas de seguridad antes de proceder al despliegue.
-5.	**Despliegue Automatizado en Firebase:**
-  Una vez que las pruebas y análisis son exitosos, el código es desplegado automáticamente en Firebase Hosting, el entorno de producción elegido para este proyecto. Firebase ofrece una infraestructura escalable y confiable, asegurando que la aplicación pueda manejar tráfico de producción sin interrupciones.
-6.	**Notificaciones y Monitoreo Post-Despliegue:**
-  Tras el despliegue, se envían notificaciones automáticas al equipo de desarrollo y operaciones, indicando el éxito del despliegue. Además, el sistema está integrado con herramientas de monitoreo continuo que vigilan el rendimiento de la aplicación en producción, permitiendo la detección temprana de posibles problemas o cuellos de botella.
-7.	**Rollback Automatizado (en caso de fallos):**
-  En caso de detectar fallos críticos tras el despliegue, el pipeline está configurado para ejecutar un rollback automatizado a la versión anterior estable. Esto garantiza que cualquier impacto negativo en producción se minimice rápidamente.
+- **GitHub Actions:** Controla el flujo de versiones y activa automáticamente los pipelines de integración y despliegue en cada push o pull request a la rama principal del repositorio. Esto garantiza que el código aprobado sea verificado y validado antes de llegar a producción.
+
+- **Vercel:** Proporciona un entorno optimizado para front-end, con despliegue automático a producción y escalabilidad, asegurando tiempos de carga rápidos y alto rendimiento. 
+
+La integración de GitHub y Vercel permite automatizar completamente el flujo de despliegue, minimizando errores y reduciendo el tiempo entre desarrollo y entrega.
+
+#### 7.3.2. Production Deployment Pipeline Components
+El pipeline de despliegue en producción de AgriSynth está diseñado para proporcionar un flujo automatizado y ágil desde la integración continua hasta la entrega en el entorno de producción, con el objetivo de minimizar el tiempo de despliegue y asegurar la estabilidad del sistema.
+
+Componentes principales del pipeline de despliegue en producción:
+
+1. **Integración con GitHub Actions:** Cada cambio en la rama principal del repositorio activa el pipeline de producción. Esto incluye la ejecución de pruebas automáticas y validaciones de calidad, garantizando que el código que llega a producción sea el más reciente y aprobado por el equipo.
+
+2. **Compilación y empaquetado:** El código se compila y empaqueta en la etapa de build para garantizar que las dependencias y librerías estén actualizadas y optimizadas. Esta etapa asegura que el código esté en su mejor forma antes de pasar a las pruebas.
+
+3. **Ejecución de pruebas (Test Stage):** Se ejecutan pruebas automatizadas con xUnit para validar la funcionalidad de componentes individuales, y Mockito se utiliza para realizar pruebas de integración simulando interacciones. Los resultados de estas pruebas son evaluados automáticamente en GitHub Actions, y cualquier error bloquea el despliegue en producción.
+
+4. **Análisis de calidad del código:** En esta etapa se realiza un análisis estático para revisar la calidad y seguridad del código. Herramientas de calidad verifican estándares de codificación, detectan vulnerabilidades y optimizan el rendimiento y la mantenibilidad, asegurando que el código cumpla con las normativas internas antes de su despliegue.
+
+5. **Despliegue en staging y producción:** Tras pasar el análisis de calidad, el código se despliega automáticamente en un entorno de staging en Vercel, donde se somete a pruebas adicionales para validar su funcionamiento en un entorno simulado. Si todas las pruebas son satisfactorias, el despliegue se extiende al entorno de producción, utilizando la infraestructura de Vercel para asegurar escalabilidad y tiempos de respuesta óptimos.
+
+6. **Notificaciones post-despliegue:** GitHub Actions envía notificaciones al equipo técnico tras el despliegue, con información sobre el estado del proceso y cualquier incidente que requiera atención. Esto garantiza una comunicación fluida y permite una rápida respuesta en caso de problemas.
+
+#### 7.4. Continuous monitoring
+El monitoreo continuo en AgriSynth es fundamental para garantizar la calidad y el rendimiento del sistema. Esta práctica permite al equipo detectar y resolver problemas en tiempo real, optimizando la experiencia del usuario y la estabilidad de la aplicación.
+
+#### 7.4.1. Tools and Practices
+Para lograr un monitoreo eficaz y continuo, se emplean las siguientes herramientas y prácticas:
+
+- **Trello:** Se utiliza para la gestión de tareas, permitiendo al equipo organizar y dar seguimiento a las actividades del proyecto. Proporciona visibilidad sobre el progreso y las prioridades, facilitando la colaboración.
+
+- **Google Meet:** Facilita reuniones virtuales regulares para discutir avances, desafíos y cambios en el proyecto. Permite la revisión conjunta de tareas y la comunicación directa entre los miembros del equipo.
+
+- **Google Drive:** Almacena documentación del proyecto, incluyendo informes de progreso y registros de decisiones. Facilita la colaboración en tiempo real, permitiendo a los miembros del equipo actualizar documentos de manera conjunta.
+
+- **Discord:** Se utiliza como una plataforma de comunicación instantánea, permitiendo al equipo mantenerse en contacto en tiempo real. Facilita la discusión rápida sobre problemas y proporciona un espacio para compartir actualizaciones y noticias importantes del proyecto.
+
+- **GitHub:** Se utiliza para el control de versiones del código, permitiendo la revisión y seguimiento de cambios realizados en la aplicación. Las notificaciones de cambios en GitHub se envían por correo electrónico a los miembros del equipo, asegurando que todos estén al tanto de las actualizaciones.
+
+- **Google Lighthouse:** Herramienta para evaluar el rendimiento, accesibilidad y mejores prácticas de la landing page. Proporciona informes que ayudan a identificar áreas de mejora y asegurar que se cumplan los estándares de calidad.
+
+#### 7.4.2. Monitoring Pipelines Components
+El pipeline de monitoreo en AgriSynth está estructurado para proporcionar una supervisión integral del sistema:
+
+- **Recolección de Datos:** Los datos sobre el estado y rendimiento del sistema se recopilan a través de Trello y GitHub, donde se registran las tareas completadas y las incidencias detectadas.
+
+- **Análisis de Rendimiento:** Se realizan reuniones periódicas mediante Google Meet o Discord para analizar los informes generados por Google Lighthouse y discutir las métricas clave. El equipo evalúa aspectos como tiempos de carga y accesibilidad, tomando decisiones informadas para mejorar el rendimiento.
+
+- **Documentación Continua:** Google Drive se utiliza para mantener registros actualizados sobre el rendimiento y problemas detectados. Se generan documentos que detallan acciones correctivas.
+
+#### 7.4.3. Alerting Pipelines Components
+El sistema de alertas en AgriSynth está diseñado para detectar problemas en tiempo real y notificar al equipo:
+
+- **Revisiones Periódicas:** Se programan reuniones regulares a través de Google Meet o Discord para discutir el estado de la aplicación y cualquier alerta emergente. Estas reuniones aseguran que se aborden las preocupaciones a medida que surgen.
+
+- **Monitoreo de Cambios en GitHub:** Los cambios en el código son monitoreados a través de GitHub, y se envían correos electrónicos automáticos a los miembros del equipo con detalles sobre las actualizaciones realizadas. Esto asegura que todos estén informados sobre las modificaciones relevantes.
+
+- **Mecanismos de Escalación:** En caso de que un problema no se resuelva a tiempo, se establece un protocolo de escalación para involucrar a miembros clave del equipo. Roles claros se definen para asegurar que las alertas se manejen de manera eficiente.
+
+#### 7.4.4. Notification Pipelines Componentshttps://github.com/upc-pre-202402-si732-sw72-agrisynth/Report/blob/main/README.md
+Las notificaciones son esenciales para mantener informado al equipo sobre el estado del proyecto:
+
+- **Notificaciones por Correo Electrónico:** Los eventos críticos y actualizaciones importantes se comunican a través de correos electrónicos enviados automáticamente desde GitHub. Esto garantiza que la información llegue a todos los involucrados, incluso fuera del horario laboral.
+
+- **Informes Semanales de Estado:** Se genera un informe semanal que resume el estado del proyecto, incluyendo métricas de rendimiento y cualquier incidencia relevante. Estos informes se comparten con todo el equipo a través de Google Drive, facilitando la planificación futura.
+
+- **Documentación Visual:** Los diferentes avances realizados se comparten y revisan en las reuniones de Google Meet o Discord, asegurando que todos los miembros del equipo hayan realizado sus partes correspondientes.
 
 ## Capítulo VIII: Experiment-Driven Development
 ### 8.1. Experiment Planning
