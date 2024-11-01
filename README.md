@@ -1915,7 +1915,7 @@ Preguntas complementarias:
 **Nombre:** Salvador Chamorro
 **Edad:** 25
 **Distrito:** San Isidro
-**Resumen:** Salvador Chamorro nos comentó que le agrada bastante nuestra aplicación y la landing page. No realizó ningún comentario negativo acerca de ninguna de las dos soluciones de software expuestas
+**Resumen:** Salvador Chamorro nos comentó que le agrada bastante nuestra aplicación y la landing page. No realizó ningún comentario negativo acerca de ninguna de la landing page o el frontend, dio ideas muy interesantes para la parte visual como cambiar márgenes y cambiar a iconos que sea más acordes a las opciones que representan. Por lo demás, le gusto nuestra aplicación.
 
 ### 6.3.3. Evaluaciones según heurísticas
 #### UX Heuristics & Principles Evaluation
