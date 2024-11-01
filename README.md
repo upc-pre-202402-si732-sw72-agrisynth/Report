@@ -1994,6 +1994,16 @@ Preguntas complementarias:
 **Distrito:** Surco
 **Resumen:** Pedro Quispe comentó que el diseño de la landing page le parece atractivo. También menciono que la interfaz es intuitiva y fácil de usar, aunque algunos elementos podrían estar mejor posicionados. Resalta la sección de grupos, ya que es útil para organizar al equipo y optimizar el rendimiento
 
+##### Entrevista 3:
+![Entrevista de Validación](deploy/Entrevista-Adriana.png)
+
+**Nombre:** Adriana Diestra Huamani
+**Profesión** Ingenieria Agrónoma
+**Edad:** 26
+**Distrito:** Rimac, Lima. 
+**Resumen:** Adriana Diestra, una Ingeniera Agrónoma con 6 años de experiencia trabajando en la producción de productos agrícolas nos comenta lo siguiente, nuestra landing page y aplicación web es bastante satisfactorio para ella, ya que le motivó usanlo la buena experiencia en el interfas y las funcionalidades fueron concisas, a nivel de los colores le gusta y finalmente ella quedó satisfecha con el producto desarrollado. 
+
+
 #### Segmento objetivo: Empresas Agrícolas de Gran Escala
 ##### Entrevista 2:
 ![Entrevista de Validación](images/entrevista-validation-salvador.png)
