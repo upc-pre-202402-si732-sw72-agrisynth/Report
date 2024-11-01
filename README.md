@@ -1915,17 +1915,21 @@ El código fue evaluado durante las revisiones y analisis estático en las sigui
 
 #### 6.2.2. Reviews 
 
-<table>
-    <tr>
-    </tr>
-	
-    <tr>
-    </tr>
-    
-    <tr>
-    </tr>
-
-</table>
+| **Repositorio**             | Agrisynth                            |
+|-----------------------------|-------------------------------------|
+| **Detalles de Revisión**    |                                     |
+| Fecha                       | 29/10/2024                          |
+| Tipo de Revisión            | Code Review Inicial                 |
+| Autor                       | Grupal                              |
+| Reviewer                    | Johan Bottger                       |
+| Archivos                    | Landing Page                        |
+|                             | Frontend                            |
+|                             | Backend                             |
+| **Propósito**               | Asegurar que toda la implementación se adhiera a los estándares de código y cumpla con las métricas de calidad establecidas. |
+| **Resumen de Revisión**     |                                     |
+| Cumplimiento de Estilo      | En su mayoría, cumple con las convenciones y estándares de estilo. |
+| Funcionalidad y Lógica      | La lógica es consistente entre todo el repositorio y archivos analizados, cumple con las expectativas. |
+| Documentación               | La documentación dentro del código podría mejorarse en ciertos aspectos, incluso siendo inexistente en algunos archivos analizados. |
 
 ### 6.3. Validation Interviews.
 #### 6.3.1. Diseño de Entrevistas
