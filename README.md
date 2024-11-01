@@ -1978,38 +1978,62 @@ Preguntas complementarias:
 - ¿Hubo algún aspecto visual como el posicionamiento de los elementos que no te terminó de agradar?
 
 ### 6.3.2. Registro de Entrevistas.
+
 #### Segmento objetivo: Ingenieros Agrónomos que Asesoran a Agricultores
+
 ##### Entrevista 1:
+
 ![Entrevista de Validación](images/entrevista-validation-marcelo.png)
+
 **Nombre:** Giancarlo Stephano Romero Paredes
+
 **Edad:** 18
+
 **Distrito:** Surco
+
 **Resumen:** Giancarlo Stephano Romero Paredes nos comentó que le agrada bastante nuestra aplicación y la landing page. No realizó ningún comentario negativo acerca de ninguna de las dos soluciones de software expuestas
 
 ##### Entrevista 2:
+
 ![Entrevista de Validación](images/entrevista-validation-miguel.png)
 
 **Nombre:** Pedro Quispe Chincha
+
 **Edad:** 28
+
 **Distrito:** Surco
+
 **Resumen:** Pedro Quispe comentó que el diseño de la landing page le parece atractivo. También menciono que la interfaz es intuitiva y fácil de usar, aunque algunos elementos podrían estar mejor posicionados. Resalta la sección de grupos, ya que es útil para organizar al equipo y optimizar el rendimiento
 
 ##### Entrevista 3:
+
 ![Entrevista de Validación](deploy/Entrevista-Adriana.png)
 
 **Nombre:** Adriana Diestra Huamani
+
+**Edad:** 26 años
+
 **Profesión** Ingenieria Agrónoma
-**Edad:** 26
+
+**Video:** [Ver Video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211c221_upc_edu_pe/EQnsZvmjWUVJjbGw3jOCMp8B5oIyJJpJGcbeUBeP9UTXcw?e=sJ7GiO)
+
 **Distrito:** Rimac, Lima. 
+
 **Resumen:** Adriana Diestra, una Ingeniera Agrónoma con 6 años de experiencia trabajando en la producción de productos agrícolas nos comenta lo siguiente, nuestra landing page y aplicación web es bastante satisfactorio para ella, ya que le motivó usanlo la buena experiencia en el interfas y las funcionalidades fueron concisas, a nivel de los colores le gusta y finalmente ella quedó satisfecha con el producto desarrollado. 
 
 
 #### Segmento objetivo: Empresas Agrícolas de Gran Escala
+
 ##### Entrevista 2:
+
 ![Entrevista de Validación](images/entrevista-validation-salvador.png)
+
 **Nombre:** Salvador Chamorro
+
 **Edad:** 25
+
 **Distrito:** San Isidro
+
 **Resumen:** Salvador Chamorro nos comentó que le agrada bastante nuestra aplicación y la landing page. No realizó ningún comentario negativo acerca de ninguna de la landing page o el frontend, dio ideas muy interesantes para la parte visual como cambiar márgenes y cambiar a iconos que sea más acordes a las opciones que representan. Por lo demás, le gusto nuestra aplicación.
 
 ### 6.3.3. Evaluaciones según heurísticas
