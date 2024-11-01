@@ -16,19 +16,21 @@
 
 **Nombre del producto:** CropSphere
 
-**Mes y año:** Setiembre 2024
-
 **Ciclo:** 2024-02
 
 
 | Nombre de los Integrantes          | Código     |
-| ---------------------------------- | ---------- |
+| ---------------------------------- |------------|
 | Johan Karl Bottger Salazar         | U202210735 |
-| Diego Rafael Cisneros Tafur        | U20221a715 |
+| Diego Rafael Cisneros Tafur        | U20221A715 |
 | Miguel Ángel Huamán Cataño         | U202120615 |
 | Mario Joaquin Lopez Acuña          | U202116250 |
 | Marcelo Sebastian Neyra Santa Cruz | U202217241 |
-| Nestor Hernan Velarde Gonzales     | U20211c221 |
+| Nestor Hernan Velarde Gonzales     | U20211C221 |
+
+<br/>
+
+**Mes y año:** Noviembre 2024
 
 </div>
 
@@ -2543,7 +2545,9 @@ La experimentación es una etapa clave en el desarrollo de nuestra aplicación, 
 | 64     | EP06 / US06   | Creación de grupo de Trabajo mejorado          | Como usuario quiero poder crear un grupo de trabajo para compartir con mis compañeros de trabajo los recursos utilizados y sus estadísticas  | 5            |
 | 65     | EP06 / US07   | Agregado personas al grupo extendido           | Como usuario quiero agregar a otras personas a un grupo para colaborar bajo un mismo paradigma del trabajo                                   | 5            |
 
+**Conclusión**
 
+En conclusión, durante esta entrega del TB2 se realizó la validación de nuestra aplicación web aplicando las entrevistas directamente con nuestros segmentos objetivos, el 80% ha sido un resultado satisfactorio por nuestros segmentos (Ingenieros Agrónomos y empresas agrícolas) y buena experiencia de usuario, también se desarrolló e implemento los unit testing en el BackEnd (C#), A nivel de trabajo en equipo fue fundamental para llegar un buen trabajo del TB2.
 
 
 **Bibliografía**
@@ -2554,6 +2558,7 @@ La experimentación es una etapa clave en el desarrollo de nuestra aplicación, 
 - *García, S., & Fernández, P. (2017). Integración de Tecnologías de la Información y Comunicación en la Agricultura: Caso de estudio de una gran empresa agrícola en Perú. Revista Latinoamericana de Agricultura Digital, 5(2), 30-45.*
 - *López, R., & González, E. (2016). Impacto de las Tecnologías Digitales en la Productividad Agrícola: Un estudio de caso en una empresa agrícola de Argentina. Revista de Economía Agrícola, 12(3), 67-82.*
 
+**Video About-The-Team**
 
 # Anexos
 
@@ -2582,3 +2587,7 @@ La experimentación es una etapa clave en el desarrollo de nuestra aplicación, 
 - Empathy Mapping: <https://uxpressia.com/w/DeRZM/p/C8egI> 
 - As-is Scenario Mapping: <https://miro.com/welcomeonboard/dDdyWmRYWjB0MHM0dk1GbFQxU3RVdHY2aUpyV2xFSzlzWUtHcGtuOE02bWFSNVRJRXU5aTFsZnVmekdQRWd1dHwzNDU4NzY0NTUxNzYxNjYxMjg2fDI=?share_link_id=176300122658> 
 - To-Be Scenario Mapping: <https://miro.com/welcomeonboard/dDdyWmRYWjB0MHM0dk1GbFQxU3RVdHY2aUpyV2xFSzlzWUtHcGtuOE02bWFSNVRJRXU5aTFsZnVmekdQRWd1dHwzNDU4NzY0NTUxNzYxNjYxMjg2fDI=?share_link_id=176300122658> 
+
+
+**Video de entrevista de validación**
+- Entrevista: [ver video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211c221_upc_edu_pe/ER43WKJOaypBuwhUl3wj0jEBxKFrJBwVMz5hbVVmWbHmtw?e=U9hHu4)
