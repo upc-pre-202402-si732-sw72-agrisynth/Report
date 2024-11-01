@@ -1917,17 +1917,21 @@ El código fue evaluado durante las revisiones y analisis estático en las sigui
 
 #### 6.2.2. Reviews 
 
-<table>
-    <tr>
-    </tr>
-	
-    <tr>
-    </tr>
-    
-    <tr>
-    </tr>
-
-</table>
+| **Repositorio**             | Agrisynth                            |
+|-----------------------------|-------------------------------------|
+| **Detalles de Revisión**    |                                     |
+| Fecha                       | 29/10/2024                          |
+| Tipo de Revisión            | Code Review Inicial                 |
+| Autor                       | Grupal                              |
+| Reviewer                    | Johan Bottger                       |
+| Archivos                    | Landing Page                        |
+|                             | Frontend                            |
+|                             | Backend                             |
+| **Propósito**               | Asegurar que toda la implementación se adhiera a los estándares de código y cumpla con las métricas de calidad establecidas. |
+| **Resumen de Revisión**     |                                     |
+| Cumplimiento de Estilo      | En su mayoría, cumple con las convenciones y estándares de estilo. |
+| Funcionalidad y Lógica      | La lógica es consistente entre todo el repositorio y archivos analizados, cumple con las expectativas. |
+| Documentación               | La documentación dentro del código podría mejorarse en ciertos aspectos, incluso siendo inexistente en algunos archivos analizados. |
 
 ### 6.3. Validation Interviews.
 #### 6.3.1. Diseño de Entrevistas
@@ -2037,6 +2041,14 @@ Preguntas complementarias:
 **Distrito:** San Isidro
 
 **Resumen:** Salvador Chamorro nos comentó que le agrada bastante nuestra aplicación y la landing page. No realizó ningún comentario negativo acerca de ninguna de la landing page o el frontend, dio ideas muy interesantes para la parte visual como cambiar márgenes y cambiar a iconos que sea más acordes a las opciones que representan. Por lo demás, le gusto nuestra aplicación.
+
+##### Entrevista 3:
+![Entrevista de Validación](images/entrevista-validation-diego.png)
+**Nombre:** Diego Cacho
+**Edad:** 24
+**Distrito:** Surco
+**Resumen:**  Diego tuvo buenas evaluaciones del landing page y front end. Resaltó visualización adecuada de la página incluso al cambiar el tamaño la ventana. Fue de su especial agrado la funcionalidad de manejo de equipos, ya que una de las dificultades más mencionadas previamente fue la capacitación del personal. 
+
 
 ### 6.3.3. Evaluaciones según heurísticas
 #### UX Heuristics & Principles Evaluation
