@@ -1783,7 +1783,8 @@ En esta entrega se han realizado pruebas unitarias a todas las entidades princip
 En esta sección se presentan todas las pruebas de aceptación hechas en con el formato Gherkin.
 ![Test 3](images/test2.png)
 ![Test 4](images/test2.png)
-Enlace del repositorio de GitHub donde se encuentran todas las pruebas de aceptación: ![Repositorio](https://github.com/upc-pre-202402-si732-sw72-agrisynth/Behavior-Driven-Development) 
+Enlace del repositorio de GitHub donde se encuentran todas las pruebas de aceptación: 
+https://github.com/upc-pre-202402-si732-sw72-agrisynth/Behavior-Driven-Development 
 #### 6.1.4. Core System Tests
 En esta sección se incluyen todas las pruebas realizadas a nuestro sistema en esta entrega:
 - **Identity and Access Manager (IAM)**
@@ -1841,6 +1842,23 @@ Land Rental Command Service Tests:
 Land Rental Query Service Tests:
 ![Core 31](images/core31.png)
 ![Core 32](images/core32.png)
+
+
+- **Collaboration**
+
+TeamWorker 
+![Core 33](images/core33.png)
+![Core 34](images/core34.png)
+
+- **Machineryrental**
+
+Machinery
+![Core 35](images/core35.png)
+
+En total contamos con un total de  39 tests, entre los cuales se encuentran los de integracion, aceptacion entre otros. 
+
+![Core 36](images/core36.png)
+
 
 ### 6.3. Validation Interviews.
 #### 6.3.1. Diseño de Entrevistas
