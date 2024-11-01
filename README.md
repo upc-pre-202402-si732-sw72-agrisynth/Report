@@ -1901,6 +1901,14 @@ Preguntas complementarias:
 **Distrito:** Surco
 **Resumen:** Giancarlo Stephano Romero Paredes nos comentó que le agrada bastante nuestra aplicación y la landing page. No realizó ningún comentario negativo acerca de ninguna de las dos soluciones de software expuestas
 
+##### Entrevista 2:
+![Entrevista de Validación](images/entrevista-validation-miguel.png)
+
+**Nombre:** Pedro Quispe Chincha
+**Edad:** 28
+**Distrito:** Surco
+**Resumen:** Pedro Quispe comentó que el diseño de la landing page le parece atractivo. También menciono que la interfaz es intuitiva y fácil de usar, aunque algunos elementos podrían estar mejor posicionados. Resalta la sección de grupos, ya que es útil para organizar al equipo y optimizar el rendimiento
+
 #### Segmento objetivo: Empresas Agrícolas de Gran Escala
 ##### Entrevista 2:
 ![Entrevista de Validación](images/entrevista-validation-salvador.png)
