@@ -2040,6 +2040,14 @@ Preguntas complementarias:
 
 **Resumen:** Salvador Chamorro nos comentó que le agrada bastante nuestra aplicación y la landing page. No realizó ningún comentario negativo acerca de ninguna de la landing page o el frontend, dio ideas muy interesantes para la parte visual como cambiar márgenes y cambiar a iconos que sea más acordes a las opciones que representan. Por lo demás, le gusto nuestra aplicación.
 
+##### Entrevista 3:
+![Entrevista de Validación](images/entrevista-validation-diego.png)
+**Nombre:** Diego Cacho
+**Edad:** 24
+**Distrito:** Surco
+**Resumen:**  Diego tuvo buenas evaluaciones del landing page y front end. Resaltó visualización adecuada de la página incluso al cambiar el tamaño la ventana. Fue de su especial agrado la funcionalidad de manejo de equipos, ya que una de las dificultades más mencionadas previamente fue la capacitación del personal. 
+
+
 ### 6.3.3. Evaluaciones según heurísticas
 #### UX Heuristics & Principles Evaluation
 ##### Usability – Inclusive Design – Information Architecture
