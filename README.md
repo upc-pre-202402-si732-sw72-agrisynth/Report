@@ -1859,6 +1859,73 @@ En total contamos con un total de  39 tests, entre los cuales se encuentran los 
 
 ![Core 36](images/core36.png)
 
+### 6.2 Static testing & Verification
+#### 6.2.1. Static Code Analysis 
+
+El analisis estático de código se realizó utilizando la herramienta SonarQube y el CLI SonarScanner, parte de .NET. 
+El proceso involucró la instalación de los siguientes programas o servicios: 
+-Java JDK 17 
+-SonarQube 10.7.0 
+-.NET SDK 8.0.403 
+-SonarScanner for MSBuild 9.0.1 
+
+Resultados: 
+El repositorio del proyecto aprobó las 45 pruebas realizadas por SonarQube. No presentó vulnerabilidades, redundancias, o cualquier otra falla detectable. Se concluye un nivel satisfactorio para todos los campos analizados. 
+
+Evidencias: 
+![](images/statictest1.png)
+*Resumen de Análisis*
+
+![](images/statictest2.png)
+*Detalles de Análisis*
+
+![](images/statictest3.png)
+*Resultado Obtenido*
+
+![](images/statictest4.png)
+*Evidencia de Implementación y Ejecución*
+
+##### 6.2.1.1. Coding standard & Code conventions. 
+
+**Convenciones y Estándares Básicos** 
+Naming Conventions (Convenciones de nombres): 
+-Identificadores utilizan solo characteres ASCII 
+-Nombres de clases escritos en UpperCamelCase/PascalCase. Ej.: TeamCommandService 
+-Clases de pruebas terminan en ‘Test’. Ej.: ProfilesControllerTest 
+-Nombres de variables locales y parametros escritos en camelCase. 
+-Nombres de campos internos y propiedades private, internal y protected escritos en _camelCase. 
+-Nombres de Interfaces Inician con ‘I’. Ej.: 
+-Nombres de Archivos y Directorios escritos en PascalCase, incluyendo acrónimos. Ej.: 
+
+Estilo de código 
+-Los modificadores ocurren en el siguiente orden: public protected internal private new abstract virtual override sealed static readonly extern unsafe volatile async. 
+-Las declaraciones Namespace using van al inicio, antes de los Namespace.  
+-Las declaraciones Import van en orden alfabético, excepto las de System que siempre van primero.    
+-Se incluye un máximo de una expresión por línea de código y un asignador por expresión. 
+-La indentación equivale a un “TAB” o 4 espacios. 
+-Corte de linea antes de corchetes “{}”.  
+
+##### 6.2.1.2. Code Quality & Code Security. 
+
+El código fue evaluado durante las revisiones y analisis estático en las siguientes métricas de calidad:  
+-Seguridad 
+-Exactitud (Reliability) 
+-Mantenibilidad 
+-Consistencia  
+
+#### 6.2.2. Reviews 
+
+<table>
+    <tr>
+    </tr>
+	
+    <tr>
+    </tr>
+    
+    <tr>
+    </tr>
+
+</table>
 
 ### 6.3. Validation Interviews.
 #### 6.3.1. Diseño de Entrevistas
