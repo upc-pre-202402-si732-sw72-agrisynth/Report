@@ -303,6 +303,19 @@
                 Capitulo 6, 7 y 8 <br>
                 Nestor Hernan Velarde Gonzales <br>
                 Capitulo 6, 7 y 8 <br>
+                <strong>TB2</strong> <br>
+                Johan Karl Bottger Salazar <br>
+                Static testing and verification y Entrevista de validación <br>
+                Diego Rafael Cisneros Tafur <br>
+                Testing Suites and validation y Entrevista de validación<br>
+                Miguel Ángel Huamán Cataño <br>
+                Continuos deployment, Continuos monitoring y Entrevista de validación <br>
+                Mario Joaquin Lopez Acuña <br>
+                Experiment Planning, Experiment Design y Entrevista de validación <br>
+                Marcelo Sebastian Neyra Santa Cruz <br>
+                To-Be User Stories y To-Be Product Backlog <br>
+                Nestor Hernan Velarde Gonzales <br>
+                Continuos Integration, Continuos Delivery y Entrevista de validación <br>
             </p>
         </td>
         <td>
@@ -310,7 +323,7 @@
             <p>En esta primera entrega, se ha reutilizado un trabajo realizado en el ciclo anterior por nuestro grupo de trabajo. Reconocemos que el uso de código de otras personas sin su permiso no es correcto éticamente, por lo que se le ha informado a aquellas personas que ya no participan en el grupo acerca del uso de las aplicaciones y reportes. Dichas personas aceptaron la prepuesta y nos otorgaron el permiso de utilizar el repositorio como base para las pruebas realizadas en este curso </p>
           <br> <strong>TP</strong> <br>
             <p>En esta segunda entrega, se ha hecho una ardua investigación acerca de las metodologías y tecnologías que se utilizan al momento de realizar pruebas en una aplicación de software</p>
-          <br> <strong>TB3</strong> <br>
+          <br> <strong>TB2</strong> <br>
             <p> En esta tercera entrega, se ha hecho una investigación acerca de las metodologías de Continuos Delivery y Continuos Deployment, al igual que otras buenas prácticas que se utilizaron en el proyecto, como reformular las historias de usuario para que se adecúen más con las expectativas de los usuarios (to-be user stories) </p>
         </td>
     </tr>
@@ -335,7 +348,20 @@
                 Aplicación Web (Frontend) <br>
                 Nestor Hernan Velarde Gonzales <br>
                 Aplicación Web (Frontend) <br>
-                <strong>TB1</strong> <br>
+                <strong>TP</strong> <br>
+                Johan Karl Bottger Salazar <br>
+                Testing (LandRental) <br>
+                Diego Rafael Cisneros Tafur <br>
+                Testing (IAM) <br>
+                Miguel Ángel Huamán Cataño <br>
+                Testing (Profiles) <br>
+                Mario Joaquin Lopez Acuña <br>
+                Testing (Documents) <br>
+                Marcelo Sebastian Neyra Santa Cruz <br>
+                Testing (Resources) <br>
+                Nestor Hernan Velarde Gonzales <br>
+                Testing (MachineRental) <br>
+                <strong>TB2</strong> <br>
                 Johan Karl Bottger Salazar <br>
                 Testing (LandRental) <br>
                 Diego Rafael Cisneros Tafur <br>
@@ -355,7 +381,7 @@
             <p>Se realizaron las aplicaciones web que se utilizarán durante todo el ciclo del curso. Estas aplicaciones fueron especialmente diseñadas para contrarrestar uno de los mayores problemas con las que los segmentos objetivos cuentan, falta de organización. Se espera que en las siguientes entregas se comprueben la validez de nuestras aplicaciones y qué tan efectivas realmente podrán ser en implementarlas </p>
           <br> <strong>TP</strong> <br>
             <p>Se realizaron pruebas unitarias e integrales para validación de nuestra aplicación web. Es necesario que nuestra aplicación funcione sin fallas aparentes y repetivas, por lo que el proceso de pruebas se llevará a cabo durante el resto del ciclo académico</p>
-          <br> <strong>TB3</strong> <br>
+          <br> <strong>TB2</strong> <br>
             <p> Se realizaron más pruebas unitarias e integrales para validación de nuestra aplicación web, al igual que diversos procesos de desarrollo y despliegue continuo que nos ayudaron a validar nuestra aplicación </p>
         </td>
     </tr>
