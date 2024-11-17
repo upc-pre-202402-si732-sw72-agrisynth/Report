@@ -1784,6 +1784,8 @@ Tiempo después, se desarrolló el Sprint 4, enfocado en la implementación comp
 
 ### <a name="team-insights"></a> 5.2.7. Team Collaboration Insights
 
+![](images/insight.png)
+
 ## <a name="product-video"></a> 5.3. Video About-the-Product
 
 En esta sección se incluye el video about the producto que presenta las funcionalidades principales de la aplicación Cropsphere a los usuarios potenciales.
