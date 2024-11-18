@@ -2585,6 +2585,28 @@ La experimentación es una etapa clave en el desarrollo de nuestra aplicación, 
 | 64     | EP06 / US06   | Creación de grupo de Trabajo mejorado          | Como usuario quiero poder crear un grupo de trabajo para compartir con mis compañeros de trabajo los recursos utilizados y sus estadísticas  | 5            |
 | 65     | EP06 / US07   | Agregado personas al grupo extendido           | Como usuario quiero agregar a otras personas a un grupo para colaborar bajo un mismo paradigma del trabajo                                   | 5            |
 
+##### 8.3.3. Pipeline-supported, Experiment-Driven To-Be Software Platform Lifecycle
+##### 8.3.3.1. To-Be Sprint Backlogs
+##### 8.3.3.2. Implemented To-Be Landing Page Evidence
+##### 8.3.3.3. Implemented To-Be Frontend-Web Application Evidence
+Se demostrará la implementación de la funcionalidad de creación de un recurso agrícola en la aplicación web de AgriSynth. Para ello, se mostrará el proceso de creación de un recurso agrícola, incluyendo la validación de los campos obligatorios y la visualización del recurso creado en la lista de recursos.
+Nuestra web está desplegado en la nube y pueda visualizar en el siguiente enlace: [AgriSynth Web](https://agrisynth-web.azurewebsites.net/)
+
+A continuación, se demostrará el proceso en imágenes paso a paso: 
+
+##### 8.3.3.4. Implemented To-Be Native-Mobile Application Evidence
+##### 8.3.3.5. Implemented To-Be RESTful API and/or Serverless Backend Evidence
+##### 8.3.3.6. Team Collaboration Insights
+##### 8.3.4. To-Be Validation Interviews
+##### 8.3.4.1. Diseño de Entrevistas.
+##### 8.3.4.2. Registro de Entrevistas.
+##### 8.4. Experiment Aftermath & Analysis
+##### 8.4.1. Analysis and Interpretation of Results
+##### 8.4.2. Re-scored and Re-prioritized Question Backlog
+##### 8.5. Continuous Learning
+##### 8.5.1. Shareback Session Artifacts: Learning Workflow
+##### 8.6. To-Be Software Platform Pre-launch
+
 **Conclusión**
 
 En conclusión, durante esta entrega del TB2 se realizó la validación de nuestra aplicación web aplicando las entrevistas directamente con nuestros segmentos objetivos, el 80% ha sido un resultado satisfactorio por nuestros segmentos (Ingenieros Agrónomos y empresas agrícolas) y buena experiencia de usuario, también se desarrolló e implemento los unit testing en el BackEnd (C#), A nivel de trabajo en equipo fue fundamental para llegar un buen trabajo del TB2.
@@ -2598,7 +2620,11 @@ En conclusión, durante esta entrega del TB2 se realizó la validación de nuest
 - *García, S., & Fernández, P. (2017). Integración de Tecnologías de la Información y Comunicación en la Agricultura: Caso de estudio de una gran empresa agrícola en Perú. Revista Latinoamericana de Agricultura Digital, 5(2), 30-45.*
 - *López, R., & González, E. (2016). Impacto de las Tecnologías Digitales en la Productividad Agrícola: Un estudio de caso en una empresa agrícola de Argentina. Revista de Economía Agrícola, 12(3), 67-82.*
 
+
 **Video About-The-Team**
+
+
+
 
 # Anexos
 
