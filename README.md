@@ -2602,7 +2602,89 @@ A continuación, se demostrará el proceso en imágenes paso a paso:
 ##### 8.3.4.2. Registro de Entrevistas.
 ##### 8.4. Experiment Aftermath & Analysis
 ##### 8.4.1. Analysis and Interpretation of Results
+| Nro | Test | Performance | Accessibility | Best Practices | SEO |
+| --- | ---- | ----------- | ------------- | -------------- | --- |
+| 1   | 44   | 89          | 100           | 83             | 83  |
+| 2   | 51   | 89          | 100           | 83             | 83  |
+| 3   | 52   | 90          | 100           | 83             | 83  |
+| 4   | 52   | 90          | 100           | 83             | 83  |
+| 5   | 53   | 89          | 100           | 83             | 83  |
+| 6   | 51   | 90          | 100           | 83             | 83  |
+| 7   | 62   | 89          | 100           | 83             | 83  |
+| 8   | 53   | 89          | 100           | 83             | 83  |
+| 9   | 51   | 90          | 100           | 83             | 83  |
+| 10  | 60   | 89          | 100           | 83             | 83  |
+| 11  | 55   | 89          | 100           | 83             | 83  |
+| 12  | 55   | 89          | 100           | 83             | 83  |
+| 13  | 60   | 89          | 100           | 83             | 83  |
+| 14  | 60   | 89          | 100           | 83             | 83  |
+| 15  | 60   | 89          | 100           | 83             | 83  |
+| 16  | 62   | 90          | 100           | 83             | 83  |
+| 17  | 65   | 90          | 100           | 83             | 83  |
+| 18  | 71   | 90          | 100           | 83             | 83  |
+| 19  | 66   | 90          | 100           | 83             | 83  |
+| 20  | 67   | 90          | 100           | 83             | 83  |
+| 21  | 62   | 90          | 100           | 83             | 83  |
+| 22  | 68   | 89          | 100           | 83             | 83  |
+| 23  | 68   | 89          | 100           | 83             | 83  |
+| 24  | 76   | 89          | 100           | 83             | 83  |
+| 25  | 71   | 90          | 100           | 83             | 83  |
+| 26  | 76   | 90          | 100           | 83             | 83  |
+| 27  | 66   | 89          | 100           | 83             | 83  |
+| 28  | 73   | 89          | 100           | 83             | 83  |
+| 29  | 75   | 89          | 100           | 83             | 83  |
+| 30  | 73   | 89          | 100           | 83             | 83  |
+| 31  | 70   | 89          | 100           | 83             | 83  |
+| 32  | 76   | 90          | 100           | 83             | 83  |
+| 33  | 76   | 89          | 100           | 83             | 83  |
+| 34  | 68   | 89          | 100           | 83             | 83  |
+| 35  | 72   | 89          | 100           | 83             | 83  |
+| 36  | 70   | 90          | 100           | 83             | 83  |
+| 37  | 78   | 89          | 100           | 83             | 83  |
+| 38  | 76   | 89          | 100           | 83             | 83  |
+| 39  | 72   | 89          | 100           | 83             | 83  |
+| 40  | 74   | 89          | 100           | 83             | 83  |
+| 41  | 73   | 89          | 100           | 83             | 83  |
+| 42  | 78   | 90          | 100           | 83             | 83  |
+| 43  | 80   | 90          | 100           | 83             | 83  |
+| 44  | 82   | 89          | 100           | 83             | 83  |
+| 45  | 79   | 89          | 100           | 83             | 83  |
+| 46  | 79   | 89          | 100           | 83             | 83  |
+| 47  | 81   | 89          | 100           | 83             | 83  |
+| 48  | 86   | 89          | 100           | 83             | 83  |
+| 49  | 81   | 90          | 100           | 83             | 83  |
+| 50  | 85   | 89          | 100           | 83             | 83  |
+
+![image](https://github.com/user-attachments/assets/49006dad-53d4-4f43-8f68-71262000d45a)
+
+Se realizaron pruebas utilizando Lighthouse para evaluar las áreas de mejora en nuestra aplicación web CropSphere. El análisis de los datos obtenidos de los 50 ensayos revela un área específica en la que debemos enfocar nuestros esfuerzos de optimización: el rendimiento (performance). A pesar de que los demás indicadores como accesibilidad, mejores prácticas y SEO se mantienen consistentes y en niveles altos, el desempeño es el atributo con más variabilidad y puntajes más bajos. 
+- **Performance**  
+  Valor mínimo: 44  
+  Valor máximo: 86  
+
+- **Accesibilidad**  
+  Valor mínimo: 89  
+  Valor máximo: 90  
+
+- **Best Practices**  
+  Valor: 100 en todos los ensayos  
+
+- **SEO**  
+  Valor: 83 en todos los ensayos
+
 ##### 8.4.2. Re-scored and Re-prioritized Question Backlog
+A partir de los resultados obtenidos, hemos replanteado y priorizado las preguntas clave para seguir mejorando y asegurar un avance constante: 
+
+- **¿Qué estrategias de optimización (como lazy loading o reducción de scripts) podrían implementarse para mejorar la performance sin comprometer la funcionalidad de la aplicación?**
+
+- **¿Cómo podemos aumentar la eficiencia del uso de recursos de nuestra aplicación web para reducir los tiempos de carga?**
+
+- **¿Qué impacto tendría en la retención de usuarios y en la captación de nuevos clientes el hecho de mejorar la performance?**
+
+- **¿Qué elementos del código o qué procesos podrían estar causando los puntajes más bajos en ciertos ensayos de performance?**
+
+- **¿En qué medida la mejora en la performance puede traducirse en un incremento de la productividad y la sostenibilidad para nuestros clientes?**
+
 ##### 8.5. Continuous Learning
 ##### 8.5.1. Shareback Session Artifacts: Learning Workflow
 ##### 8.6. To-Be Software Platform Pre-launch
