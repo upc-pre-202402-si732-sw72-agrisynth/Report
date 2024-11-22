@@ -2321,18 +2321,131 @@ Las notificaciones son esenciales para mantener informado al equipo sobre el est
 ## Capítulo VIII: Experiment-Driven Development
 ### 8.1. Experiment Planning
 #### 8.1.1. As-Is Summary.
+Los usuarios buscan  optimizar la gestión agrícola al mejorar el uso de insumos y maquinaria, controlar inventarios, y planificar adquisiciones.
 #### 8.1.2. Raw Material: Assumptions, Knowledge Gaps, Ideas, Claims.
+###### Assumptions:
+- Los agricultores y administradores agrícolas necesitan mejorar la eficiencia en el uso de insumos y maquinaria para maximizar su rendimiento y sostenibilidad.
+- La industria agrícola requiere soluciones de software que integren múltiples funciones en una sola plataforma para simplificar la gestión.
+- Los datos detallados sobre inventarios, adquisiciones y el estado de la maquinaria son cruciales para optimizar las operaciones agrícolas.
+
+###### Knowledge Gaps:
+- Grado de adopción de tecnología en zonas rurales y áreas agrícolas, incluyendo la familiaridad con software avanzado. 
+- Nivel de precisión y detalle necesarios en los datos de inventario y maquinaria para satisfacer las expectativas de los usuarios.
+- Expectativas y preferencias específicas de los agricultores en cuanto a la interfaz y usabilidad del software.
+
+###### Ideas:
+- Incorporar herramientas de análisis predictivo para anticipar necesidades de mantenimiento y reducir el tiempo de inactividad de maquinaria.
+- Agregar módulos de inteligencia artificial que optimicen la planificación de cultivos en función de variables climáticas y de suelo.
+- Desarrollar integraciones con plataformas de monitoreo de maquinaria para una actualización automática del estado y rendimiento.
+
+ 
+###### Claims:
+- CropSphere facilita una mayor eficiencia en la gestión de insumos, lo que contribuye a la reducción de desperdicios y maximiza el uso de recursos.
+- La plataforma permite una planificación y mantenimiento de maquinaria más efectiva, reduciendo tiempos de inactividad y costos operativos.
+- Al mejorar la comunicación entre las partes interesadas, CropSphere optimiza la colaboración y la toma de decisiones en proyectos agrícolas.
+
 #### 8.1.3. Experiment-Ready Questions.
+- **Inventario y reduccion de insumos:** ¿Cómo impacta la implementación de CropSphere en la reducción de desperdicio de insumos agrícolas y en el control de inventarios?
+- **Maquinarias:** ¿Qué mejoras se observan en la eficiencia de la maquinaria agrícola tras usar la planificación y el mantenimiento preventivo de CropSphere?
+- **Comunicacion:** ¿Cómo influye el uso de CropSphere en la comunicación y coordinación entre los distintos usuarios de los proyectos agrícolas?
+
 #### 8.1.4. Question Backlog.
+Uso de Insumos y Control de Inventarios: 
+- ¿En qué medida CropSphere contribuye a reducir el desperdicio de insumos agrícolas y mejora la precisión en el control de inventarios, comparado con otros métodos?
+Eficiencia de Maquinaria y Mantenimiento:
+- ¿Cómo contribuye CropSphere a mejorar la eficiencia de la maquinaria, reducir tiempos de inactividad y disminuir los costos de reparación a través del mantenimiento preventivo?
+Comunicación y Coordinación entre Usuarios
+- ¿Qué tan efectiva es CropSphere para mejorar la comunicación, la alineación de tareas y la satisfacción de los actores involucrados en los proyectos agrícolas?
+
 #### 8.1.5. Experiment Cards.
+| Question | ¿Cómo impacta la implementación de CropSphere en la reducción de desperdicio de insumos agrícolas y en el control de inventarios? |
+|-|-|
+| Why | Reducir el desperdicio de insumos es fundamental para mejorar la eficiencia y reducir costos operativos, contribuyendo a una agricultura más sostenible y rentable. |
+| What | Medir el cambio en el uso de insumos y en el manejo de inventarios comparando datos antes y después de implementar CropSphere en una muestra de fincas. |
+| Hypothesis | La implementación de CropSphere reducirá el desperdicio de insumos agrícolas en al menos un 20% y mejorará la precisión del inventario en un 30%. |
+
+
+| Question | ¿Qué mejoras se observan en la eficiencia de la maquinaria agrícola tras usar la planificación y el mantenimiento preventivo de CropSphere?|
+|-|-|
+| Why | La eficiencia de la maquinaria es clave para reducir tiempos de inactividad y evitar costos inesperados, lo que aumenta la rentabilidad de las operaciones agrícolas. |
+| What | Realizar un seguimiento de la frecuencia de mantenimiento, tiempos de inactividad y costos de reparación antes y después de utilizar CropSphere para la gestión de maquinaria. |
+| Hypothesis | CropSphere permitirá una reducción de al menos un 25% en los tiempos de inactividad y de un 15% en los costos de reparación, al mejorar la programación del mantenimiento preventivo. |
+
 ### 8.2. Experiment Design
 #### 8.2.1. Hypotheses.
+| Question | ¿En qué medida CropSphere contribuye a reducir el desperdicio de insumos agrícolas y mejora la precisión en el control de inventarios, comparado con otros métodos? |
+|-|-|
+| Data Analysis | Se analizarán los registros de uso de insumos antes y después de la implementación de CropSphere en una muestra de fincas. Se medirán las variaciones en desperdicio de insumos y precisión de inventario, junto con el ahorro en costos de insumos. |
+| Hypothesis | CropSphere permitirá reducir el desperdicio de insumos en un 20% y mejorará la precisión de los inventarios en un 30%, reduciendo también los costos en un 15%. |
+
+
+| Question | ¿Cómo contribuye CropSphere a mejorar la eficiencia de la maquinaria, reducir tiempos de inactividad y disminuir los costos de reparación a través del mantenimiento preventivo? |
+|-|-|
+| Data Analysis | Se recopilarán datos sobre los tiempos de inactividad, frecuencia y costo de reparaciones antes y después del uso de CropSphere en una muestra de maquinaria agrícola. Se analizarán las horas de operación y los costos totales de mantenimiento. |
+| Hypothesis | CropSphere reducirá los tiempos de inactividad en un 25% y los costos de reparación en un 15%, mientras que aumentará la vida útil de la maquinaria en un 10%. |
+
+
+| Question | ¿Qué tan efectiva es CropSphere para mejorar la comunicación, la alineación de tareas y la satisfacción de los actores involucrados en los proyectos agrícolas?|
+|-|-|
+| Data Analysis | Se recopilarán datos de encuestas de satisfacción y mediciones de frecuencia de errores en tareas y tiempos de respuesta antes y después de la implementación de CropSphere. Se evaluará también el número de interacciones efectivas entre actores. |
+| Hypothesis | CropSphere mejorará la comunicación y coordinación en un 40%, reducirá errores en planificación de tareas en un 25%, y aumentará la satisfacción de los actores en un 30%. |
+
+
 #### 8.2.2. Measures.
+##### Eficiencia de Maquinaria y Mantenimiento:
+Se evaluarán la disminución de tiempos de inactividad, el costo promedio de reparaciones y la extensión de la vida útil de la maquinaria para comprobar la eficacia del mantenimiento preventivo.
+##### Comunicación y Coordinación entre usuarios:
+Se analizarán la reducción de errores de planificación, la satisfacción de los actores y el tiempo de respuesta, evaluando mejoras en la coordinación entre usuarios.
+##### Análisis y Toma de Decisiones Estratégicas:
+Se observarán incrementos en rendimiento por hectárea, la reducción en el tiempo de toma de decisiones y la cantidad de decisiones basadas en datos, asegurando decisiones más informadas.
+##### Productividad y Sostenibilidad de Procesos Agrícolas:
+Se medirán aumentos en la productividad, la disminución de residuos y el ahorro en consumo de recursos, buscando promover una agricultura más sostenible.
+##### Impacto en Rentabilidad y Costos:
+Se analizarán los ahorros operativos, el aumento en rentabilidad y el tiempo de retorno de inversión, evaluando el valor económico de CropSphere.
+##### Satisfacción del Usuario y Adaptación al Sistema:
+Se observarán la tasa de adopción, el nivel de satisfacción y el tiempo de aprendizaje, asegurando que el sistema sea accesible y bien recibido por los usuarios.
+
 #### 8.2.3. Conditions.
+##### Condiciones de Uso de Insumos: 
+Las condiciones de uso de insumos dependen del acceso a insumos de calidad y de las condiciones climáticas adecuadas, ya que la disponibilidad y el costo de estos insumos impactan directamente en la reducción del desperdicio. Para lograr un resultado óptimo, es crucial implementar prácticas de gestión alineadas con las necesidades del cultivo y la estación agrícola.
+##### Condiciones de Maquinaria: 
+En cuanto a la maquinaria, el estado de mantenimiento y la tecnología utilizada son factores determinantes, así como la capacitación del personal en el uso de esta maquinaria. La condición ideal implica el uso de maquinaria moderna y bien mantenida, junto con un plan de mantenimiento preventivo efectivo.
+##### Condiciones de Comunicación y Coordinación: 
+La comunicación y coordinación entre actores también son fundamentales, y dependen de las estructuras organizativas y los canales de comunicación establecidos. La colaboración entre equipos y la claridad en la planificación son esenciales para asegurar una coordinación eficiente y la resolución rápida de problemas.
+##### Condiciones de Toma de Decisiones: 
+En el ámbito de la toma de decisiones, el acceso a datos precisos y relevantes, así como herramientas analíticas adecuadas, son necesarios para interpretar la información de manera efectiva. La condición ideal incluye la capacitación en análisis de datos para los tomadores de decisiones y un sistema que ofrezca información en tiempo real.
+##### Condiciones de Productividad y Sostenibilidad: 
+La productividad y sostenibilidad están influenciadas por la implementación de prácticas agrícolas sostenibles y la evaluación continua de resultados. Las condiciones del suelo y el clima son determinantes en esta área. Por ello, es vital contar con un monitoreo constante de prácticas que optimicen el uso de recursos y minimicen los residuos.
+
 #### 8.2.4. Scale Calculations and Decisions.
+##### Reducción de Desperdicio de Insumos
+- Escala: 1% de reducción en desperdicio de insumos equivale a una optimización mínima, mientras que una reducción del 20% o más representa una eficiencia excelente en el uso de insumos.
+- Decisión: Si la reducción es del 15% o mayor, mantener la estrategia actual; si es menor al 10%, explorar mejoras en la gestión de insumos.
+
+##### Precisión de Inventarios
+- Escala: Una precisión del 95% o superior indica un control óptimo; una precisión inferior al 85% requiere ajustes en los procesos de inventario.
+- Decisión: Con una precisión por debajo del 90%, revisar los métodos de registro; con un 95% o superior, mantener el enfoque actual.
+
+##### Reducción en Tiempos de Inactividad de Maquinaria
+- Escala: Disminuir los tiempos de inactividad en un 15% se considera efectivo, mientras que una reducción del 30% o más refleja una excelente gestión del mantenimiento.
+- Decisión: Si la reducción es inferior al 15%, investigar causas de ineficiencia; con una reducción del 25% o mayor, replicar la estrategia en otras áreas.
+
+##### Frecuencia y Costos de Reparaciones
+- Escala: Una reducción de 10% en frecuencia o costos es adecuada, y una reducción del 20% se considera sobresaliente.
+- Decisión: Si la reducción es inferior al 10%, mejorar el sistema de mantenimiento preventivo; si es del 15% o más, mantener la estrategia actual.
+
+##### Satisfacción de los usuarios en Comunicación y Coordinación
+- Escala: Una puntuación promedio de satisfacción de 4 en una escala de 5 indica una comunicación efectiva, mientras que una puntuación de 3 o menor señala áreas de mejora.
+- Decisión: Si la satisfacción es inferior a 3.5, revisar los canales y métodos de comunicación; si es de 4 o superior, continuar con el mismo enfoque.
+
+
+
 #### 8.2.5. Methods Selection.
+Se elegirán las metodologías y técnicas experimentales más adecuadas para realizar los experimentos, considerando opciones como pruebas A/B, pruebas de control o experimentos en entornos reales. La selección dependerá de la viabilidad y los objetivos específicos de cada experimento.
 #### 8.2.6. Data Analytics: Goals, KPIs and Metrics Selection.
+En el análisis de datos de CropSphere, los objetivos clave incluyen optimizar el uso de insumos, mejorar la eficiencia de la maquinaria, y aumentar la productividad y sostenibilidad agrícola. Los KPIs elegidos para evaluar estos objetivos se centran en la reducción de desperdicio de insumos, la precisión de inventarios, la reducción de tiempos de inactividad de maquinaria, la satisfacción de los actores, el rendimiento por hectárea, y el ahorro de costos.
 #### 8.2.7. Web and Mobile Tracking Plan.
+Se desarrollará un plan detallado para el monitoreo de datos en aplicaciones web y móviles, asegurando la recopilación de la información esencial para llevar a cabo experimentos. Esto permitirá contar con los datos necesarios para evaluar el impacto de dichas pruebas.
 ### 8.3. Experimentation
 La experimentación es una etapa clave en el desarrollo de nuestra aplicación, donde se busca validar y ajustar las características y funcionalidades planteadas para satisfacer las necesidades de los usuarios. Esta sección se centra en las pruebas y mejoras continuas, asegurando que la aplicación no solo cumpla con los requisitos técnicos, sino que también ofrezca una experiencia de usuario óptima.
 #### 8.3.1. To-Be User Stories.
