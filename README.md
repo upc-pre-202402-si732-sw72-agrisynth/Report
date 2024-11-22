@@ -46,7 +46,7 @@
     <tr>
         <td>TB1</td>
         <td>03/09/2024</td>
-        <td rowspan = "3">
+        <td rowspan = "4">
             <p> 
                 Johan Karl Bottger Salazar <br>
                 Diego Rafael Cisneros Tafur <br>
@@ -62,7 +62,7 @@
                 Capítulo 2 <br>
                 Capítulo 3 <br>
                 Capítulo 4 <br>
-                Capítulo 5 <br>
+                Capítulo 5
             </p>
         </td>
     </tr>
@@ -72,7 +72,7 @@
         <td>
             <p>
                 Capítulo 6 <br>
-                Capítulo 7 <br>
+                Capítulo 7
             </p>
         </td>
     </tr>
@@ -83,15 +83,20 @@
             <p>
                 Capítulo 6 <br>
                 Capítulo 7 <br>
-                Capítulo 8 <br>
+                Capítulo 8
+            </p>
+        </td>
+    </tr>
+    <tr>
+        <td>TF</td>
+        <td>21/11/2024</td>
+        <td>
+            <p>
+                Capítulo 8
             </p>
         </td>
     </tr>
 </table>
-
-## Project Report Collaboration Insights
-
-**Enlace del Project Report: [Repositorio de Github](https://github.com/orgs/upc-pre-202402-si732-sw72-agrisynth/repositories)**
 
 ## Contenido
 ### Capítulo I: Introducción
@@ -263,6 +268,12 @@
 
 # Student Outcome
 
+>El curso contribuye al cumplimiento del Student Outcome ABET:
+ABET – EAC – Student Outcome 4
+**Criterio:** La capacidad de reconocer responsabilidades éticas y profesionales en situaciones de ingeniería y hacer juicios informados, que deben considerar el impacto de las soluciones de ingeniería en contextos globales, económicos, ambientales y sociales.
+En el siguiente cuadro se describe las acciones realizadas y enunciados de conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el logro del ABET – EAC - Student Outcome 4
+
+
 <table>
     <tr>
         <th>Criterio Específico</th>
@@ -316,6 +327,19 @@
                 To-Be User Stories y To-Be Product Backlog <br>
                 Nestor Hernan Velarde Gonzales <br>
                 Continuos Integration, Continuos Delivery y Entrevista de validación <br>
+                <strong>TF</strong> <br>
+                Johan Karl Bottger Salazar <br>
+                To-be Sprint Backlogs <br>
+                Diego Rafael Cisneros Tafur <br>
+                Implemented To-Be RESTful API and/or Serverless Backend Evidence<br>
+                Miguel Ángel Huamán Cataño <br>
+                Analysis and Interpretation of Results y Re-scored and Re-prioritized Question Backlog <br>
+                Mario Joaquin Lopez Acuña <br>
+                Shareback Session Artifacts: Learning Workflow <br>
+                Marcelo Sebastian Neyra Santa Cruz <br>
+                Implemented To-Be Landing Page Evidence y To-Be Software Platform Pre-launch <br>
+                Nestor Hernan Velarde Gonzales <br>
+                Implemented To-Be Frontend-Web Application Evidence <br>
             </p>
         </td>
         <td>
@@ -325,6 +349,8 @@
             <p>En esta segunda entrega, se ha hecho una ardua investigación acerca de las metodologías y tecnologías que se utilizan al momento de realizar pruebas en una aplicación de software</p>
           <br> <strong>TB2</strong> <br>
             <p> En esta tercera entrega, se ha hecho una investigación acerca de las metodologías de Continuos Delivery y Continuos Deployment, al igual que otras buenas prácticas que se utilizaron en el proyecto, como reformular las historias de usuario para que se adecúen más con las expectativas de los usuarios (to-be user stories) </p>
+            <br> <strong>TF</strong> <br>
+            <p> En esta última entrega, se ha hecho una investigación acerca de la forma de redactar las acciones futuras estructuradas de la manera “To-Be”, como el sprint backlog, la aplicación web y landing page. </p>
         </td>
     </tr>
     <tr>
@@ -374,6 +400,19 @@
                 Testing (Resources) <br>
                 Nestor Hernan Velarde Gonzales <br>
                 Testing (MachineRental) <br>
+                <strong>TF</strong> <br>
+                Johan Karl Bottger Salazar <br>
+                To be Sprint Backlog <br>
+                Diego Rafael Cisneros Tafur <br>
+                To be Backend Application <br>
+                Miguel Ángel Huamán Cataño <br>
+                To be Frontend Application <br>
+                Mario Joaquin Lopez Acuña <br>
+                To be Backend Application <br>
+                Marcelo Sebastian Neyra Santa Cruz <br>
+                To Be Landing Page <br>
+                Nestor Hernan Velarde Gonzales <br>
+                To Be Frontend Application <br>
             </p>
         </td>
         <td>
@@ -383,6 +422,8 @@
             <p>Se realizaron pruebas unitarias e integrales para validación de nuestra aplicación web. Es necesario que nuestra aplicación funcione sin fallas aparentes y repetivas, por lo que el proceso de pruebas se llevará a cabo durante el resto del ciclo académico</p>
           <br> <strong>TB2</strong> <br>
             <p> Se realizaron más pruebas unitarias e integrales para validación de nuestra aplicación web, al igual que diversos procesos de desarrollo y despliegue continuo que nos ayudaron a validar nuestra aplicación </p>
+            <br> <strong>TF</strong> <br>
+            <p> Se realizaron una nueva landing page, frontend application y backend application en su formato To be para mejorar la experiencia del usuario  </p>
         </td>
     </tr>
 </table>
@@ -2039,7 +2080,7 @@ Preguntas complementarias:
 
 ##### Entrevista 3:
 
-![Entrevista de Validación](deploy/Entrevista-Adriana.png)
+![Entrevista de Validación](images/Entrevista-Adriana.png)
 
 **Nombre:** Adriana Diestra Huamani
 
@@ -2187,9 +2228,9 @@ Para la creación del Backend de la aplicación, se usó el lenguaje de programa
 - **Repositorio del Backend:** [https://github.com/upc-pre-202402-si732-sw72-agrisynth/agrisynth-backend.git](https://github.com/upc-pre-202402-si732-sw72-agrisynth/agrisynth-backend.git)
 ### 7.2.2. Stages Deployment Pipeline Components
 
-![Frontend](deploy/Frontend.png)
+![Frontend](images/Frontend.png)
 
-![Frontend](deploy/Backend.png)
+![Frontend](images/Backend.png)
 
 #### 7.3. Continuous deployment
 El proceso de despliegue continuo en AgriSynth ha sido diseñado para automatizar cada paso del pipeline desde la integración continua hasta el despliegue en producción. El objetivo es minimizar el tiempo de entrega y mantener un flujo de actualización ágil, seguro y escalable.
@@ -2583,9 +2624,299 @@ La experimentación es una etapa clave en el desarrollo de nuestra aplicación, 
 | 64     | EP06 / US06   | Creación de grupo de Trabajo mejorado          | Como usuario quiero poder crear un grupo de trabajo para compartir con mis compañeros de trabajo los recursos utilizados y sus estadísticas  | 5            |
 | 65     | EP06 / US07   | Agregado personas al grupo extendido           | Como usuario quiero agregar a otras personas a un grupo para colaborar bajo un mismo paradigma del trabajo                                   | 5            |
 
-**Conclusión**
+#### 8.3.3 Pipeline-supported, Experiment-Driven To-Be Software Platform Lifecycle
+##### To-Be Sprint Backlogs
+Sprint backlog
 
-En conclusión, durante esta entrega del TB2 se realizó la validación de nuestra aplicación web aplicando las entrevistas directamente con nuestros segmentos objetivos, el 80% ha sido un resultado satisfactorio por nuestros segmentos (Ingenieros Agrónomos y empresas agrícolas) y buena experiencia de usuario, también se desarrolló e implemento los unit testing en el BackEnd (C#), A nivel de trabajo en equipo fue fundamental para llegar un buen trabajo del TB2.
+<table>
+  <tr>
+    <th>Sprint n°4</th>
+    <th colspan="5">To-Be Sprint</th>
+  </tr>
+  <tr>
+    <th colspan="2">User Story</th>
+    <th colspan="4">Work Task</th>
+  </tr>
+  <tr>
+    <th>ID</th>
+    <th>Title</th>
+    <th>Description</th>
+    <th>Estimation Hours</th>
+    <th>Responsable</th>
+    <th>State</th>
+  </tr>
+  <tr>
+    <td>US04</td>
+    <td>Creación de un recurso agrícola</td>
+    <td>Como usuario quiero poder crear entornos de los recursos que tengo para conocer a los detalles de cada uno de ellos</td>
+    <td>5</td>
+    <td>Miguel Huamán</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US03</td>
+    <td>Edición de un recurso detallado</td>
+    <td>Como usuario quiero poder editar un recurso ya hecho para actualizar los datos a los actuales</td>
+    <td>5</td>
+    <td>Diego Cisneros</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US02</td>
+    <td>Visualización detalles de Maquinaria extendido</td>
+    <td>Como usuario quiero visualizar los detalles de las maquinarias para conocer si es que vale la pena adquirirlas mediante un alquiler o compra
+</td>
+    <td>5</td>
+    <td>Mario Lopez</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US06</td>
+    <td>Creación de grupo de Trabajo mejorado</td>
+    <td>Como usuario quiero poder crear un grupo de trabajo para compartir con mis compañeros de trabajo los recursos utilizados y sus estadísticas
+</td>
+    <td>5</td>
+    <td>Marcelo Neyra</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US05</td>
+    <td>Uso de un ícono para un recurso</td>
+    <td>Como usuario quiero poder crear un ícono para un recurso para no tener la necesidad de contar con una imagen para crear un recurso
+</td>
+    <td>3</td>
+    <td>Johan Bottger</td>
+    <td>Done</td>
+  </tr>
+</table>
+
+##### Implemented To-Be Landing Page Evidence
+En esta sección se muestra la landing page actualizada para la implementación to-be:
+![To Be Landing Page](images/tobe-landing-1.png)
+![To Be Landing Page](images/tobe-landing-2.png)
+![To Be Landing Page](images/tobe-landing-3.png)
+![To Be Landing Page](images/tobe-landing-4.png)
+![To Be Landing Page](images/tobe-landing-5.png)
+![To Be Landing Page](images/tobe-landing-6.png)
+![To Be Landing Page](images/tobe-landing-7.png)
+![To Be Landing Page](images/tobe-landing-8.png)
+
+Los cambios hechos a la landing estaban principalmente enfocados en mejorar la interfaz de usuario. Se utilizó una paleta de colores más resaltante para que sea más sencillo leer el contenido. También, se utilizaron imágenes generadas por computadora para agilizar el proceso de diseño y contar con imágenes con una mayor resolución.
+
+##### Implemented To-Be Frontend-Web Application Evidence
+
+Front-end deployada: **https://agrisynth.vercel.app/**
+
+**Sign-up / Sign-in:** Esta es nuestra primera vista de Inicio, donde nuestro segmento objetivo puede registrar con sus datos personales y finalmente ingresar a nuestra aplicación web con su User y Password.
+![To be Frontend](images/tobe-front-1.png)
+
+El usuario se registra en la aplicación: 
+ ![To be Frontend](images/tobe-front-2.png)
+ 
+El usuario Ingresa con su user y password    a nuestra aplicación. 
+![To be Frontend](images/tobe-front-3.png)
+
+
+Una vez ingresado, el usuario puede ver las siguientes opciones generales: 
+![To be Frontend](images/tobe-front-4.png)
+ 
+En la opción de Available Machinery se mostrará los listados de máquinas especificamente para trabajos de campo (cultivos y cosechas). 
+![To be Frontend](images/tobe-front-5.png) 
+
+Tambien podrán registrar sus Gruop Project: 
+![To be Frontend](images/tobe-front-6.png)
+
+
+Podrán ingresar documentos principales sea, boletos de sustento de compras u otros documentos de la producción. 
+![To be Frontend](images/tobe-front-7.png)
+
+
+
+Como parte adicional del front-end tenemos un espacio de vista para ayudar a los que necesiten más información. 
+![To be Frontend](images/tobe-front-8.png)
+![To be Frontend](images/tobe-front-9.png)
+
+##### 8.3.3.4. Implemented To-Be Native-Mobile Application Evidence
+Se ha elegido no desarrollar una aplicación mobile para el presente trabajo, por lo que esta sección queda en blanco. La decisión fue tomada después de la aprobación del profesor.
+
+
+##### 8.3.3.5. Implemented To-Be RESTful API and/or Serverless Backend Evidence
+Back-end deployada: **https://agrisynth-backend-1-fshtaze6bvh4hth8.mexicocentral-01.azurewebsites.net/swagger/index.html**
+
+![To be Backend](images/tobe-back-1.png)
+![To be Backend](images/tobe-back-2.png)
+![To be Backend](images/tobe-back-3.png)
+![To be Backend](images/tobe-back-4.png)
+![To be Backend](images/tobe-back-5.png)
+![To be Backend](images/tobe-back-6.png)
+
+##### 8.3.3.6. Team Collaboration Insights
+![To be Insights](images/tobe-insights-1.jpg)
+![To be Insights](images/tobe-insights-2.jpg)
+![To be Insights](images/tobe-insights-3.jpg)
+
+#### 8.3.4. To-Be Validation Interviews
+Se pueden encontrar las entrevistas en este enlace: [Video](https://upcedupe-my.sharepoint.com/personal/u202217241_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202217241%5Fupc%5Fedu%5Fpe%2FDocuments%2Fupc%2Dpre%2D202402%2Dsi732%2Dsw72%2Dcropshere%2Dvalidation%2Dsprint%2D5%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0=&ga=1)
+
+##### 8.3.4.1. Diseño de Entrevistas.
+Preguntas generales:
+- ¿Cómo te llamas?
+- ¿Qué edad tienes?
+- ¿Cuál es tu profesión?
+- ¿Cuáles son los principales desafíos que enfrenta en su gestión agrícola actualmente?
+
+###### Segmento objetivo: Ingenieros Agrónomos que Asesoran a Agricultores
+Preguntas sobre preferencias y personalidad [en caso de ser un nuevo entrevistado que no participó en la anterior entrevista]:
+- ¿Cómo gestiona la comunicación y colaboración con los agricultores que asesora?
+- ¿Existen barreras que dificultan el intercambio efectivo de información y recomendaciones?
+- ¿Cuáles son los principales obstáculos que encuentra para la adopción de nuevas tecnologías entre los agricultores a los que asesora?
+- ¿Cómo personalizar sus recomendaciones basadas en la tecnología para adaptarse a las diferentes necesidades de los agricultores?
+- ¿Cómo recopila y utiliza el feedback de los agricultores para mejorar sus servicios de asesoramiento?
+
+Preguntas principales:
+- ¿Qué te parece el diseño de la landing page? ¿Te motiva a ingresar a la aplicación y registrarte?
+- ¿Consideras que la aplicación dispone de una interfaz fácil e intuitiva de utilizar?
+  - Si la respuesta es SÍ, ¿Por qué lo considera así?
+  - Si la respuesta es NO, ¿Qué funcionalidad crees que falta o sobra en la aplicación para que tengas más interés en usarla?
+- ¿Consideras que la sección de inventario de recursos puede ayudarte a gestionar mejor tus insumos y equipos como ingeniero agrónomo? ¿De qué manera crees que esta función podría optimizar tu planificación y compras futuras?
+- ¿Encuentras útil la sección de terrenos para identificar y buscar rápidamente terrenos fértiles? ¿Cómo crees que esta función podría facilitar y mejorar tu trabajo en la gestión agrícola?
+
+Preguntas complementarias:
+- ¿Qué tipo de dispositivo (celular, tablet, laptop, etc.) has utilizado al momento de probar la landing page y la aplicación web?
+- ¿Cuál fue el navegador que utilizaste en esta ocasión para visualizar el contenido?
+- ¿Hubo algún aspecto visual como el posicionamiento de los elementos que no te terminó de agradar?
+
+###### Segmento objetivo: Empresas Agrícolas de Gran Escala
+Preguntas sobre preferencias y personalidad [en caso de ser un nuevo entrevistado que no participó en la anterior entrevista]:
+- ¿Cómo gestiona y analiza los datos agrícolas para tomar decisiones estratégicas?
+- ¿Qué tipo de datos le resultan más valiosos y por qué?
+- ¿Cómo asegura la eficiencia operativa a medida que escala sus operaciones agrícolas?
+- ¿Qué desafíos enfrenta al integrar nuevas tecnologías en sus operaciones a gran escala?
+- ¿De qué manera íntegra prácticas de sostenibilidad en sus operaciones y qué impacto han tenido?
+
+Preguntas principales:
+- ¿Qué te parece el diseño de la landing page? ¿Te motiva a ingresar a la aplicación y registrarte?
+- ¿Consideras que la aplicación dispone de una interfaz fácil e intuitiva de utilizar?
+  - Si la respuesta es SÍ, ¿Por qué lo considera así?
+  - Si la respuesta es NO , ¿Qué funcionalidad crees que falta o sobra en la aplicación para que tengas más interés en usarla?
+- ¿Consideras que la sección de grupos puede ayudarte a organizar mejor a tus trabajadores y optimizar su rendimiento en la empresa agrícola? ¿Cómo crees que esta función podría mejorar la gestión y la eficiencia de tu equipo?
+- ¿Encuentras útil la sección de documentos para almacenar y supervisar distintos tipos de documentos relacionados con el trabajo agrícola? ¿De qué manera crees que esta función podría facilitar la supervisión y mejorar la gestión de tu empresa?
+
+Preguntas complementarias:
+- ¿Qué tipo de dispositivo (celular, tablet, laptop, etc.) has utilizado al momento de probar la landing page y la aplicación web?
+- ¿Cuál fue el navegador que utilizaste en esta ocasión para visualizar el contenido?
+- ¿Hubo algún aspecto visual como el posicionamiento de los elementos que no te terminó de agradar?
+
+##### 8.3.4.2. Registro de Entrevistas.
+Segmento objetivo: Ingenieros Agrónomos que Asesoran a Agricultores
+Entrevista 1:
+![Entrevista To-Be](images/tobe-entrevista-1.png) 
+- Nombre: Giancarlo Stephano Romero Paredes
+- Edad: 18
+- Distrito: Surco
+- Inicio de entrevista: 0:00
+- Duración: 7:10 
+Resumen: Giancarlo Stephano Romero Paredes nos comentó que le agrada bastante nuestra aplicación y la landing page. No realizó ningún comentario negativo acerca de ninguna de las dos soluciones de software expuestas.
+
+Entrevista 2: 
+![Entrevista To-Be](images/tobe-entrevista-2.png) 
+- Nombre: Fabrizio Amir Leon Vivas
+- Edad: 35
+- Distrito: San Borja
+- Inicio de entrevista: 7:10
+- Duración:  3:13 minutos
+###### Resumen: 
+Fabrizio Amir Leon Vivas nos comentó que le agrado el diseño de la landing page de una aplicación, considerándola atractiva y motivadora para registrarse. Encuentra la interfaz fácil e intuitiva, destacando la utilidad de la sección de inventario de recursos para gestionar insumos y equipos, lo que optimiza la planificación y reduce costos. También aprecia la función que permite identificar terrenos fértiles rápidamente, mejorando así sus recomendaciones a los agricultores. Sin embargo, sugiere que el espaciado entre botones en la versión móvil podría mejorarse para facilitar la navegación.
+
+ 
+Entrevista 3:
+![Entrevista To-Be](images/tobe-entrevista-3.png) 
+- Nombre: Pedro Quispe Chincha
+- Edad: 28 
+- Distrito: Surco 
+- Inicio de entrevista: 9:54
+- Duración:  4:58
+Resumen: Pedro Quispe comentó que el diseño de la landing page le parece atractivo. También menciono que la interfaz es intuitiva y fácil de usar, aunque algunos elementos podrían estar mejor posicionados. Resalta la sección de grupos, ya que es útil para organizar al equipo y optimizar el rendimiento
+
+Entrevista 4:
+![Entrevista To-Be](images/tobe-entrevista-4.png) 
+- Nombre: Adriana Diestra Huamani 
+- Edad: 26 años
+- Profesión Ingenieria Agrónoma 
+- Distrito: Rimac, Lima. 
+- Inicio de entrevista: 14:05
+- Duración: 3:15
+###### Resumen: 
+Adriana Diestra, una Ingeniera Agrónoma con 6 años de experiencia trabajando en la producción de productos agrícolas nos comenta lo siguiente, nuestra landing page y aplicación web es bastante satisfactorio para ella, ya que le motivó usanlo la buena experiencia en el interfas y las funcionalidades fueron concisas, a nivel de los colores le gusta y finalmente ella quedó satisfecha con el producto desarrollado.
+
+Segmento objetivo: Empresa a Gran Escala
+Entrevista 5: 
+![Entrevista To-Be](images/tobe-entrevista-5.png) 
+•	Nombre: Diego Cacho Seminario
+•	Edad: 24
+•	Distrito: Surco
+•	Inicio de entrevista: 21:29
+•	Duración:  4:05 minutos
+###### Resumen: 
+Diego tuvo buenas evaluaciones del landing page y front end. Resaltó visualización adecuada de la página incluso al cambiar el tamaño la ventana. Fue de su especial agrado la funcionalidad de manejo de equipos, ya que una de las dificultades más mencionadas previamente fue la capacitación del personal.
+
+
+Entrevista 6:
+![Entrevista To-Be](images/tobe-entrevista-6.png) 
+- Nombre: Salvador Chamorro 
+- Edad: 25 Distrito: San Isidro 
+- Inicio: 17:20
+- Duración: 5:48 minutos
+###### Resumen: 
+Salvador Chamorro nos comentó que le agrada bastante nuestra aplicación y la landing page. No realizó ningún comentario negativo acerca de ninguna de la landing page o el frontend, dio ideas muy interesantes para la parte visual como cambiar márgenes y cambiar a iconos que sea más acordes a las opciones que representan. Por lo demás, le gusto nuestra aplicación.
+
+#### 8.4. Experiment Aftermath & Analysis
+##### 8.4.1. Analysis and Interpretation of Results
+![Analysis Results](images/analisis-results.png)
+![Analysis Results](images/analisis-results-2.png)
+
+Se realizaron pruebas utilizando Lighthouse para evaluar las áreas de mejora en nuestra aplicación web CropSphere. El análisis de los datos obtenidos de los 50 ensayos revela un área específica en la que debemos enfocar nuestros esfuerzos de optimización: el rendimiento (performance). A pesar de que los demás indicadores como accesibilidad, mejores prácticas y SEO se mantienen consistentes y en niveles altos, el desempeño es el atributo con más variabilidad y puntajes más bajos.
+
+###### Performance
+- Valor mínimo: 44
+- Valor máximo: 86
+###### Accesibilidad
+- Valor mínimo: 89
+- Valor máximo: 90
+###### Best Practices
+- Valor: 100 en todos los ensayos
+###### SEO
+- Valor: 83 en todos los ensayos
+
+##### 8.4.2. Re-scored and Re-prioritized Question Backlog
+A partir de los resultados obtenidos, hemos replanteado y priorizado las preguntas clave para seguir mejorando y asegurar un avance constante:
+- ¿Qué estrategias de optimización (como lazy loading o reducción de scripts) podrían implementarse para mejorar la performance sin comprometer la funcionalidad de la aplicación?
+- ¿Cómo podemos aumentar la eficiencia del uso de recursos de nuestra aplicación web para reducir los tiempos de carga?
+- ¿Qué impacto tendría en la retención de usuarios y en la captación de nuevos clientes el hecho de mejorar la performance?
+- ¿Qué elementos del código o qué procesos podrían estar causando los puntajes más bajos en ciertos ensayos de performance?
+- ¿En qué medida la mejora en la performance puede traducirse en un incremento de la productividad y la sostenibilidad para nuestros clientes?
+
+#### 8.5. Continuous Learning
+##### 8.5.1. Shareback Session Artifacts: Learning Workflow
+En CropSphere abordan problemas críticos en la agricultura, tales como la gestión ineficiente de insumos, el uso inadecuado de maquinaria y la comunicación fragmentada entre los participantes. La solución propuesta mejora estos aspectos mediante software, optimizando el control de inventarios, la planificación de maquinaria, la toma de decisiones basada en datos y la comunicación entre los trabajadores.
+Para mantener un aprendizaje continuo, es esencial considerar todo lo aprendido hasta ahora. Esto nos permitirá medir la efectividad de nuestro programa y realizar más experimentos a medida que se añadan nuevas funcionalidades tanto en el Backend como en el Frontend.
+#### 8.6. To-Be Software Platform Pre-launch
+##### 8.6.1. About-the-Product Intro Video
+En esta sección se incluye el video about the product que presenta las funcionalidades principales de la aplicación Cropsphere a los usuarios potenciales.
+A continuación, se incluye el link del video about the producto:
+•	Microsoft Stream: [Video About the Product](https://upcedupe-my.sharepoint.com/personal/u201923446_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu201923446%5Fupc%5Fedu%5Fpe%2FDocuments%2FCropsphere%2DAbout%20the%20product%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0=&ga=1)
+•	Youtube: [Video About the Product](https://www.youtube.com/watch?v=P0Ky9_pk6vY)
+Duración del video: 00:32
+ScreenShot del video:
+![Video](images/tobe-video.png)
+
+
+**Conclusión**
+La implementación de la aplicación web de organización y administración de suministros agrícolas para ingenieros agrónomos ha sido exitosa, logrando cumplir con los objetivos planteados al inicio del proyecto. A lo largo de cinco sprints de cuatro semanas cada uno, el equipo de desarrollo abordó y completó cada fase de construcción, optimización y pruebas, garantizando una plataforma intuitiva y eficiente para la gestión de inventarios y suministros en el ámbito agrícola.
+La estructura tecnológica empleada demostró ser adecuada y efectiva. La Landing Page creada en HTML, CSS y JavaScript ofrece una primera impresión atractiva y accesible para los usuarios. En el Frontend, Vue proporcionó la flexibilidad necesaria para una interfaz de usuario interactiva y dinámica, facilitando la experiencia de los ingenieros agrónomos. El Backend, desarrollado en C#, permitió una comunicación eficiente y segura entre el cliente y el servidor, con integración estable en la base de datos MySQL, que soporta grandes volúmenes de información de manera ágil.
+Las pruebas realizadas con C#, MOQ y Jenkins contribuyeron a la estabilidad y robustez del sistema, permitiendo identificar y solucionar problemas antes de la fase de despliegue. Finalmente, el uso de Firebase para el Deployment permitió implementar un proceso de entrega continuo, asegurando la disponibilidad y accesibilidad de la aplicación en un entorno en la nube confiable y seguro.
+En conclusión, la combinación de tecnologías empleadas, la organización en sprints y el compromiso del equipo técnico resultaron en una solución que responde eficazmente a las necesidades de los ingenieros agrónomos, optimizando el control y administración de los suministros agrícolas, y sentando una base sólida para futuras mejoras y escalabilidad.
+
 
 
 **Bibliografía**
@@ -2595,8 +2926,6 @@ En conclusión, durante esta entrega del TB2 se realizó la validación de nuest
 - *Rodríguez, L. M., & Martínez, E. (2019). Gestión eficiente de recursos agrícolas: un enfoque basado en tecnologías digitales. Revista de Ingeniería Agrícola, 15(1), 78-91.*
 - *García, S., & Fernández, P. (2017). Integración de Tecnologías de la Información y Comunicación en la Agricultura: Caso de estudio de una gran empresa agrícola en Perú. Revista Latinoamericana de Agricultura Digital, 5(2), 30-45.*
 - *López, R., & González, E. (2016). Impacto de las Tecnologías Digitales en la Productividad Agrícola: Un estudio de caso en una empresa agrícola de Argentina. Revista de Economía Agrícola, 12(3), 67-82.*
-
-**Video About-The-Team**
 
 # Anexos
 
@@ -2629,3 +2958,7 @@ En conclusión, durante esta entrega del TB2 se realizó la validación de nuest
 
 **Video de entrevista de validación**
 - Entrevista: [ver video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211c221_upc_edu_pe/ER43WKJOaypBuwhUl3wj0jEBxKFrJBwVMz5hbVVmWbHmtw?e=U9hHu4)
+
+**Aplicaciones:**
+- Aplicación Web: https://agrisynth.vercel.app/account
+- Aplicación Backend: https://agrisynth-backend-1-fshtaze6bvh4hth8.mexicocentral-01.azurewebsites.net/swagger/index.html
